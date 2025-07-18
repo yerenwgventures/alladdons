@@ -21,18 +21,20 @@
 ################################################################################
 {
     'name': 'Loan Management',
-    'version': '18.0.1.0.0',
-    'summary': 'Helps You To Manage Loan Requests/Disbursement/'
+        'version': '18.0.1.0.0',
+        'summary': 'Helps You To Manage Loan Requests/Disbursement/'
                'Repayments/Amortization Operations',
-    'description': 'Module Allows To Create different types of loans,'
+        'description': 'Module Allows To Create different types of loans,'
                    'Manage Loan Requests And Amortization Operations Simply,'
                    'Create Invoices For Each Repayment Amounts',
-    'category': 'Accounting',
-    'author': "Cybrosys Techno Solutions",
+        'category': 'Accounting',
+        'author': "Cybrosys Techno Solutions",
     'company': "Cybrosys Techno Solutions",
     'maintainer': 'CBMS TECHNOLOGIES LTD',
-    'website': 'https://www.mycbms.com',
-    'depends': ['mail', 'account', 'base',, 'hr_payroll'],
+        'website': 'https://www.mycbms.com',
+        'depends': ['mail',
+        'account', 'base',
+        'hr_payroll'],
     'demo': ['data/loan_journal_data.xml'],
     'data': ['security/loan_management_groups.xml',
         'security/loan_management_security.xml',
@@ -48,12 +50,12 @@
         'wizard/message_popup_views.xml',
         'wizard/reject_reason_views.xml',
         'report/loan_management_reports.xml',
-        'report/loan_report_templates.xml',,
+        'report/loan_report_templates.xml',
         'views/advanced_loan_management_management_kanban_views.xml'
     ],
     'images': ['static/description/banner.png'],
     'license': 'AGPL-3',
-    'installable': True,
+        'installable': True,
     'auto_install': False,
     'application': True,
 }

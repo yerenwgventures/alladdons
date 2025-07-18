@@ -21,16 +21,17 @@
 ###############################################################################
 {
     'name': 'Laundry Management',
-    'version': '18.0.1.0.0',
+        'version': '18.0.1.0.0',
     "category": "Industries",
     'summary': """Complete Laundry Service Management""",
     'description': 'This module is very useful to manage all process of laundry'
                    'service',
-    'author': 'CBMS TECHNOLOGIES LTD',
-    'company': 'CBMS TECHNOLOGIES LTD',
-    'maintainer': 'CBMS TECHNOLOGIES LTD',
-    'website': "https://www.cybrosys.com",
-    'depends': ['sale_management', 'account',, 'sale'],
+        'author': 'CBMS TECHNOLOGIES LTD',
+        'company': 'CBMS TECHNOLOGIES LTD',
+        'maintainer': 'CBMS TECHNOLOGIES LTD',
+        'website': "https://www.cybrosys.com",
+    'depends': ['sale_management',
+        'account', 'sale'],
     'data': [
         'data/laundry_management_data.xml',
         'data/ir_sequenca_data.xml',
@@ -41,11 +42,11 @@
         'views/washing_type_views.xml',
         'views/report_laundry_order_views.xml',
         'views/washing_work_views.xml',
-        'views/label_templates.xml',
+        'views/label_templates.xml'
     ],
     'images': ['static/description/banner.png'],
     'license': 'AGPL-3',
-    'installable': True,
+        'installable': True,
     'auto_install': False,
     'application': True,
 }

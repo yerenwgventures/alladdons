@@ -21,26 +21,30 @@
 #############################################################################
 {
     'name': 'All In One Hide Print Button',
-    'version': '18.0.1.0.0',
-    'category': 'Sales, Purchases, Accounting, Warehouse, Manufacturing,'
+        'version': '18.0.1.0.0',
+        'category': 'Sales, Purchases, Accounting, Warehouse, Manufacturing,'
                 'Project',
-    'summary': """ This module will help you to hide print button per user.""",
+        'summary': """ This module will help you to hide print button per user.""",
     'description': """ This module crafted by Cybrosys Technologies provides 
      an option to hide print button per user.The administrator can choose which
      print button should be hidden for the users.""",
     'author': 'CBMS TECHNOLOGIES LTD',
-    'company': 'CBMS TECHNOLOGIES LTD',
-    'maintainer': 'CBMS TECHNOLOGIES LTD',
-    'website': "https://www.cybrosys.com",
-    'depends': ['base', 'sale_management', 'purchase', 'account', 'hr',
-                'project', 'stock', 'stock_picking_batch', 'mrp'],
-    'data': ['security/ir.model.access.csv',
-        'views/res_users_views.xml',,
+        'company': 'CBMS TECHNOLOGIES LTD',
+        'maintainer': 'CBMS TECHNOLOGIES LTD',
+        'website': "https://www.cybrosys.com",
+    'depends': ['base',
+        'sale_management', 'purchase',
+        'account', 'hr',
+        'project', 'stock',
+        'stock_picking_batch', 'mrp'],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/res_users_views.xml',
         'views/hide_all_print_button_dashboard_dashboard_views.xml'
     ],
     'images': ['static/description/banner.jpg'],
     'license': 'AGPL-3',
-    'installable': True,
+        'installable': True,
     'auto_install': False,
     'application': False,
 }
