@@ -1,15 +1,9 @@
-.. image:: https://img.shields.io/badge/license-LGPL--3-blue.svg
     :target: https://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 
 Reports With Watermark
 ======================
 * This module allow to have watermark on your pdf reports
-
-Installation
-============
-    - www.odoo.com/documentation/17.0/setup/install.html
-    - Install our custom addon
 
 License
 -------
@@ -18,11 +12,11 @@ General Public License, Version 3 (LGPL v3).
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `CBMS TECHNOLOGIES LTD <https://www.mycbms.com/>`__
 
 Credits
 -------
-* Developer:(v18) Saneen K, Contact: odoo@cybrosys.com
+* Developer:(v18) Saneen K, Contact: info@mycbms.com
 
 Bug Tracker
 -----------
@@ -30,13 +24,12 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://www.mycbms.com/images/logo.png
+   :target: https://www.mycbms.com
 
 This module is maintained by Cybrosys Technologies.
 
-For support and more information, please visit `Our Website <https://cybrosys.com/>`__
-
+For support and more information, please visit `Our Website <https://www.mycbms.com/>`__
 
 Further information
 ===================

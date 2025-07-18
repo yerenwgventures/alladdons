@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #    Copyright(C) 2024-TODAY Cybrosys Technologies (<https://www.cybrosys.com>).
 #    Author: Adarsh K (<https://www.cybrosys.com>)
 #
@@ -28,9 +28,9 @@
      for users, which can be used as a pass to let a vehicle 
      into a facility. The slips allow for the addition of 
      driver and vehicle-related information.""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'http://www.cybrosys.com',
     'depends': ['base', 'stock'],
     'data': [

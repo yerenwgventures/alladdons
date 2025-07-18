@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-#  Cybrosys Technologies Pvt. Ltd.
+#  CBMS TECHNOLOGIES LTD
 #
 #  Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#  Author: Manasa T P (odoo@cybrosys.com)
+#  Author: Development Team (info@mycbms.com)
 #
 #  You can modify it under the terms of the GNU LESSER
 #  GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
@@ -31,9 +31,9 @@
                    "and thus Supports parent-child relationships between "
                    "dropdown options.",
     "author": "Cybrosys Techno Solutions",
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     "depends": ['base'],
     'assets': {
         'web.assets_backend': [

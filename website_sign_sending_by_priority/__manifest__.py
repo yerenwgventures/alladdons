@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Raneesha MK (odoo@cybrosys.com)
+#    Author: Development Team (info@mycbms.com)
 #
 #    This program is under the terms of the Odoo Proprietary License
 #    v1.0 (OPL-1). It is forbidden to publish, distribute, sublicense, or sell
@@ -28,10 +28,10 @@
                    'the correct recipients and enables hierarchical signing, '
                    'prioritizing signatures based on roles, such as obtaining'
                    'approval from a sales manager before a warehouse manager.',
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     'depends': ['sign'],
     'data': ['wizard/sign_send_request_views.xml'],
     'assets': {

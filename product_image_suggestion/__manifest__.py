@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #    Copyright (C) 2025-TODAY Cybrosys Technologies(<http://www.cybrosys.com>).
 #    Author: Unnimaya CO(<https://www.cybrosys.com>)
 #    you can modify it under the terms of the GNU AFFERO GENERAL
@@ -27,10 +27,10 @@
      images directly from the product form using the Bing Image Downloader tool.
      Once found, these images can be set as the display image for the 
      product.""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     'depends': ['product'],
     'data': [
         'security/ir.model.access.csv',

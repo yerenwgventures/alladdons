@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Gayathri V (odoo@cybrosys.com)
+#    Copyright (C) 2025-TODAY CBMS TECHNOLOGIES LTD (<https://www.mycbms.com>).
+#    Author: Development Team (info@mycbms.com)
 #
 #    You can modify it under the terms of the GNU AFFERO
 #    GENERAL PUBLIC LICENSE (AGPL v3), Version 3.
@@ -30,7 +30,7 @@
      in educational institutions.""",
     "author": "Cybrosys Techno Solutions",
     "company": "Cybrosys Techno Solutions",
-    'maintainer': 'Cybrosys Techno Solutions',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     "website": "http://www.educationalerp.com",
     "depends": ['account', 'education_core',],
     "data": [

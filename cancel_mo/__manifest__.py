@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Anzil K A (odoo@cybrosys.com)
+#    CBMS TECHNOLOGIES LTD
+#    Copyright (C) 2025-TODAY CBMS TECHNOLOGIES LTD (<https://www.mycbms.com>).
+#    Author: Development Team (info@mycbms.com)
 #
 #    This program is free software: you can modify
 #    it under the terms of the GNU LESSER GENERAL PUBLIC LICENSE (LGPL) as
@@ -27,11 +27,11 @@
     'description': 'This is used to cancel the manufcatring order and also '
                    'cancel the inventory moves and work orders along with the '
                    'mo cancellation.',
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'images': ['static/description/banner.jpg'],
-    'website': 'https://www.cybrosys.com',
+    'website': 'https://www.mycbms.com',
     'depends': ['mrp'],
     'data': [
         'views/mrp_production_views.xml',

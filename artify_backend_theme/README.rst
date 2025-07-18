@@ -1,15 +1,9 @@
-.. image:: https://img.shields.io/badge/license-LGPL--3-green.svg
     :target: https://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 
 Artify Backend Theme
 ====================
 * Artify Backend Theme module for Odoo 18 community editions
-
-Installation
-============
-    - www.odoo.com/documentation/18.0/administration/install.html
-    - Install our custom addon
 
 License
 -------
@@ -18,16 +12,16 @@ General Public License, Version 3 (LGPL v3).
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `CBMS TECHNOLOGIES LTD <https://www.mycbms.com/>`__
 
 Credits
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
-* Developer: (V18) ANFAS FAISAL K , Contact: odoo@cybrosys.com
+* `CBMS TECHNOLOGIES LTD <https://www.mycbms.com/>`__
+* Developer: (V18) ANFAS FAISAL K , Contact: info@mycbms.com
 
 Contacts
 --------
-* Mail Contact : odoo@cybrosys.com
+* Mail Contact : info@mycbms.com
 
 Bug Tracker
 -----------
@@ -37,7 +31,7 @@ Maintainer
 ==========
 This module is maintained by Cybrosys Technologies.
 
-For support and more information, please visit https://www.cybrosys.com
+For support and more information, please visit https://www.mycbms.com
 
 Further information
 ===================

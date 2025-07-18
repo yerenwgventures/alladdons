@@ -1,4 +1,3 @@
-.. image:: https://img.shields.io/badge/license-LGPL--3-green.svg
     :target: https://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 
@@ -7,11 +6,6 @@ Theme Medicate
 * Custom Designed Snippets for better user experience. Optimized Code Snippets
 for Enhanced User Experience.
 
-Installation
-============
-- www.odoo.com/documentation/18.0/setup/install.html
-- Install our custom addon
-
 License
 -------
 General Public License, Version 3 (LGPL v3).
@@ -19,17 +13,17 @@ General Public License, Version 3 (LGPL v3).
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `CBMS TECHNOLOGIES LTD <https://www.mycbms.com/>`__
 
 Credits
 -------
 * Developer: 	(V18) Amaya Aravind EV
-* Contact: odoo@cybrosys.com
+* Contact: info@mycbms.com
 
 Contacts
 --------
-* Mail Contact : odoo@cybrosys.com
-* Website : https://cybrosys.com
+* Mail Contact : info@mycbms.com
+* Website : https://www.mycbms.com
 
 Bug Tracker
 -----------
@@ -38,12 +32,12 @@ your issue has already been reported.
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://www.mycbms.com/images/logo.png
+   :target: https://www.mycbms.com
 
 This module is maintained by Cybrosys Technologies.
 
-For support and more information, please visit https://www.cybrosys.com
+For support and more information, please visit https://www.mycbms.com
 
 Further information
 ===================

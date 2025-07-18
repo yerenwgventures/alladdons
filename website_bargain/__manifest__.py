@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
@@ -29,9 +29,9 @@
                    'customers to participate in bidding and negotiate prices '
                    'for products or services',
     'author': 'Cybrosys Techno Solution',
-    'company': 'Cybrosys Techno Solutions',
+    'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'Cybrosys Techno Solution',
-    'website': 'https://www.cybrosys.com',
+    'website': 'https://www.mycbms.com',
     'depends': ['website_sale', 'contacts'],
     'data': [
         'security/ir.model.access.csv',

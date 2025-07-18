@@ -1,15 +1,9 @@
-.. image:: https://img.shields.io/badge/license-LGPL--3-green.svg
     :target: https://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 
 Website Helpdesk Support Ticket Management
 ==========================================
 - HelpDesk Support for Odoo 18 community edition
-
-Installation
-============
-- www.odoo.com/documentation/18.0/setup/install.html
-- Install our custom addon
 
 License
 -------
@@ -18,16 +12,16 @@ General Public License, Version 3 (LGPL v3).
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `CBMS TECHNOLOGIES LTD <https://www.mycbms.com/>`__
 
-Credits
+Support
 -------
-* Developers: (V18) Bhagyadev KP,
-* Contact: odoo@cybrosys.com
+* Professional support available
+* Contact: info@mycbms.com
 
 Contacts
 --------
-* Mail Contact : odoo@cybrosys.com
+* Mail Contact : info@mycbms.com
 
 Bug Tracker
 -----------
@@ -35,10 +29,10 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://www.mycbms.com/images/logo.png
+   :target: https://www.mycbms.com
 
-For support and more information, please visit https://www.cybrosys.com
+For support and more information, please visit https://www.mycbms.com
 
 Further information
 ===================

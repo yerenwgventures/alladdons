@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Bhagyadev KP (<https://www.cybrosys.com>)
@@ -27,8 +27,8 @@
     then be controlled from the backend.""",
     'description': """Website Helpdesk, Odoo Helpdesk, Helpdesk, Helpdesk Management, Helpdesk Ticket, Odoo18 Helpdesk, Website Ticket, Support Ticket, Odoo18""",
     'author': "Cybrosys Techno Solutions",
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "http://www.cybrosys.com",
     'depends': ['website', 'project', 'sale_project', 'hr_timesheet',
                 'mail', 'contacts'],

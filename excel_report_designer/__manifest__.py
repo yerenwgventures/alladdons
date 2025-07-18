@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#   Cybrosys Technologies Pvt. Ltd.
+#   CBMS TECHNOLOGIES LTD
 #
 #   Copyright (C) 2024-TODAY Cybrosys Technologies (<https://www.cybrosys.com>).
 #   Author: Cybrosys Techno Solutions (<https://www.cybrosys.com>)
@@ -23,10 +23,10 @@
 {
     'name': 'Excel Report Designer',
     'version': '18.0.1.0.0',
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     'category': 'Extra Tools',
     'summary': 'This module is used to  create reports for'
                ' models and can be select the fields the user want to print.',

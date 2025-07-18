@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-# Cybrosys Technologies Pvt. Ltd.
+# CBMS TECHNOLOGIES LTD
 #
 # Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-# Author: Cybrosys Techno Solutions (odoo@cybrosys.com)
+# Author: Development Team (info@mycbms.com)
 #
 # You can modify it under the terms of the GNU AFFERO
 # GENERAL PUBLIC LICENSE (AGPL v3), Version 3.
@@ -28,9 +28,9 @@
     'description': "Theme Shopping is new kind of Theme.The theme is very "
                    "user-friendly"
                    "and suitable for your eCommerce website with blog",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
     'depends': ['base','sale_management', 'website_blog', 'website_sale_wishlist',
                 'website_sale','website',

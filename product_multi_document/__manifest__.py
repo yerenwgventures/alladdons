@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Ashwin T (odoo@cybrosys.com)
+#    Author: Development Team (info@mycbms.com)
 #
 #    This program is under the terms of the Odoo Proprietary License v1.0(OPL-1)
 #    It is forbidden to publish, distribute, sublicense, or sell copies of the
@@ -28,9 +28,9 @@
     'description': """This module helps to add multiple documents in product
     and we can see these documents while we are selecting a product in purchase
     order line and automatically get attached in Email.""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
     'depends': ['base', 'documents', 'purchase'],
     'data': [

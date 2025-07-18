@@ -2,7 +2,7 @@
 #############################################################################
 #    A part of Open HRMS Project <https://www.openhrms.com>
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
@@ -28,8 +28,8 @@
     'description': """Assigning Attendance for the Employees with Onsight Jobs 
     through the requests by Employees """,
     'author': 'Cybrosys Techno solutions,Open HRMS',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.openhrms.com",
     'depends': ['hr_attendance', 'hr_holidays',
                 'oh_employee_creation_from_user'],

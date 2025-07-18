@@ -2,7 +2,7 @@
 ###############################################################################
 #
 #   Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#   Author: AFRA MP (odoo@cybrosys.com)
+#   Author: Development Team (info@mycbms.com)
 #
 #   This program is under the terms of the Odoo Proprietary License v1.0 (OPL-1)
 #   It is forbidden to publish, distribute, sublicense, or sell copies of the

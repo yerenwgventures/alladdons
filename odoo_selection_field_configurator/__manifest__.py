@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-#   Cybrosys Technologies Pvt. Ltd.
+#   CBMS TECHNOLOGIES LTD
 #
 #   Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #   Author: Aysha Shalin (odoo@cybrosys.com )
@@ -26,9 +26,9 @@
     'summary': """Add options for the selection fields in odoo.""",
     'description': """This module allows to add more options to the selection
     fields in odoo.""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
     'depends': ['base'],
     'data': [

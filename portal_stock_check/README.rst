@@ -1,4 +1,3 @@
-.. image:: https://img.shields.io/badge/license-LGPL--3-green.svg
     :target: https://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 
@@ -8,11 +7,12 @@ Portal Users Can Check The Availability of Products
 
 Configuration
 =============
-* No additional configurations needed
+* Easy setup through Odoo Apps interface
+* No complex configuration required
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `CBMS TECHNOLOGIES LTD <https://www.mycbms.com/>`__
 
 License
 -------
@@ -24,11 +24,11 @@ Credits
 * Developer: Sruthi M K,
             (V17) Jumana Haseen,
             (V18) Nivedhya T,
-Contact : odoo@cybrosys.com
+Contact : info@mycbms.com
 
 Contacts
 --------
-* Mail Contact : odoo@cybrosys.com
+* Mail Contact : info@mycbms.com
 
 Bug Tracker
 -----------
@@ -38,11 +38,11 @@ Maintainer
 ==========
 This module is maintained by Cybrosys Technologies.
 
-For support and more information, please visit https://www.cybrosys.com
+For support and more information, please visit https://www.mycbms.com
 
 Further information
 ===================
 HTML Description: `<static/description/index.html>`__
 
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://www.mycbms.com/images/logo.png
+   :target: https://www.mycbms.com

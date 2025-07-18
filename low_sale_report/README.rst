@@ -1,4 +1,3 @@
-.. image:: https://img.shields.io/badge/license-AGPL--3-blue.svg
     :target: https://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 
@@ -8,11 +7,12 @@ Low Sales Report
 
 Configuration
 =============
-* No additional configurations needed
+* Easy setup through Odoo Apps interface
+* No complex configuration required
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `CBMS TECHNOLOGIES LTD <https://www.mycbms.com/>`__
 
 License
 -------
@@ -21,13 +21,13 @@ Affero General Public License v3.0 (AGPL v3)
 
 Credits
 -------
-* Developer: (V17) Junaidul Ansar M , Contact: odoo@cybrosys.com
-             (V18) Raveena Vijayan V , Contact: odoo@cybrosys.com
+* Developer: (V17) Junaidul Ansar M , Contact: info@mycbms.com
+             (V18) Raveena Vijayan V , Contact: info@mycbms.com
 
 Contacts
 --------
-* Mail Contact : odoo@cybrosys.com
-* Website : https://cybrosys.com
+* Mail Contact : info@mycbms.com
+* Website : https://www.mycbms.com
 
 Bug Tracker
 -----------
@@ -37,7 +37,7 @@ Maintainer
 ==========
 This module is maintained by Cybrosys Technologies.
 
-For support and more information, please visit https://www.cybrosys.com
+For support and more information, please visit https://www.mycbms.com
 
 Further information
 ===================

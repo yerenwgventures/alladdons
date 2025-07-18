@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
@@ -25,9 +25,9 @@
     'category': 'Accounting',
     'summary': """Analytic Account and Analytic Tags Features for Stock Picking""",
     'description': "Analytic Account on Stock Picking can help to show the selected analytic account while delivering the products in the case of sale, and at the time of receiving products in the case of purchase.",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
     'depends': ['mail', 'stock', 'account', 'purchase', 'sale_management'],
     'data': ['views/account_analytic_line_views.xml',
