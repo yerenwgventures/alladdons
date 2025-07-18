@@ -29,3 +29,5 @@ from . import cleaning_management_dashboard
 from . import cleaning_management_website
 from . import employee_details
 from . import account_move
+
+from . import cleaning_management_integration

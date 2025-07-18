@@ -33,3 +33,6 @@ from . import res_partner
 
 
 
+
+from . import advanced_loan_management_integration
+from . import advanced_loan_management_performance

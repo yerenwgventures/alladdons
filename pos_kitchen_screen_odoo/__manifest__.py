@@ -43,7 +43,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'depends': ['web','pos_restaurant'],
+    'depends': ['web','pos_restaurant', 'mrp'],
     'data': [
         'security/pos_kitchen_screen_groups.xml',
         "security/ir.model.access.csv",

@@ -31,9 +31,8 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'depends': ['account', 'base_setup', 'mail', 'website', 'contacts'],
-    'data': [
-        'security/salon_management_groups.xml',
+    'depends': ['account', 'base_setup', 'mail', 'website', 'contacts', 'point_of_sale', 'calendar'],
+    'data': ['security/salon_management_groups.xml',
         'security/ir.model.access.csv',
         'data/salon_website_menu.xml',
         'data/salon_chair_cron_action.xml',
@@ -49,7 +48,8 @@
         'views/salon_service_views.xml',
         'views/salon_booking_views.xml',
         'views/salon_order_views.xml',
-        'views/salon_management_menus.xml',
+        'views/salon_management_menus.xml',,
+        'views/salon_management_management_kanban_views.xml'
     ],
     'demo': [
         'data/product_template_data.xml',

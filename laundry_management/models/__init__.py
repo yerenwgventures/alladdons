@@ -24,3 +24,5 @@ from . import sale_advance_payment
 from . import washing_type
 from . import washing_washing
 from . import washing_work
+
+from . import laundry_management_integration

@@ -25,3 +25,6 @@ from . import stock_move_line
 from . import stock_scrap
 from . import stock_valuation_layer
 from . import stock_picking_return_line
+
+from . import cw_stock_dashboard
+from . import cw_stock_analytics

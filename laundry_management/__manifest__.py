@@ -30,7 +30,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'depends': ['sale_management', 'account', ],
+    'depends': ['sale_management', 'account',, 'sale'],
     'data': [
         'data/laundry_management_data.xml',
         'data/ir_sequenca_data.xml',

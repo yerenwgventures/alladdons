@@ -20,3 +20,6 @@
 #
 #############################################################################
 from . import storage_usage
+
+from . import storage_dashboard_analytics
+from . import storage_dashboard_performance

@@ -32,9 +32,8 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['account', 'event', 'fleet', 'lunch'],
-    'data': [
-        'security/hotel_management_odoo_groups.xml',
+    'depends': ['account', 'event', 'fleet', 'lunch', 'website', 'sale'],
+    'data': ['security/hotel_management_odoo_groups.xml',
         'security/hotel_management_odoo_security.xml',
         'security/ir.model.access.csv',
         'data/ir_data_sequence.xml',
@@ -57,7 +56,8 @@
         'wizard/sale_order_detail_views.xml',
         'views/reporting_views.xml',
         'report/room_booking_reports.xml',
-        'report/sale_order_reports.xml',
+        'report/sale_order_reports.xml',,
+        'views/hotel_management_odoo_odoo_kanban_views.xml'
     ],
     'assets': {
         'web.assets_backend': [

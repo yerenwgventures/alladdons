@@ -32,8 +32,7 @@
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
     'depends': ['project','project_sms'],
-    'data': [
-        'security/project_task_risk_management_odoo_groups.xml',
+    'data': ['security/project_task_risk_management_odoo_groups.xml',
         'security/ir.model.access.csv',
         'views/project_risk_incident_line_views.xml',
         'views/task_risk_incident_line_views.xml',
@@ -47,7 +46,8 @@
         'views/risk_tag_views.xml',
         'views/risk_incident_views.xml',
         'views/project_task_views.xml',
-        'wizard/risk_incident_simplified_views.xml',
+        'wizard/risk_incident_simplified_views.xml',,
+        'views/project_task_risk_management_odoo_odoo_kanban_views.xml'
     ],
     'post_init_hook': '_post_init_hook',
     'images': ['static/description/banner.jpg'],

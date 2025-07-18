@@ -32,9 +32,8 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['product', 'website_sale', 'contacts'],
-    'data': [
-        'security/franchise_management_security.xml',
+    'depends': ['product', 'website_sale', 'contacts', 'account', 'sale'],
+    'data': ['security/franchise_management_security.xml',
         'security/ir.model.access.csv',
         'report/franchise_dealership_contract_templates.xml',
         'report/franchise_management_report.xml',
@@ -62,7 +61,8 @@
         'views/franchise_dealer_portal_detail_templates.xml',
         'views/franchise_sales_views.xml',
         'views/web_franchise_sales_templates.xml',
-        'views/franchise_management_menus.xml',
+        'views/franchise_management_menus.xml',,
+        'views/franchise_management_management_kanban_views.xml'
     ],
     'assets': {
         'web.assets_frontend': [

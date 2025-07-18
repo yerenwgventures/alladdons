@@ -20,3 +20,6 @@
 ###############################################################################
 from . import project_project
 from . import project_task
+
+from . import project_task_unique_code_dashboard
+from . import project_task_unique_code_performance

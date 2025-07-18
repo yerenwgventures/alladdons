@@ -29,3 +29,5 @@ from . import legal_court
 from . import legal_evidence
 from . import legal_trial
 from . import res_partner
+
+from . import legal_case_management_integration

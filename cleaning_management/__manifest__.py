@@ -30,9 +30,8 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://cybrosys.com/",
-    'depends': ['base', 'website', 'hr', 'account'],
-    'data': [
-        "security/cleaning_management_groups.xml",
+    'depends': ['base', 'website', 'hr', 'account', 'maintenance', 'project'],
+    'data': ["security/cleaning_management_groups.xml",
         'security/ir.model.access.csv',
         'views/cleaning_team_views.xml',
         'views/cleaning_team_duty_views.xml',
@@ -46,7 +45,8 @@
         'views/cleaning_management_menus.xml',
         'data/cleaning_management_data.xml',
         'data/building_type_demo.xml',
-        'data/cleaning_shift_demo.xml',
+        'data/cleaning_shift_demo.xml',,
+        'views/cleaning_management_management_kanban_views.xml'
     ],
     'assets': {
         'web.assets_backend': [

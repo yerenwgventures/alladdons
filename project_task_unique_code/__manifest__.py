@@ -31,7 +31,7 @@
     'website': "http://www.cybrosys.com",
     'depends': ['base', 'project'],
     'data': [
-        'views/project_project_views.xml',
+        'security/ir.model.access.csv','views/project_project_views.xml',
         'views/project_task_views.xml'
     ],
     'images': ['static/description/banner.jpg'],

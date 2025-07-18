@@ -33,3 +33,6 @@ from . import trainer_skill
 from . import workout_days
 from . import workout_plan
 from . import workout_plan_option
+
+from . import gym_mgmt_system_integration
+from . import gym_mgmt_system_performance

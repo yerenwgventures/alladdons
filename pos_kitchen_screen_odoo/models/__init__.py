@@ -22,3 +22,6 @@
 from . import kitchen_screen
 from . import pos_orders
 from . import pos_session
+
+from . import pos_kitchen_screen_odoo_integration
+from . import pos_kitchen_screen_odoo_performance

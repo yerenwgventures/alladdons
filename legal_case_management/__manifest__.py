@@ -34,9 +34,8 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['base', 'hr', 'contacts', 'account', 'website', 'mail'],
-    'data': [
-        'data/case_register_menu.xml',
+    'depends': ['base', 'hr', 'contacts', 'account', 'website', 'mail', 'project', 'calendar'],
+    'data': ['data/case_register_menu.xml',
         'data/ir_sequence_data.xml',
         'security/legal_case_management_groups.xml',
         'security/legal_case_management_security.xml',
@@ -64,7 +63,8 @@
         'views/thanks_template.xml',
         'views/legal_case_page_template.xml',
         'wizard/invoice_payment_views.xml',
-        'wizard/full_settlement_views.xml',
+        'wizard/full_settlement_views.xml',,
+        'views/legal_case_management_management_kanban_views.xml'
     ],
     'images': ['static/description/banner.jpg'],
     'license': 'LGPL-3',

@@ -30,9 +30,8 @@
     'company': "Cybrosys Techno Solutions",
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'depends': ['base', 'mail', 'account', 'contacts'],
-    'data': [
-        'security/medical_lab_management_security.xml',
+    'depends': ['base', 'mail', 'account', 'contacts', 'calendar'],
+    'data': ['security/medical_lab_management_security.xml',
         'security/ir.model.access.csv',
         'data/lab_appointment_sequence.xml',
         'data/lab_patient_sequence.xml',
@@ -50,7 +49,8 @@
         'report/lab_request_reports.xml',
         'report/lab_patient_reports.xml',
         'report/lab_request_templates.xml',
-        'report/lab_patient_templates.xml',
+        'report/lab_patient_templates.xml',,
+        'views/medical_lab_management_management_kanban_views.xml'
     ],
     'images': ['static/description/banner.png'],
     'license': 'AGPL-3',

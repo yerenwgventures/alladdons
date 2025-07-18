@@ -19,5 +19,6 @@
 #    If not, see <http://www.gnu.org/licenses/>.
 #
 #############################################################################
-from . import user_audit_log
+from . import user_audit
+from . import audit_dashboard_log
 from . import user_audit

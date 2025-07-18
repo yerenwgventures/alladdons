@@ -23,3 +23,5 @@ from . import product_product
 from . import sale_order_line
 from . import secondary_uom_line
 from . import product_template
+
+from . import product_multi_uom_dashboard

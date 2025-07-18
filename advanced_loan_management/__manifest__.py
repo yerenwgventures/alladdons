@@ -32,10 +32,9 @@
     'company': "Cybrosys Techno Solutions",
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['mail', 'account', 'base',],
+    'depends': ['mail', 'account', 'base',, 'hr_payroll'],
     'demo': ['data/loan_journal_data.xml'],
-    'data': [
-        'security/loan_management_groups.xml',
+    'data': ['security/loan_management_groups.xml',
         'security/loan_management_security.xml',
         'security/ir.model.access.csv',
         'data/ir_sequence_data.xml',
@@ -49,7 +48,8 @@
         'wizard/message_popup_views.xml',
         'wizard/reject_reason_views.xml',
         'report/loan_management_reports.xml',
-        'report/loan_report_templates.xml',
+        'report/loan_report_templates.xml',,
+        'views/advanced_loan_management_management_kanban_views.xml'
     ],
     'images': ['static/description/banner.png'],
     'license': 'AGPL-3',

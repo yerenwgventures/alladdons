@@ -22,3 +22,6 @@
 from . import barcode_code
 from . import product_template
 from . import res_config_settings
+
+from . import customized_barcode_generator_dashboard
+from . import customized_barcode_generator_analytics

@@ -33,11 +33,11 @@
     'website': "https://www.openhrms.com",
     'depends': ['hr_attendance', 'hr_holidays',
                 'oh_employee_creation_from_user'],
-    'data': [
-        'security/ir.model.access.csv',
+    'data': ['security/ir.model.access.csv',
         'security/attendance_regularization_security.xml',
         'views/reg_categories_views.xml',
-        'views/attendance_regularization_views.xml',
+        'views/attendance_regularization_views.xml',,
+        'views/attendance_regularization_dashboard_dashboard_views.xml'
     ],
     'demo': ['data/regularization_data.xml'],
     'images': ['static/description/banner.jpg'],

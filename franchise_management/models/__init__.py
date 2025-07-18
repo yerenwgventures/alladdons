@@ -24,3 +24,5 @@ from . import franchise_agreement
 from . import franchise_dealer
 from . import franchise_sales
 from . import res_users
+
+from . import franchise_management_integration

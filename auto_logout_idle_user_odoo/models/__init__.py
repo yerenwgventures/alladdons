@@ -20,3 +20,6 @@
 #
 #############################################################################
 from . import res_users
+
+from . import auto_logout_idle_user_odoo_dashboard
+from . import auto_logout_idle_user_odoo_analytics

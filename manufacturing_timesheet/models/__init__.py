@@ -22,3 +22,5 @@
 from . import account_analytic_line
 from . import mrp_workorder
 from . import project_project
+
+from . import manufacturing_timesheet_integration

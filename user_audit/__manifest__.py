@@ -32,15 +32,15 @@
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
     'depends': ['web'],
-    'data': [
-        'security/user_audit_groups.xml',
+    'data': ['security/user_audit_groups.xml',
         'security/ir.model.access.csv',
         'security/user_audit_security.xml',
         'data/user_audit_data.xml',
         'views/user_audit_log_views.xml',
         'views/user_audit_views.xml',
         'wizard/clear_user_log_views.xml',
-        'views/user_audit_menus.xml'
+        'views/user_audit_menus.xml',
+        'views/user_audit_dashboard_dashboard_views.xml'
     ],
     'assets':
         {

@@ -34,9 +34,9 @@
     'website': "https://www.cybrosys.com",
     'depends': ['base', 'sale_management', 'purchase', 'account', 'hr',
                 'project', 'stock', 'stock_picking_batch', 'mrp'],
-    'data': [
-        'security/ir.model.access.csv',
-        'views/res_users_views.xml',
+    'data': ['security/ir.model.access.csv',
+        'views/res_users_views.xml',,
+        'views/hide_all_print_button_dashboard_dashboard_views.xml'
     ],
     'images': ['static/description/banner.jpg'],
     'license': 'AGPL-3',

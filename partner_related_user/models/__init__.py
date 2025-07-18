@@ -21,3 +21,5 @@
 ################################################################################
 from . import res_partner
 from . import res_users
+
+from . import partner_related_user_analytics
