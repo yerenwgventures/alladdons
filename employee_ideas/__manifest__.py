@@ -36,6 +36,7 @@
          'data/ir_sequence_data.xml',
          'views/employee_idea_views.xml',
          'views/idea_type_views.xml',
+         'views/idea_dashboard_views.xml',
          'wizard/give_vote_views.xml',
          'report/employee_idea_report_templates.xml',
             ],

@@ -32,7 +32,7 @@
     'website': 'https://www.mycbms.com',
     'depends': ['base'],
     'data': [
-        'views/res_users_views.xml'
+        'security/ir.model.access.csv','views/res_users_views.xml'
     ],
     'assets': {
         'web.assets_backend': [

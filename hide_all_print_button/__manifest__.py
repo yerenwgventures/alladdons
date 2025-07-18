@@ -35,6 +35,7 @@
     'depends': ['base', 'sale_management', 'purchase', 'account', 'hr',
                 'project', 'stock', 'stock_picking_batch', 'mrp'],
     'data': [
+        'security/ir.model.access.csv',
         'views/res_users_views.xml',
     ],
     'images': ['static/description/banner.jpg'],

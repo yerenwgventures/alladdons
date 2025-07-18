@@ -33,7 +33,7 @@
     'website': "https://www.cybrosys.com",
     'depends': ['base', 'sale_management', 'account'],
     'data': [
-        'views/res_users_views.xml',
+        'security/ir.model.access.csv','views/res_users_views.xml',
         'views/sales_order_views.xml',
         'views/account_move_views.xml',
     ],

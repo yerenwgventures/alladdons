@@ -21,3 +21,4 @@
 #############################################################################
 from . import employee_idea
 from . import idea_type
+from . import idea_dashboard

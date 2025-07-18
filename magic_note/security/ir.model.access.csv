@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access.note.color.user,access_note_color_user,model_note_color,base.group_user,1,1,1,1
+access_magic.note_admin,access.magic.note.admin,model_magic_note,base.group_system,1,1,1,1
+access_magic.note_user,access.magic.note.user,model_magic_note,base.group_user,1,1,1,0

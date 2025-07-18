@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_auto.logout.idle.user.odoo_admin,access.auto.logout.idle.user.odoo.admin,model_auto_logout_idle_user_odoo,base.group_system,1,1,1,1
+access_auto.logout.idle.user.odoo_user,access.auto.logout.idle.user.odoo.user,model_auto_logout_idle_user_odoo,base.group_user,1,1,1,0
