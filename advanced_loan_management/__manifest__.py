@@ -34,7 +34,7 @@
         'website': 'https://www.mycbms.com',
         'depends': ['mail',
         'account', 'base',
-        'hr_payroll'],
+        'hr'],
     'demo': ['data/loan_journal_data.xml'],
     'data': ['security/loan_management_groups.xml',
         'security/loan_management_security.xml',

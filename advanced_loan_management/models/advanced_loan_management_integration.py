@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Integration Model for advanced_loan_management with hr.payslip
+Integration Model for advanced_loan_management with hr.employee
 Provides seamless integration between modules
 """
 
@@ -21,7 +21,7 @@ class AdvancedLoanManagementIntegration(models.Model):
     ], string='Integration Type', default='sync')
     
     # Integration-specific fields would be added here based on the target module
-    target_model = fields.Char(string='Target Model', default='hr.payslip')
+    target_model = fields.Char(string='Target Model', default='hr.employee')
     sync_frequency = fields.Selection([
         ('manual', 'Manual'),
         ('hourly', 'Hourly'),

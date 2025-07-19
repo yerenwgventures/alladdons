@@ -27,10 +27,10 @@
      filtering attendance data,  finding specific employees attendance data,
      and for displaying attendance information, also we can print the
      attendance in pdf format .""",
-    "author": "Cybrosys Techno Solutions",
-    "company": "Cybrosys Techno Solutions",
-    "maintainer": "Cybrosys Techno Solutions",
-    "website": "https://www.cybrosys.com",
+    "author": "CBMS TECHNOLOGIES LTD",
+    "company": "CBMS TECHNOLOGIES LTD",
+    "maintainer": "CBMS TECHNOLOGIES LTD",
+    "website": "https://www.mycbms.com",
     "depends": ["hr_holidays", "hr", "hr_attendance"],
     "data": [
         "views/hr_leave_type_views.xml",

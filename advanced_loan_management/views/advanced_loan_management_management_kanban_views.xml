@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!-- Kanban View for advanced_loan_management.management -->
-    <record id="view_advanced_loan_management_management_kanban" model="ir.ui.view">
-        <field name="name">advanced_loan_management.management.kanban</field>
-        <field name="model">advanced_loan_management.management</field>
+    <!-- Kanban View for loan.request -->
+    <record id="view_loan_request_kanban" model="ir.ui.view">
+        <field name="name">loan.request.kanban</field>
+        <field name="model">loan.request</field>
         <field name="arch" type="xml">
             <kanban default_group_by="state" class="o_kanban_small_column">
                 <field name="name"/>
                 <field name="state"/>
-                <field name="create_date"/>
+                <field name="partner_id"/>
+                <field name="loan_amount"/>
+                <field name="date"/>
                 <templates>
                     <t t-name="kanban-box">
                         <div class="oe_kanban_card oe_kanban_global_click">
@@ -19,14 +21,16 @@
                                             <field name="name"/>
                                         </strong>
                                     </div>
+                                    <div class="o_kanban_record_body">
+                                        <div>Partner: <field name="partner_id"/></div>
+                                        <div>Amount: <field name="loan_amount" widget="monetary"/></div>
+                                        <div>Date: <field name="date" widget="date"/></div>
+                                    </div>
                                 </div>
                                 <div class="o_kanban_record_bottom">
                                     <div class="oe_kanban_bottom_left">
-                                        <field name="create_date" widget="date"/>
-                                    </div>
-                                    <div class="oe_kanban_bottom_right">
                                         <field name="state" widget="label_selection" 
-                                               options="{'classes': {'draft': 'default', 'confirmed': 'success'}}"/>
+                                               options="{'classes': {'draft': 'default', 'waiting_approval_1': 'warning', 'waiting_approval_2': 'info', 'approve': 'success', 'refuse': 'danger'}}"/>
                                     </div>
                                 </div>
                             </div>

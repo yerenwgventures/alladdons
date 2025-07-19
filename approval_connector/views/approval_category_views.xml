@@ -1,14 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
-    <!--    To add the approval type in approval category-->
+    <!-- Approval Category Form View -->
     <record id="approval_category_view_form" model="ir.ui.view">
-        <field name="name">approval.category.view.form.inherit.approval.connector</field>
+        <field name="name">approval.category.view.form</field>
         <field name="model">approval.category</field>
-        <field name="inherit_id" ref="approvals.approval_category_view_form"/>
         <field name="arch" type="xml">
-            <xpath expr="//field[@name='approval_type']" position="attributes">
-                <attribute name="invisible">0</attribute>
-            </xpath>
+            <form string="Approval Category">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="approval_type"/>
+                            <field name="sequence"/>
+                            <field name="active"/>
+                        </group>
+                        <group>
+                            <field name="has_product"/>
+                            <field name="has_quantity"/>
+                            <field name="automated_sequence"/>
+                            <field name="sequence_code"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
         </field>
+    </record>
+
+    <!-- Approval Category Tree View -->
+    <record id="approval_category_view_tree" model="ir.ui.view">
+        <field name="name">approval.category.view.tree</field>
+        <field name="model">approval.category</field>
+        <field name="arch" type="xml">
+            <tree string="Approval Categories">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="approval_type"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Approval Category Action -->
+    <record id="approval_category_action" model="ir.actions.act_window">
+        <field name="name">Approval Categories</field>
+        <field name="res_model">approval.category</field>
+        <field name="view_mode">tree,form</field>
     </record>
 </odoo>

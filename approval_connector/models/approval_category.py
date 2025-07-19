@@ -21,12 +21,27 @@ from odoo import fields, models
 
 
 class ApprovalCategory(models.Model):
-    _inherit = 'approval.category'
-    """Class inherited for the category associated with approval category
-    also add some additional fields"""
+    _name = 'approval.category'
+    _description = 'Approval Category'
+    """Standalone approval category model for sale order approvals"""
 
-    approval_type = fields.Selection(selection_add=[
-                    ('purchase', "Create RFQ's"), ('sale', 'Sale'), ],
-                        string="Approval Type",
-                        ondelete={'sale': 'cascade',},
-                        help="Approval type to identify the model")
+    name = fields.Char(string='Name', required=True)
+    approval_type = fields.Selection([
+        ('purchase', "Create RFQ's"),
+        ('sale', 'Sale'),
+    ], string="Approval Type", required=True)
+    active = fields.Boolean(string='Active', default=True)
+    company_id = fields.Many2one('res.company', string='Company', default=lambda self: self.env.company)
+    sequence = fields.Integer(string='Sequence', default=10)
+    has_product = fields.Selection([
+        ('no', 'None'),
+        ('optional', 'Optional'),
+        ('required', 'Required')
+    ], string='Product', default='no')
+    has_quantity = fields.Selection([
+        ('no', 'None'),
+        ('optional', 'Optional'),
+        ('required', 'Required')
+    ], string='Quantity', default='no')
+    automated_sequence = fields.Boolean(string='Automated Sequence', default=False)
+    sequence_code = fields.Char(string='Sequence Code')
