@@ -178,7 +178,19 @@ def main():
         'merge_rfq', 'model_viewer_widget', 'monday_odoo_connector',
         'mrp_order_from_multiple_sale_order', 'mrp_product_kanban', 'mrp_work_order_print',
         'multi_barcode_for_products', 'multi_image_in_pos', 'multi_pricelist',
-        'medical_lab_management', 'mobile_service_shop'
+        'medical_lab_management', 'mobile_service_shop',
+        # Batch 17 - 14/15 successful after fixes (dynamic_product_label_print still has DB schema issue)
+        'multicolor_backend_theme', 'multiple_reference_per_product', 'odoo_accounting_dashboard',
+        'odoo_calculator_tool', 'odoo_chatgpt_connector', 'odoo_contact_approval',
+        'odoo_dynamic_dashboard', 'odoo_google_contact_integration', 'odoo_google_meet_integration',
+        'odoo_health_report', 'odoo_parking_management', 'odoo_picking_order_line_views',
+        'odoo_product_tags', 'odoo_read_messages',
+        # Batch 18 - 14/15 successful after fixes (dynamic_product_label_print still has DB schema issue)
+        'odoo_readonly_user', 'odoo_rental_sales', 'odoo_sale_order_line_views',
+        'odoo_selection_field_configurator', 'odoo_twilio_sms', 'odoo_website_helpdesk',
+        'odoo_website_helpdesk_dashboard', 'ohrms_service_request', 'one2many_duplicate_record_widget',
+        'one2many_excel_report', 'one2many_mass_select_delete', 'openai_odoo_base',
+        'openai_product_images', 'openai_product_tag_descrption'
     ]
     
     # Get all modules

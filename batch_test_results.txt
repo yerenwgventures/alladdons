@@ -9,60 +9,70 @@ DETAILS:   File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 354, in ex
 psycopg2.errors.UndefinedFunction: operator does not exist: character varying >= integer
 HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
 
-2025-07-19 07:45:00,185 419 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 07:45:00,185 419 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 07:45:00,185 419 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+2025-07-19 08:04:51,811 1076 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 08:04:51,811 1076 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 08:04:51,811 1076 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
-MODULE: multicolor_backend_theme
+MODULE: openai_website_product_media
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: multiple_reference_per_product
+MODULE: orange_theme_odoo12
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: odoo_accounting_dashboard
+MODULE: order_invoice_manual_link
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: odoo_calculator_tool
+MODULE: order_line_sequences
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: odoo_chatgpt_connector
-STATUS: SUCCESS
-----------------------------------------
-MODULE: odoo_contact_approval
-STATUS: SUCCESS
-----------------------------------------
-MODULE: odoo_dynamic_dashboard
-STATUS: SUCCESS
-----------------------------------------
-MODULE: odoo_google_contact_integration
-STATUS: SUCCESS
-----------------------------------------
-MODULE: odoo_google_meet_integration
-STATUS: SUCCESS
-----------------------------------------
-MODULE: odoo_health_report
+MODULE: pantry_payroll
 STATUS: FAILED
-DETAILS:     modules._state_update('to install', ['uninstalled'])
-  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 393, in _state_update
-    self.check_external_dependencies(module.name, newstate)
-  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 359, in check_external_dependencies
-    raise UserError(msg)
-odoo.exceptions.UserError: Unable to install module "odoo_health_report" because an external dependency is not met: External dependency isort not installed: No package metadata was found for isort
-2025-07-19 07:46:37,486 609 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 07:46:37,486 609 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 07:46:37,487 609 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+DETAILS:   File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 418, in button_install
+    modules._state_update('to install', ['uninstalled'])
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 377, in _state_update
+    raise UserError(_(
+odoo.exceptions.UserError: You try to install module "pantry_payroll" that depends on module "hr_payroll_community".
+But the latter module is not available in your system.
+2025-07-19 08:05:41,933 1171 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 08:05:41,933 1171 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 08:05:41,934 1171 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
-MODULE: odoo_parking_management
+MODULE: partner_emails_history
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: odoo_picking_order_line_views
+MODULE: partner_related_user
+STATUS: FAILED
+DETAILS:     raise Exception(env._(
+Exception: Module loading partner_related_user failed: file partner_related_user/security/ir.model.access.csv could not be processed:
+No matching record found for external id 'model_partner_related_user' in field 'Model'
+No matching record found for external id 'model_partner_related_user' in field 'Model'
+Missing required value for the field 'Model' (model_id)
+Missing required value for the field 'Model' (model_id)
+2025-07-19 08:06:01,306 1201 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 08:06:01,306 1201 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 08:06:01,306 1201 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+
+----------------------------------------
+MODULE: partner_search_by_number
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: odoo_product_tags
+MODULE: password_hint
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: odoo_read_messages
+MODULE: password_reset_manager
+STATUS: SUCCESS
+----------------------------------------
+MODULE: payment_proof_attachment
+STATUS: SUCCESS
+----------------------------------------
+MODULE: payment_status_in_sale
+STATUS: SUCCESS
+----------------------------------------
+MODULE: pdf_report_action
+STATUS: SUCCESS
+----------------------------------------
+MODULE: pdf_report_password_protection
 STATUS: SUCCESS
 ----------------------------------------
