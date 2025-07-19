@@ -32,7 +32,7 @@
     "company": "Cybrosys Techno Solutions",
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     "website": "http://www.educationalerp.com",
-    "depends": ['account', 'education_core',],
+    "depends": ['account', 'base'],
     "data": [
         'security/ir.model.access.csv',
         'views/education_fee_structure_menu_views.xml',

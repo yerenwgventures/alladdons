@@ -1,3 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_partner.related.user.admin,access.partner.related.user.admin,model_partner_related_user,base.group_system,1,1,1,1
-access_partner.related.user.user,access.partner.related.user.user,model_partner_related_user,base.group_user,1,1,1,0
+access_partner_related_user_analytics_admin,access.partner.related.user.analytics.admin,model_partner_related_user_analytics,base.group_system,1,1,1,1
+access_partner_related_user_analytics_user,access.partner.related.user.analytics.user,model_partner_related_user_analytics,base.group_user,1,1,1,0

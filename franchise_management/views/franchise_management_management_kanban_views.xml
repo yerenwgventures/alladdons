@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <!-- Kanban View for franchise_management.management -->
-    <record id="view_franchise_management_management_kanban" model="ir.ui.view">
-        <field name="name">franchise_management.management.kanban</field>
-        <field name="model">franchise_management.management</field>
+    <record id="view_franchise_dealer_kanban" model="ir.ui.view">
+        <field name="name">franchise.dealer.kanban</field>
+        <field name="model">franchise.dealer</field>
         <field name="arch" type="xml">
-            <kanban default_group_by="state" class="o_kanban_small_column">
-                <field name="name"/>
-                <field name="state"/>
+            <kanban default_group_by="dealer_state" class="o_kanban_small_column">
+                <field name="dealer_name"/>
+                <field name="dealer_state"/>
                 <field name="create_date"/>
                 <templates>
                     <t t-name="kanban-box">
@@ -16,7 +16,7 @@
                                 <div class="o_kanban_record_top">
                                     <div class="o_kanban_record_headings">
                                         <strong class="o_kanban_record_title">
-                                            <field name="name"/>
+                                            <field name="dealer_name"/>
                                         </strong>
                                     </div>
                                 </div>

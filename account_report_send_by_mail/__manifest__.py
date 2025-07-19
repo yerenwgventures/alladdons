@@ -26,17 +26,35 @@
     'category': 'Accounting',
     'summary': "Create account report based on user requirements and send it "
                "by mail",
-    'description': "This app enables users to generate personalized "
-                   "account reports based on their email address. Users have "
-                   "the flexibility to choose the type of report they want, "
-                   "catering to their specific needs. After selecting the "
-                   "desired report type, users can input the recipients email "
-                   "address to seamlessly send the generated report.",
+    'description': """
+This app enables users to generate personalized account reports based on their email address.
+Users have the flexibility to choose the type of report they want, catering to their specific needs.
+After selecting the desired report type, users can input the recipients email address to seamlessly send the generated report.
+
+EDITION COMPATIBILITY:
+======================
+This module supports both Odoo Community and Enterprise editions.
+
+ENTERPRISE EDITION:
+- Uses advanced account_reports module for enhanced reporting
+- Full enterprise report templates and features
+- Advanced scheduling and automation
+
+COMMUNITY EDITION:
+- Uses standard account module for basic reporting
+- Core email functionality maintained
+- Basic report templates available
+
+AUTOMATIC DETECTION:
+- Module automatically detects available edition
+- Falls back to community reports if enterprise not available
+- No manual configuration required
+    """,
     'company': 'CBMS TECHNOLOGIES LTD',
     'author': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['account', 'account_reports'],
+    'depends': ['account'],
     'data': [
         'security/ir.model.access.csv',
         'data/account_report_mail_template.xml',

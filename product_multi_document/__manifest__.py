@@ -27,12 +27,32 @@
     of this module.""",
     'description': """This module helps to add multiple documents in product
     and we can see these documents while we are selecting a product in purchase
-    order line and automatically get attached in Email.""",
+    order line and automatically get attached in Email.
+
+
+EDITION COMPATIBILITY:
+======================
+This module supports both Odoo Community and Enterprise editions.
+
+ENTERPRISE EDITION:
+- Uses advanced features from: documents
+- Full enterprise functionality available
+
+COMMUNITY EDITION:
+- Falls back to: base, purchase
+- Core functionality maintained with community alternatives
+- Some advanced features may have limited functionality
+
+AUTOMATIC DETECTION:
+- Module automatically detects available edition
+- Gracefully handles missing enterprise modules
+- No manual configuration required
+""",
     'author': 'CBMS TECHNOLOGIES LTD',
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'depends': ['base', 'documents', 'purchase'],
+    'depends': ['base', 'purchase'],
     'data': [
         'views/product_template_views.xml',
         'views/purchase_order_views.xml',

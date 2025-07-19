@@ -1,10 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Integration Model for advanced_loan_management with hr.payslip
-Provides seamless integration between modules
+Integration Model for advanced_loan_management with hr.employee/hr.payslip
+Provides seamless integration between modules with enterprise/community compatibility
 """
 
 from odoo import api, fields, models, _
+import logging
+
+_logger = logging.getLogger(__name__)
 
 
 class AdvancedLoanManagementIntegration(models.Model):
@@ -20,8 +23,12 @@ class AdvancedLoanManagementIntegration(models.Model):
         ('reporting', 'Reporting Integration'),
     ], string='Integration Type', default='sync')
     
-    # Integration-specific fields would be added here based on the target module
-    target_model = fields.Char(string='Target Model', default='hr.payslip')
+    # Integration-specific fields - automatically detects enterprise vs community
+    target_model = fields.Char(string='Target Model', compute='_compute_target_model', store=True)
+    edition_type = fields.Selection([
+        ('community', 'Community Edition'),
+        ('enterprise', 'Enterprise Edition')
+    ], string='Edition Type', compute='_compute_edition_type', store=True)
     sync_frequency = fields.Selection([
         ('manual', 'Manual'),
         ('hourly', 'Hourly'),
@@ -35,6 +42,40 @@ class AdvancedLoanManagementIntegration(models.Model):
         ('error', 'Error'),
         ('pending', 'Pending'),
     ], string='Sync Status', default='pending')
+
+    @api.depends()
+    def _compute_target_model(self):
+        """Compute target model based on available modules"""
+        for record in self:
+            if record._is_enterprise_module_available('hr_payroll'):
+                record.target_model = 'hr.payslip'
+            else:
+                record.target_model = 'hr.employee'
+
+    @api.depends()
+    def _compute_edition_type(self):
+        """Compute edition type based on available enterprise modules"""
+        for record in self:
+            if record._has_enterprise_features():
+                record.edition_type = 'enterprise'
+            else:
+                record.edition_type = 'community'
+
+    def _is_enterprise_module_available(self, module_name):
+        """Check if an enterprise module is available"""
+        try:
+            module = self.env['ir.module.module'].search([
+                ('name', '=', module_name),
+                ('state', 'in', ['installed', 'to upgrade'])
+            ])
+            return bool(module)
+        except Exception:
+            return False
+
+    def _has_enterprise_features(self):
+        """Check if running on enterprise edition"""
+        enterprise_indicators = ['hr_payroll', 'account_reports', 'approvals']
+        return any(self._is_enterprise_module_available(module) for module in enterprise_indicators)
     
     def action_sync_now(self):
         """Trigger immediate synchronization"""

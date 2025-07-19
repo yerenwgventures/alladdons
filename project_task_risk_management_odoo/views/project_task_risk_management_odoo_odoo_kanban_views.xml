@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <!-- Kanban View for project_task_risk_management_odoo.odoo -->
-    <record id="view_project_task_risk_management_odoo_odoo_kanban" model="ir.ui.view">
-        <field name="name">project_task_risk_management_odoo.odoo.kanban</field>
-        <field name="model">project_task_risk_management_odoo.odoo</field>
+    <record id="view_risks_project_kanban" model="ir.ui.view">
+        <field name="name">risks.project.kanban</field>
+        <field name="model">risks.project</field>
         <field name="arch" type="xml">
-            <kanban default_group_by="state" class="o_kanban_small_column">
-                <field name="name"/>
-                <field name="state"/>
+            <kanban default_group_by="risk_quantification" class="o_kanban_small_column">
+                <field name="risk_name"/>
+                <field name="risk_quantification"/>
                 <field name="create_date"/>
                 <templates>
                     <t t-name="kanban-box">
@@ -16,7 +16,7 @@
                                 <div class="o_kanban_record_top">
                                     <div class="o_kanban_record_headings">
                                         <strong class="o_kanban_record_title">
-                                            <field name="name"/>
+                                            <field name="risk_name"/>
                                         </strong>
                                     </div>
                                 </div>

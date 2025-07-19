@@ -31,7 +31,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'depends': ['hr_attendance', 'hr_payroll_community', 'hr_hourly_cost'],
+    'depends': ['hr_attendance', 'hr', 'hr_hourly_cost'],
     'data': [
         'views/hr_employee_views.xml',
         'views/hr_payslip_views.xml',

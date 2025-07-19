@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <!-- Kanban View for legal_case_management.management -->
-    <record id="view_legal_case_management_management_kanban" model="ir.ui.view">
-        <field name="name">legal_case_management.management.kanban</field>
-        <field name="model">legal_case_management.management</field>
+    <record id="view_case_registration_kanban" model="ir.ui.view">
+        <field name="name">case.registration.kanban</field>
+        <field name="model">case.registration</field>
         <field name="arch" type="xml">
             <kanban default_group_by="state" class="o_kanban_small_column">
                 <field name="name"/>

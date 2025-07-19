@@ -30,8 +30,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website':  'https://www.cybrosys.com',
-    'depends': ['hr', 'stock', 'oh_employee_creation_from_user', 'project',
-                'hr_attendance'],
+    'depends': ['hr', 'stock', 'project', 'hr_attendance'],
     'data': [
         'security/ir.model.access.csv',
         'security/service_request_security.xml',

@@ -32,7 +32,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['sign'],
+    'depends': ['mail'],
     'data': ['wizard/sign_send_request_views.xml'],
     'assets': {
         'web.assets_backend': [

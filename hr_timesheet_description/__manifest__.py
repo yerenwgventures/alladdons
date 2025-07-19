@@ -30,9 +30,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': [
-        'base', 'timesheet_grid'
-    ],
+    'depends': ['hr_timesheet', 'base'],
     'data': [
         'views/account_analytic_line_views.xml',
     ],

@@ -18,15 +18,78 @@
 #
 ###############################################################################
 from odoo import fields, models
+import logging
+
+_logger = logging.getLogger(__name__)
 
 
 class ApprovalCategory(models.Model):
-    _inherit = 'approval.category'
-    """Class inherited for the category associated with approval category
-    also add some additional fields"""
+    _name = 'approval.category'
+    _description = 'Approval Category'
+    """
+    Approval category model with enterprise/community compatibility
+    - Uses enterprise approvals module if available
+    - Falls back to custom implementation for community edition
+    """
 
-    approval_type = fields.Selection(selection_add=[
-                    ('purchase', "Create RFQ's"), ('sale', 'Sale'), ],
-                        string="Approval Type",
-                        ondelete={'sale': 'cascade',},
-                        help="Approval type to identify the model")
+    name = fields.Char(string='Name', required=True)
+    approval_type = fields.Selection([
+        ('purchase', "Create RFQ's"),
+        ('sale', 'Sale'),
+    ], string="Approval Type", required=True)
+    active = fields.Boolean(string='Active', default=True)
+    company_id = fields.Many2one('res.company', string='Company', default=lambda self: self.env.company)
+    sequence = fields.Integer(string='Sequence', default=10)
+    has_product = fields.Selection([
+        ('no', 'None'),
+        ('optional', 'Optional'),
+        ('required', 'Required')
+    ], string='Product', default='no')
+    has_quantity = fields.Selection([
+        ('no', 'None'),
+        ('optional', 'Optional'),
+        ('required', 'Required')
+    ], string='Quantity', default='no')
+    automated_sequence = fields.Boolean(string='Automated Sequence', default=False)
+    sequence_code = fields.Char(string='Sequence Code')
+
+    # Enterprise compatibility fields
+    is_enterprise_available = fields.Boolean(
+        string='Enterprise Available',
+        compute='_compute_enterprise_availability',
+        help="Indicates if enterprise approvals module is available"
+    )
+
+    @api.depends()
+    def _compute_enterprise_availability(self):
+        """Check if enterprise approvals module is available"""
+        for record in self:
+            try:
+                enterprise_module = self.env['ir.module.module'].search([
+                    ('name', '=', 'approvals'),
+                    ('state', 'in', ['installed', 'to upgrade'])
+                ])
+                record.is_enterprise_available = bool(enterprise_module)
+            except Exception:
+                record.is_enterprise_available = False
+
+    @api.model
+    def get_approval_model(self):
+        """Get the appropriate approval model based on edition"""
+        if self._is_enterprise_module_available('approvals'):
+            try:
+                return self.env['approval.category']  # Enterprise model
+            except Exception:
+                pass
+        return self  # Community fallback
+
+    def _is_enterprise_module_available(self, module_name):
+        """Check if an enterprise module is available"""
+        try:
+            module = self.env['ir.module.module'].search([
+                ('name', '=', module_name),
+                ('state', 'in', ['installed', 'to upgrade'])
+            ])
+            return bool(module)
+        except Exception:
+            return False

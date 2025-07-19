@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <!-- Dashboard View for hide_all_print_button.dashboard -->
-    <record id="view_hide_all_print_button_dashboard_dashboard" model="ir.ui.view">
-        <field name="name">hide_all_print_button.dashboard.dashboard</field>
-        <field name="model">hide_all_print_button.dashboard</field>
+    <record id="view_print_button_analytics_dashboard" model="ir.ui.view">
+        <field name="name">print.button.analytics.dashboard</field>
+        <field name="model">print.button.analytics</field>
         <field name="arch" type="xml">
             <form string="Dashboard" create="false" edit="false" delete="false">
                 <sheet>
@@ -14,10 +14,10 @@
                     </div>
                     <group>
                         <group string="Statistics">
-                            <field name="total_records" readonly="1"/>
-                            <field name="records_today" readonly="1"/>
-                            <field name="records_this_month" readonly="1"/>
-                            <field name="active_records" readonly="1"/>
+                            <field name="total_users" readonly="1"/>
+                            <field name="users_with_print_access" readonly="1"/>
+                            <field name="users_without_print_access" readonly="1"/>
+                            <field name="print_access_percentage" readonly="1"/>
                         </group>
                     </group>
                     

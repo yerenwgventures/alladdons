@@ -5,7 +5,7 @@
         <record model="account.journal" id="mobile_service_journal">
             <field name="name">Mobile Service</field>
             <field name="type">sale</field>
-            <field name="code">SERV</field>
+            <field name="code">MOBSERV</field>
         </record>
 <!--        Service product data for mobile service-->
         <record model="product.template" id="mobile_service_product">

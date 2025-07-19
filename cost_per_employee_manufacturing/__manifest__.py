@@ -30,7 +30,7 @@
     "company": "Cybrosys Techno Solutions",
     "maintainer": "Cybrosys Techno Solutions",
     "website": "https://www.cybrosys.com",
-    "depends": ["base","mrp","hr","account_accountant","account","mrp_subcontracting_account_enterprise",],
+    "depends": ["base", "mrp", "hr", "account"],
     "data": [
         "security/ir.model.access.csv",
         "views/hr_employee_views.xml",

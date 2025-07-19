@@ -21,20 +21,33 @@ from odoo import fields, models, _
 
 
 class ApprovalRequest(models.Model):
-    _inherit = 'approval.request'
+    _name = 'approval.request'
+    _description = 'Approval Request'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
-    """Class inherit for the approval request button in the form"""
+    """Standalone approval request model for sale order approvals"""
 
+    name = fields.Char(string='Name', required=True, default='New')
+    category_id = fields.Many2one('approval.category', string='Category', required=True)
     order_id = fields.Many2one('sale.order', string='Document',
                                help="Connection id for the sale order")
+    state = fields.Selection([
+        ('new', 'New'),
+        ('pending', 'Pending'),
+        ('approved', 'Approved'),
+        ('refused', 'Refused'),
+        ('cancel', 'Cancelled')
+    ], string='Status', default='new', tracking=True)
+    request_owner_id = fields.Many2one('res.users', string='Request Owner', default=lambda self: self.env.user)
+    approver_ids = fields.One2many('approval.approver', 'request_id', string='Approvers')
+    company_id = fields.Many2one('res.company', string='Company', default=lambda self: self.env.company)
 
 
     def action_approve(self, approver=None):
         """This method is used to confirm the order Approval"""
-        res = super(ApprovalRequest, self).action_approve(approver)
+        self.state = 'approved'
         for order in [self.order_id]:
-            approve_status = self.approver_ids.mapped('status')
-            if all(status == 'approved' for status in approve_status) and order:
+            if order:
                 order.write({'state': 'approved', 'is_approved': True})
                 order.message_post(
                     body=_('Requested approval is Confirmed'),
@@ -43,7 +56,23 @@ class ApprovalRequest(models.Model):
 
     def action_refuse(self, approver=None):
         """This method is used to reject the approval request"""
-        res = super().action_refuse(approver)
+        self.state = 'refused'
         if self.order_id:
-            self.order_id._action_cancel()
-        return res
+            self.order_id.write({'state': 'refused', 'is_approved': False})
+            self.order_id.message_post(
+                body=_('Requested approval is Refused'),
+                message_type='comment')
+
+
+class ApprovalApprover(models.Model):
+    _name = 'approval.approver'
+    _description = 'Approval Approver'
+
+    request_id = fields.Many2one('approval.request', string='Request', required=True)
+    user_id = fields.Many2one('res.users', string='User', required=True)
+    status = fields.Selection([
+        ('new', 'New'),
+        ('pending', 'Pending'),
+        ('approved', 'Approved'),
+        ('refused', 'Refused')
+    ], string='Status', default='new')

@@ -32,7 +32,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'depends': ['account', 'hr_payroll_community'],
+    'depends': ['account', 'hr'],
     'data': [
         'security/employee_bonus_manager_groups.xml',
         'security/bonus_request_security.xml',

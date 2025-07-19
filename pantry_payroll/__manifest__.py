@@ -32,7 +32,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "http://www.cybrosys.com",
-    'depends': ['sale_management', 'hr_payroll_community'],
+    'depends': ['sale_management', 'hr'],
     'data': [
         'security/pantry_payroll_security.xml',
         'security/ir.model.access.csv',

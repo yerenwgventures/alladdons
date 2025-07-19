@@ -24,17 +24,38 @@
         'version': '18.0.1.0.0',
         'summary': 'Helps You To Manage Loan Requests/Disbursement/'
                'Repayments/Amortization Operations',
-        'description': 'Module Allows To Create different types of loans,'
-                   'Manage Loan Requests And Amortization Operations Simply,'
-                   'Create Invoices For Each Repayment Amounts',
+        'description': '''
+Loan Management System for managing employee loans, repayments, and interest calculations.
+Features include loan types, approval workflows, automated calculations, and comprehensive reporting.
+
+EDITION COMPATIBILITY:
+======================
+This module supports both Odoo Community and Enterprise editions.
+
+ENTERPRISE EDITION:
+- Uses advanced payroll integration with hr_payroll module
+- Full payroll deduction capabilities
+- Advanced reporting features
+
+COMMUNITY EDITION:
+- Falls back to hr module for employee management
+- Manual payroll integration
+- Core loan management functionality maintained
+- Basic reporting available
+
+AUTOMATIC DETECTION:
+- Module automatically detects available edition
+- Gracefully handles missing enterprise modules
+- No manual configuration required
+        ''',
         'category': 'Accounting',
-        'author': "Cybrosys Techno Solutions",
-    'company': "Cybrosys Techno Solutions",
-    'maintainer': 'CBMS TECHNOLOGIES LTD',
+        'author': 'CBMS TECHNOLOGIES LTD',
+        'company': 'CBMS TECHNOLOGIES LTD',
+        'maintainer': 'CBMS TECHNOLOGIES LTD',
         'website': 'https://www.mycbms.com',
         'depends': ['mail',
         'account', 'base',
-        'hr_payroll'],
+        'hr'],
     'demo': ['data/loan_journal_data.xml'],
     'data': ['security/loan_management_groups.xml',
         'security/loan_management_security.xml',
