@@ -9,9 +9,9 @@ DETAILS:   File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 354, in ex
 psycopg2.errors.UndefinedFunction: operator does not exist: character varying >= integer
 HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
 
-2025-07-19 11:32:44,875 1178 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 11:32:44,875 1178 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 11:32:44,876 1178 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+2025-07-19 12:52:32,834 5182 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 12:52:32,834 5182 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 12:52:32,834 5182 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
 MODULE: readonly_unit_price_cybrosys
@@ -22,9 +22,9 @@ No matching record found for external id 'model_readonly_unit_price_cybrosys' in
 No matching record found for external id 'model_readonly_unit_price_cybrosys' in field 'Model'
 Missing required value for the field 'Model' (model_id)
 Missing required value for the field 'Model' (model_id)
-2025-07-19 11:32:54,842 1197 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 11:32:54,842 1197 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 11:32:54,842 1197 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2025-07-19 12:52:43,127 5202 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 12:52:43,127 5202 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 12:52:43,128 5202 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
 
 ----------------------------------------
 MODULE: refer_friend_and_earn
@@ -35,9 +35,9 @@ DETAILS:             <field name="name">Discount</field>
             <field name="default_code">DISCOUNT001</field>
             <field name="type">service</field>
         </record>
-2025-07-19 11:33:04,476 1216 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 11:33:04,476 1216 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 11:33:04,476 1216 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+2025-07-19 12:52:52,962 5221 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 12:52:52,962 5221 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 12:52:52,963 5221 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
 MODULE: sale_order_discount_approval_odoo
@@ -48,9 +48,9 @@ psycopg2.errors.CannotCoerce: cannot cast type boolean to double precision
 LINE 1: ...ount" TYPE double precision USING "allow_discount"::double p...
                                                              ^
 
-2025-07-19 11:33:13,130 1235 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 11:33:13,130 1235 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 11:33:13,133 1235 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+2025-07-19 12:53:02,497 5240 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 12:53:02,497 5240 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 12:53:02,497 5240 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
 MODULE: sales_order_double_approval
@@ -61,22 +61,22 @@ DETAILS:     self.setup_related(model)
   File "/usr/lib/python3/dist-packages/odoo/fields.py", line 620, in setup_related
     raise TypeError("Type of related field %s is inconsistent with %s" % (self, field))
 TypeError: Type of related field res.config.settings.so_double_validation is inconsistent with res.company.so_double_validation
-2025-07-19 11:33:22,005 1254 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 11:33:22,006 1254 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 11:33:22,006 1254 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+2025-07-19 12:53:11,705 5260 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 12:53:11,705 5260 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 12:53:11,705 5260 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
 MODULE: salon_management
 STATUS: FAILED
 DETAILS:  'name': 'salon_management.management.kanban',
- 'view': ir.ui.view(5718,),
+ 'view': ir.ui.view(6203,),
  'view.model': 'salon_management.management',
  'view.parent': ir.ui.view(),
  'xmlid': 'view_salon_management_management_kanban'}
 
-2025-07-19 11:33:31,707 1273 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 11:33:31,707 1273 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 11:33:31,708 1273 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+2025-07-19 12:53:22,373 5279 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 12:53:22,373 5279 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 12:53:22,373 5279 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
 MODULE: storage_dashboard
@@ -87,9 +87,9 @@ No matching record found for external id 'model_storage_dashboard' in field 'Mod
 No matching record found for external id 'model_storage_dashboard' in field 'Model'
 Missing required value for the field 'Model' (model_id)
 Missing required value for the field 'Model' (model_id)
-2025-07-19 11:33:40,845 1292 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 11:33:40,845 1292 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 11:33:40,846 1292 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2025-07-19 12:53:32,777 5298 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 12:53:32,777 5298 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 12:53:32,777 5298 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
 
 ----------------------------------------
 MODULE: survey_upload_file
@@ -100,16 +100,10 @@ No matching record found for external id 'model_survey_upload_file' in field 'Mo
 No matching record found for external id 'model_survey_upload_file' in field 'Model'
 Missing required value for the field 'Model' (model_id)
 Missing required value for the field 'Model' (model_id)
-2025-07-19 11:33:50,060 1311 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 11:33:50,060 1311 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 11:33:50,060 1311 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2025-07-19 12:53:43,347 5317 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 12:53:43,347 5317 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 12:53:43,347 5317 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
 
-----------------------------------------
-MODULE: text_commander
-STATUS: SUCCESS
-----------------------------------------
-MODULE: theme_autofly
-STATUS: SUCCESS
 ----------------------------------------
 MODULE: theme_blast
 STATUS: FAILED
@@ -119,20 +113,76 @@ DETAILS: <record id="mass_mailing.s_cover_default_image" model="ir.attachment">
             <field name="type">url</field>
             <field name="url">/mass_mailing/static/src/img/theme_default/s_default_image_cover.jpg</field>
         </record>
-2025-07-19 11:34:27,275 1368 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 11:34:27,276 1368 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 11:34:27,276 1368 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+2025-07-19 12:53:56,909 5336 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 12:53:56,909 5336 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 12:53:56,909 5336 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
-MODULE: theme_boec
-STATUS: SUCCESS
+MODULE: theme_shopping
+STATUS: FAILED
+DETAILS: <record id="mass_mailing.s_cover_default_image" model="ir.attachment">
+            <field name="public" eval="True"/>
+            <field name="name">s_cover_default_image.jpg</field>
+            <field name="type">url</field>
+            <field name="url">/mass_mailing/static/src/img/theme_default/s_default_image_cover.jpg</field>
+        </record>
+2025-07-19 12:54:10,346 5355 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 12:54:10,346 5355 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 12:54:10,347 5355 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+
 ----------------------------------------
-MODULE: theme_coffee_shop
-STATUS: SUCCESS
+MODULE: theme_silon
+STATUS: FAILED
+DETAILS: <record id="mass_mailing.s_cover_default_image" model="ir.attachment">
+            <field name="public" eval="True"/>
+            <field name="name">s_cover_default_image.jpg</field>
+            <field name="type">url</field>
+            <field name="url">/mass_mailing/static/src/img/theme_default/s_default_image_cover.jpg</field>
+        </record>
+2025-07-19 12:54:24,038 5374 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 12:54:24,038 5374 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 12:54:24,039 5374 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+
 ----------------------------------------
-MODULE: theme_diwy
-STATUS: SUCCESS
+MODULE: theme_splash
+STATUS: FAILED
+DETAILS: <record id="mass_mailing.s_cover_default_image" model="ir.attachment">
+            <field name="public" eval="True"/>
+            <field name="name">s_cover_default_image.jpg</field>
+            <field name="type">url</field>
+            <field name="url">/mass_mailing/static/src/img/theme_default/s_default_image_cover.jpg</field>
+        </record>
+2025-07-19 12:54:37,544 5393 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 12:54:37,545 5393 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 12:54:37,545 5393 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+
 ----------------------------------------
-MODULE: theme_fasion
+MODULE: theme_the_chef
+STATUS: FAILED
+DETAILS: <record id="mass_mailing.s_cover_default_image" model="ir.attachment">
+            <field name="public" eval="True"/>
+            <field name="name">s_cover_default_image.jpg</field>
+            <field name="type">url</field>
+            <field name="url">/mass_mailing/static/src/img/theme_default/s_default_image_cover.jpg</field>
+        </record>
+2025-07-19 12:54:50,456 5412 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 12:54:50,456 5412 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 12:54:50,457 5412 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+
+----------------------------------------
+MODULE: theme_xtream
+STATUS: FAILED
+DETAILS: <record id="mass_mailing.s_cover_default_image" model="ir.attachment">
+            <field name="public" eval="True"/>
+            <field name="name">s_cover_default_image.jpg</field>
+            <field name="type">url</field>
+            <field name="url">/mass_mailing/static/src/img/theme_default/s_default_image_cover.jpg</field>
+        </record>
+2025-07-19 12:55:02,945 5431 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 12:55:02,945 5431 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 12:55:02,946 5431 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+
+----------------------------------------
+MODULE: timesheet_view_calendar
 STATUS: SUCCESS
 ----------------------------------------

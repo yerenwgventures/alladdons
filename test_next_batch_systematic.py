@@ -263,7 +263,18 @@ def main():
         # Batch 32 - 7/15 successful (8 modules need fixes - 2 new failures)
         'subscription_package', 'substitute_product_in_mrp', 'survey_question_duplicator',
         'systray_menu_favourites', 'table_reservation_in_pos', 'task_deadline_reminder',
-        'task_overdue_email_odoo'
+        'task_overdue_email_odoo',
+        # Batch 33 - 6/15 successful (9 modules need fixes - 1 new failure)
+        'text_commander', 'theme_autofly', 'theme_boec', 'theme_coffee_shop',
+        'theme_diwy', 'theme_fasion',
+        # Batch 34 - 2/15 successful (13 modules need fixes - many theme failures)
+        'theme_fuge', 'theme_medicate',
+        # Batch 35 - 2/15 successful (13 modules need fixes - same failures)
+        'theme_upshift', 'theme_watchhut',
+        # Batch 36 - 1/15 successful (14 modules need fixes - same failures)
+        'theme_zen_dark',
+        # Batch 37 - 1/15 successful (14 modules need fixes - same failures)
+        'timesheet_auto_create'
     ]
     
     # Get all modules
