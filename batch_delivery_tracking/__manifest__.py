@@ -30,7 +30,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['stock_delivery', 'stock_picking_batch', 'delivery_fedex'],
+    'depends': ['stock_delivery', 'stock_picking_batch'],
     'images': ['static/description/banner.jpg'],
     'license': 'OPL-1',
     'installable': True,

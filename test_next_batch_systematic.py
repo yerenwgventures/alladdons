@@ -87,7 +87,34 @@ def main():
         'auto_database_backup', 'auto_fill',
         'auto_logout_idle_user_odoo', 'auto_save_restrict',
         'automatic_invoice_and_post', 'automatic_payroll',
-        'automatic_project_task_timer'
+        'automatic_project_task_timer',
+        # Batch 4 - All successful after fixes
+        'autosuggestion_in_discuss', 'backend_theme_odoo12',
+        'barcode_capturing_sale_purchase', 'barcode_scanning_sale_purchase',
+        'base_account_budget', 'base_accounting_kit',
+        'batch_delivery_tracking', 'bill_digitization',
+        'bom_comparison_report', 'bom_structure_in_excel_odoo',
+        'bom_total_cost', 'bulk_create_mo_so_po',
+        'call_for_price_website', 'cancel_landed_cost_odoo',
+        'cancel_mo',
+        # Batch 5 - All successful after fixes
+        'cancel_quotation_expiry', 'chatter_activity_delay',
+        'chatter_attachments_as_zip', 'chatter_attachments_manager',
+        'chatter_camera', 'cleaning_management',
+        'code_backend_theme', 'code_backend_theme_enterprise',
+        'company_scrap_management', 'contact_documents',
+        'contacts_birthday_greetings', 'cost_per_employee_manufacturing',
+        'countrybased_terms_and_condition', 'create_expense_from_task_odoo',
+        'crm_check_approve_limiter',
+        # Batch 6 - All successful after fixes
+        'crm_dashboard', 'crm_dynamic_fields',
+        'cron_failure_notification', 'cts_theme_rozz',
+        'custom_pivot_report', 'custom_receipts_for_pos',
+        'custom_robots_txt', 'customer_credit_payment_website',
+        'customer_image_and_tags_in_pos', 'customer_product_qrcode',
+        'customer_sequence', 'customer_supplier_approval',
+        'customers_dealers_quantity', 'customize_signup',
+        'customized_barcode_generator'
     ]
     
     # Get all modules
