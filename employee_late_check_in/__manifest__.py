@@ -38,7 +38,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['hr_attendance', 'hr_payroll_community', 'hr_contract'],
+    'depends': ['hr_attendance', 'hr', 'hr_contract'],
     'data': [
         'security/ir.model.access.csv',
         'data/ir_cron_data.xml',

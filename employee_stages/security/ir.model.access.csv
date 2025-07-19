@@ -1,3 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_employee.stages.admin,access.employee.stages.admin,model_employee_stages,base.group_system,1,1,1,1
-access_employee.stages.user,access.employee.stages.user,model_employee_stages,base.group_user,1,1,1,0
+access_employee_stages_analytics_admin,access.employee.stages.analytics.admin,model_employee_stages_analytics,base.group_system,1,1,1,1
+access_employee_stages_analytics_user,access.employee.stages.analytics.user,model_employee_stages_analytics,base.group_user,1,1,1,0

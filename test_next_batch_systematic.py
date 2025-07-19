@@ -129,7 +129,20 @@ def main():
         'dynamic_hover_on_related_fields', 'dynamic_image_hotspot',
         'dynamic_link_snippet', 'dynamic_product_pricelist',
         'dynamic_sale_order_fields', 'easy_chatgpt_access',
-        'easy_language_selector'
+        'easy_language_selector',
+        # Batch 9 - 14/15 successful after fixes (dynamic_product_label_print still has DB schema issue)
+        'easy_timesheet_add', 'ecommerce_barcode_search', 'ecommerce_quick_view',
+        'edit_label', 'edit_order_date', 'education_fee',
+        'education_university_management', 'email_id_validation',
+        'employee_bonus_manager', 'employee_dynamic_fields',
+        'employee_ideas', 'employee_late_check_in',
+        'employee_less_working_hour_notification', 'employee_promotion_in_odoo',
+        # Batch 10 - 14/15 successful after fixes (dynamic_product_label_print still has DB schema issue)
+        'employee_stages', 'equipment_request_it_operations', 'event_management',
+        'event_ticket_qr_scanner', 'excel_report_designer', 'exchange_currency_rate',
+        'expense_report_odoo', 'export_stockinfo_xls', 'export_view_pdf',
+        'field_timepicker', 'fleet_complete_report', 'force_availability_in_stock',
+        'fountain_widget_many2one', 'franchise_management'
     ]
     
     # Get all modules
