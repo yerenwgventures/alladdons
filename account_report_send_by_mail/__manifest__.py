@@ -36,7 +36,7 @@
     'author': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['account', 'account_reports'],
+    'depends': ['account'],
     'data': [
         'security/ir.model.access.csv',
         'data/account_report_mail_template.xml',
