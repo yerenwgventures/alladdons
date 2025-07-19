@@ -9,80 +9,70 @@ DETAILS:   File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 354, in ex
 psycopg2.errors.UndefinedFunction: operator does not exist: character varying >= integer
 HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
 
-2025-07-19 03:43:04,217 5047 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 03:43:04,217 5047 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 03:43:04,218 5047 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+2025-07-19 04:16:00,377 395 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 04:16:00,377 395 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 04:16:00,379 395 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
-MODULE: freight_management_system
+MODULE: hr_leave_dashboard
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: gatepass_slip
-STATUS: SUCCESS
-----------------------------------------
-MODULE: gender_contact
-STATUS: SUCCESS
-----------------------------------------
-MODULE: google_search_in_odoo
-STATUS: SUCCESS
-----------------------------------------
-MODULE: gym_mgmt_system
+MODULE: hr_zk_attendance
 STATUS: FAILED
-DETAILS:  'name': 'gym_mgmt_system.system.kanban',
- 'view': ir.ui.view(4416,),
- 'view.model': 'gym_mgmt_system.system',
- 'view.parent': ir.ui.view(),
- 'xmlid': 'view_gym_mgmt_system_system_kanban'}
-
-2025-07-19 03:43:55,426 5142 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 03:43:55,426 5142 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 03:43:55,426 5142 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+DETAILS:     modules._state_update('to install', ['uninstalled'])
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 393, in _state_update
+    self.check_external_dependencies(module.name, newstate)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 359, in check_external_dependencies
+    raise UserError(msg)
+odoo.exceptions.UserError: Unable to install module "hr_zk_attendance" because an external dependency is not met: External dependency pyzk not installed: No package metadata was found for pyzk
+2025-07-19 04:16:16,557 432 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 04:16:16,557 432 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 04:16:16,557 432 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
-MODULE: hide_all_print_button
+MODULE: hue_backend_theme
+STATUS: SUCCESS
+----------------------------------------
+MODULE: image_capture_upload_widget
+STATUS: SUCCESS
+----------------------------------------
+MODULE: import_bill_of_materials_in_mrp
 STATUS: FAILED
-DETAILS:  'name': 'hide_all_print_button.dashboard.dashboard',
- 'view': ir.ui.view(4418,),
- 'view.model': 'hide_all_print_button.dashboard',
- 'view.parent': ir.ui.view(),
- 'xmlid': 'view_hide_all_print_button_dashboard_dashboard'}
-
-2025-07-19 03:44:04,263 5161 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 03:44:04,263 5161 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 03:44:04,263 5161 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
-
-----------------------------------------
-MODULE: hide_chatter
-STATUS: SUCCESS
-----------------------------------------
-MODULE: hide_cost_price
-STATUS: SUCCESS
-----------------------------------------
-MODULE: hide_menu_user
-STATUS: SUCCESS
-----------------------------------------
-MODULE: hide_product_price_cost
-STATUS: SUCCESS
-----------------------------------------
-MODULE: hotel_management_odoo
-STATUS: FAILED
-DETAILS:   File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 557, in _tag_root
+DETAILS:   File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 601, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 557, in _tag_root
     raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
-odoo.tools.convert.ParseError: while parsing /usr/lib/python3/dist-packages/odoo/addons/lunch/data/lunch_data.xml:27, somewhere inside
-<record id="partner_hungry_dog" model="res.partner" forcecreate="0">
-        <field name="name">Lunch Supplier</field>
-    </record>
-2025-07-19 03:44:53,822 5256 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 03:44:53,823 5256 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 03:44:53,823 5256 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/import_bill_of_materials_in_mrp/views/bom_import_menu_view.xml:14, somewhere inside
+<menuitem id="menu_import_bom" parent="mrp.menu_mrp_bom" action="action_import_bom" groups="import_bill_of_materials_in_mrp.import_bom_group_id"/>
+2025-07-19 04:16:43,329 481 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 04:16:43,329 481 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 04:16:43,329 481 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
-MODULE: hr_attendance_xlsx_report
+MODULE: import_lots
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: hr_disciplinary_tracking
+MODULE: import_partner_employee_image
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: hr_expense_mass_payment
+MODULE: import_template_download
+STATUS: SUCCESS
+----------------------------------------
+MODULE: import_user_excel
+STATUS: SUCCESS
+----------------------------------------
+MODULE: index_and_follow
+STATUS: SUCCESS
+----------------------------------------
+MODULE: inventory_barcode_scanning
+STATUS: SUCCESS
+----------------------------------------
+MODULE: inventory_forecast_analysis_report
+STATUS: SUCCESS
+----------------------------------------
+MODULE: inventory_move_mini_dashboard
+STATUS: SUCCESS
+----------------------------------------
+MODULE: inventory_report_generator
 STATUS: SUCCESS
 ----------------------------------------

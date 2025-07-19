@@ -30,9 +30,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.openhrms.com',
-    'depends': ['base', 'hr', 'hr_payroll_community',
-                'hr_employee_updation',
-                'hr_contract'],
+    'depends': ['base', 'hr', 'hr_employee_updation', 'hr_contract'],
     'data': [
         'data/hr_salary_rule_data.xml',
         'security/ir.model.access.csv',

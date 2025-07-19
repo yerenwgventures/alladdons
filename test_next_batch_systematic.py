@@ -142,7 +142,19 @@ def main():
         'event_ticket_qr_scanner', 'excel_report_designer', 'exchange_currency_rate',
         'expense_report_odoo', 'export_stockinfo_xls', 'export_view_pdf',
         'field_timepicker', 'fleet_complete_report', 'force_availability_in_stock',
-        'fountain_widget_many2one', 'franchise_management'
+        'fountain_widget_many2one', 'franchise_management',
+        # Batch 11 - 14/15 successful after fixes (dynamic_product_label_print still has DB schema issue)
+        'generate_barcode_labels', 'gym_mgmt_system', 'hide_all_print_button',
+        'hotel_management_odoo', 'hr_appraisal_custom_survey', 'hr_attendance_report_xlsx',
+        'hr_employee_shift', 'hr_employee_updation', 'hr_holidays_report_xlsx',
+        'hr_payroll_report_xlsx', 'hr_resignation', 'hr_timesheet_report_xlsx',
+        'import_product_variant', 'invoice_report_xlsx',
+        # Batch 12 - 14/15 successful after fixes (dynamic_product_label_print still has DB schema issue)
+        'freight_management_system', 'gatepass_slip', 'gender_contact',
+        'google_search_in_odoo', 'hide_chatter', 'hide_cost_price',
+        'hide_menu_user', 'hide_product_price_cost', 'hr_attendance_xlsx_report',
+        'hr_disciplinary_tracking', 'hr_expense_mass_payment', 'hr_holidays_balance_report',
+        'hr_hourly_payslip', 'hr_insurance'
     ]
     
     # Get all modules
