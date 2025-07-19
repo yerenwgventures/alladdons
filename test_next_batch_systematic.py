@@ -226,7 +226,23 @@ def main():
         'product_multi_uom', 'product_multi_vendor_update', 'product_nutrition_allergen',
         'product_price_update_advanced', 'product_restriction_users', 'product_sales_by_location',
         'product_stock_details', 'product_to_invoice', 'product_variant_import',
-        'product_volume', 'product_web_hover'
+        'product_volume', 'product_web_hover',
+        # Batch 25 - 14/15 successful after fixes (dynamic_product_label_print still has DB schema issue)
+        'product_wise_shipping_method', 'products_to_transfer', 'profit_and_loss_pdf_report',
+        'progress_billing', 'project_by_phases', 'project_dashboard_odoo',
+        'project_dynamic_fields', 'project_progress_bar', 'project_report_pdf',
+        'project_task_access', 'project_task_attachments', 'project_task_risk_management_odoo',
+        'project_task_unique_code', 'project_website_kanban_view',
+        # Batch 26 - 12/15 successful (3 modules need fixes)
+        'projects_task_checklists', 'psql_query_execute', 'purchase_down_payment',
+        'purchase_line_views', 'purchase_order_delivery_status', 'purchase_product_configurator',
+        'purchase_product_history', 'purchase_recurring_orders', 'purchase_requisition_project_task',
+        'quick_rfq', 'quotation_customer_followup', 'recurring_of_activities',
+        # Batch 27 - 12/15 successful (3 modules need fixes - same failed modules)
+        'remove_studio_field', 'report_attachment_preview', 'reset_journal_entries',
+        'rest_api_odoo', 'restrict_delivery_method', 'restrict_pricelist_user',
+        'restrict_web_debug', 'return_invoice_bill', 'sale_customer_product_history',
+        'sale_delivery_address', 'sale_discount_total', 'sale_invoice_detail'
     ]
     
     # Get all modules
