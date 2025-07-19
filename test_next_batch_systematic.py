@@ -190,7 +190,25 @@ def main():
         'odoo_selection_field_configurator', 'odoo_twilio_sms', 'odoo_website_helpdesk',
         'odoo_website_helpdesk_dashboard', 'ohrms_service_request', 'one2many_duplicate_record_widget',
         'one2many_excel_report', 'one2many_mass_select_delete', 'openai_odoo_base',
-        'openai_product_images', 'openai_product_tag_descrption'
+        'openai_product_images', 'openai_product_tag_descrption',
+        # Batch 19 - 14/15 successful after fixes (dynamic_product_label_print still has DB schema issue)
+        'openai_website_product_media', 'orange_theme_odoo12', 'order_invoice_manual_link',
+        'order_line_sequences', 'pantry_payroll', 'partner_emails_history',
+        'partner_related_user', 'partner_search_by_number', 'password_hint',
+        'password_reset_manager', 'payment_proof_attachment', 'payment_status_in_sale',
+        'pdf_report_action', 'pdf_report_password_protection',
+        # Batch 20 - 14/15 successful (dynamic_product_label_print still has DB schema issue)
+        'pdf_report_with_sign', 'pdf_report_with_watermark', 'personal_organiser',
+        'pip_installer', 'point_of_sale_logo', 'portal_stock_check',
+        'pos_all_orders', 'pos_alternative_products', 'pos_analysis_report',
+        'pos_category_wise_receipt', 'pos_chatter', 'pos_controlled_interface',
+        'pos_custom_percentage_tip_fixed', 'pos_customer_feedback',
+        # Batch 21 - 14/15 successful (dynamic_product_label_print still has DB schema issue)
+        'pos_delete_orderline', 'pos_face_recognition', 'pos_idle_time_session_lock',
+        'pos_kitchen_screen_odoo', 'pos_magnify_image', 'pos_mrp_order',
+        'pos_night_mode', 'pos_numpad_show_hide', 'pos_order_line_image',
+        'pos_order_line_mass_edit', 'pos_orderline_items_count', 'pos_orderline_search',
+        'pos_pro_cross_selling', 'pos_product_limit_odoo'
     ]
     
     # Get all modules
