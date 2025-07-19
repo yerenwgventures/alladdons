@@ -9,50 +9,70 @@ DETAILS:   File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 354, in ex
 psycopg2.errors.UndefinedFunction: operator does not exist: character varying >= integer
 HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
 
-2025-07-19 08:54:24,524 646 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 08:54:24,524 646 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 08:54:24,525 646 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+2025-07-19 09:18:42,344 1558 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 09:18:42,344 1558 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 09:18:42,344 1558 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
-MODULE: pos_product_stock
+MODULE: product_wise_shipping_method
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: pos_products_based_on_time
+MODULE: products_to_transfer
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: pos_receipt_extend
+MODULE: profit_and_loss_pdf_report
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: pos_refund_password
+MODULE: progress_billing
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: pos_report_generator
+MODULE: project_by_phases
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: pos_restrict
+MODULE: project_dashboard_odoo
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: pos_screen_pane_position
+MODULE: project_dynamic_fields
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: pos_takeaway
+MODULE: project_progress_bar
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: pos_theme_sapphire
+MODULE: project_report_pdf
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: pos_zero_quantity_restrict
+MODULE: project_task_access
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: pricelist_price_on_product
+MODULE: project_task_attachments
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: print_minutes_of_meeting
-STATUS: SUCCESS
+MODULE: project_task_risk_management_odoo
+STATUS: FAILED
+DETAILS:  'name': 'project_task_risk_management_odoo.odoo.kanban',
+ 'view': ir.ui.view(5240,),
+ 'view.model': 'project_task_risk_management_odoo.odoo',
+ 'view.parent': ir.ui.view(),
+ 'xmlid': 'view_project_task_risk_management_odoo_odoo_kanban'}
+
+2025-07-19 09:21:02,678 1785 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 09:21:02,678 1785 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 09:21:02,679 1785 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+
 ----------------------------------------
-MODULE: product_360_degree_view_in_website
-STATUS: SUCCESS
+MODULE: project_task_unique_code
+STATUS: FAILED
+DETAILS:     raise Exception(env._(
+Exception: Module loading project_task_unique_code failed: file project_task_unique_code/security/ir.model.access.csv could not be processed:
+No matching record found for external id 'model_project_task_unique_code' in field 'Model'
+No matching record found for external id 'model_project_task_unique_code' in field 'Model'
+Missing required value for the field 'Model' (model_id)
+Missing required value for the field 'Model' (model_id)
+2025-07-19 09:21:11,769 1804 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 09:21:11,769 1804 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 09:21:11,769 1804 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+
 ----------------------------------------
-MODULE: product_approval_management
+MODULE: project_website_kanban_view
 STATUS: SUCCESS
 ----------------------------------------

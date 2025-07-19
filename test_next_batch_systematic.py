@@ -208,7 +208,25 @@ def main():
         'pos_kitchen_screen_odoo', 'pos_magnify_image', 'pos_mrp_order',
         'pos_night_mode', 'pos_numpad_show_hide', 'pos_order_line_image',
         'pos_order_line_mass_edit', 'pos_orderline_items_count', 'pos_orderline_search',
-        'pos_pro_cross_selling', 'pos_product_limit_odoo'
+        'pos_pro_cross_selling', 'pos_product_limit_odoo',
+        # Batch 22 - 14/15 successful (dynamic_product_label_print still has DB schema issue)
+        'pos_product_stock', 'pos_products_based_on_time', 'pos_receipt_extend',
+        'pos_refund_password', 'pos_report_generator', 'pos_restrict',
+        'pos_screen_pane_position', 'pos_takeaway', 'pos_theme_sapphire',
+        'pos_zero_quantity_restrict', 'pricelist_price_on_product', 'print_minutes_of_meeting',
+        'product_360_degree_view_in_website', 'product_approval_management',
+        # Batch 23 - 14/15 successful after fixes (dynamic_product_label_print still has DB schema issue)
+        'product_barcode', 'product_batch_report', 'product_brand_ecommerce',
+        'product_brand_inventory', 'product_brand_purchase', 'product_brand_sale',
+        'product_combo_pack', 'product_deletion', 'product_detail_search',
+        'product_discount_limit', 'product_export_with_images', 'product_image_list_view',
+        'product_image_suggestion', 'product_import',
+        # Batch 24 - 14/15 successful after fixes (dynamic_product_label_print still has DB schema issue)
+        'product_internal_ref_generator', 'product_management_app', 'product_multi_attachment',
+        'product_multi_uom', 'product_multi_vendor_update', 'product_nutrition_allergen',
+        'product_price_update_advanced', 'product_restriction_users', 'product_sales_by_location',
+        'product_stock_details', 'product_to_invoice', 'product_variant_import',
+        'product_volume', 'product_web_hover'
     ]
     
     # Get all modules
