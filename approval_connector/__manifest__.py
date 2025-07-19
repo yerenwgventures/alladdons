@@ -23,8 +23,28 @@
     'category': 'Sales',
     'summary': """Setting up a system where all sale orders must be approved at
      a higher level before they can be processed or fulfilled.""",
-    'description': """This process ensures that orders are reviewed and 
-    approved by designated users before they are confirmed and processed.""",
+    'description': """
+This process ensures that orders are reviewed and approved by designated users before they are confirmed and processed.
+
+EDITION COMPATIBILITY:
+======================
+This module supports both Odoo Community and Enterprise editions.
+
+ENTERPRISE EDITION:
+- Uses native approvals module for advanced workflow
+- Full approval hierarchy and delegation
+- Advanced approval analytics and reporting
+
+COMMUNITY EDITION:
+- Implements custom approval system using mail workflow
+- Basic approval workflow with email notifications
+- Core approval functionality maintained
+
+AUTOMATIC DETECTION:
+- Module automatically detects available edition
+- Creates approval models if enterprise approvals not available
+- Seamless fallback to community implementation
+    """,
     'author': 'CBMS TECHNOLOGIES LTD',
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',

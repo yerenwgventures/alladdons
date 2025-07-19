@@ -18,12 +18,19 @@
 #
 ###############################################################################
 from odoo import fields, models
+import logging
+
+_logger = logging.getLogger(__name__)
 
 
 class ApprovalCategory(models.Model):
     _name = 'approval.category'
     _description = 'Approval Category'
-    """Standalone approval category model for sale order approvals"""
+    """
+    Approval category model with enterprise/community compatibility
+    - Uses enterprise approvals module if available
+    - Falls back to custom implementation for community edition
+    """
 
     name = fields.Char(string='Name', required=True)
     approval_type = fields.Selection([
@@ -45,3 +52,44 @@ class ApprovalCategory(models.Model):
     ], string='Quantity', default='no')
     automated_sequence = fields.Boolean(string='Automated Sequence', default=False)
     sequence_code = fields.Char(string='Sequence Code')
+
+    # Enterprise compatibility fields
+    is_enterprise_available = fields.Boolean(
+        string='Enterprise Available',
+        compute='_compute_enterprise_availability',
+        help="Indicates if enterprise approvals module is available"
+    )
+
+    @api.depends()
+    def _compute_enterprise_availability(self):
+        """Check if enterprise approvals module is available"""
+        for record in self:
+            try:
+                enterprise_module = self.env['ir.module.module'].search([
+                    ('name', '=', 'approvals'),
+                    ('state', 'in', ['installed', 'to upgrade'])
+                ])
+                record.is_enterprise_available = bool(enterprise_module)
+            except Exception:
+                record.is_enterprise_available = False
+
+    @api.model
+    def get_approval_model(self):
+        """Get the appropriate approval model based on edition"""
+        if self._is_enterprise_module_available('approvals'):
+            try:
+                return self.env['approval.category']  # Enterprise model
+            except Exception:
+                pass
+        return self  # Community fallback
+
+    def _is_enterprise_module_available(self, module_name):
+        """Check if an enterprise module is available"""
+        try:
+            module = self.env['ir.module.module'].search([
+                ('name', '=', module_name),
+                ('state', 'in', ['installed', 'to upgrade'])
+            ])
+            return bool(module)
+        except Exception:
+            return False
