@@ -1,0 +1,600 @@
+{
+  "total_uninstalled": 51,
+  "categories": {
+    "ENTERPRISE_DEPENDENCY": 1,
+    "EXTERNAL_DEPENDENCY": 7,
+    "MISSING_FILES": 0,
+    "IMPORT_ERROR": 1,
+    "TIMEOUT": 0,
+    "OTHER": 42
+  },
+  "category_details": {
+    "ENTERPRISE_DEPENDENCY": [
+      "remove_studio_field"
+    ],
+    "EXTERNAL_DEPENDENCY": [
+      "auto_database_backup",
+      "batch_delivery_tracking",
+      "bill_digitization",
+      "detect_unauthorized_login",
+      "email_id_validation",
+      "odoo_health_report",
+      "user_login_alert"
+    ],
+    "MISSING_FILES": [],
+    "IMPORT_ERROR": [
+      "user_audit"
+    ],
+    "TIMEOUT": [],
+    "OTHER": [
+      "approval_connector",
+      "attendance_regularization",
+      "auto_logout_idle_user_odoo",
+      "automatic_payroll",
+      "cleaning_management",
+      "dynamic_product_label_print",
+      "education_fee",
+      "employee_bonus_manager",
+      "employee_ideas",
+      "employee_late_check_in",
+      "event_management",
+      "franchise_management",
+      "hide_all_print_button",
+      "hotel_management_odoo",
+      "hr_hourly_payslip",
+      "hr_insurance",
+      "laundry_management",
+      "low_stocks_product_alert",
+      "lunch_order_pdf",
+      "mobile_service_shop",
+      "pantry_payroll",
+      "print_subscription_id_card",
+      "product_multi_document",
+      "project_task_risk_management_odoo",
+      "readonly_unit_price_cybrosys",
+      "refer_friend_and_earn",
+      "sale_order_discount_approval_odoo",
+      "sales_order_double_approval",
+      "salon_management",
+      "storage_dashboard",
+      "survey_upload_file",
+      "theme_blast",
+      "theme_shopping",
+      "theme_silon",
+      "theme_splash",
+      "theme_the_chef",
+      "theme_xtream",
+      "uom_product_list",
+      "vista_backend_theme",
+      "website_custom_contact_us",
+      "website_sign_sending_by_priority",
+      "whatsapp_mail_messaging"
+    ]
+  },
+  "detailed_analysis": [
+    {
+      "module": "approval_connector",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:03:42,621 199 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:03:42,934 199 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:03:42,935 199 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nNameError: name 'api' is not defined",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "attendance_regularization",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:03:50,669 218 ERROR cbms_test_db odoo.modules.registry: Model attendance_regularization.dashboard has no table.\n2025-07-19 16:03:50,669 218 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:03:50,669 218 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:03:50,669 218 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:03:50,713 218 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:03:44.742696\\', 1, 4, \\'access.attendance.regularization.admin\\', true, true, true, true, \\'2025-07-19 16:03:44.742696\\', 1), (true, \\'2025-07-19 16:03:44.742696\\', 1, 1, \\'access.attendance.regularization.user\\', true, true, false, true, \\'2025-07-19 16:03:44.742696\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:03:50,716 218 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:03:44.742696\\', 1, 4, \\'access.attendance.regularization.admin\\', true, true, true, true, \\'2025-07-19 16:03:44.742696\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:03:50,719 218 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:03:44.742696\\', 1, 1, \\'access.attendance.regularization.user\\', true, true, false, true, \\'2025-07-19 16:03:44.742696\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:03:51,364 218 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:03:51,365 218 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise Exception(env._(\nException: Module loading attendance_regularization failed: file attendance_regularization/security/ir.model.access.csv could not be processed:",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "auto_database_backup",
+      "category": "EXTERNAL_DEPENDENCY",
+      "manifest_issues": [
+        "External Python dependencies: ['dropbox', 'pyncclient', 'boto3', 'nextcloud-api-wrapper', 'paramiko']"
+      ],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:03:54,820 237 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:03:54,821 237 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise PackageNotFoundError(name)\nimportlib.metadata.PackageNotFoundError: No package metadata was found for pyncclient\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise Exception(msg) from e\nException: External dependency pyncclient not installed: No package metadata was found for pyncclient\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise UserError(msg)\nodoo.exceptions.UserError: Unable to install module \"auto_database_backup\" because an external dependency is not met: External dependency pyncclient not installed: No package metadata was found for pyncclient",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "auto_logout_idle_user_odoo",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "_logger.error(\n2025-07-19 16:04:01,698 248 WARNING cbms_test_db py.warnings: /usr/lib/python3/dist-packages/odoo/fields.py:828: UserWarning: Field account.move.invoice_currency_rate cannot be precomputed as it depends on non-precomputed field account.move.rate\nwarnings.warn(f\"Field {self} cannot be precomputed as it depends on non-precomputed field {field}\")\n2025-07-19 16:04:01,779 248 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:04:01,779 248 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:04:01,779 248 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:04:01,779 248 ERROR cbms_test_db odoo.modules.registry: Model auto_logout_idle_user_odoo.dashboard has no table.\n2025-07-19 16:04:01,779 248 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:04:01,908 248 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:04:01,908 248 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise ParseError(msg) from None  # Restart with \"--log-handler odoo.tools.convert:DEBUG\" for complete traceback\nodoo.tools.convert.ParseError: while parsing /mnt/extra-addons/auto_logout_idle_user_odoo/views/auto_logout_idle_user_odoo_dashboard_dashboard_views.xml:4\nError while validating view near:\nView error context:",
+        "summary": "Missing Odoo module dependency"
+      }
+    },
+    {
+      "module": "automatic_payroll",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:04:08,571 267 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:04:08,879 267 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:04:08,879 267 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise TypeError(\"Model %r does not exist in registry.\" % name)\nTypeError: Model 'hr.payslip.run' does not exist in registry.",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "batch_delivery_tracking",
+      "category": "EXTERNAL_DEPENDENCY",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:04:16,578 286 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:04:16,657 286 WARNING cbms_test_db py.warnings: /usr/lib/python3/dist-packages/odoo/fields.py:828: UserWarning: Field account.move.invoice_currency_rate cannot be precomputed as it depends on non-precomputed field account.move.rate\nwarnings.warn(f\"Field {self} cannot be precomputed as it depends on non-precomputed field {field}\")\n2025-07-19 16:04:17,333 286 WARNING cbms_test_db odoo.modules.loading: Module stock_picking_batch demo data failed to install, installed without demo data\nTraceback (most recent call last):\nraise UserError(_(\"Quant's editing is restricted, you can't do this operation.\"))\nodoo.exceptions.UserError: Quant's editing is restricted, you can't do this operation.\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /usr/lib/python3/dist-packages/odoo/addons/stock_picking_batch/data/stock_picking_batch_demo.xml:4, somewhere inside\n2025-07-19 16:04:17,375 286 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:04:17,375 286 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nModuleNotFoundError: No module named 'odoo.addons.delivery_fedex'",
+        "summary": "Missing Python module: odoo.addons.delivery_fedex"
+      }
+    },
+    {
+      "module": "bill_digitization",
+      "category": "EXTERNAL_DEPENDENCY",
+      "manifest_issues": [
+        "External Python dependencies: ['PIL', 'pytesseract']"
+      ],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:04:20,819 305 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:04:20,819 305 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise PackageNotFoundError(name)\nimportlib.metadata.PackageNotFoundError: No package metadata was found for pytesseract\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise Exception(msg) from e\nException: External dependency pytesseract not installed: No package metadata was found for pytesseract\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise UserError(msg)\nodoo.exceptions.UserError: Unable to install module \"bill_digitization\" because an external dependency is not met: External dependency pytesseract not installed: No package metadata was found for pytesseract",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "cleaning_management",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:04:26,382 316 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:04:27,437 316 WARNING cbms_test_db py.warnings: /usr/lib/python3/dist-packages/odoo/fields.py:828: UserWarning: Field account.move.invoice_currency_rate cannot be precomputed as it depends on non-precomputed field account.move.rate\nwarnings.warn(f\"Field {self} cannot be precomputed as it depends on non-precomputed field {field}\")\n2025-07-19 16:04:27,710 316 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:04:27,710 316 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:04:27,710 316 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:04:27,710 316 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:04:28,300 316 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:04:28,300 316 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise ParseError(msg) from None  # Restart with \"--log-handler odoo.tools.convert:DEBUG\" for complete traceback\nodoo.tools.convert.ParseError: while parsing /mnt/extra-addons/cleaning_management/views/cleaning_management_management_kanban_views.xml:4\nError while validating view near:\nView error context:",
+        "summary": "Missing Odoo module dependency"
+      }
+    },
+    {
+      "module": "detect_unauthorized_login",
+      "category": "EXTERNAL_DEPENDENCY",
+      "manifest_issues": [
+        "External Python dependencies: ['cv2']"
+      ],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:04:31,413 335 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:04:31,413 335 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise PackageNotFoundError(name)\nimportlib.metadata.PackageNotFoundError: No package metadata was found for cv2\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise Exception(msg) from e\nException: External dependency cv2 not installed: No package metadata was found for cv2\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise UserError(msg)\nodoo.exceptions.UserError: Unable to install module \"detect_unauthorized_login\" because an external dependency is not met: External dependency cv2 not installed: No package metadata was found for cv2",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "dynamic_product_label_print",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:04:36,984 349 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:04:37,727 349 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:04:37,728 349 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\ncr.execute(query, log_exceptions=False)\npsycopg2.errors.UndefinedFunction: operator does not exist: character varying >= integer",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "education_fee",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:04:44,128 369 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:04:44,777 369 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:04:44,777 369 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise KeyError(\nKeyError: 'Field partner_id referenced in related field definition account.move.partner_id does not exist.'",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "email_id_validation",
+      "category": "EXTERNAL_DEPENDENCY",
+      "manifest_issues": [
+        "External Python dependencies: ['validate_email', 'py3DNS']"
+      ],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:04:48,502 388 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:04:48,502 388 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise PackageNotFoundError(name)\nimportlib.metadata.PackageNotFoundError: No package metadata was found for py3DNS\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise Exception(msg) from e\nException: External dependency py3DNS not installed: No package metadata was found for py3DNS\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise UserError(msg)\nodoo.exceptions.UserError: Unable to install module \"email_id_validation\" because an external dependency is not met: External dependency py3DNS not installed: No package metadata was found for py3DNS",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "employee_bonus_manager",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:04:54,609 399 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:04:54,925 399 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:04:54,925 399 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise TypeError(\"Model %r does not exist in registry.\" % name)\nTypeError: Model 'hr.payslip' does not exist in registry.",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "employee_ideas",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:05:02,674 418 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:05:02,674 418 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:05:02,674 418 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:05:03,119 418 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:05:03,119 418 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nKeyError: ('ir.model.data', <function IrModelData._xmlid_lookup at 0x7f547d16a020>, 'employee_ideas.action_employee_idea')\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise ValueError('External ID not found in the system: %s' % xmlid)\nValueError: External ID not found in the system: employee_ideas.action_employee_idea\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /mnt/extra-addons/employee_ideas/views/idea_dashboard_views.xml:4, somewhere inside",
+        "summary": "Missing file or resource"
+      }
+    },
+    {
+      "module": "employee_late_check_in",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:05:10,038 437 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:05:10,366 437 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:05:10,366 437 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise TypeError(\"Model %r does not exist in registry.\" % name)\nTypeError: Model 'hr.payslip' does not exist in registry.",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "event_management",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:05:18,450 456 WARNING cbms_test_db py.warnings: /usr/lib/python3/dist-packages/odoo/fields.py:828: UserWarning: Field account.move.invoice_currency_rate cannot be precomputed as it depends on non-precomputed field account.move.rate\nwarnings.warn(f\"Field {self} cannot be precomputed as it depends on non-precomputed field {field}\")\n2025-07-19 16:05:18,677 456 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:05:18,677 456 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:05:18,677 456 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:05:18,677 456 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:05:19,257 456 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:05:19,258 456 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise UserError(_('Set A Product Prefix In General Settings'))\nodoo.exceptions.UserError: Set A Product Prefix In General Settings\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /mnt/extra-addons/event_management/data/event_management_data.xml:35, somewhere inside",
+        "summary": "Missing Odoo module dependency"
+      }
+    },
+    {
+      "module": "franchise_management",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:05:26,087 475 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:05:27,110 475 WARNING cbms_test_db py.warnings: /usr/lib/python3/dist-packages/odoo/fields.py:828: UserWarning: Field account.move.invoice_currency_rate cannot be precomputed as it depends on non-precomputed field account.move.rate\nwarnings.warn(f\"Field {self} cannot be precomputed as it depends on non-precomputed field {field}\")\n2025-07-19 16:05:27,400 475 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:05:27,401 475 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:05:27,401 475 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:05:27,401 475 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:05:28,200 475 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:05:28,201 475 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise ParseError(msg) from None  # Restart with \"--log-handler odoo.tools.convert:DEBUG\" for complete traceback\nodoo.tools.convert.ParseError: while parsing /mnt/extra-addons/franchise_management/views/franchise_management_management_kanban_views.xml:4\nError while validating view near:\nView error context:",
+        "summary": "Missing Odoo module dependency"
+      }
+    },
+    {
+      "module": "hide_all_print_button",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "Traceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /usr/lib/python3/dist-packages/odoo/addons/stock_picking_batch/data/stock_picking_batch_demo.xml:4, somewhere inside\n2025-07-19 16:05:37,807 494 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:05:37,807 494 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:05:37,807 494 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:05:37,807 494 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:05:37,807 494 ERROR cbms_test_db odoo.modules.registry: Model print.button.analytics has no table.\n2025-07-19 16:05:37,938 494 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:05:37,938 494 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise ParseError(msg) from None  # Restart with \"--log-handler odoo.tools.convert:DEBUG\" for complete traceback\nodoo.tools.convert.ParseError: while parsing /mnt/extra-addons/hide_all_print_button/views/hide_all_print_button_dashboard_dashboard_views.xml:4\nError while validating view near:\nView error context:",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "hotel_management_odoo",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:05:44,361 513 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:05:45,064 513 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:05:45,064 513 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nKeyError: 'category_id'",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "hr_hourly_payslip",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:05:51,925 532 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:05:52,239 532 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:05:52,239 532 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise TypeError(\"Model %r does not exist in registry.\" % name)\nTypeError: Model 'hr.payslip' does not exist in registry.",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "hr_insurance",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\n2025-07-19 16:05:55,798 551 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:05:55,798 551 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise UserError(_(\nodoo.exceptions.UserError: You try to install module \"hr_insurance\" that depends on module \"hr_employee_updation\".",
+        "summary": "Missing Odoo module dependency"
+      }
+    },
+    {
+      "module": "laundry_management",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:06:02,937 562 WARNING cbms_test_db py.warnings: /usr/lib/python3/dist-packages/odoo/fields.py:828: UserWarning: Field account.move.invoice_currency_rate cannot be precomputed as it depends on non-precomputed field account.move.rate\nwarnings.warn(f\"Field {self} cannot be precomputed as it depends on non-precomputed field {field}\")\n2025-07-19 16:06:03,199 562 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:06:03,199 562 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:06:03,199 562 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:06:03,199 562 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:06:03,245 562 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:06:03,245 562 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise UserError(_('Set A Product Prefix In General Settings'))\nodoo.exceptions.UserError: Set A Product Prefix In General Settings\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /mnt/extra-addons/laundry_management/data/laundry_management_data.xml:4, somewhere inside",
+        "summary": "Missing Odoo module dependency"
+      }
+    },
+    {
+      "module": "low_stocks_product_alert",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:06:11,167 581 ERROR cbms_test_db odoo.schema: Table 'res_config_settings': unable to set NOT NULL on column 'delivery_tracking_api_key'\n2025-07-19 16:06:11,192 581 WARNING cbms_test_db py.warnings: /usr/lib/python3/dist-packages/odoo/fields.py:828: UserWarning: Field account.move.invoice_currency_rate cannot be precomputed as it depends on non-precomputed field account.move.rate\nwarnings.warn(f\"Field {self} cannot be precomputed as it depends on non-precomputed field {field}\")\n2025-07-19 16:06:11,308 581 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:06:11,308 581 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:06:11,308 581 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:06:11,308 581 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:06:11,950 581 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:06:11,950 581 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise ParseError(msg) from None  # Restart with \"--log-handler odoo.tools.convert:DEBUG\" for complete traceback\nodoo.tools.convert.ParseError: while parsing /mnt/extra-addons/low_stocks_product_alert/views/low_stocks_product_alert_dashboard_dashboard_views.xml:4\nError while validating view near:\nModel not found: low_stocks_product_alert.dashboard\nView error context:",
+        "summary": "Missing Odoo module dependency"
+      }
+    },
+    {
+      "module": "lunch_order_pdf",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:06:18,758 600 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:06:19,495 600 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:06:19,495 600 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise TypeError(msg % (self, field))\nTypeError: Many2many fields lunch.report.lunch_location_ids and lunch.report.lunch_supplier_ids use the same table and columns",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "mobile_service_shop",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "warnings.warn(f\"Field {self} cannot be precomputed as it depends on non-precomputed field {field}\")\n2025-07-19 16:06:27,648 619 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:06:27,648 619 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:06:27,649 619 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:06:27,649 619 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\nView error context:\n2025-07-19 16:06:28,588 619 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:06:28,588 619 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise UserError(_('Set A Product Prefix In General Settings'))\nodoo.exceptions.UserError: Set A Product Prefix In General Settings\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /mnt/extra-addons/mobile_service_shop/data/mobile_service_data.xml:11, somewhere inside",
+        "summary": "Missing Odoo module dependency"
+      }
+    },
+    {
+      "module": "odoo_health_report",
+      "category": "EXTERNAL_DEPENDENCY",
+      "manifest_issues": [
+        "External Python dependencies: ['isort', 'black', 'bandit', 'radon', 'pylint', 'flake8']"
+      ],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:06:32,118 638 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:06:32,118 638 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise PackageNotFoundError(name)\nimportlib.metadata.PackageNotFoundError: No package metadata was found for black\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise Exception(msg) from e\nException: External dependency black not installed: No package metadata was found for black\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise UserError(msg)\nodoo.exceptions.UserError: Unable to install module \"odoo_health_report\" because an external dependency is not met: External dependency black not installed: No package metadata was found for black",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "pantry_payroll",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:06:38,123 649 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:06:38,437 649 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:06:38,438 649 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise TypeError(\"Model %r does not exist in registry.\" % name)\nTypeError: Model 'hr.payslip' does not exist in registry.",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "print_subscription_id_card",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:06:46,266 668 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:06:46,266 668 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:06:46,266 668 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:06:46,323 668 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:06:46,323 668 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nKeyError: ('ir.model.data', <function IrModelData._xmlid_lookup at 0x7fbb0d442020>, 'sale_subscription.sale_subscription_primary_form_view')\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise ValueError('External ID not found in the system: %s' % xmlid)\nValueError: External ID not found in the system: sale_subscription.sale_subscription_primary_form_view\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /mnt/extra-addons/print_subscription_id_card/views/sale_order_views.xml:4, somewhere inside",
+        "summary": "Missing file or resource"
+      }
+    },
+    {
+      "module": "product_multi_document",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:06:53,173 687 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:06:53,846 687 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:06:53,846 687 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise TypeError(msg % (self, field))\nTypeError: Many2many fields product.template.document_ids and product.template.attachment_ids use the same table and columns",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "project_task_risk_management_odoo",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "_logger.error(\n2025-07-19 16:07:01,853 706 ERROR cbms_test_db odoo.schema: Table 'project_project': unable to set NOT NULL on column 'project_short_code'\n2025-07-19 16:07:01,883 706 WARNING cbms_test_db py.warnings: /usr/lib/python3/dist-packages/odoo/fields.py:828: UserWarning: Field account.move.invoice_currency_rate cannot be precomputed as it depends on non-precomputed field account.move.rate\nwarnings.warn(f\"Field {self} cannot be precomputed as it depends on non-precomputed field {field}\")\n2025-07-19 16:07:02,537 706 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:07:02,537 706 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:07:02,537 706 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:07:02,537 706 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:07:03,265 706 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:07:03,265 706 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise ParseError(msg) from None  # Restart with \"--log-handler odoo.tools.convert:DEBUG\" for complete traceback\nodoo.tools.convert.ParseError: while parsing /mnt/extra-addons/project_task_risk_management_odoo/views/project_task_risk_management_odoo_odoo_kanban_views.xml:4\nError while validating view near:\nView error context:",
+        "summary": "Missing Odoo module dependency"
+      }
+    },
+    {
+      "module": "readonly_unit_price_cybrosys",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:07:11,152 725 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:07:11,152 725 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:07:11,152 725 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:07:11,152 725 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:07:11,194 725 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:07:05.146409\\', 1, 4, \\'access.readonly.unit.price.cybrosys.admin\\', true, true, true, true, \\'2025-07-19 16:07:05.146409\\', 1), (true, \\'2025-07-19 16:07:05.146409\\', 1, 1, \\'access.readonly.unit.price.cybrosys.user\\', true, true, false, true, \\'2025-07-19 16:07:05.146409\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:07:11,197 725 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:07:05.146409\\', 1, 4, \\'access.readonly.unit.price.cybrosys.admin\\', true, true, true, true, \\'2025-07-19 16:07:05.146409\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:07:11,199 725 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:07:05.146409\\', 1, 1, \\'access.readonly.unit.price.cybrosys.user\\', true, true, false, true, \\'2025-07-19 16:07:05.146409\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:07:11,859 725 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:07:11,859 725 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise Exception(env._(\nException: Module loading readonly_unit_price_cybrosys failed: file readonly_unit_price_cybrosys/security/ir.model.access.csv could not be processed:",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "refer_friend_and_earn",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:07:19,829 744 WARNING cbms_test_db py.warnings: /usr/lib/python3/dist-packages/odoo/fields.py:828: UserWarning: Field account.move.invoice_currency_rate cannot be precomputed as it depends on non-precomputed field account.move.rate\nwarnings.warn(f\"Field {self} cannot be precomputed as it depends on non-precomputed field {field}\")\n2025-07-19 16:07:19,933 744 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:07:19,933 744 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:07:19,933 744 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:07:19,933 744 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:07:20,054 744 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:07:20,054 744 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise UserError(_('Set A Product Prefix In General Settings'))\nodoo.exceptions.UserError: Set A Product Prefix In General Settings\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /mnt/extra-addons/refer_friend_and_earn/data/product_template_data.xml:5, somewhere inside",
+        "summary": "Missing Odoo module dependency"
+      }
+    },
+    {
+      "module": "remove_studio_field",
+      "category": "ENTERPRISE_DEPENDENCY",
+      "manifest_issues": [
+        "Enterprise dependencies: ['web_studio']"
+      ],
+      "install_test": {
+        "status": "SUCCESS",
+        "error_log": "",
+        "summary": "Module installed successfully"
+      }
+    },
+    {
+      "module": "sale_order_discount_approval_odoo",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:07:37,280 782 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:07:38,124 782 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:07:38,124 782 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\ncr.execute(query, log_exceptions=False)\npsycopg2.errors.CannotCoerce: cannot cast type boolean to double precision",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "sales_order_double_approval",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:07:44,957 801 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:07:45,643 801 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:07:45,643 801 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise TypeError(\"Type of related field %s is inconsistent with %s\" % (self, field))\nTypeError: Type of related field res.config.settings.so_double_validation is inconsistent with res.company.so_double_validation",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "salon_management",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:07:53,706 820 WARNING cbms_test_db py.warnings: /usr/lib/python3/dist-packages/odoo/fields.py:828: UserWarning: Field account.move.invoice_currency_rate cannot be precomputed as it depends on non-precomputed field account.move.rate\nwarnings.warn(f\"Field {self} cannot be precomputed as it depends on non-precomputed field {field}\")\n2025-07-19 16:07:54,196 820 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:07:54,196 820 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:07:54,196 820 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:07:54,196 820 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\nView error context:\n2025-07-19 16:07:54,832 820 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:07:54,832 820 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise ParseError(msg) from None  # Restart with \"--log-handler odoo.tools.convert:DEBUG\" for complete traceback\nodoo.tools.convert.ParseError: while parsing /mnt/extra-addons/salon_management/views/salon_management_management_kanban_views.xml:4\nError while validating view near:\nModel not found: salon_management.management\nView error context:",
+        "summary": "Missing Odoo module dependency"
+      }
+    },
+    {
+      "module": "storage_dashboard",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:08:02,631 839 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:08:02,631 839 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:08:02,631 839 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:08:02,631 839 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:08:02,674 839 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:07:56.684087\\', 1, 4, \\'access.storage.dashboard.admin\\', true, true, true, true, \\'2025-07-19 16:07:56.684087\\', 1), (true, \\'2025-07-19 16:07:56.684087\\', 1, 1, \\'access.storage.dashboard.user\\', true, true, false, true, \\'2025-07-19 16:07:56.684087\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:08:02,677 839 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:07:56.684087\\', 1, 4, \\'access.storage.dashboard.admin\\', true, true, true, true, \\'2025-07-19 16:07:56.684087\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:08:02,680 839 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:07:56.684087\\', 1, 1, \\'access.storage.dashboard.user\\', true, true, false, true, \\'2025-07-19 16:07:56.684087\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:08:03,337 839 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:08:03,337 839 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise Exception(env._(\nException: Module loading storage_dashboard failed: file storage_dashboard/security/ir.model.access.csv could not be processed:",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "survey_upload_file",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:08:11,310 858 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:08:11,311 858 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:08:11,311 858 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:08:11,311 858 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:08:11,361 858 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:08:05.265476\\', 1, 4, \\'access.survey.upload.file.admin\\', true, true, true, true, \\'2025-07-19 16:08:05.265476\\', 1), (true, \\'2025-07-19 16:08:05.265476\\', 1, 1, \\'access.survey.upload.file.user\\', true, true, false, true, \\'2025-07-19 16:08:05.265476\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:08:11,364 858 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:08:05.265476\\', 1, 4, \\'access.survey.upload.file.admin\\', true, true, true, true, \\'2025-07-19 16:08:05.265476\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:08:11,367 858 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:08:05.265476\\', 1, 1, \\'access.survey.upload.file.user\\', true, true, false, true, \\'2025-07-19 16:08:05.265476\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:08:12,061 858 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:08:12,061 858 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise Exception(env._(\nException: Module loading survey_upload_file failed: file survey_upload_file/security/ir.model.access.csv could not be processed:",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "theme_blast",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:08:23,892 877 ERROR cbms_test_db odoo.schema: Table 'res_partner': unable to set NOT NULL on column 'phone'\n2025-07-19 16:08:23,921 877 ERROR cbms_test_db odoo.schema: Table 'product_template': unable to set NOT NULL on column 'filename'\n2025-07-19 16:08:23,937 877 ERROR cbms_test_db odoo.schema: Table 'project_project': unable to set NOT NULL on column 'project_short_code'\n2025-07-19 16:08:24,435 877 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:08:24,436 877 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:08:24,436 877 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:08:24,436 877 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:08:24,668 877 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:08:24,668 877 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nKeyError: 'res_model'\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /usr/lib/python3/dist-packages/odoo/addons/mass_mailing/data/ir_attachment_data.xml:5, somewhere inside",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "theme_shopping",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:08:35,256 896 ERROR cbms_test_db odoo.schema: Table 'res_partner': unable to set NOT NULL on column 'phone'\n2025-07-19 16:08:35,283 896 ERROR cbms_test_db odoo.schema: Table 'product_template': unable to set NOT NULL on column 'filename'\n2025-07-19 16:08:35,298 896 ERROR cbms_test_db odoo.schema: Table 'project_project': unable to set NOT NULL on column 'project_short_code'\n2025-07-19 16:08:35,735 896 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:08:35,735 896 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:08:35,735 896 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:08:35,735 896 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:08:35,918 896 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:08:35,918 896 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nKeyError: 'res_model'\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /usr/lib/python3/dist-packages/odoo/addons/mass_mailing/data/ir_attachment_data.xml:5, somewhere inside",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "theme_silon",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:08:47,110 915 ERROR cbms_test_db odoo.schema: Table 'res_partner': unable to set NOT NULL on column 'phone'\n2025-07-19 16:08:47,135 915 ERROR cbms_test_db odoo.schema: Table 'product_template': unable to set NOT NULL on column 'filename'\n2025-07-19 16:08:47,150 915 ERROR cbms_test_db odoo.schema: Table 'project_project': unable to set NOT NULL on column 'project_short_code'\n2025-07-19 16:08:47,612 915 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:08:47,612 915 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:08:47,612 915 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:08:47,612 915 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:08:47,807 915 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:08:47,807 915 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nKeyError: 'res_model'\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /usr/lib/python3/dist-packages/odoo/addons/mass_mailing/data/ir_attachment_data.xml:5, somewhere inside",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "theme_splash",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:08:59,234 934 ERROR cbms_test_db odoo.schema: Table 'res_partner': unable to set NOT NULL on column 'phone'\n2025-07-19 16:08:59,257 934 ERROR cbms_test_db odoo.schema: Table 'product_template': unable to set NOT NULL on column 'filename'\n2025-07-19 16:08:59,271 934 ERROR cbms_test_db odoo.schema: Table 'project_project': unable to set NOT NULL on column 'project_short_code'\n2025-07-19 16:08:59,720 934 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:08:59,720 934 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:08:59,720 934 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:08:59,720 934 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:08:59,919 934 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:08:59,919 934 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nKeyError: 'res_model'\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /usr/lib/python3/dist-packages/odoo/addons/mass_mailing/data/ir_attachment_data.xml:5, somewhere inside",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "theme_the_chef",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:09:11,351 953 ERROR cbms_test_db odoo.schema: Table 'res_partner': unable to set NOT NULL on column 'phone'\n2025-07-19 16:09:11,375 953 ERROR cbms_test_db odoo.schema: Table 'product_template': unable to set NOT NULL on column 'filename'\n2025-07-19 16:09:11,389 953 ERROR cbms_test_db odoo.schema: Table 'project_project': unable to set NOT NULL on column 'project_short_code'\n2025-07-19 16:09:11,884 953 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:09:11,885 953 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:09:11,885 953 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:09:11,885 953 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:09:12,095 953 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:09:12,095 953 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nKeyError: 'res_model'\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /usr/lib/python3/dist-packages/odoo/addons/mass_mailing/data/ir_attachment_data.xml:5, somewhere inside",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "theme_xtream",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:09:23,505 972 ERROR cbms_test_db odoo.schema: Table 'res_partner': unable to set NOT NULL on column 'phone'\n2025-07-19 16:09:23,529 972 ERROR cbms_test_db odoo.schema: Table 'product_template': unable to set NOT NULL on column 'filename'\n2025-07-19 16:09:23,543 972 ERROR cbms_test_db odoo.schema: Table 'project_project': unable to set NOT NULL on column 'project_short_code'\n2025-07-19 16:09:23,990 972 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:09:23,991 972 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:09:23,991 972 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:09:23,991 972 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:09:24,185 972 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:09:24,185 972 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nKeyError: 'res_model'\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /usr/lib/python3/dist-packages/odoo/addons/mass_mailing/data/ir_attachment_data.xml:5, somewhere inside",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "uom_product_list",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:09:32,083 991 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:09:32,083 991 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:09:32,083 991 ERROR cbms_test_db odoo.modules.registry: Model uom.analytics has no table.\n2025-07-19 16:09:32,083 991 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:09:32,126 991 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:09:26.103465\\', 1, 4, \\'access.uom.product.list.admin\\', true, true, true, true, \\'2025-07-19 16:09:26.103465\\', 1), (true, \\'2025-07-19 16:09:26.103465\\', 1, 1, \\'access.uom.product.list.user\\', true, true, false, true, \\'2025-07-19 16:09:26.103465\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:09:32,129 991 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:09:26.103465\\', 1, 4, \\'access.uom.product.list.admin\\', true, true, true, true, \\'2025-07-19 16:09:26.103465\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:09:32,132 991 ERROR cbms_test_db odoo.sql_db: bad query: b'INSERT INTO \"ir_model_access\" (\"active\", \"create_date\", \"create_uid\", \"group_id\", \"name\", \"perm_create\", \"perm_read\", \"perm_unlink\", \"perm_write\", \"write_date\", \"write_uid\") VALUES (true, \\'2025-07-19 16:09:26.103465\\', 1, 1, \\'access.uom.product.list.user\\', true, true, false, true, \\'2025-07-19 16:09:26.103465\\', 1) RETURNING \"id\"'\nERROR: null value in column \"model_id\" of relation \"ir_model_access\" violates not-null constraint\n2025-07-19 16:09:32,664 991 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:09:32,664 991 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise Exception(env._(\nException: Module loading uom_product_list failed: file uom_product_list/security/ir.model.access.csv could not be processed:",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "user_audit",
+      "category": "IMPORT_ERROR",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "ERROR: couldn't create the logfile directory. Logging to the standard output.\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:09:38,946 1010 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:09:39,181 1010 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:09:39,182 1010 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nImportError: cannot import name 'audit_dashboard_log' from partially initialized module 'odoo.addons.user_audit.models' (most likely due to a circular import) (/mnt/extra-addons/user_audit/models/__init__.py)",
+        "summary": "Import error - missing dependency"
+      }
+    },
+    {
+      "module": "user_login_alert",
+      "category": "EXTERNAL_DEPENDENCY",
+      "manifest_issues": [
+        "External Python dependencies: ['httpagentparser']"
+      ],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:09:42,352 1029 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:09:42,353 1029 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise PackageNotFoundError(name)\nimportlib.metadata.PackageNotFoundError: No package metadata was found for httpagentparser\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise Exception(msg) from e\nException: External dependency httpagentparser not installed: No package metadata was found for httpagentparser\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise UserError(msg)\nodoo.exceptions.UserError: Unable to install module \"user_login_alert\" because an external dependency is not met: External dependency httpagentparser not installed: No package metadata was found for httpagentparser",
+        "summary": "Unknown error"
+      }
+    },
+    {
+      "module": "vista_backend_theme",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "for frame in traceback.extract_stack():\nFile \"/usr/lib/python3/dist-packages/odoo/netsvc.py\", line 348, in showwarning_with_traceback\nfor frame in traceback.extract_stack():\n2025-07-19 16:09:48,157 1040 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:09:49,367 1040 WARNING cbms_test_db py.warnings: /usr/lib/python3/dist-packages/odoo/fields.py:828: UserWarning: Field account.move.invoice_currency_rate cannot be precomputed as it depends on non-precomputed field account.move.rate\nwarnings.warn(f\"Field {self} cannot be precomputed as it depends on non-precomputed field {field}\")\n2025-07-19 16:09:50,380 1040 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:09:50,380 1040 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:09:50,380 1040 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:09:50,380 1040 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:09:51,180 1040 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:09:51,180 1040 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nOSError: [Errno 9] Bad file descriptor",
+        "summary": "Missing Odoo module dependency"
+      }
+    },
+    {
+      "module": "website_custom_contact_us",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:09:57,911 1059 ERROR cbms_test_db odoo.tests.common: Importing test framework, avoid importing from business modules and when not running in test mode\n_logger.error(\n2025-07-19 16:09:58,701 1059 WARNING cbms_test_db py.warnings: /usr/lib/python3/dist-packages/odoo/fields.py:828: UserWarning: Field account.move.invoice_currency_rate cannot be precomputed as it depends on non-precomputed field account.move.rate\nwarnings.warn(f\"Field {self} cannot be precomputed as it depends on non-precomputed field {field}\")\n2025-07-19 16:09:58,770 1059 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:09:58,770 1059 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:09:58,770 1059 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:09:58,770 1059 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:09:58,857 1059 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:09:58,857 1059 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise ParseError(msg) from None  # Restart with \"--log-handler odoo.tools.convert:DEBUG\" for complete traceback\nodoo.tools.convert.ParseError: while parsing None:5\nError while parsing or validating view:\nView error context:",
+        "summary": "Missing Odoo module dependency"
+      }
+    },
+    {
+      "module": "website_sign_sending_by_priority",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:10:05,866 1078 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:10:05,866 1078 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:10:05,866 1078 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:10:05,904 1078 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:10:05,904 1078 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nKeyError: ('ir.model.data', <function IrModelData._xmlid_lookup at 0x7fa5d8be6020>, 'sign.sign_send_request_view_form')\nDuring handling of the above exception, another exception occurred:\nTraceback (most recent call last):\nraise ValueError('External ID not found in the system: %s' % xmlid)\nValueError: External ID not found in the system: sign.sign_send_request_view_form\nThe above exception was the direct cause of the following exception:\nTraceback (most recent call last):\nraise ParseError('while parsing %s:%s, somewhere inside\\n%s' % (\nodoo.tools.convert.ParseError: while parsing /mnt/extra-addons/website_sign_sending_by_priority/wizard/sign_send_request_views.xml:5, somewhere inside",
+        "summary": "Missing file or resource"
+      }
+    },
+    {
+      "module": "whatsapp_mail_messaging",
+      "category": "OTHER",
+      "manifest_issues": [],
+      "install_test": {
+        "status": "FAILED",
+        "error_log": "2025-07-19 16:10:12,989 1097 ERROR cbms_test_db odoo.schema: Table 'res_config_settings': unable to set NOT NULL on column 'dead_stock'\n2025-07-19 16:10:12,990 1097 ERROR cbms_test_db odoo.schema: Table 'res_config_settings': unable to set NOT NULL on column 'delivery_tracking_api_key'\n2025-07-19 16:10:13,015 1097 WARNING cbms_test_db py.warnings: /usr/lib/python3/dist-packages/odoo/fields.py:828: UserWarning: Field account.move.invoice_currency_rate cannot be precomputed as it depends on non-precomputed field account.move.rate\nwarnings.warn(f\"Field {self} cannot be precomputed as it depends on non-precomputed field {field}\")\n2025-07-19 16:10:13,113 1097 ERROR cbms_test_db odoo.modules.registry: Model project_task_unique_code.dashboard has no table.\n2025-07-19 16:10:13,113 1097 ERROR cbms_test_db odoo.modules.registry: Model customized_barcode_generator.dashboard has no table.\n2025-07-19 16:10:13,113 1097 ERROR cbms_test_db odoo.modules.registry: Model product_multi_uom.dashboard has no table.\n2025-07-19 16:10:13,113 1097 ERROR cbms_test_db odoo.modules.registry: Model cw_stock.dashboard has no table.\n2025-07-19 16:10:13,212 1097 ERROR cbms_test_db odoo.modules.registry: Failed to load registry\n2025-07-19 16:10:13,212 1097 CRITICAL cbms_test_db odoo.service.server: Failed to initialize database `cbms_test_db`.\nTraceback (most recent call last):\nraise ParseError(msg) from None  # Restart with \"--log-handler odoo.tools.convert:DEBUG\" for complete traceback\nodoo.tools.convert.ParseError: while parsing None:5\nError while parsing or validating view:\nView error context:",
+        "summary": "Missing Odoo module dependency"
+      }
+    }
+  ]
+}
