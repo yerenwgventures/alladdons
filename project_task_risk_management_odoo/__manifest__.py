@@ -21,19 +21,19 @@
 #############################################################################
 {
     'name': 'Project Task Risk Management Odoo',
-    'version': '18.0.1.0.0',
-    'category': 'Extra Tools',
-    'summary': 'Risk Management For Project & Tasks',
-    'description': """This module allows project manager and users to 
+        'version': '18.0.1.0.0',
+        'category': 'Extra Tools',
+        'summary': 'Risk Management For Project & Tasks',
+        'description': """This module allows project manager and users to 
     manage risk on the project and tasks with risk incident creation from
      project and tasks.""",
     'author': 'CBMS TECHNOLOGIES LTD',
-    'company': 'CBMS TECHNOLOGIES LTD',
-    'maintainer': 'CBMS TECHNOLOGIES LTD',
-    'website': 'https://www.mycbms.com',
-    'depends': ['project','project_sms'],
-    'data': [
-        'security/project_task_risk_management_odoo_groups.xml',
+        'company': 'CBMS TECHNOLOGIES LTD',
+        'maintainer': 'CBMS TECHNOLOGIES LTD',
+        'website': 'https://www.mycbms.com',
+        'depends': ['project',
+        'project_sms'],
+    'data': ['security/project_task_risk_management_odoo_groups.xml',
         'security/ir.model.access.csv',
         'views/project_risk_incident_line_views.xml',
         'views/task_risk_incident_line_views.xml',
@@ -48,11 +48,12 @@
         'views/risk_incident_views.xml',
         'views/project_task_views.xml',
         'wizard/risk_incident_simplified_views.xml',
+        'views/project_task_risk_management_odoo_odoo_kanban_views.xml'
     ],
     'post_init_hook': '_post_init_hook',
-    'images': ['static/description/banner.jpg'],
+        'images': ['static/description/banner.jpg'],
     'license': 'LGPL-3',
-    'installable': True,
+        'installable': True,
     'auto_install': False,
     'application': True,
 }

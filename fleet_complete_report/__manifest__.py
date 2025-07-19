@@ -30,7 +30,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['fleet'],
+    'depends': ['fleet', 'hr_expense'],
     'data': [
         'security/ir.model.access.csv',
         'report/vehicle_detail_report_templates.xml',

@@ -21,19 +21,21 @@
 ################################################################################
 {
     'name': 'Beauty Spa Management',
-    'version': '18.0.1.0.0',
+        'version': '18.0.1.0.0',
     "category": "Services",
     'summary': 'Beauty Parlour Management with Online Booking System',
-    'description': 'This module to helps your customers to do the online '
+        'description': 'This module to helps your customers to do the online '
                    'booking for using the service. This module integrates with '
                    'other Odoo modules like accounting and website.',
-    'author': 'CBMS TECHNOLOGIES LTD',
-    'company': 'CBMS TECHNOLOGIES LTD',
-    'maintainer': 'CBMS TECHNOLOGIES LTD',
-    'website': "https://www.cybrosys.com",
-    'depends': ['account', 'base_setup', 'mail', 'website', 'contacts'],
-    'data': [
-        'security/salon_management_groups.xml',
+        'author': 'CBMS TECHNOLOGIES LTD',
+        'company': 'CBMS TECHNOLOGIES LTD',
+        'maintainer': 'CBMS TECHNOLOGIES LTD',
+        'website': "https://www.cybrosys.com",
+    'depends': ['account',
+        'base_setup', 'mail',
+        'website', 'contacts',
+        'point_of_sale', 'calendar'],
+    'data': ['security/salon_management_groups.xml',
         'security/ir.model.access.csv',
         'data/salon_website_menu.xml',
         'data/salon_chair_cron_action.xml',
@@ -50,28 +52,29 @@
         'views/salon_booking_views.xml',
         'views/salon_order_views.xml',
         'views/salon_management_menus.xml',
+        'views/salon_management_management_kanban_views.xml'
     ],
     'demo': [
         'data/product_template_data.xml',
         'data/res_partner_data.xml',
         'data/salon_holiday_data.xml',
         'data/salon_stages_data.xml',
-        'data/salon_working_hours_data.xml',
+        'data/salon_working_hours_data.xml'
     ],
     'assets': {
         'web.assets_backend': [
             'salon_management/static/src/css/salon_dashboard.css',
-            'salon_management/static/src/xml/salon_dashboard.xml',
-            'salon_management/static/src/js/salon_dashboard.js',
-        ],
+        'salon_management/static/src/xml/salon_dashboard.xml',
+            'salon_management/static/src/js/salon_dashboard.js'
+    ],
         'web.assets_frontend': [
             'salon_management/static/src/css/salon_website.css',
-            'salon_management/static/src/js/website_salon_booking.js',
-        ],
+        'salon_management/static/src/js/website_salon_booking.js'
+    ],
     },
     'images': ['static/description/banner.jpg'],
     'license': 'AGPL-3',
-    'installable': True,
+        'installable': True,
     'auto_install': False,
     'application': True,
 }

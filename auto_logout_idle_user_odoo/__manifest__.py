@@ -31,8 +31,8 @@
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
     'depends': ['base'],
-    'data': [
-        'views/res_users_views.xml'
+    'data': ['security/ir.model.access.csv','views/res_users_views.xml',
+        'views/auto_logout_idle_user_odoo_dashboard_dashboard_views.xml'
     ],
     'assets': {
         'web.assets_backend': [

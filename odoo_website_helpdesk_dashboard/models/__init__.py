@@ -20,3 +20,5 @@
 #
 #############################################################################
 from . import ticket_helpdesk
+
+from . import odoo_website_helpdesk_dashboard_performance

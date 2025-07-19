@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Dashboard Form View -->
+    <record id="view_idea_dashboard_form" model="ir.ui.view">
+        <field name="name">idea.dashboard.form</field>
+        <field name="model">idea.dashboard</field>
+        <field name="arch" type="xml">
+            <form string="Ideas Dashboard" create="false" edit="false" delete="false">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" readonly="1"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group string="Overview Statistics">
+                            <field name="total_ideas" readonly="1"/>
+                            <field name="ideas_this_month" readonly="1"/>
+                            <field name="top_contributor" readonly="1"/>
+                            <field name="avg_votes_per_idea" readonly="1"/>
+                        </group>
+                        <group string="Status Breakdown">
+                            <field name="pending_ideas" readonly="1"/>
+                            <field name="approved_ideas" readonly="1"/>
+                            <field name="rejected_ideas" readonly="1"/>
+                        </group>
+                    </group>
+                    
+                    <notebook>
+                        <page string="Quick Actions">
+                            <group>
+                                <button name="%(employee_ideas.action_employee_idea)d" 
+                                        string="View All Ideas" 
+                                        type="action" 
+                                        class="btn-primary"/>
+                                <button name="%(employee_ideas.action_employee_idea)d" 
+                                        string="Create New Idea" 
+                                        type="action" 
+                                        context="{'default_state': 'draft'}"
+                                        class="btn-success"/>
+                            </group>
+                        </page>
+                        <page string="Analytics">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Ideas by Status</h4>
+                                    <div class="alert alert-info">
+                                        Dashboard charts would be implemented with JavaScript widgets
+                                        for visual representation of ideas by status and monthly trends.
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Monthly Trend</h4>
+                                    <div class="alert alert-info">
+                                        Monthly trend chart showing idea submission patterns
+                                        over the last 12 months would be displayed here.
+                                    </div>
+                                </div>
+                            </div>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Dashboard Action -->
+    <record id="action_idea_dashboard" model="ir.actions.act_window">
+        <field name="name">Ideas Dashboard</field>
+        <field name="res_model">idea.dashboard</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_idea_dashboard_form"/>
+        <field name="target">current</field>
+        <field name="context">{}</field>
+    </record>
+
+    <!-- Menu Item -->
+    <menuitem id="menu_idea_dashboard"
+              name="Dashboard"
+              parent="employee_ideas.menu_employee_idea_root"
+              action="action_idea_dashboard"
+              sequence="1"/>
+
+</odoo>

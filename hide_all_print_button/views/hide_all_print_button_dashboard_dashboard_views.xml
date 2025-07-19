@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Dashboard View for hide_all_print_button.dashboard -->
+    <record id="view_hide_all_print_button_dashboard_dashboard" model="ir.ui.view">
+        <field name="name">hide_all_print_button.dashboard.dashboard</field>
+        <field name="model">hide_all_print_button.dashboard</field>
+        <field name="arch" type="xml">
+            <form string="Dashboard" create="false" edit="false" delete="false">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" readonly="1"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group string="Statistics">
+                            <field name="total_records" readonly="1"/>
+                            <field name="records_today" readonly="1"/>
+                            <field name="records_this_month" readonly="1"/>
+                            <field name="active_records" readonly="1"/>
+                        </group>
+                    </group>
+                    
+                    <div class="row mt16">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Quick Actions</h5>
+                                </div>
+                                <div class="card-body">
+                                    <button name="action_view_records" 
+                                            string="View All Records" 
+                                            type="object" 
+                                            class="btn btn-primary"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Analytics</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p>Advanced analytics and reporting features would be displayed here.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Dashboard Action -->
+    <record id="action_hide_all_print_button_dashboard_dashboard" model="ir.actions.act_window">
+        <field name="name">Hide_All_Print_Button Dashboard Dashboard</field>
+        <field name="res_model">hide_all_print_button.dashboard</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_hide_all_print_button_dashboard_dashboard"/>
+        <field name="target">current</field>
+    </record>
+</odoo>

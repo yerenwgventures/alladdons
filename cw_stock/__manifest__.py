@@ -33,7 +33,7 @@
     'website': 'https://www.mycbms.com',
     'depends': ['stock_account', 'uom'],
     'data': [
-        'views/product_template_views.xml',
+        'security/ir.model.access.csv','views/product_template_views.xml',
         'views/stock_scrap_views.xml',
         'views/stock_picking_views.xml',
         'views/stock_return_views.xml',

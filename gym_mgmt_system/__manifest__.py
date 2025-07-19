@@ -21,23 +21,24 @@
 #############################################################################
 {
     'name': 'GYM Management System',
-    'version': '18.0.1.0.0',
-    'category': 'Industries',
-    'summary': 'GYM Management System For Managing '
+        'version': '18.0.1.0.0',
+        'category': 'Industries',
+        'summary': 'GYM Management System For Managing '
                'Membership, Member, Workout Plan, etc',
-    'description': 'This module is used for the managing gym we can add '
+        'description': 'This module is used for the managing gym we can add '
                    'membership, member, workout plans etc in this module '
                    'basically for managing the membership,member, workout '
                    'plan etc',
-    'author': 'CBMS TECHNOLOGIES LTD',
-    'company': 'CBMS TECHNOLOGIES LTD',
-    'maintainer': 'CBMS TECHNOLOGIES LTD',
-    'website': "https://www.cybrosys.com",
-    'depends': [ 'mail', 'contacts', 'hr',
-        'product', 'membership', 'sale_management',
-    ],
-    'data': [
-        'security/gym_mgmt_system_groups.xml',
+        'author': 'CBMS TECHNOLOGIES LTD',
+        'company': 'CBMS TECHNOLOGIES LTD',
+        'maintainer': 'CBMS TECHNOLOGIES LTD',
+        'website': "https://www.cybrosys.com",
+    'depends': ['mail',
+        'contacts', 'hr',
+        'product', 'membership',
+        'sale_management', 'hr_attendance',
+        'sale'],
+    'data': ['security/gym_mgmt_system_groups.xml',
         'security/ir.model.access.csv',
         'security/gym_mgmt_system_security.xml',
         'data/ir_sequence_data.xml',
@@ -55,10 +56,11 @@
         'views/workout_days_views.xml',
         'views/my_workout_plan_views.xml',
         'views/hr_employee_views.xml',
+        'views/gym_mgmt_system_system_kanban_views.xml'
     ],
     'images': ['static/description/banner.jpg'],
     'license': 'AGPL-3',
-    'installable': True,
+        'installable': True,
     'application': True,
     'auto_install': False,
 }

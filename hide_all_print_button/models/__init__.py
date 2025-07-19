@@ -26,6 +26,7 @@ from . import mrp_production
 from . import project_task
 from . import purchase_order
 from . import res_users
+from . import print_button_analytics
 from . import sale_order
 from . import stock_location
 from . import stock_lot

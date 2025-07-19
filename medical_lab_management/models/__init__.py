@@ -30,3 +30,6 @@ from . import lab_test_content_type
 from . import physician_speciality
 from . import res_partner
 from . import test_unit
+
+from . import medical_lab_management_integration
+from . import medical_lab_management_performance

@@ -35,7 +35,7 @@
     'website': "https://www.cybrosys.com",
     'depends': ['contacts'],
     'data': [
-        'views/res_partner_views.xml',
+        'security/ir.model.access.csv','views/res_partner_views.xml',
         'views/res_users_views.xml',
     ],
     'images': ['static/description/banner.png'],

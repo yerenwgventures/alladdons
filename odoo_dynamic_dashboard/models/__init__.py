@@ -23,3 +23,5 @@ from . import dashboard_block
 from . import dashboard_menu
 from . import dashboard_theme
 from . import domain_to_sql
+
+from . import odoo_dynamic_dashboard_performance

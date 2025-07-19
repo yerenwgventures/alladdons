@@ -21,18 +21,20 @@
 #############################################################################
 {
     'name': 'Cleaning Management',
-    'version': '18.0.1.0.0',
+        'version': '18.0.1.0.0',
     "category": "Industries",
     'summary': """Cleaning Management with Online Booking System""",
     'description': """This module facilitates the booking of cleaning processes 
     and effectively manages the cleaning procedures.""",
     'author': 'CBMS TECHNOLOGIES LTD',
-    'company': 'CBMS TECHNOLOGIES LTD',
-    'maintainer': 'CBMS TECHNOLOGIES LTD',
-    'website': "https://cybrosys.com/",
-    'depends': ['base', 'website', 'hr', 'account'],
-    'data': [
-        "security/cleaning_management_groups.xml",
+        'company': 'CBMS TECHNOLOGIES LTD',
+        'maintainer': 'CBMS TECHNOLOGIES LTD',
+        'website': "https://cybrosys.com/",
+    'depends': ['base',
+        'website', 'hr',
+        'account', 'maintenance',
+        'project'],
+    'data': ["security/cleaning_management_groups.xml",
         'security/ir.model.access.csv',
         'views/cleaning_team_views.xml',
         'views/cleaning_team_duty_views.xml',
@@ -47,21 +49,22 @@
         'data/cleaning_management_data.xml',
         'data/building_type_demo.xml',
         'data/cleaning_shift_demo.xml',
+        'views/cleaning_management_management_kanban_views.xml'
     ],
     'assets': {
         'web.assets_backend': [
             'cleaning_management/static/src/css/cleaning_management_dashboard.css',
-            'cleaning_management/static/src/xml/cleaning_management_dashboard_template.xml',
+        'cleaning_management/static/src/xml/cleaning_management_dashboard_template.xml',
             'cleaning_management/static/src/js/cleaning_management_dashboard.js',
-            'https://cdn.jsdelivr.net/npm/chart.js',
-        ],
+        'https://cdn.jsdelivr.net/npm/chart.js'
+    ],
         'web.assets_frontend': [
-            'cleaning_management/static/src/js/cleaning_management_website.js',
-        ],
+            'cleaning_management/static/src/js/cleaning_management_website.js'
+    ],
     },
     'images': ['static/description/banner.jpg'],
     'license': 'AGPL-3',
-    'installable': True,
+        'installable': True,
     'auto_install': False,
     'application': True,
 }

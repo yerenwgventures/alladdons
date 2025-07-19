@@ -36,3 +36,5 @@ from . import maintenance_team
 from . import room_booking
 from . import room_booking_line
 from . import service_booking_line
+
+from . import hotel_management_odoo_integration

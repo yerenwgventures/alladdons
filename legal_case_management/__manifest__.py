@@ -22,8 +22,8 @@
 {
     'name': "Legal Case Management",
     'version': '18.0.1.0.0',
-    'category': 'Services',
-    'summary': """Legal Case Management for odoo 18. This module will helps 
+        'category': 'Services',
+        'summary': """Legal Case Management for odoo 18. This module will helps 
          to manage a legal case management firm. This will allows to manage all 
          details of case sucha as evidence, trial and overall payment of a case""",
     'description': """This module helps to manage all process of a legal case 
@@ -31,12 +31,15 @@
          evidence, trial and payment also. Assign the lawyers based on the wages 
          and per case""",
     'author': 'CBMS TECHNOLOGIES LTD',
-    'company': 'CBMS TECHNOLOGIES LTD',
-    'maintainer': 'CBMS TECHNOLOGIES LTD',
-    'website': 'https://www.mycbms.com',
-    'depends': ['base', 'hr', 'contacts', 'account', 'website', 'mail'],
-    'data': [
-        'data/case_register_menu.xml',
+        'company': 'CBMS TECHNOLOGIES LTD',
+        'maintainer': 'CBMS TECHNOLOGIES LTD',
+        'website': 'https://www.mycbms.com',
+        'depends': ['base',
+        'hr', 'contacts',
+        'account', 'website',
+        'mail', 'project',
+        'calendar'],
+    'data': ['data/case_register_menu.xml',
         'data/ir_sequence_data.xml',
         'security/legal_case_management_groups.xml',
         'security/legal_case_management_security.xml',
@@ -65,10 +68,11 @@
         'views/legal_case_page_template.xml',
         'wizard/invoice_payment_views.xml',
         'wizard/full_settlement_views.xml',
+        'views/legal_case_management_management_kanban_views.xml'
     ],
     'images': ['static/description/banner.jpg'],
     'license': 'LGPL-3',
-    'installable': True,
+        'installable': True,
     'auto_install': False,
     'application': True
 }

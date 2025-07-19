@@ -21,20 +21,21 @@
 #############################################################################
 {
     'name': 'Franchise Management',
-    'version': '18.0.1.0.0',
-    'category': 'Marketing',
-    'summary': 'This Module will help to manage franchisees and dealers.',
-    'description': """This module helps to manage the franchise in odoo.
+        'version': '18.0.1.0.0',
+        'category': 'Marketing',
+        'summary': 'This Module will help to manage franchisees and dealers.',
+        'description': """This module helps to manage the franchise in odoo.
      A franchise is a type of license that grants a franchisee access,thus 
      allowing the franchisee to sell a product or service under the 
      franchises business name.""",
     'author': 'CBMS TECHNOLOGIES LTD',
-    'company': 'CBMS TECHNOLOGIES LTD',
-    'maintainer': 'CBMS TECHNOLOGIES LTD',
-    'website': 'https://www.mycbms.com',
-    'depends': ['product', 'website_sale', 'contacts'],
-    'data': [
-        'security/franchise_management_security.xml',
+        'company': 'CBMS TECHNOLOGIES LTD',
+        'maintainer': 'CBMS TECHNOLOGIES LTD',
+        'website': 'https://www.mycbms.com',
+        'depends': ['product',
+        'website_sale', 'contacts',
+        'account', 'sale'],
+    'data': ['security/franchise_management_security.xml',
         'security/ir.model.access.csv',
         'report/franchise_dealership_contract_templates.xml',
         'report/franchise_management_report.xml',
@@ -63,17 +64,18 @@
         'views/franchise_sales_views.xml',
         'views/web_franchise_sales_templates.xml',
         'views/franchise_management_menus.xml',
+        'views/franchise_management_management_kanban_views.xml'
     ],
     'assets': {
         'web.assets_frontend': [
             'franchise_management/static/src/css/website.css',
-            'franchise_management/static/src/js/portalSignatureForm.js',
-            'franchise_management/static/src/js/portalSignature.js',
-        ],
+        'franchise_management/static/src/js/portalSignatureForm.js',
+            'franchise_management/static/src/js/portalSignature.js'
+    ],
     },
     'images': ['static/description/banner.png'],
     'license': 'AGPL-3',
-    'installable': True,
+        'installable': True,
     'auto_install': False,
     'application': True,
 }

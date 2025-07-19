@@ -34,7 +34,7 @@
     'website': 'https://www.mycbms.com',
     'depends': ['sale_management'],
     'data': [
-        'views/uom_uom_views.xml',
+        'security/ir.model.access.csv','views/uom_uom_views.xml',
     ],
     'images': ['static/description/banner.jpg'],
     'license': 'AGPL-3',

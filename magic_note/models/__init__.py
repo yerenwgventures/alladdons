@@ -22,3 +22,4 @@
 from . import note_color
 from . import project_task
 from . import res_config_settings
+from . import note_collaboration

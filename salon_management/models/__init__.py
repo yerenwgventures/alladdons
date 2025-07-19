@@ -31,3 +31,5 @@ from . import salon_chair_user
 from . import salon_order
 from . import salon_order_line
 from . import salon_stage
+
+from . import salon_management_integration
