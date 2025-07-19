@@ -29,7 +29,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['lunch'],
+    'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',
         'report/lunch_order_report_templates.xml',

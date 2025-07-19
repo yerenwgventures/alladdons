@@ -1,3 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_magic.note.admin,access.magic.note.admin,model_magic_note,base.group_system,1,1,1,1
-access_magic.note.user,access.magic.note.user,model_magic_note,base.group_user,1,1,1,0
+access_note_collaboration_admin,access.note.collaboration.admin,model_note_collaboration,base.group_system,1,1,1,1
+access_note_collaboration_user,access.note.collaboration.user,model_note_collaboration,base.group_user,1,1,1,0
+access_note_color_admin,access.note.color.admin,model_note_color,base.group_system,1,1,1,1
+access_note_color_user,access.note.color.user,model_note_color,base.group_user,1,1,1,0

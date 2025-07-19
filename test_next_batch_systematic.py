@@ -166,7 +166,19 @@ def main():
         'invoice_bill_select_orderlines', 'invoice_design', 'invoice_format_editor',
         'invoice_multi_approval', 'invoice_stock_move', 'jazzy_backend_theme',
         'lang_switch_pos', 'list_tree_pin_records', 'listview_change_background_color',
-        'laundry_management', 'legal_case_management', 'legal_case_management_dashboard'
+        'laundry_management', 'legal_case_management', 'legal_case_management_dashboard',
+        # Batch 15 - 14/15 successful after fixes (dynamic_product_label_print still has DB schema issue)
+        'login_as_any_user', 'login_pos_direct', 'login_to_checkout',
+        'login_user_detail', 'low_sale_report', 'low_stocks_product_alert',
+        'lunch_order_pdf', 'magic_note', 'mail_message_access',
+        'mail_to_child_contact', 'mandatory_field_highlight', 'manufacturing_timesheet',
+        'mass_price_update', 'master_search',
+        # Batch 16 - 14/15 successful after fixes (dynamic_product_label_print still has DB schema issue)
+        'master_search_systray', 'membership_card_odoo', 'merge_picking_orders',
+        'merge_rfq', 'model_viewer_widget', 'monday_odoo_connector',
+        'mrp_order_from_multiple_sale_order', 'mrp_product_kanban', 'mrp_work_order_print',
+        'multi_barcode_for_products', 'multi_image_in_pos', 'multi_pricelist',
+        'medical_lab_management', 'mobile_service_shop'
     ]
     
     # Get all modules

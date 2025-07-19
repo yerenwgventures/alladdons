@@ -9,80 +9,60 @@ DETAILS:   File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 354, in ex
 psycopg2.errors.UndefinedFunction: operator does not exist: character varying >= integer
 HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
 
-2025-07-19 07:06:09,209 429 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 07:06:09,209 429 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 07:06:09,209 429 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+2025-07-19 07:45:00,185 419 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 07:45:00,185 419 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 07:45:00,185 419 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
-MODULE: login_as_any_user
+MODULE: multicolor_backend_theme
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: login_pos_direct
+MODULE: multiple_reference_per_product
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: login_to_checkout
+MODULE: odoo_accounting_dashboard
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: login_user_detail
+MODULE: odoo_calculator_tool
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: low_sale_report
+MODULE: odoo_chatgpt_connector
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: low_stocks_product_alert
+MODULE: odoo_contact_approval
+STATUS: SUCCESS
+----------------------------------------
+MODULE: odoo_dynamic_dashboard
+STATUS: SUCCESS
+----------------------------------------
+MODULE: odoo_google_contact_integration
+STATUS: SUCCESS
+----------------------------------------
+MODULE: odoo_google_meet_integration
+STATUS: SUCCESS
+----------------------------------------
+MODULE: odoo_health_report
 STATUS: FAILED
-DETAILS:     raise Exception(env._(
-Exception: Module loading low_stocks_product_alert failed: file low_stocks_product_alert/security/ir.model.access.csv could not be processed:
-No matching record found for external id 'model_low_stocks_product_alert' in field 'Model'
-No matching record found for external id 'model_low_stocks_product_alert' in field 'Model'
-Missing required value for the field 'Model' (model_id)
-Missing required value for the field 'Model' (model_id)
-2025-07-19 07:07:12,788 543 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 07:07:12,789 543 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 07:07:12,790 543 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+DETAILS:     modules._state_update('to install', ['uninstalled'])
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 393, in _state_update
+    self.check_external_dependencies(module.name, newstate)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 359, in check_external_dependencies
+    raise UserError(msg)
+odoo.exceptions.UserError: Unable to install module "odoo_health_report" because an external dependency is not met: External dependency isort not installed: No package metadata was found for isort
+2025-07-19 07:46:37,486 609 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 07:46:37,486 609 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 07:46:37,487 609 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
-MODULE: lunch_order_pdf
-STATUS: FAILED
-DETAILS:   File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 557, in _tag_root
-    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
-odoo.tools.convert.ParseError: while parsing /usr/lib/python3/dist-packages/odoo/addons/lunch/data/lunch_data.xml:27, somewhere inside
-<record id="partner_hungry_dog" model="res.partner" forcecreate="0">
-        <field name="name">Lunch Supplier</field>
-    </record>
-2025-07-19 07:07:22,380 562 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 07:07:22,381 562 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 07:07:22,381 562 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
-
-----------------------------------------
-MODULE: magic_note
-STATUS: FAILED
-DETAILS:     raise Exception(env._(
-Exception: Module loading magic_note failed: file magic_note/security/ir.model.access.csv could not be processed:
-No matching record found for external id 'model_magic_note' in field 'Model'
-No matching record found for external id 'model_magic_note' in field 'Model'
-Missing required value for the field 'Model' (model_id)
-Missing required value for the field 'Model' (model_id)
-2025-07-19 07:07:31,368 581 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 07:07:31,368 581 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 07:07:31,368 581 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
-
-----------------------------------------
-MODULE: mail_message_access
+MODULE: odoo_parking_management
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: mail_to_child_contact
+MODULE: odoo_picking_order_line_views
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: mandatory_field_highlight
+MODULE: odoo_product_tags
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: manufacturing_timesheet
-STATUS: SUCCESS
-----------------------------------------
-MODULE: mass_price_update
-STATUS: SUCCESS
-----------------------------------------
-MODULE: master_search
+MODULE: odoo_read_messages
 STATUS: SUCCESS
 ----------------------------------------
