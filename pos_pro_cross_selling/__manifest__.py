@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
+#    CBMS TECHNOLOGIES LTD
+#    Copyright (C) 2025-TODAY CBMS TECHNOLOGIES LTD (<https://www.mycbms.com>).
 #    Author: Adarsh K(<https://www.cybrosys.com>)
 #
 #    This program is free software: you can modify
@@ -26,10 +26,10 @@
     'summary': 'Cross Selling products in pos',
     'description': "This module is used for cross selling products in pos. "
                    "We can manage and use the cross-selling product in pos",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     'depends': ['point_of_sale'],
     'data': [
         'security/ir.model.access.csv',

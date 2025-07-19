@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
@@ -27,8 +27,8 @@
     'description': """Website HelpDesk Dashboard Module Brings a Multipurpose"""
                    """Graphical Dashboard for Website HelpDesk module""",
     'author': "Cybrosys Techno Solutions",
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.openhrms.com",
     'depends': ['odoo_website_helpdesk', 'base'],
     'data': [

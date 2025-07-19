@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Cybrosys (odoo@cybrosys.com)
+#    Author: Development Team (info@mycbms.com)
 #
 #    You can modify it under the terms of the GNU LESSER
 #    GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
@@ -28,9 +28,9 @@
                    'minimalism,balancing typography and visuals,'
                    ' and optimizing responsiveness for a serene and visually'
                    ' appealing browsing experience',
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
     'depends': ['website_blog', 'website_sale_wishlist'],
     'data': [

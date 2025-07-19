@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
@@ -27,9 +27,9 @@
                "individual target",
     "description": """Based on Salesperson's individual target, Sales Target 
      and Achievement calculation for Salesperson and CRM Sales Team""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
     'depends': ['base', 'sale_management', 'crm', 'mail'],
     'data': ['security/sales_target_vs_achievement_groups.xml',

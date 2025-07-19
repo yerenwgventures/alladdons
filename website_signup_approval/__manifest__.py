@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Safa KB @ Cybrosys, (odoo@cybrosys.com)
+#    Author: Development Team (info@mycbms.com)
 #
 #    You can modify it under the terms of the GNU LESSER
 #    GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
@@ -27,9 +27,9 @@
     'description': """This module approve or reject signup approval request of 
      users from website.User can upload their documents for approval.""",
     'author': "Cybrosys Techno Solutions",
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     'depends': ['website_sale'],
     'data': [
         'security/website_signup_approval_groups.xml',

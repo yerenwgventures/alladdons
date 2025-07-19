@@ -2,7 +2,7 @@
 ################################################################################
 #    A part of Open HRMS Project <https://www.openhrms.com>
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #    Copyright (C) 2025-TODAY Cybrosys Technologies (<https://www.cybrosys.com>)
 #    Author: Cybrosys (<https://www.cybrosys.com>)
 #
@@ -30,8 +30,8 @@
      violations occur, to address them appropriately.""",
     'live_test_url': 'https://youtu.be/LFuw2iY4Deg',
     'author': 'Cybrosys Techno solutions,Open HRMS',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.openhrms.com",
     'depends': ['mail', 'hr'],
     'data': [

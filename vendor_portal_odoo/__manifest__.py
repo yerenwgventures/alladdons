@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
@@ -27,10 +27,10 @@
     'description': """This module helps to sent quotations for a product 
     to multiple vendors and vendors can add their
     price in their portal, and can choose best quotation for product""",
-    'author': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'depends': ['website', 'purchase', 'portal', 'contacts', 'stock'],
     'data': [
         'security/vendor_rfq_security.xml',

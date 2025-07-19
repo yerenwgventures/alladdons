@@ -2,7 +2,7 @@
 #############################################################################
 #   A part of Open HRMS Project <https://www.openhrms.com>
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #    Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Raneesha M K (<https://www.cybrosys.com>)
 #
@@ -27,8 +27,8 @@
     'description': """Manages insurance amounts for employees to be deducted 
                       from salary""",
     'author': 'Cybrosys Techno solutions,Open HRMS',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.openhrms.com',
     'depends': ['base', 'hr', 'hr_payroll_community',
                 'hr_employee_updation',

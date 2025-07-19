@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2025-TODAY Cybrosys Technologies(
 #    <https://www.cybrosys.com>).
-#    Author: MUHAMMED RISHAD (odoo@cybrosys.com)
+#    Author: Development Team (info@mycbms.com)
 #
 #    You can modify it under the terms of the GNU AFFERO
 #    GENERAL PUBLIC LICENSE (AGPL v3), Version 3.
@@ -27,10 +27,10 @@
     'summary': 'Notify the Admin About Cron Failures Via Mail',
     'description': """This module helps to send notification to admin with 
      lists of failed scheduled actions.""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     'depends': ['base', 'mail'],
     'data': ['security/ir.model.access.csv',
             'report/ir_cron_failure_templates.xml',

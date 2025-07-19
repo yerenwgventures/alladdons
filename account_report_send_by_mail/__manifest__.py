@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
-#    Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
+#    Copyright (C) 2025-TODAY CBMS TECHNOLOGIES LTD (<https://www.mycbms.com>).
 #    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
 #
 #    This program is under the terms of the Odoo Proprietary License v1.0
@@ -32,10 +32,10 @@
                    "catering to their specific needs. After selecting the "
                    "desired report type, users can input the recipients email "
                    "address to seamlessly send the generated report.",
-    'company': 'Cybrosys Techno Solutions',
-    'author': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     'depends': ['account', 'account_reports'],
     'data': [
         'security/ir.model.access.csv',

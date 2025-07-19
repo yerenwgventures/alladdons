@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Cybrosys Technologies (<https://www.cybrosys.com>)
@@ -28,9 +28,9 @@
     'description': """  When you duplicate product it will also duplicate 
     or copy when you need to add large number of product to be added for 
     Manufacturing module. """,
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
     'depends': ['base', 'sale', 'mrp'],
     'images': ['static/description/banner.jpg'],

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
@@ -26,10 +26,10 @@
     'summary': 'Manage the parking of vehicles',
     'description': """This module is developed for managing the vehicle 
     parking and providing the parking tickets for any type of customers.""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     'depends': ['base', 'fleet', 'account', 'project'],
     'data': [
         'security/odoo_parking_management_groups.xml',

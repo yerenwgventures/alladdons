@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author:Ayana KP(<https://www.cybrosys.com>)
@@ -27,9 +27,9 @@
     'description': '''QR Code, QR Code Generator, Odoo QR Code Generator,
     Customer QR Code, Product QR Code, QR, QR Code Odoo''',
     'author': 'Cybrosys Techno solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     'depends': ['base', 'sale_management', 'stock'],
     'data': [
         'data/sequence.xml',

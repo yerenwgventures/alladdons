@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Ammu Raj (odoo@cybrosys.com>)
@@ -28,9 +28,9 @@
     'description': """Unit of measure in the price list rule. This module will
     help set the UOM rule in the price list. And it can be applied to the
     advanced price rule and used in the sale order.""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
     'depends': ['sale_management', 'product'],
     'data': ['views/product_pricelist_item_views.xml'],

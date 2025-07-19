@@ -1,4 +1,3 @@
-.. image:: https://img.shields.io/badge/licence-OPL--1-red.svg
     :target: https://www.odoo.com/documentation/18.0/legal/licenses.html#odoo-apps
     :alt: License: OPL-1
 
@@ -12,7 +11,7 @@ Configuration
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `CBMS TECHNOLOGIES LTD <https://www.mycbms.com/>`__
 
 License
 -------
@@ -21,11 +20,11 @@ Odoo Proprietary License v1.0 (OPL-1)
 
 Credits
 -------
-Developer: (V18) Nivedhya T Contact: odoo@cybrosys.com
+Developer: (V18) Nivedhya T Contact: info@mycbms.com
 
 Contacts
 --------
-* Mail Contact : odoo@cybrosys.com
+* Mail Contact : info@mycbms.com
 
 Bug Tracker
 -----------
@@ -33,11 +32,11 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://www.mycbms.com/images/logo.png
+   :target: https://www.mycbms.com
 
 This module is maintained by Cybrosys Technologies.
-For support and more information, please visit `Our Website <https://cybrosys.com/>`__
+For support and more information, please visit `Our Website <https://www.mycbms.com/>`__
 
 Further information
 ===================

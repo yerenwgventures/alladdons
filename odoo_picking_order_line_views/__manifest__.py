@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #############################################################################
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
@@ -25,9 +25,9 @@
      order lines including the product images""",
     'description': """Picking Order Line Detailed Views Shows us the Transfer Order with 
     images of their related products in the tree view of stock move lines""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
     'depends': ['base', 'sale', 'stock', 'sale_management', 'purchase'],
     'data': [

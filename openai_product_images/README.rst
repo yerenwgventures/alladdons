@@ -1,4 +1,3 @@
-.. image:: https://img.shields.io/badge/license-AGPL--3-blue.svg
    :target: https://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
@@ -18,7 +17,7 @@ General Public License, Version 3 (AGPL v3).
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `CBMS TECHNOLOGIES LTD <https://www.mycbms.com/>`__
 
 Credits
 -------
@@ -26,7 +25,7 @@ Credits
 
 Contacts
 --------
-* Mail Contact : odoo@cybrosys.com
+* Mail Contact : info@mycbms.com
 
 Bug Tracker
 -----------
@@ -34,11 +33,11 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://www.mycbms.com/images/logo.png
+   :target: https://www.mycbms.com
 This module is maintained by Cybrosys Technologies.
 
-For support and more information, please visit https://www.cybrosys.com
+For support and more information, please visit https://www.mycbms.com
 
 Further information
 ===================

@@ -1,4 +1,3 @@
-.. image:: https://img.shields.io/badge/licence-LGPL--3-blue.svg
     :target: https://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 
@@ -9,17 +8,18 @@ parking tickets for any type of customers.
 
 Configuration
 =============
-* No additional configurations needed
+* Easy setup through Odoo Apps interface
+* No complex configuration required
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `CBMS TECHNOLOGIES LTD <https://www.mycbms.com/>`__
 
 Credits
 -------
 * Developers:   (V18) Fathima Mazlin AM,
                 (V17) Vishnu kp,
-Contact : odoo@cybrosys.com
+Contact : info@mycbms.com
 
 License
 -------
@@ -32,12 +32,12 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://www.mycbms.com/images/logo.png
+   :target: https://www.mycbms.com
 
 This module is maintained by Cybrosys Technologies.
 
-For support and more information, please visit `Our Website <https://cybrosys.com/>`__
+For support and more information, please visit `Our Website <https://www.mycbms.com/>`__
 
 Further information
 ===================

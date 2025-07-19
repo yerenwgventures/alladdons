@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
@@ -31,11 +31,11 @@
                    'products and returning the products. Also we can unfill '
                    'the done quantity of the selected products while the '
                    'transfer.',
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'images': ['static/description/banner.jpg'],
-    'website': 'https://www.cybrosys.com',
+    'website': 'https://www.mycbms.com',
     'depends': ['base', 'stock'],
     'data': [
         'views/stock_picking_views.xml',

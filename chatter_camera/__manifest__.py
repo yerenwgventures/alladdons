@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Gayathri V (odoo@cybrosys.com)
+#    CBMS TECHNOLOGIES LTD
+#    Copyright (C) 2025-TODAY CBMS TECHNOLOGIES LTD (<https://www.mycbms.com>).
+#    Author: Development Team (info@mycbms.com)
 #
 #    This program is free software: you can modify
 #    it under the terms of the GNU LESSER GENERAL PUBLIC LICENSE (LGPL) as
@@ -26,10 +26,10 @@
     'category': 'Extra Tools',
     'description': 'capture the images from the chatter, and also we can attach '
                    'the corresponding images',
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     'depends': ['base_setup', 'sale', 'mail', 'web'],
     'assets': {
         'web.assets_backend': [

@@ -2,9 +2,9 @@
 
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
+#    Copyright (C) 2025-TODAY CBMS TECHNOLOGIES LTD (<https://www.mycbms.com>).
 #    Author: Akhil(<https://www.cybrosys.com>)
 #
 #    You can modify it under the terms of the GNU AFFERO
@@ -30,11 +30,11 @@
                    ' features to check the product during product selection and'
                    'display warnings if they are in age restricted',
     'category': 'Point of Sale',
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'images': ['static/description/banner.jpg'],
-    'website': 'https://www.cybrosys.com',
+    'website': 'https://www.mycbms.com',
     'depends': ['base', 'point_of_sale', 'product'],
     'data': [
         'views/product_template_views.xml',

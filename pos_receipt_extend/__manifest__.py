@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Bhagyadev KP (<https://www.cybrosys.com>)
@@ -26,10 +26,10 @@
     "summary": "Advanced POS Receipt with Customer Details and Invoice Details",
     "description": """Advanced POS Receipt with Customer Details and Invoice 
     Details will Allow You to Print The Customer Information in the pos receipt""",
-    'author': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'depends': ['point_of_sale', 'sale'],
     'data': [
         'views/res_config_settings_views.xml',

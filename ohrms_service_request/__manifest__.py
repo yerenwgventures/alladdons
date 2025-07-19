@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
-#    Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Raneesha M K (odoo@cybrosys.com)
+#    CBMS TECHNOLOGIES LTD
+#    Copyright (C) 2025-TODAY CBMS TECHNOLOGIES LTD (<https://www.mycbms.com>).
+#    Author: Development Team (info@mycbms.com)
 #
 #    This program is free software: you can modify
 #    it under the terms of the GNU Affero General Public License (AGPL) as
@@ -27,8 +27,8 @@
     'description': """It allows employees to submit service requests related to 
      HR, such as IT support, asset maintenance, or administrative assistance.""",
     'author':  'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website':  'https://www.cybrosys.com',
     'depends': ['hr', 'stock', 'oh_employee_creation_from_user', 'project',
                 'hr_attendance'],

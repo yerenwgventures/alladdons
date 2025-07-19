@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author:Manasa T P(<https://www.cybrosys.com>)
@@ -27,9 +27,9 @@
     "description": """With this module you can create a user-friendly system 
     that allows users to easily track a product's sale and purchase price 
     history for a specific partner, promoting efficiency and usability.'""",
-    'author': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'company': 'Cybrosys Techno Solutions',
+    'company': 'CBMS TECHNOLOGIES LTD',
     "depends": [ 'sale_management', 'purchase'],
     "data": [
         'views/sale_order_views.xml',

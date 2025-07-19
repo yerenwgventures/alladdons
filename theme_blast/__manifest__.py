@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright(C) 2024-TODAY Cybrosys Techno Solutions
 #    (<https://www.cybrosys.com>)
@@ -29,10 +29,10 @@
     'description': 'Theme Blast Front-end theme provides Structural snippets'
                    ' like Features, Subscribe, Choose , Cards, Banner and'
                    ' Dynamic content snippets ',
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     'depends': ['web', 'website_sale', 'website_mass_mailing'],
     'data': [
         'data/blast_configuration_data.xml',

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
-#    Copyright (C) 2022-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
+#    Copyright (C) 2025-TODAY CBMS TECHNOLOGIES LTD (<https://www.mycbms.com>).
 #    Author:Cybrosys Techno Solutions (odoo@cybrosys.com)
 #
 #    You can modify it under the terms of the GNU AFFERO
@@ -28,7 +28,7 @@
     Wishlist product of Customers in Backend""",
     'author': "Cybrosys Techno Solutions ",
     'company': "Cybrosys Techno Solutions ",
-    'maintainer': 'Cybrosys Techno Solutions',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
     'depends': ['website_sale_wishlist'],
     'data': ['views/product_wishlist_views.xml'],

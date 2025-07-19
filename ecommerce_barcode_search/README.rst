@@ -1,4 +1,3 @@
-.. image:: https://img.shields.io/badge/license-AGPL--3-blue.svg
     :target: https://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 
@@ -17,19 +16,19 @@ Affero General Public License v3.0 (AGPL v3)
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `CBMS TECHNOLOGIES LTD <https://www.mycbms.com/>`__
 
 Credits
 -------
 * Developer: (V18) Mruthul Raj ,
              (V17) Mufeeda Shirin ,
              (V16) Neenu Merlin Jose ,
-Contact: odoo@cybrosys.com
+Contact: info@mycbms.com
 
 Contacts
 --------
-* Mail Contact : odoo@cybrosys.com
-* Website : https://cybrosys.com
+* Mail Contact : info@mycbms.com
+* Website : https://www.mycbms.com
 
 Bug Tracker
 -----------
@@ -39,7 +38,7 @@ Maintainer
 ==========
 This module is maintained by Cybrosys Technologies.
 
-For support and more information, please visit https://www.cybrosys.com
+For support and more information, please visit https://www.mycbms.com
 
 Further information
 ===================

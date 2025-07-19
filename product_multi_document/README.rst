@@ -1,4 +1,3 @@
-.. image:: https://img.shields.io/badge/license-OPL--1-red.svg
     :target: https://www.odoo.com/documentation/18.0/legal/licenses.html#odoo-apps
     :alt: License: OPL-1
 
@@ -12,7 +11,7 @@ Configuration
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `CBMS TECHNOLOGIES LTD <https://www.mycbms.com/>`__
 
 License
 -------
@@ -25,12 +24,12 @@ Credits
                (V16) Afra M P,
                (V17) Aysha Shalin,
                (V18) Ashwin T,
-  Contact: odoo@cybrosys.com
+  Contact: info@mycbms.com
 
 Contacts
 --------
-* Mail Contact : odoo@cybrosys.com
-* Website : https://cybrosys.com
+* Mail Contact : info@mycbms.com
+* Website : https://www.mycbms.com
 
 Bug Tracker
 -----------
@@ -38,12 +37,12 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://www.mycbms.com/images/logo.png
+   :target: https://www.mycbms.com
 
 This module is maintained by Cybrosys Technologies.
 
-For support and more information, please visit `Our Website <https://cybrosys.com/>`__
+For support and more information, please visit `Our Website <https://www.mycbms.com/>`__
 
 Further information
 ===================

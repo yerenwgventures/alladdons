@@ -1,4 +1,3 @@
-.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
     :target: https://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 
@@ -8,11 +7,6 @@ Wishlist Products In Backend
 This module developed to record wishlist product of customers in website Backend.when a customer added products to wishlist,the administrator or manager can track it from Reporting > Wishlist product
 and GroupBy added on  product wise and Customer wise.
 
-Installation
-============
-
-Just select it from available modules to install it, there is no need to extra installations.
-
 Configuration
 =============
 
@@ -20,18 +14,18 @@ Nothing to configure.
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `CBMS TECHNOLOGIES LTD <https://www.mycbms.com/>`__
 
 Credits
 -------
 * Developer: (v17)JANISH BABU EK,
             (V18) Busthana Shirin
-             Contact: odoo@cybrosys.com
+             Contact: info@mycbms.com
 
 Contacts
 --------
-* Mail Contact : odoo@cybrosys.com
-* Website : https://cybrosys.com
+* Mail Contact : info@mycbms.com
+* Website : https://www.mycbms.com
 
 Bug Tracker
 -----------
@@ -39,16 +33,14 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://www.mycbms.com/images/logo.png
+   :target: https://www.mycbms.com
 
 This module is maintained by Cybrosys Technologies.
 
-For support and more information, please visit `Our Website <https://cybrosys.com/>`__
+For support and more information, please visit `Our Website <https://www.mycbms.com/>`__
 
 Further information
 ===================
 HTML Description: `<static/description/index.html>`__
-
-
 

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Nandakishore M (odoo@cybrosys.com)
+#    CBMS TECHNOLOGIES LTD
+#    Copyright (C) 2025-TODAY CBMS TECHNOLOGIES LTD (<https://www.mycbms.com>).
+#    Author: Development Team (info@mycbms.com)
 #
 #    This program is free software: you can modify
 #    it under the terms of the GNU Affero General Public License (AGPL) as
@@ -28,10 +28,10 @@
     'description': """Secure your Odoo account by alerts at right time. If any
      successful login to user's account happens, an alert mail will be send to 
      user with the browser and IP details.""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer ': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'website': 'https://www.mycbms.com',
     'depends': ['mail'],
     'data': [
         'security/user_login_alert_groups.xml',

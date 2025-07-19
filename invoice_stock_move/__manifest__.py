@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
-#    Copyright (C) 2025-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Anzil K A (odoo@cybrosys.com)
+#    Copyright (C) 2025-TODAY CBMS TECHNOLOGIES LTD (<https://www.mycbms.com>).
+#    Author: Development Team (info@mycbms.com)
 #
 #    You can modify it under the terms of the GNU AFFERO
 #    GENERAL PUBLIC LICENSE (AGPL v3), Version 3.
@@ -27,7 +27,7 @@
     'description': """This Module Enables To Create Stocks Picking From 
      Customer/Supplier Invoice""",
     'author': "Cybrosys Techno Solutions",
-    'company': 'Cybrosys Techno Solutions',
+    'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer ': 'Cybrosys Techno Solutions',
     'website': "https://www.cybrosys.com",
     'depends': ['account', 'stock', 'payment'],

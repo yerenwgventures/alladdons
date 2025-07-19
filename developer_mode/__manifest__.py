@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author: Rosmy John (Contact : odoo@cybrosys.com)
@@ -26,11 +26,11 @@
     'summary': """Helps to Automatically Activate the Developer Mode""",
     'description': """This module facilitates the automatic triggering of 
      Developer Mode and creates a separate group for 'Odoo Developers'.""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     'depends': ['base'],
     'data': [
         'security/developer_mode_groups.xml',

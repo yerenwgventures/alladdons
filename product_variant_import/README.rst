@@ -1,4 +1,3 @@
-.. image:: https://img.shields.io/badge/license-LGPL--3-green.svg
     :target: https://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 
@@ -13,28 +12,28 @@ implemented using the two files.
 
 Configuration
 =============
-* No additional configurations needed
+* Easy setup through Odoo Apps interface
+* No complex configuration required
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `CBMS TECHNOLOGIES LTD <https://www.mycbms.com/>`__
 
 License
 -------
 General Public License, Version 3 (LGPL v3).
 (https://www.gnu.org/licenses/lgpl-3.0-standalone.html)
 
-
 Credits
 -------
 * Developer: (V16) Gayathri V,
              (V18) Busthana Shirin,
-Contact: odoo@cybrosys.com
+Contact: info@mycbms.com
 
 Contacts
 --------
-* Mail Contact : odoo@cybrosys.com
-* Website : https://cybrosys.com
+* Mail Contact : info@mycbms.com
+* Website : https://www.mycbms.com
 
 Bug Tracker
 -----------
@@ -43,12 +42,12 @@ your issue has already been reported.
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://www.mycbms.com/images/logo.png
+   :target: https://www.mycbms.com
 
 This module is maintained by Cybrosys Technologies.
 
-For support and more information, please visit `Our Website <https://cybrosys.com/>`__
+For support and more information, please visit `Our Website <https://www.mycbms.com/>`__
 
 Further information
 ===================

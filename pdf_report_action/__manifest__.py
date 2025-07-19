@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
+#    CBMS TECHNOLOGIES LTD
+#    Copyright (C) 2025-TODAY CBMS TECHNOLOGIES LTD (<https://www.mycbms.com>).
 #    Author: Ayana K P(<https://www.cybrosys.com>)
 #
 #    This program is free software: you can modify
@@ -28,10 +28,10 @@
     'description': "Users can perform various actions such as printing, "
                    "downloading, and sharing reports of various records in "
                    "Sales, Purchase, Inventory, Accounting",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     'depends': ['sale_management', 'purchase', 'stock', 'account',],
     'data': [
         'security/ir.model.access.csv',

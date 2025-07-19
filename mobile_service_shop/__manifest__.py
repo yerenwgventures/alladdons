@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    CBMS TECHNOLOGIES LTD
 #
 #    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
 #    Author:Jumana Jabin MP (odoo@cybrosys.com)
@@ -27,10 +27,10 @@
                   ' service centers, helping them efficiently manage operations'
                   ' while maintaining high levels of customer satisfaction.',
     'category': 'Industries',
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'CBMS TECHNOLOGIES LTD',
+    'company': 'CBMS TECHNOLOGIES LTD',
+    'maintainer': 'CBMS TECHNOLOGIES LTD',
+    'website': 'https://www.mycbms.com',
     'depends': ['stock_account', 'mail', 'product', 'account' ,'sale'],
     'data': ['security/mobile_service_shop_security.xml',
              'security/ir.model.access.csv',
