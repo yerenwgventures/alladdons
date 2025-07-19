@@ -19,4 +19,4 @@
 #    DEALINGS IN THE SOFTWARE.
 #
 ###############################################################################
-from . import wizard
+from . import models, wizard

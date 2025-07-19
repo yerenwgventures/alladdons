@@ -1,0 +1,78 @@
+SYSTEMATIC MODULE TESTING RESULTS
+========================================
+
+MODULE: autosuggestion_in_discuss
+STATUS: SUCCESS
+----------------------------------------
+MODULE: backend_theme_odoo12
+STATUS: SUCCESS
+----------------------------------------
+MODULE: barcode_capturing_sale_purchase
+STATUS: SUCCESS
+----------------------------------------
+MODULE: barcode_scanning_sale_purchase
+STATUS: SUCCESS
+----------------------------------------
+MODULE: base_account_budget
+STATUS: SUCCESS
+----------------------------------------
+MODULE: base_accounting_kit
+STATUS: FAILED
+DETAILS:     modules._state_update('to install', ['uninstalled'])
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 393, in _state_update
+    self.check_external_dependencies(module.name, newstate)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 359, in check_external_dependencies
+    raise UserError(msg)
+odoo.exceptions.UserError: Unable to install module "base_accounting_kit" because an external dependency is not met: External dependency qifparse not installed: No package metadata was found for qifparse
+2025-07-19 02:50:48,174 2648 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 02:50:48,174 2648 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 02:50:48,174 2648 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+
+----------------------------------------
+MODULE: batch_delivery_tracking
+STATUS: FAILED
+DETAILS:   File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 418, in button_install
+    modules._state_update('to install', ['uninstalled'])
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 377, in _state_update
+    raise UserError(_(
+odoo.exceptions.UserError: You try to install module "batch_delivery_tracking" that depends on module "delivery_fedex".
+But the latter module is not available in your system.
+2025-07-19 02:50:52,745 2659 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 02:50:52,745 2659 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 02:50:52,745 2659 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+
+----------------------------------------
+MODULE: bill_digitization
+STATUS: FAILED
+DETAILS:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 393, in _state_update
+    self.check_external_dependencies(module.name, newstate)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 359, in check_external_dependencies
+    raise UserError(msg)
+odoo.exceptions.UserError: Unable to install module "base_accounting_kit" because an external dependency is not met: External dependency qifparse not installed: No package metadata was found for qifparse
+2025-07-19 02:50:57,311 2670 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 02:50:57,312 2670 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 02:50:57,312 2670 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+
+----------------------------------------
+MODULE: bom_comparison_report
+STATUS: SUCCESS
+----------------------------------------
+MODULE: bom_structure_in_excel_odoo
+STATUS: SUCCESS
+----------------------------------------
+MODULE: bom_total_cost
+STATUS: SUCCESS
+----------------------------------------
+MODULE: bulk_create_mo_so_po
+STATUS: SUCCESS
+----------------------------------------
+MODULE: call_for_price_website
+STATUS: SUCCESS
+----------------------------------------
+MODULE: cancel_landed_cost_odoo
+STATUS: SUCCESS
+----------------------------------------
+MODULE: cancel_mo
+STATUS: SUCCESS
+----------------------------------------
