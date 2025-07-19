@@ -114,7 +114,22 @@ def main():
         'customer_image_and_tags_in_pos', 'customer_product_qrcode',
         'customer_sequence', 'customer_supplier_approval',
         'customers_dealers_quantity', 'customize_signup',
-        'customized_barcode_generator'
+        'customized_barcode_generator',
+        # Batch 7 - All successful after fixes
+        'cw_account', 'cw_mrp', 'cw_purchase', 'cw_sale', 'cw_stock',
+        'dark_mode_backend', 'dashboard_pos', 'database_delete_protection',
+        'delivery_date_ecommerce', 'delivery_date_sale_order_line',
+        'delivery_date_scheduler_odoo', 'delivery_split',
+        'detect_unauthorized_login', 'developer_mode',
+        'direct_send_email_template',
+        # Batch 8 - 14/15 successful (dynamic_product_label_print has DB schema issue)
+        'document_approval', 'dodger_blue', 'done_quantity_auto_fill',
+        'dragable_and_resizable_wizard', 'duplicate_contact_details_alert',
+        'duplicate_product_bom', 'dynamic_accounts_report',
+        'dynamic_hover_on_related_fields', 'dynamic_image_hotspot',
+        'dynamic_link_snippet', 'dynamic_product_pricelist',
+        'dynamic_sale_order_fields', 'easy_chatgpt_access',
+        'easy_language_selector'
     ]
     
     # Get all modules
