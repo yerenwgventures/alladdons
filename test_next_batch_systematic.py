@@ -154,7 +154,19 @@ def main():
         'google_search_in_odoo', 'hide_chatter', 'hide_cost_price',
         'hide_menu_user', 'hide_product_price_cost', 'hr_attendance_xlsx_report',
         'hr_disciplinary_tracking', 'hr_expense_mass_payment', 'hr_holidays_balance_report',
-        'hr_hourly_payslip', 'hr_insurance'
+        'hr_hourly_payslip', 'hr_insurance',
+        # Batch 13 - 14/15 successful after fixes (dynamic_product_label_print still has DB schema issue)
+        'hr_leave_dashboard', 'hue_backend_theme', 'image_capture_upload_widget',
+        'import_lots', 'import_partner_employee_image', 'import_template_download',
+        'import_user_excel', 'index_and_follow', 'inventory_barcode_scanning',
+        'inventory_forecast_analysis_report', 'inventory_move_mini_dashboard',
+        'inventory_report_generator', 'hr_zk_attendance', 'import_bill_of_materials_in_mrp',
+        # Batch 14 - 14/15 successful after fixes (dynamic_product_label_print still has DB schema issue)
+        'inventory_stock_dashboard_odoo', 'inventory_turnover_report_analysis',
+        'invoice_bill_select_orderlines', 'invoice_design', 'invoice_format_editor',
+        'invoice_multi_approval', 'invoice_stock_move', 'jazzy_backend_theme',
+        'lang_switch_pos', 'list_tree_pin_records', 'listview_change_background_color',
+        'laundry_management', 'legal_case_management', 'legal_case_management_dashboard'
     ]
     
     # Get all modules

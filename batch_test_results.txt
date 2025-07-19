@@ -9,70 +9,80 @@ DETAILS:   File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 354, in ex
 psycopg2.errors.UndefinedFunction: operator does not exist: character varying >= integer
 HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
 
-2025-07-19 04:16:00,377 395 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 04:16:00,377 395 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 04:16:00,379 395 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+2025-07-19 07:06:09,209 429 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 07:06:09,209 429 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 07:06:09,209 429 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
-MODULE: hr_leave_dashboard
+MODULE: login_as_any_user
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: hr_zk_attendance
+MODULE: login_pos_direct
+STATUS: SUCCESS
+----------------------------------------
+MODULE: login_to_checkout
+STATUS: SUCCESS
+----------------------------------------
+MODULE: login_user_detail
+STATUS: SUCCESS
+----------------------------------------
+MODULE: low_sale_report
+STATUS: SUCCESS
+----------------------------------------
+MODULE: low_stocks_product_alert
 STATUS: FAILED
-DETAILS:     modules._state_update('to install', ['uninstalled'])
-  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 393, in _state_update
-    self.check_external_dependencies(module.name, newstate)
-  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 359, in check_external_dependencies
-    raise UserError(msg)
-odoo.exceptions.UserError: Unable to install module "hr_zk_attendance" because an external dependency is not met: External dependency pyzk not installed: No package metadata was found for pyzk
-2025-07-19 04:16:16,557 432 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 04:16:16,557 432 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 04:16:16,557 432 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+DETAILS:     raise Exception(env._(
+Exception: Module loading low_stocks_product_alert failed: file low_stocks_product_alert/security/ir.model.access.csv could not be processed:
+No matching record found for external id 'model_low_stocks_product_alert' in field 'Model'
+No matching record found for external id 'model_low_stocks_product_alert' in field 'Model'
+Missing required value for the field 'Model' (model_id)
+Missing required value for the field 'Model' (model_id)
+2025-07-19 07:07:12,788 543 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 07:07:12,789 543 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 07:07:12,790 543 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
 
 ----------------------------------------
-MODULE: hue_backend_theme
-STATUS: SUCCESS
-----------------------------------------
-MODULE: image_capture_upload_widget
-STATUS: SUCCESS
-----------------------------------------
-MODULE: import_bill_of_materials_in_mrp
+MODULE: lunch_order_pdf
 STATUS: FAILED
-DETAILS:   File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 601, in parse
-    self._tag_root(de)
-  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 557, in _tag_root
+DETAILS:   File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 557, in _tag_root
     raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
-odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/import_bill_of_materials_in_mrp/views/bom_import_menu_view.xml:14, somewhere inside
-<menuitem id="menu_import_bom" parent="mrp.menu_mrp_bom" action="action_import_bom" groups="import_bill_of_materials_in_mrp.import_bom_group_id"/>
-2025-07-19 04:16:43,329 481 INFO cbms_test_db odoo.service.server: Initiating shutdown 
-2025-07-19 04:16:43,329 481 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2025-07-19 04:16:43,329 481 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
+odoo.tools.convert.ParseError: while parsing /usr/lib/python3/dist-packages/odoo/addons/lunch/data/lunch_data.xml:27, somewhere inside
+<record id="partner_hungry_dog" model="res.partner" forcecreate="0">
+        <field name="name">Lunch Supplier</field>
+    </record>
+2025-07-19 07:07:22,380 562 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 07:07:22,381 562 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 07:07:22,381 562 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
 
 ----------------------------------------
-MODULE: import_lots
+MODULE: magic_note
+STATUS: FAILED
+DETAILS:     raise Exception(env._(
+Exception: Module loading magic_note failed: file magic_note/security/ir.model.access.csv could not be processed:
+No matching record found for external id 'model_magic_note' in field 'Model'
+No matching record found for external id 'model_magic_note' in field 'Model'
+Missing required value for the field 'Model' (model_id)
+Missing required value for the field 'Model' (model_id)
+2025-07-19 07:07:31,368 581 INFO cbms_test_db odoo.service.server: Initiating shutdown 
+2025-07-19 07:07:31,368 581 INFO cbms_test_db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-19 07:07:31,368 581 INFO cbms_test_db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+
+----------------------------------------
+MODULE: mail_message_access
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: import_partner_employee_image
+MODULE: mail_to_child_contact
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: import_template_download
+MODULE: mandatory_field_highlight
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: import_user_excel
+MODULE: manufacturing_timesheet
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: index_and_follow
+MODULE: mass_price_update
 STATUS: SUCCESS
 ----------------------------------------
-MODULE: inventory_barcode_scanning
-STATUS: SUCCESS
-----------------------------------------
-MODULE: inventory_forecast_analysis_report
-STATUS: SUCCESS
-----------------------------------------
-MODULE: inventory_move_mini_dashboard
-STATUS: SUCCESS
-----------------------------------------
-MODULE: inventory_report_generator
+MODULE: master_search
 STATUS: SUCCESS
 ----------------------------------------
