@@ -4,6 +4,7 @@
     <record id="dealer_sale_view_form" model="ir.ui.view">
         <field name="name">dealer.sale.view.form</field>
         <field name="model">dealer.sale</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Dealer Feedback">
                 <header>

@@ -33,17 +33,7 @@
                 </span>
             </t>
     </xpath>
-    <xpath expr="//div[hasclass('table')]"
-           position="attributes">
-        <attribute name="t-attf-title">#{table.reserved ? table.reservation_details : ''}</attribute>
-    </xpath>
-    <xpath expr="//div[hasclass('table')]"
-           position="inside">
-        <div class="table-reserved mb-5">
-            <span t-att-hidden="!table.reserved" class="reserved-label">
-                Reserved
-            </span>
-        </div>
-    </xpath>
+    
+    
 </t>
 </templates>

@@ -11,6 +11,7 @@
     <record id="silon_configuration_list" model="ir.ui.view">
         <field name="name">silon.configuration.list</field>
         <field name="model">silon.configuration</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list create="0">
                 <field name="name"/>

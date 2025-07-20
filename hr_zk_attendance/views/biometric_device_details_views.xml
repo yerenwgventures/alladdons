@@ -4,6 +4,7 @@
     <record id="biometric_device_details_view_list" model="ir.ui.view">
         <field name="name">biometric.device.details.view.list</field>
         <field name="model">biometric.device.details</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>

@@ -4,6 +4,7 @@
     <record id="psql_query_view_form" model="ir.ui.view">
         <field name="name">psql.query.view.form</field>
         <field name="model">psql.query</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="PostgreSQL Query">
                 <sheet>

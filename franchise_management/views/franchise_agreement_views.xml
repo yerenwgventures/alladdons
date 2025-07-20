@@ -4,6 +4,7 @@
     <record id="franchise_agreement_view_form" model="ir.ui.view">
         <field name="name">franchise.agreement.view.form</field>
         <field name="model">franchise.agreement</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Agreement">
                 <sheet>

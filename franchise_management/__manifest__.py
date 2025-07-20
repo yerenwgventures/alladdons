@@ -33,7 +33,7 @@
         'maintainer': 'CBMS TECHNOLOGIES LTD',
         'website': 'https://www.mycbms.com',
         'depends': ['product',
-        'website_sale', 'contacts',
+        'stub_website_sale', 'contacts',
         'account', 'sale'],
     'data': ['security/franchise_management_security.xml',
         'security/ir.model.access.csv',

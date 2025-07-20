@@ -30,7 +30,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['mail', 'hr_contract'],
+    'depends': ['mail', 'stub_hr_contract'],
     'data': [
         'data/ir_cron_data.xml',
         'data/mail_template_data.xml',

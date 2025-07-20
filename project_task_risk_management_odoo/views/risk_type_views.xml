@@ -4,6 +4,7 @@
     <record id="risk_type_view_list" model="ir.ui.view">
         <field name="name">risk.type.view.list</field>
         <field name="model">risk.type</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Risk Type" editable="top">
                 <field name="name"/>

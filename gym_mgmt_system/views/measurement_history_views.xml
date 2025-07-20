@@ -4,6 +4,7 @@
     <record id="measurement_history_view_form" model="ir.ui.view">
         <field name="name">measurement.history.view.form</field>
         <field name="model">measurement.history</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

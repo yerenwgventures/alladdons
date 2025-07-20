@@ -4,6 +4,7 @@
     <record id="theme_fasion_wizard_view_form" model="ir.ui.view">
         <field name="name">Theme Fashion Wizard</field>
         <field name="model">theme.fasion.wizard</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Theme Fashion Wizard">
                 <sheet>

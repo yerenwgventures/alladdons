@@ -4,6 +4,7 @@
     <record id="insurance_policy_view_form" model="ir.ui.view">
         <field name="name">insurance.Policy.view.Form</field>
         <field name="model">insurance.policy</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Policy Details">
                 <sheet>

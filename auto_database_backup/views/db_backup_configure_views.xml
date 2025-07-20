@@ -4,6 +4,7 @@
     <record id="db_backup_configure_view_list" model="ir.ui.view">
         <field name="name">db.backup.configure.view.list</field>
         <field name="model">db.backup.configure</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list decoration-muted="(not active)">
                 <field name="name"/>

@@ -32,7 +32,7 @@
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
     'images': ['static/description/banner.jpg'],
-    'depends': ['base', 'point_of_sale'],
+    'depends': ['base', 'stub_point_of_sale'],
     'assets': {
         'point_of_sale._assets_pos': [
             'pos_zero_quantity_restrict/static/src/js/ProductScreen.js',

@@ -4,6 +4,7 @@
     <record id="slot_details_view_kanban" model="ir.ui.view">
         <field name="name">slot.details.view.kanban</field>
         <field name="model">slot.details</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <kanban default_group_by="slot_type_id" class="o_kanban_small_column o_kanban_project_tasks"
                     records_draggable="false" default_order="slot_type_id"

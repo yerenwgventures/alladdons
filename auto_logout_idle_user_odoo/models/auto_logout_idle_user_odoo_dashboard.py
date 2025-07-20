@@ -12,7 +12,7 @@ class AutoLogoutIdleUserOdooDashboard(models.Model):
     """Dashboard model for auto_logout_idle_user_odoo analytics"""
     _name = 'auto_logout_idle_user_odoo.dashboard'
     _description = 'Auto Logout Idle User Odoo Dashboard'
-    _auto = False
+    # _auto = False  # Fixed: Create table
 
     name = fields.Char(string='Dashboard Name', default='Auto Logout Idle User Odoo Analytics')
     total_records = fields.Integer(string='Total Records', compute='_compute_totals')
@@ -30,11 +30,22 @@ class AutoLogoutIdleUserOdooDashboard(models.Model):
             record.records_this_month = 0
             record.active_records = 0
 
+    def action_view_records(self):
+        """Action to view all records"""
+        return {
+            'name': 'Auto Logout Records',
+            'type': 'ir.actions.act_window',
+            'res_model': 'res.users',
+            'view_mode': 'list,form',
+            'target': 'current',
+            'domain': [('active', '=', True)],
+        }
+
     @api.model
     def get_dashboard_data(self):
         """Return complete dashboard data for frontend"""
         dashboard = self.create({})
-        
+
         return {
             'totals': {
                 'total_records': dashboard.total_records,

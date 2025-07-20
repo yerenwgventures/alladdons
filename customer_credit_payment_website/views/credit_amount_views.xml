@@ -5,6 +5,7 @@
         <field name="name">credit.amount.view.list</field>
         <field name="model">credit.amount</field>
         <field name="priority">1</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Credit Amount" editable="bottom">
                 <field name="customer_id" readonly="state in ['approved']"/>

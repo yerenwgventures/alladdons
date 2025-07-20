@@ -11,6 +11,7 @@
     <record id="subscription_package_stop_view_tree" model="ir.ui.view">
         <field name="name">subscription.package.stop.view.tree</field>
         <field name="model">subscription.package.stop</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list editable="bottom">
                 <field name="sequence" widget="handle"/>

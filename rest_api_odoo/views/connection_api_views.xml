@@ -4,6 +4,7 @@
     <record id="connection_api_view_form" model="ir.ui.view">
         <field name="name">connection.api.view.form</field>
         <field name="model">connection.api</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

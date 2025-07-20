@@ -5,18 +5,7 @@
         <!--            The template modifies the product view page on the WatchHut website. It replaces -->
         <!--            certain elements and adds new sections, including a banner, preview images, product details, -->
         <!--            quantity selection, and add-to-cart functionality. It also customizes the "Shop" link on the page.-->
-        <xpath expr="//div[hasclass('justify-content-between')]" position="replace"/>
-        <xpath expr="//div[hasclass('row')]" position="before">
-            <section class="banner">
-                <div class="container">
-                    <div class="row">
-                        <h3 class="banner_head">
-                            Preview
-                        </h3>
-                    </div>
-                </div>
-            </section>
-        </xpath>
+        
         <xpath expr="//div[contains(@t-attf-class, 'col-lg-#{image_cols[0]}')]"
                position="replace">
             <section class="preview col-lg-6 col-12">

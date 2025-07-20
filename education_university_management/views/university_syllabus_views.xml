@@ -4,6 +4,7 @@
     <record id="university_syllabus_view_list" model="ir.ui.view">
         <field name="name">university.syllabus.view.list</field>
         <field name="model">university.syllabus</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Syllabus">
                 <field name="name"/>

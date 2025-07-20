@@ -38,7 +38,7 @@
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'images': ['static/description/banner.jpg'],
     'website': 'https://www.mycbms.com',
-    'depends': ['website_sale'],
+    'depends': ['stub_website_sale'],
     'data': ['views/website_sale_template.xml'],
     'assets': {
         'web.assets_frontend': [

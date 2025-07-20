@@ -12,6 +12,7 @@
     <record id="turnover_graph_analysis_view_list" model="ir.ui.view">
         <field name="name">turnover.graph.analysis.view.list</field>
         <field name="model">turnover.graph.analysis</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="company_id"/>

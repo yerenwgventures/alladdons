@@ -4,6 +4,7 @@
     <record id="pricelist_wizard_view_form" model="ir.ui.view">
         <field name="name">pricelist.product.view.form</field>
         <field name="model">pricelist.product</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

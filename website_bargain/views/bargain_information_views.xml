@@ -4,6 +4,7 @@
     <record id="bargain_information_view_form" model="ir.ui.view">
         <field name="name">bargain.information.view.form</field>
         <field name="model">bargain.information</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

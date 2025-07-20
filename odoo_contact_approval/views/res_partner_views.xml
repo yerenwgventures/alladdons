@@ -20,9 +20,7 @@
                     <field name="state" widget="statusbar"/>
                 </header>
             </xpath>
-            <xpath expr="//div[hasclass('o_address_format')]" position="after">
-                <field name="approver_id"/>
-            </xpath>
+            
         </field>
     </record>
     <!--  Action for the manager contacts approval   -->

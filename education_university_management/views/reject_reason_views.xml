@@ -4,6 +4,7 @@
     <record id="reject_reasons_view_list" model="ir.ui.view">
         <field name="name">reject.reason.view.list</field>
         <field name="model">reject.reason</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Reject Reason" editable="bottom">
                 <field name="name"/>

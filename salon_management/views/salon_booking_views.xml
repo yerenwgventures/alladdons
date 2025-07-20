@@ -4,6 +4,7 @@
     <record id="salon_booking_view_form" model="ir.ui.view">
         <field name="name">salon.booking.view.form</field>
         <field name="model">salon.booking</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <header>

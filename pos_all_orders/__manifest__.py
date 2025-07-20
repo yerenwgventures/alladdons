@@ -30,7 +30,7 @@
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'company': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['base', 'point_of_sale'],
+    'depends': ['base', 'stub_point_of_sale'],
     'data': [
         'views/res_config_settings_views.xml'
     ],

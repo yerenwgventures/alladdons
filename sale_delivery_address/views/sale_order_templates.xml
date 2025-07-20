@@ -22,14 +22,6 @@
         <xpath expr="//table/thead//tr[1]//th[1]" position="after">
             <th class="text-left">Delivery Address</th>
         </xpath>
-        <xpath expr="//table/tbody[hasclass('sale_tbody')]//tr[1]//td[1]"
-               position="after">
-            <td>
-                <span t-field="line.delivery_addr_id"/>
-                <span t-field="line.delivery_addr_id.street"/>
-                <span t-field="line.delivery_addr_id.city"/>
-                <span t-field="line.delivery_addr_id.zip"/>
-            </td>
-        </xpath>
+        
     </template>
 </odoo>

@@ -5,14 +5,7 @@
     <t t-name="Many2ManyBinaryField.attachment_preview"
        t-inherit="web.Many2ManyBinaryField.attachment_preview"
        t-inherit-mode="extension">
-        <xpath expr="//div[hasclass('o_image_box', 'float-start')]//a"
-               position="attributes">
-            <attribute name="target">_blank</attribute>
-            <attribute name="t-on-click.stop.prevent">() => this.onClickURL(file.id)</attribute>
-        </xpath>
-        <xpath expr="//div[hasclass('caption')]//a" position="attributes">
-            <attribute name="target">_blank</attribute>
-            <attribute name="t-on-click.stop.prevent">() => this.onClickURL(file.id)</attribute>
-        </xpath>
+        
+        
     </t>
 </templates>

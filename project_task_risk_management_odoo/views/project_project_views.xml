@@ -6,7 +6,8 @@
             <field name="name">project.project.view.form.inherit.project.task.risk.management.odoo</field>
             <field name="model">project.project</field>
             <field name="inherit_id" ref="project.edit_project"/>
-            <field name="arch" type="xml">
+                    <field name="type">list</field>
+        <field name="arch" type="xml">
                 <xpath expr="//header"
                        position="inside">
                     <button name="create_incident_wiz"

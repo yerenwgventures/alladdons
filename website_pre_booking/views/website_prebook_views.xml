@@ -4,6 +4,7 @@
     <record id="website_prebook_view_form" model="ir.ui.view">
         <field name="name">website.prebook.view.form</field>
         <field name="model">website.prebook</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <header>

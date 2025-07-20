@@ -1,0 +1,54 @@
+{
+  "stub_modules_created": [
+    "hr_payroll",
+    "hr_contract",
+    "survey",
+    "lunch",
+    "event",
+    "delivery",
+    "sale_stock",
+    "point_of_sale",
+    "website_sale"
+  ],
+  "stub_modules_installed": [
+    "hr_payroll",
+    "hr_contract",
+    "survey",
+    "lunch",
+    "event",
+    "delivery",
+    "sale_stock",
+    "point_of_sale",
+    "website_sale"
+  ],
+  "enterprise_fixes_applied": true,
+  "total_processed": 6,
+  "newly_successful": [],
+  "still_failed": [
+    {
+      "module": "automatic_payroll",
+      "error": "2025-07-19 17:29:43,786 2290 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "batch_delivery_tracking",
+      "error": "2025-07-19 17:29:51,396 2304 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "event_management",
+      "error": "2025-07-19 17:29:58,670 2318 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hotel_management_odoo",
+      "error": "2025-07-19 17:30:05,110 2331 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "lunch_order_pdf",
+      "error": "2025-07-19 17:30:10,454 2345 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pantry_payroll",
+      "error": "2025-07-19 17:30:16,511 2359 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    }
+  ],
+  "success_rate": 0.0
+}

@@ -17,6 +17,7 @@
     <record id="kitchen_screen_view_form" model="ir.ui.view">
         <field name="name">kitchen.screen.view.form</field>
         <field name="model">kitchen.screen</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form class="kitchen_form_view">
                 <sheet>

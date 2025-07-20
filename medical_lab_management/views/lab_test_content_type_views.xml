@@ -5,6 +5,7 @@
         <field name="name">lab.test.content.type.view.list</field>
         <field name="model">lab.test.content.type</field>
         <field name="priority" eval="8"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Contents">
                 <field name="content_type_name"/>

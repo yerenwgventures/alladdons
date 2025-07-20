@@ -5,6 +5,7 @@
         <field name="name">service.execute.view.list</field>
         <field name="model">service.execute</field>
         <field name="priority" eval="8"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Service Execute">
                 <field name="client_id"/>

@@ -3,14 +3,7 @@
     <!--    Inherited template to add portal menu for my claims-->
     <template id="portal_my_home_claim" name="My Claims"
               customize_show="True" inherit_id="portal.portal_my_home">
-        <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
-            <t t-call="portal.portal_docs_entry">
-                <t t-set="title">My Claims</t>
-                <t t-set="url"
-                   t-value="'/my/claims'"/>
-                <t t-set="placeholder_count" t-value="'claim_count'"/>
-            </t>
-        </xpath>
+        
     </template>
     <!-- Template for adding the table of claim data records in the portal   -->
     <template id="portal_warranty_claims" name="claims">
@@ -51,15 +44,6 @@
     <template id="portal_my_home_menu_claims"
               name="Portal layout: claims menu entries"
               inherit_id="portal.portal_breadcrumbs" priority="20">
-        <xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
-            <t t-set="variable" t-value="1"/>
-            <t t-if="variable == 1">
-                <li>
-                    <a t-attf-href="/my/claims?{{ keep_query() }}">/ Warranty
-                        Claims
-                    </a>
-                </li>
-            </t>
-        </xpath>
+        
     </template>
 </odoo>

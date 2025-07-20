@@ -4,6 +4,7 @@
     <record id="education_fee_category_view_form" model="ir.ui.view">
         <field name="name">education.fee.category.view.form</field>
         <field name="model">education.fee.category</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Fee Category">
                 <sheet>

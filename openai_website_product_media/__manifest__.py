@@ -31,7 +31,7 @@
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'images': ['static/description/banner.jpg'],
     'website': 'https://www.mycbms.com',
-    'depends': ['base', 'product', 'openai_odoo_base', 'website_sale',
+    'depends': ['base', 'product', 'openai_odoo_base', 'stub_website_sale',
                 'openai_product_images', 'stock'],
     'data': [
         'views/dalle_image_suggestion_views.xml'

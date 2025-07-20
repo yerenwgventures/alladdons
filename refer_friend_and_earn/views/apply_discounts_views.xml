@@ -10,6 +10,7 @@
     <record id="apply_discounts_view_tree" model="ir.ui.view">
         <field name="name">apply.discounts.view.tree</field>
         <field name="model">apply.discounts</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list editable="bottom">
                 <field name="starting_points"/>

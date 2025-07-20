@@ -4,6 +4,7 @@
     <record id="boec_config_view_list" model="ir.ui.view">
         <field name="name">boec.config.view.list</field>
         <field name="model">boec.config</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list create="0" delete="false">
                 <field name="name"/>

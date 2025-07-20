@@ -4,6 +4,7 @@
         <!--Testimonial adding form view-->
         <field name="name">add.testimonial.view.form</field>
         <field name="model">website.testimonial</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

@@ -4,6 +4,7 @@
     <record id="cleaning_team_view_tree" model="ir.ui.view">
         <field name="name">cleaning.team.view.tree</field>
         <field name="model">cleaning.team</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>

@@ -4,6 +4,7 @@
     <record id="event_management_type_view_list" model="ir.ui.view">
         <field name="name">event.management.type.view.list</field>
         <field name="model">event.management.type</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>

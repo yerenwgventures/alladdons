@@ -4,6 +4,7 @@
     <record id="university_department_view_list" model="ir.ui.view">
         <field name="name">university.department.view.list</field>
         <field name="model">university.department</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Department">
                 <field name="code"/>

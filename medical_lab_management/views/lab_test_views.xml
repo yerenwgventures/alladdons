@@ -5,6 +5,7 @@
         <field name="name">lab.test.view.list</field>
         <field name="model">lab.test</field>
         <field name="priority" eval="8"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Lab Test">
                 <field name="lab_test"/>
@@ -17,6 +18,7 @@
         <field name="name">lab.test.view.form</field>
         <field name="model">lab.test</field>
         <field name="priority" eval="8"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Lab Test">
                 <sheet>

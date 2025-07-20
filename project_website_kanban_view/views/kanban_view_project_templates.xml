@@ -154,13 +154,7 @@
     </template>
     <!--Adding an attribute viewtype to the list view table and also add the Project kanban view Template-->
     <template id="list_view_template_inherit" inherit_id="portal.portal_table">
-        <xpath expr="//table[hasclass('o_portal_my_doc_table')]"
-               position="attributes">
-            <attribute name="t-if">viewtype != 'kanban'</attribute>
-        </xpath>
-        <xpath expr="//table[hasclass('o_portal_my_doc_table')]"
-               position="before">
-            <t t-call="project_website_kanban_view.project_kanban_view_template"/>
-        </xpath>
+        
+        
     </template>
 </odoo>

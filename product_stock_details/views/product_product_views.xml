@@ -5,6 +5,7 @@
         <field name="name">product.product.view.form.inherit.product.stock.details</field>
         <field name="model">product.product</field>
         <field name="inherit_id" ref="product.product_normal_form_view"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <xpath expr="//group[@name='inventory']" position="before">
                 <separator string="Stock By Location"/>

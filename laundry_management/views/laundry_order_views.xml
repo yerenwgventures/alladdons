@@ -4,6 +4,7 @@
     <record id="laundry_order_view_form" model="ir.ui.view">
         <field name="name">laundry.order.view.form</field>
         <field name="model">laundry.order</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Laundry Order">
                 <header>
@@ -102,6 +103,7 @@
     <record id="laundry_order_view_list" model="ir.ui.view">
         <field name="name">laundry.order.view.list</field>
         <field name="model">laundry.order</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list decoration-info="state == 'draft'">
                 <field name="name"/>

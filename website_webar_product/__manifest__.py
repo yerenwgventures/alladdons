@@ -32,7 +32,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'depends': ['website_sale'],
+    'depends': ['stub_website_sale'],
     'data': [
         "views/product_template_views.xml",
         "views/website_sale_templates.xml",

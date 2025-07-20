@@ -47,6 +47,7 @@
     <record id="employee_promotion_view_tree" model="ir.ui.view">
         <field name="name">employee.promotion.view.tree</field>
         <field name="model">employee.promotion</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="promotion_fields">
                 <field name="promotion_name"/>

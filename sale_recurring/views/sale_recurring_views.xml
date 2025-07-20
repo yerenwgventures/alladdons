@@ -4,6 +4,7 @@
     <record id="sale_recurring_view_list" model="ir.ui.view">
         <field name="name">sale.recurring.view.list</field>
         <field name="model">sale.recurring</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Channel">
                 <field name="name"/>

@@ -11,6 +11,7 @@
     <record id="water_usage_categories_view_list" model="ir.ui.view">
         <field name="name">water.usage.categories.view.list</field>
         <field name="model">water.usage.categories</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Stages" multi_edit="1">
                 <field name="code"/>

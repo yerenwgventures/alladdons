@@ -4,7 +4,8 @@
         <record id="asked_questions_view_form" model="ir.ui.view">
             <field name="name">asked.questions.view.form</field>
             <field name="model">asked.questions</field>
-            <field name="arch" type="xml">
+                    <field name="type">list</field>
+        <field name="arch" type="xml">
                 <form>
                     <sheet>
                         <group>

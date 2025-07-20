@@ -4,6 +4,7 @@
     <record id="helpdesk_ticket_view_quick_create_form" model="ir.ui.view">
         <field name="name">ticket.helpdesk.quick.view.form</field>
         <field name="model">ticket.helpdesk</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <group>
@@ -148,6 +149,7 @@
     <record id="ticket_helpdesk_view_list" model="ir.ui.view">
         <field name="name">ticket.helpdesk.view.list</field>
         <field name="model">ticket.helpdesk</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>

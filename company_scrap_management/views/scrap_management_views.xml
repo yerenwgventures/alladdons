@@ -4,6 +4,7 @@
     <record id="scrap_management_view_tree" model="ir.ui.view">
         <field name="name">scrap.management.view.list</field>
         <field name="model">scrap.management</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="scrap_management_number"/>

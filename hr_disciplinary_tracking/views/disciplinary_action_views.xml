@@ -4,6 +4,7 @@
     <record id="disciplinary_action_search_view" model="ir.ui.view">
         <field name="name">disciplinary.action.view.search</field>
         <field name="model">disciplinary.action</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <search string="Search information">
                 <field name="employee_id"/>

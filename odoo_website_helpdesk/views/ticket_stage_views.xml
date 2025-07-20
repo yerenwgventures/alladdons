@@ -4,6 +4,7 @@
     <record id="ticket_stage_view_form" model="ir.ui.view">
         <field name="name">ticket.stage.view.form</field>
         <field name="model">ticket.stage</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

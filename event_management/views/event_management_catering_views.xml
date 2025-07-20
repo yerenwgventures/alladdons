@@ -4,6 +4,7 @@
     <record id="event_management_catering_view_tree" model="ir.ui.view">
         <field name="name">event.management.catering.view.tree</field>
         <field name="model">event.management.catering</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list create="false">
                 <field name="name"/>
@@ -18,6 +19,7 @@
     <record id="event_management_catering_view_kanban" model="ir.ui.view">
         <field name="name">event.management.catering.view.kanban</field>
         <field name="model">event.management.catering</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <kanban quick_create="false" create="false">
                 <field name="event_type_id"/>

@@ -31,7 +31,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['point_of_sale'],
+    'depends': ['stub_point_of_sale'],
     'assets': {
         'point_of_sale._assets_pos': [
             'pos_theme_sapphire/static/src/js/ProductScreen.js',

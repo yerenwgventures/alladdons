@@ -4,6 +4,7 @@
     <record id="daily_attendance_view_list" model="ir.ui.view">
         <field name="name">daily.attendance.view.list</field>
         <field name="model">daily.attendance</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Attendance" create="false" delete="false">
                 <field name="punching_day"/>

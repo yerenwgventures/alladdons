@@ -4,6 +4,7 @@
     <record id="website_bookings_view_list" model="ir.ui.view">
         <field name="name">website.bookings.view.list</field>
         <field name="model">website.bookings</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="booking"/>

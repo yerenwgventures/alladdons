@@ -4,6 +4,7 @@
     <record id="freight_service_view_tree" model="ir.ui.view">
         <field name="name">freight.service.view.tree</field>
         <field name="model">freight.service</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>
@@ -15,6 +16,7 @@
     <record id="freight_service_view_form" model="ir.ui.view">
         <field name="name">freight.service.view.form</field>
         <field name="model">freight.service</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

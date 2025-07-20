@@ -4,6 +4,7 @@
     <record id="crm_dynamic_fields_view_form" model="ir.ui.view">
         <field name="name">crm.dynamic.fields.view.form</field>
         <field name="model">crm.dynamic.fields</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Dynamic Fields">
                 <sheet>

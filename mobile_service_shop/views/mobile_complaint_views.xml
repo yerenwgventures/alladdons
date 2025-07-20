@@ -4,6 +4,7 @@
     <record id="mobile_complaint_view_tree" model="ir.ui.view">
         <field name="name">mobile.complaint.view.tree</field>
         <field name="model">mobile.complaint</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list editable="bottom">
                 <field name="complaint_type"/>

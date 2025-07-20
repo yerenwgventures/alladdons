@@ -4,6 +4,7 @@
     <record id="university_timetable_view_form" model="ir.ui.view">
         <field name="name">university.timetable.view.form</field>
         <field name="model">university.timetable</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="University Timetable">
                 <sheet>
@@ -128,6 +129,7 @@
     <record id="university_timetable_view_list" model="ir.ui.view">
         <field name="name">university.timetable.view.list</field>
         <field name="model">university.timetable</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="University Timetable">
                 <field name="name"/>

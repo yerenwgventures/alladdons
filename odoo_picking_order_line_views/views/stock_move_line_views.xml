@@ -4,6 +4,7 @@
     <record id="stock_move_in_form_view" model="ir.ui.view">
         <field name="name">move.lines.in.form</field>
         <field name="model">stock.move.line</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Picking Order Lines" edit="0" create="0" duplicate="0"
                   delete="0">
@@ -89,6 +90,7 @@
     <record id="stock_move_in_kanban_view" model="ir.ui.view">
         <field name="name">move.lines.in.kanbn</field>
         <field name="model">stock.move.line</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <kanban default_group_by="state"
                     class="o_kanban_small_column">

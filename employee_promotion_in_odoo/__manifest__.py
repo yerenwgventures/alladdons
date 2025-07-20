@@ -32,7 +32,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['mail', 'hr_contract'],
+    'depends': ['mail', 'stub_hr_contract'],
     'data': [
         'security/ir.model.access.csv',
         'views/employee_promotion_views.xml',

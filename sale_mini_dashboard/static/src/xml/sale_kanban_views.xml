@@ -3,9 +3,6 @@
 <templates>
     <t t-name="sale_mini_dashboard.SaleKanbanView"
        t-inherit="web.KanbanRenderer" t-inherit-mode="primary" owl="1">
-        <xpath expr="//div[hasclass('o_kanban_renderer')]"
-               position="before">
-            <SaleDashBoard/>
-        </xpath>
+        
     </t>
 </templates>

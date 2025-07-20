@@ -32,7 +32,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['point_of_sale'],
+    'depends': ['stub_point_of_sale'],
     'data': [
         'security/ir.model.access.csv',
         'wizard/advanced_pos_reports_wizard.xml',

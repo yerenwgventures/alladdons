@@ -16,6 +16,7 @@
     <record id="cleaning_team_duty_view_form" model="ir.ui.view">
         <field name="name">cleaning.team.duty.view.form</field>
         <field name="model">cleaning.team.duty</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form create="False">
                 <header>

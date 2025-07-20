@@ -3,20 +3,7 @@
     <!--    Product item inherited to show quickview button     -->
     <template id="products_c_quick_view" inherit_id="website_sale.products_item"
               active="active" name="Add to Cart">
-        <xpath expr="//div[hasclass('o_wsale_product_btn')]" position="inside">
-            <t t-set="product_variant_id"
-               t-value="product._get_first_possible_variant_id()"/>
-            <input name="product_id" t-att-value="product_variant_id"
-                   type="hidden"/>
-            <t t-if="product_variant_id and template_price_vals['price_reduce'] or not website.prevent_zero_price_sale">
-                <a href="#" role="button"
-                   class="btn btn-primary c-product-quick-view-action"
-                   aria-label="Quick View" title="Quick View"
-                   t-att-data-product-id="product.id">
-                    <span class="fa fa-eye"/>
-                </a>
-            </t>
-        </xpath>
+        
     </template>
     <!--    Product quick view template     -->
     <template id="c_product_quick_view" name="Product">

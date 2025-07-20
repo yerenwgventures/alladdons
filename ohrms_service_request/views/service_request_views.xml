@@ -5,6 +5,7 @@
         <field name="name">service.request.view.list</field>
         <field name="model">service.request</field>
         <field name="priority" eval="8"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Service Request">
                 <field name="service_name"/>

@@ -4,6 +4,7 @@
     <record id="xtream_testimonials_tree" model="ir.ui.view">
         <field name="name">xtream.testimonials.tree</field>
         <field name="model">xtream.testimonials</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list editable="bottom">
                 <field name="partner_id"/>

@@ -4,6 +4,7 @@
     <record id="helpdesk_type_view_list" model="ir.ui.view">
         <field name="name">helpdesk.type.view.list</field>
         <field name="model">helpdesk.type</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list editable="bottom">
                 <field name="name"/>

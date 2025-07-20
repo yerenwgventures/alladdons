@@ -4,6 +4,7 @@
     <record id="gdpr_request_view_list" model="ir.ui.view">
         <field name="name">gdpr.request.view.list</field>
         <field name="model">gdpr.request</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>

@@ -11,6 +11,7 @@
     <record id="manufacturing_order_creation_view_list" model="ir.ui.view">
         <field name="name">manufacturing.order.creation.view.list</field>
         <field name="model">manufacturing.order.creation</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="MO" editable="bottom">
                 <field name="product_id" readonly="parent.state != 'draft'"/>

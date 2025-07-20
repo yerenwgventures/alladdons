@@ -4,6 +4,7 @@
     <record id="mass_price_update_view_form" model="ir.ui.view">
         <field name="name">mass.price.update.view.form</field>
         <field name="model">mass.price.update</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Mass Price Update">
                 <sheet>

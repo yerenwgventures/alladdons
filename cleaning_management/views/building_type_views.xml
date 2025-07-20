@@ -16,6 +16,7 @@
     <record id="building_type_view_form" model="ir.ui.view">
         <field name="name">building.type.view.form</field>
         <field name="model">building.type</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

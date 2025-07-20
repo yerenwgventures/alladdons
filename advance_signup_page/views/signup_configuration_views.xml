@@ -4,6 +4,7 @@
     <record id="signup_configuration_view_list" model="ir.ui.view">
         <field name="name">signup.configuration.view.list</field>
         <field name="model">signup.configuration</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Signup Configuration">
                 <field name="name"/>

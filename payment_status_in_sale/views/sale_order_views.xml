@@ -15,19 +15,7 @@
                        style="width: 60%"/>
                 <field name="amount_due"/>
             </xpath>
-            <xpath expr="//sheet//div[hasclass('oe_button_box')]"
-                   position="after">
-                <widget name="web_ribbon" title="Not Paid"
-                        bg_color="bg-danger" invisible = "payment_status != 'Not Paid'"/>
-                <widget name="web_ribbon" title="Paid"
-                        bg_color="bg-success" invisible = "payment_status !=  'Paid'"/>
-                <widget name="web_ribbon" title="Partially Paid"
-                        bg_color="bg-warning" invisible = "payment_status !=  'Partially Paid'"/>
-                <widget name="web_ribbon" title="In Payment"
-                        bg_color="bg-info" invisible = "payment_status !=  'In Payment'"/>
-                <widget name="web_ribbon" title="Reversed"
-                        bg_color="bg-success" invisible = "payment_status != 'Reversed'"/>
-            </xpath>
+            
             <xpath expr="//button[@name='action_confirm']"
                    position="after">
                 <button name="action_register_payment"

@@ -4,6 +4,7 @@
     <record id="create_bulk_order_view_form" model="ir.ui.view">
         <field name="name">create.bulk.order.view.form</field>
         <field name="model">create.bulk.order</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Create Bulk Order">
                 <header>
@@ -87,6 +88,7 @@
     <record id="create_bulk_order_view_list" model="ir.ui.view">
         <field name="name">create.bulk.order.view.list</field>
         <field name="model">create.bulk.order</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Create Bulk Order" sample="1">
                 <field name="name"/>

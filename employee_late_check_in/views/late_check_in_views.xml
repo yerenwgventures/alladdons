@@ -14,6 +14,7 @@
     <record id="late_check_in_view_form" model="ir.ui.view">
         <field name="name">late.check.in.view.form</field>
         <field name="model">late.check.in</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Late Check-in" create="false">
                 <header>

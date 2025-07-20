@@ -42,7 +42,7 @@
         'views/account_analytic_account_views.xml',
         'views/account_budget_views.xml',
     ],
-    'post_init_hook': 'enable_analytic_accounting',
+    # 'post_init_hook': 'enable_analytic_accounting',
     'images': ['static/description/banner.png'],
     'license': 'LGPL-3',
     'installable': True,

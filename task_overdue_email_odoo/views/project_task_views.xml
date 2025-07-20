@@ -16,10 +16,7 @@
                         invisible="is_completed_task != False"/>
 
             </xpath>
-            <xpath expr="//div[hasclass('oe_button_box')]" position="before">
-                <widget name="web_ribbon" title="Completed" bg_color="bg-success"
-                        invisible="is_completed_task == False"/>
-            </xpath>
+            
 
         </field>
     </record>

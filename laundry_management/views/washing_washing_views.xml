@@ -4,6 +4,7 @@
     <record id="washing_washing_view_form" model="ir.ui.view">
         <field name="name">washing.washing.view.form</field>
         <field name="model">washing.washing</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Washing" create="false">
                 <header>
@@ -59,6 +60,7 @@
     <record id="washing_washing_view_list" model="ir.ui.view">
         <field name="name">washing.washing.view.list</field>
         <field name="model">washing.washing</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list create="false" edit="false"
                   decoration-info="state == 'draft'">

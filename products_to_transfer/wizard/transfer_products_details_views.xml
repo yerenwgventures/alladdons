@@ -4,6 +4,7 @@
     <record id="transfer_products_details_view_form" model="ir.ui.view">
         <field name="name">transfer.products.details.view.form</field>
         <field name="model">transfer.products.details</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Product Details">
                 <group>

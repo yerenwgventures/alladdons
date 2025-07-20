@@ -9,6 +9,7 @@
     <record id="employee_idea_view_tree" model="ir.ui.view">
         <field name="name">employee.idea.view.tree</field>
         <field name="model">employee.idea</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="reference_no"/>

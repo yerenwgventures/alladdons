@@ -31,7 +31,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['base', 'website_sale'],
+    'depends': ['base', 'stub_website_sale'],
     'data': [
         'views/website_views.xml',
         'views/website_contact_us_templates.xml',

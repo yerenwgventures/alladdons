@@ -12,7 +12,7 @@ class AuditDashboard(models.Model):
     """Dashboard model for user audit analytics"""
     _name = 'audit.dashboard'
     _description = 'User Audit Dashboard'
-    _auto = False
+    # _auto = False  # Fixed: Create table
 
     name = fields.Char(string='Dashboard Name', default='Audit Analytics')
     total_audits = fields.Integer(string='Total Audit Logs', compute='_compute_totals')
@@ -130,4 +130,13 @@ class AuditDashboard(models.Model):
             },
             'trends': dashboard.get_audit_trends(),
             'user_activity': dashboard.get_user_activity_breakdown(),
+        }
+    def action_view_records(self):
+        """Action to view all records"""
+        return {
+            'name': 'Records',
+            'type': 'ir.actions.act_window',
+            'res_model': self._name,
+            'view_mode': 'list,form',
+            'target': 'current',
         }

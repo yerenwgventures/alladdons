@@ -16,6 +16,7 @@
     <record id="recurring_activity_view_form" model="ir.ui.view">
         <field name="name">recurring.activity.view.form</field>
         <field name="model">recurring.activity</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form name="Activity form">
                 <sheet>

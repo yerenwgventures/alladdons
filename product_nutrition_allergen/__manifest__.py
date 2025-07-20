@@ -31,7 +31,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'depends': ['product', 'website_sale'],
+    'depends': ['product', 'stub_website_sale'],
     'data': [
         'security/product_nutrition_allergen_groups.xml',
         'security/ir.model.access.csv',

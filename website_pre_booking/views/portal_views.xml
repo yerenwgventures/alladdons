@@ -4,27 +4,14 @@
     <template id="portal_my_home_pre_bookings"
               name="portal_my_home_inherit_website_pre_booking"
               inherit_id="portal.portal_my_home" customize_show="True" >
-       <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
-           <t t-call="portal.portal_docs_entry">
-                <t t-set="icon" t-value="'/sale/static/src/img/bag.svg'"/>
-               <t t-set="title">Pre Booking</t>
-               <t t-set="url" t-value="'/my/pre_bookings'"/>
-               <t t-set="text">Pre-Booked Orders.</t>
-               <t t-set="placeholder_count" t-value="'pre_bookings_count'"/>
-           </t>
-       </xpath>
+       
     </template>
 
     <!-- Template for the breadcrumbs for the pre-booking-->
     <template id="portal_my_home_menu_pre_bookings"
               name="Portal layout : pre bookings menu entries"
           	inherit_id="portal.portal_breadcrumbs" priority="65">
-    	<xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
-        	<li t-if="page_name == 'pre_booking'"
-            	class="breadcrumb-item active">
-            	<span>Pre Booking</span>
-        	</li>
-    	</xpath>
+    	
 	</template>
     <!-- List of pre bookings to show in the portal table-->
     <template id="portal_my_pre_bookings" name="My Pre Bookings">

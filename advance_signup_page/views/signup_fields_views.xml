@@ -5,6 +5,7 @@
     <record id="signup_field_view_list" model="ir.ui.view">
         <field name="name">signup.field.view.list</field>
         <field name="model">signup.field</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Signup Fields" name="list_signup_fields">
                 <!-- Columns to display in the list view -->

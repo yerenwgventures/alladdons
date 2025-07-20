@@ -8,18 +8,7 @@
     </template>
     <template id="boec_pricelist_button" name="Boec Pricelist Button"
               inherit_id="website_sale.products">
-        <xpath expr="//div[hasclass('oe_website_sale')]" position="before">
-            <div class="products_pager d-flex form-inline flex-md-nowrap justify-content-between justify-content-md-center"
-                 style="margin-left:20%;margin-right:20%;">
-                <t t-if="is_view_active('website_sale.search')" t-call="website_sale.search">
-                    <t t-set="search" t-value="original_search or search"/>
-                    <t t-set="_form_classes" t-valuef="d-lg-inline {{'d-inline' if not category else 'd-none'}}"/>
-                </t>
-                <t t-if="is_view_active('website_sale.sort')" t-call="website_sale.sort">
-                    <t t-set="_classes" t-valuef="me-auto d-lg-inline-block"/>
-                </t>
-            </div>
-        </xpath>
+        
     </template>
     <template id="boec_brand_filter" inherit_id="website_sale.products_attributes" active="True">
         <xpath expr="//div[@t-if='attrib_values or tags']" position="attributes">
@@ -50,14 +39,7 @@
         </xpath>
     </template>
     <template id="boec_o_wsale_offcanvas" inherit_id="website_sale.o_wsale_offcanvas" active="True">
-        <xpath expr="//div[hasclass('offcanvas-body')]/a[@href]" position="replace">
-            <a t-attf-class="btn btn-{{navClass}} d-flex py-1 mb-2 {{(not attrib_values and not isFilteringByPrice and not tags and not brand_ids) and 'disabled' }}"
-               t-att-aria-disabled="(not attrib_values and not isFilteringByPrice and not tags and not brand_ids) and 'true' or 'false'"
-               href="/shop"
-               title="Clear Filters">
-                Clear Filters
-            </a>
-        </xpath>
+        
         <xpath expr="//form[contains(@t-attf-class, 'js_attributes')]" position="inside">
             <t t-set="brands" t-value="website.get_brands()"/>
             <div t-if="brands" class="accordion-item border-top-0 order-2">

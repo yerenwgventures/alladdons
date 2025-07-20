@@ -5,6 +5,7 @@
         <field name="name">test.unit.view.list</field>
         <field name="model">test.unit</field>
         <field name="priority" eval="8"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Test Unit">
                 <field name="unit"/>

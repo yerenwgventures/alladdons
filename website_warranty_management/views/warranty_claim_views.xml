@@ -17,6 +17,7 @@
     <record id="warranty_claim_view_form" model="ir.ui.view">
         <field name="name">warranty.claim.view.form</field>
         <field name="model">warranty.claim</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Warranty Claim">
                 <header>

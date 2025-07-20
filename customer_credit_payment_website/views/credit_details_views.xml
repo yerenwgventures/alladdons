@@ -6,6 +6,7 @@
         <field name="name">credit.details.view.list</field>
         <field name="model">credit.details</field>
         <field name="priority">2</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Credit Amount" create="0">
                 <field name="customer_id"/>
@@ -23,6 +24,7 @@
     <record id="credit_details_view_form" model="ir.ui.view">
         <field name="name">credit.details.form.view</field>
         <field name="model">credit.details</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Customer credit details" create="0">
                 <sheet>

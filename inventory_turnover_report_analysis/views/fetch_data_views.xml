@@ -12,6 +12,7 @@
     <record id="fetch_data_view_list" model="ir.ui.view">
         <field name="name">fetch.data.view.list</field>
         <field name="model">fetch.data</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="company_id"/>

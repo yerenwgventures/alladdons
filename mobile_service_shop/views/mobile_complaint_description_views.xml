@@ -4,6 +4,7 @@
     <record id="mobile_complaint_description_view_form" model="ir.ui.view">
         <field name="name">mobile.complaint.description.view.form</field>
         <field name="model">mobile.complaint.description</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Complaint Template">
                 <sheet>

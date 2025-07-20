@@ -4,6 +4,7 @@
     <record id="twilio_sms_group_view_form" model="ir.ui.view">
         <field name="name">twilio.sms.group.view.form</field>
         <field name="model">twilio.sms.group</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form name="Contacts">
                 <sheet>
@@ -30,6 +31,7 @@
     <record id="twilio_sms_group_view_list" model="ir.ui.view">
         <field name="name">twilio.sms.group.view.list</field>
         <field name="model">twilio.sms.group</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list name="twilio_contact_list">
                 <field name="name"/>

@@ -25,6 +25,7 @@
     <record id="promotion_type_view_tree" model="ir.ui.view">
         <field name="name">promotion.type.view.tree</field>
         <field name="model">promotion.type</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="promotion_type_fields">
                 <field name="promotion_type"/>

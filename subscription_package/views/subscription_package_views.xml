@@ -43,6 +43,7 @@
     <record id="subscription_package_view_tree" model="ir.ui.view">
         <field name="name">subscription.package.view.tree</field>
         <field name="model">subscription.package</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>
@@ -59,6 +60,7 @@
         <field name="model">subscription.package</field>
         <field name="groups_id"
                eval="[(4, ref('subscription_package.group_subscription_user'))]"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <header>

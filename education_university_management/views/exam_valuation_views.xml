@@ -4,6 +4,7 @@
     <record id="exam_valuation_view_form" model="ir.ui.view">
         <field name="name">exam.valuation.view.form</field>
         <field name="model">exam.valuation</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <header>
@@ -90,6 +91,7 @@
     <record id="exam_valuation_view_list" model="ir.ui.view">
         <field name="name">exam.valuation.view.list</field>
         <field name="model">exam.valuation</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="exam_id"/>

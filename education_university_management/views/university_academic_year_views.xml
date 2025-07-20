@@ -4,6 +4,7 @@
     <record id="university_academic_view_list" model="ir.ui.view">
         <field name="name">university.academic.view.list</field>
         <field name="model">university.academic.year</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Academic Year">
                 <field name="name"/>

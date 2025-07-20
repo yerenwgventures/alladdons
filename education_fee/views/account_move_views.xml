@@ -6,6 +6,7 @@
         <field name="name">account.move.line.view.form</field>
         <field name="model">account.move.line</field>
         <field eval="2" name="priority"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Journal Item" create="false">
                 <sheet>
@@ -188,6 +189,7 @@
         <field name="name">account.move.line.list.grouped</field>
         <field name="model">account.move.line</field>
         <field eval="1" name="priority"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Journal Items" create="false"
                   expand="context.get('expand', False)" multi_edit="1">
@@ -228,7 +230,7 @@
                     <field name="state" invisible="1"/>
                     <button name="edit" type="edit" icon="fa-edit"
                             title="Edit"/>
-                    <button name="action_post" states="draft" icon="fa-check"
+                    <button name="action_post" invisible="state != 'draft'" icon="fa-check"
                             title="Post" type="object"
                             groups="account.group_account_invoice"/>
                     <button name="%(account.action_view_account_move_reversal)d"
@@ -251,6 +253,7 @@
         <field name="model">account.move.line</field>
         <field name="mode">primary</field>
         <field name="inherit_id" ref="account.view_move_line_tree"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <field name="date" position="attributes">
                 <attribute name="optional">hide</attribute>
@@ -523,6 +526,7 @@
     <record id="view_invoice_tree" model="ir.ui.view">
         <field name="name">account.invoice.list</field>
         <field name="model">account.move</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Invoices"
                   js_class="account_tree"
@@ -593,6 +597,7 @@
         <field name="model">account.move</field>
         <field name="inherit_id" ref="account.view_invoice_tree"/>
         <field name="mode">primary</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <xpath expr="//list" position="attributes">
             </xpath>

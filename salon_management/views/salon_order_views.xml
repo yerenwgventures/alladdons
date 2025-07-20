@@ -4,6 +4,7 @@
     <record id="salon_order_view_tree" model="ir.ui.view">
         <field name="name">salon.order.view.tree</field>
         <field name="model">salon.order</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>
@@ -21,6 +22,7 @@
     <record id="salon_order_view_kanban" model="ir.ui.view">
         <field name="name">salon.order.view.kanban</field>
         <field name="model">salon.order</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <kanban default_group_by="stage_id"
                     class="o_kanban_small_column" quick_create="false"

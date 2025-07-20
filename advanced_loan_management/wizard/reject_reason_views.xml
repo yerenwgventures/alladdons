@@ -4,7 +4,6 @@
     <record id="reject_reason_view_form" model="ir.ui.view">
         <field name="name">reject.reason.view.form</field>
         <field name="model">reject.reason</field>
-        <field name="type">form</field>
         <field name="arch" type="xml">
             <form>
                 <group>

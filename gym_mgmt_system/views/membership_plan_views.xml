@@ -5,6 +5,7 @@
         <field name="name">Membership Plans</field>
         <field name="model">product.template</field>
         <field name="priority">50</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Membership products">
                 <field name="name"/>

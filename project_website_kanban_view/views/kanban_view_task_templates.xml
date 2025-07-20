@@ -143,10 +143,7 @@
     <!-- Adding the Project Task Kanban Template before the List Table Template  -->
     <template id="kanban_task_view_template_inherit"
               inherit_id="portal.portal_table">
-        <xpath expr="//table[hasclass('o_portal_my_doc_table')]"
-               position="before">
-            <t t-call="project_website_kanban_view.project_task_kanban_view_template"/>
-        </xpath>
+        
     </template>
 </odoo>
 

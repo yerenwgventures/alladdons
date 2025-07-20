@@ -4,6 +4,7 @@
     <record id="education_fee_structure_view_form" model="ir.ui.view">
         <field name="name">education.fee.structure.view.form</field>
         <field name="model">education.fee.structure</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Fee Structure" class="o_invoice_form">
                 <sheet string="Fee Structure">
@@ -50,6 +51,7 @@
     <record id="education_fee_structure_view_tree" model="ir.ui.view">
         <field name="name">education.fee.structure.view.list</field>
         <field name="model">education.fee.structure</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Fee Structure">
                 <field name="fee_structure_name"/>

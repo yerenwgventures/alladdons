@@ -5,6 +5,7 @@
         <field name="name">attendance.regular.view.list</field>
         <field name="model">attendance.regular</field>
         <field name="priority" eval="8"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Attendance Regularization">
                 <field name="employee_id"/>

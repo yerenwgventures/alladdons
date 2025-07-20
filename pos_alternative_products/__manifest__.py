@@ -32,7 +32,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['point_of_sale', 'pos_sale', 'website', 'website_sale'],
+    'depends': ['stub_point_of_sale', 'pos_sale', 'website', 'stub_website_sale'],
     'assets': {
         'point_of_sale._assets_pos': [
             'pos_alternative_products/static/src/js/ProductScreen.js',

@@ -30,7 +30,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['website_sale'],
+    'depends': ['stub_website_sale'],
     'data': [
         'security/website_signup_approval_groups.xml',
         'security/ir.model.access.csv',

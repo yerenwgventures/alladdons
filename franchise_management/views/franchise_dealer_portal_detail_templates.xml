@@ -4,22 +4,7 @@
     <template id="portal_my_home_menu_FranchiseRegistrations"
               name="Portal layout : FranchiseRegistrations menu entries"
           inherit_id="portal.portal_breadcrumbs" priority="60">
-    <xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
-        <li t-if="page_name == 'franchise_registrations'"
-            class="breadcrumb-item active">
-            <span>FranchiseRegistrations</span>
-        </li>
-        <li t-if="page_name == 'registration_details'"
-            class="breadcrumb-item active">
-              <a t-attf-href="/my/franchise" aria-label="Home"
-                 title="FranchiseRegistrations">
-                <span>FranchiseRegistrations</span>
-            </a>
-            <span>/
-                <em t-out="franchise.serial_no"/>
-            </span>
-        </li>
-    </xpath>
+    
 </template>
 <!--Franchise portal registration template-->
     <template id="franchise_portal" name="My Franchise Registration">

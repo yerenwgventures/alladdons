@@ -4,6 +4,7 @@
         <!-- Tree view of credit note line   -->
         <field name="name">credit.note.line.view.list</field>
         <field name="model">account.move.line</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="move_name"/>

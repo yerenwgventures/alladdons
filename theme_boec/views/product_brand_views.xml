@@ -4,6 +4,7 @@
     <record id="product_brand_view_list" model="ir.ui.view">
         <field name="name">product.brand.view.list</field>
         <field name="model">product.brand</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Products Brands">
                 <field name="brand_name"/>

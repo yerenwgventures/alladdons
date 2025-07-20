@@ -7,7 +7,7 @@
             delivery.carrier.view.form.inherit.restrict.delivery.method
         </field>
         <field name="model">delivery.carrier</field>
-        <field name="inherit_id" ref="delivery.view_delivery_carrier_form"/>
+        <field name="inherit_id" ref="stub_delivery.view_delivery_carrier_form"/>
         <field name="arch" type="xml">
             <xpath expr="//group[@name='delivery_details']" position="after">
                 <group>

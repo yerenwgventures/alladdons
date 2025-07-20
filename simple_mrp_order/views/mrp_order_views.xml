@@ -4,6 +4,7 @@
     <record id="mrp_order_view_form" model="ir.ui.view">
         <field name="name">mrp.order.view.form</field>
         <field name="model">mrp.order</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Manufacturing Order">
                 <header>
@@ -80,6 +81,7 @@
     <record id="mrp_order_view_list" model="ir.ui.view">
         <field name="name">mrp.order.view.list</field>
         <field name="model">mrp.order</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="product_id"/>

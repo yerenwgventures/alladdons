@@ -7,6 +7,7 @@
         </field>
         <field name="model">ir.attachment</field>
         <field name="inherit_id" ref="base.view_attachment_form"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <xpath expr="//form" position="replace">
                 <form create="false" edit="false">

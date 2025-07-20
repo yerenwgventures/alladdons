@@ -10,6 +10,7 @@
     <record id="document_attachment_view_tree" model="ir.ui.view">
         <field name="name">document.attachment.view.tree</field>
         <field name="model">document.attachment</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="document"/>

@@ -4,6 +4,7 @@
     <record id="university_attendance_view_form" model="ir.ui.view">
         <field name="name">university.attendance.view.form</field>
         <field name="model">university.attendance</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <header>
@@ -96,6 +97,7 @@
     <record id="university_attendance_view_list" model="ir.ui.view">
         <field name="name">university.attendance.view.list</field>
         <field name="model">university.attendance</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>

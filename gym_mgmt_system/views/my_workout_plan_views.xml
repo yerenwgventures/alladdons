@@ -4,6 +4,7 @@
     <record id="my_workout_plan_view_form" model="ir.ui.view">
         <field name="name">my.workout.plan.view.form</field>
         <field name="model">my.workout.plan</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

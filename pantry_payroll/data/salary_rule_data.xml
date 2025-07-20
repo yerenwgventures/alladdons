@@ -5,7 +5,7 @@
         <record id="pantry_rule" model="hr.salary.rule">
             <field name="code">PR</field>
             <field name="name">Pantry</field>
-            <field name="category_id" ref="hr_payroll_community.DED"/>
+            <field name="category_id" ref="stub_hr_payroll.DED"/>
             <field name="amount_select">code</field>
             <field name="amount_python_compute">result = inputs.PR and - (inputs.PR.amount)
             </field>
@@ -33,7 +33,7 @@
             <field eval="[(6, 0, [ref('hr_payroll_community.hr_salary_rule_house_rent_allowance1'), ref('hr_payroll_community.hr_salary_rule_convance_allowance1'),ref('hr_payroll_community.hr_salary_rule_profession_altax1'),ref('hr_payroll_community.hr_salary_rule_provident_fund1'),ref('pantry_rule')])]"
                    name="rule_ids"/>
             <field name="company_id" ref="base.main_company"/>
-            <field name="parent_id" ref="hr_payroll_community.structure_base"/>
+            <field name="parent_id" ref="stub_hr_payroll.structure_base"/>
         </record>
         <record id="hr_payroll_community.structure_002"
                 model="hr.payroll.structure">
@@ -42,7 +42,7 @@
             <field eval="[(6, 0, [ref('hr_payroll_community.hr_salary_rule_ca_gravie'), ref('hr_payroll_community.hr_salary_rule_meal_voucher'),ref('pantry_rule')])]"
                    name="rule_ids"/>
             <field name="company_id" ref="base.main_company"/>
-            <field name="parent_id" ref="hr_payroll_community.structure_001"/>
+            <field name="parent_id" ref="stub_hr_payroll.structure_001"/>
         </record>
     </data>
 </odoo>

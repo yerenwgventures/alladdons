@@ -4,6 +4,7 @@
     <record id="equipment_request_view_search" model="ir.ui.view">
         <field name="name">equipment.request.view.search</field>
         <field name="model">equipment.request</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <search>
                 <filter name="my_equipment_request" string="My Equipment Requests"
@@ -157,6 +158,7 @@
     <record id="equipment_request_view_list" model="ir.ui.view">
         <field name="name">equipment.request.view.list</field>
         <field name="model">equipment.request</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="request_for"/>

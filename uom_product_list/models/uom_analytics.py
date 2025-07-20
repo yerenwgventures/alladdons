@@ -12,7 +12,6 @@ class UomAnalytics(models.Model):
     """Analytics model for UOM usage"""
     _name = 'uom.analytics'
     _description = 'UOM Usage Analytics'
-    _auto = False
 
     name = fields.Char(string='Analytics Name', default='UOM Analytics')
     total_uoms = fields.Integer(string='Total UOMs', compute='_compute_totals')
