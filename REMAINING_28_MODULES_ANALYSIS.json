@@ -1,0 +1,1535 @@
+{
+  "analysis_timestamp": "2025-07-20T07:43:23.674354",
+  "total_modules": 28,
+  "modules_analyzed": [
+    {
+      "module": "base_accounting_kit",
+      "name": "Odoo 18 Full Accounting Kit for Community",
+      "version": "18.0.4.0.6",
+      "category": "Accounting",
+      "status": "install_missing_deps",
+      "dependencies": {
+        "all": [
+          "account",
+          "sale",
+          "account_check_printing",
+          "analytic",
+          "base_account_budget"
+        ],
+        "standard": [
+          "account",
+          "sale"
+        ],
+        "custom": [
+          "base_account_budget"
+        ],
+        "missing": [
+          "account_check_printing",
+          "analytic"
+        ]
+      },
+      "issues": [
+        "Missing dependencies: ['account_check_printing', 'analytic']"
+      ],
+      "installable": true,
+      "priority": "HIGH"
+    },
+    {
+      "module": "call_for_price_website",
+      "name": "Website Call For Price",
+      "version": "18.0.1.0.0",
+      "category": "Website",
+      "status": "install_missing_deps",
+      "dependencies": {
+        "all": [
+          "website_sale",
+          "website_sale_stock",
+          "website_sale_wishlist",
+          "website_sale_comparison"
+        ],
+        "standard": [
+          "website_sale"
+        ],
+        "custom": [],
+        "missing": [
+          "website_sale_stock",
+          "website_sale_wishlist",
+          "website_sale_comparison"
+        ]
+      },
+      "issues": [
+        "Missing dependencies: ['website_sale_stock', 'website_sale_wishlist', 'website_sale_comparison']"
+      ],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "cw_account",
+      "name": "Catch Weight Management: Accounting",
+      "version": "18.0.1.0.0",
+      "category": "Accounting",
+      "status": "install_custom_deps",
+      "dependencies": {
+        "all": [
+          "base",
+          "account",
+          "cw_stock",
+          "uom"
+        ],
+        "standard": [
+          "base",
+          "account",
+          "uom"
+        ],
+        "custom": [
+          "cw_stock"
+        ],
+        "missing": []
+      },
+      "issues": [
+        "Custom dependencies: ['cw_stock']"
+      ],
+      "installable": true,
+      "priority": "HIGH"
+    },
+    {
+      "module": "cw_mrp",
+      "name": "Catch Weight - Manufacturing",
+      "version": "18.0.1.0.0",
+      "category": "Manufacturing",
+      "status": "install_missing_deps",
+      "dependencies": {
+        "all": [
+          "mrp",
+          "mrp_subcontracting",
+          "stock",
+          "cw_stock"
+        ],
+        "standard": [
+          "mrp",
+          "stock"
+        ],
+        "custom": [
+          "cw_stock"
+        ],
+        "missing": [
+          "mrp_subcontracting"
+        ]
+      },
+      "issues": [
+        "Missing dependencies: ['mrp_subcontracting']"
+      ],
+      "installable": true,
+      "priority": "HIGH"
+    },
+    {
+      "module": "cw_purchase",
+      "name": "Catch Weight - Purchase",
+      "version": "18.0.1.0.0",
+      "category": "Purchases",
+      "status": "install_custom_deps",
+      "dependencies": {
+        "all": [
+          "purchase_stock",
+          "cw_stock",
+          "uom"
+        ],
+        "standard": [
+          "purchase_stock",
+          "uom"
+        ],
+        "custom": [
+          "cw_stock"
+        ],
+        "missing": []
+      },
+      "issues": [
+        "Custom dependencies: ['cw_stock']"
+      ],
+      "installable": true,
+      "priority": "HIGH"
+    },
+    {
+      "module": "cw_sale",
+      "name": "Catch Weight - Sale",
+      "version": "18.0.1.0.0",
+      "category": "Extra Tools",
+      "status": "install_missing_deps",
+      "dependencies": {
+        "all": [
+          "sale_management",
+          "sale_stock",
+          "cw_stock",
+          "uom"
+        ],
+        "standard": [
+          "sale_management",
+          "uom"
+        ],
+        "custom": [
+          "cw_stock"
+        ],
+        "missing": [
+          "sale_stock"
+        ]
+      },
+      "issues": [
+        "Missing dependencies: ['sale_stock']"
+      ],
+      "installable": true,
+      "priority": "HIGH"
+    },
+    {
+      "module": "cw_stock",
+      "name": "Catch Weight - Stock",
+      "version": "18.0.1.0.0",
+      "category": "Warehouse",
+      "status": "ready",
+      "dependencies": {
+        "all": [
+          "stock_account",
+          "uom"
+        ],
+        "standard": [
+          "stock_account",
+          "uom"
+        ],
+        "custom": [],
+        "missing": []
+      },
+      "issues": [],
+      "installable": true,
+      "priority": "HIGH"
+    },
+    {
+      "module": "customer_credit_payment_website",
+      "name": "Customer Credit Payment In Website",
+      "version": "18.0.1.0.0",
+      "category": "Website",
+      "status": "install_missing_deps",
+      "dependencies": {
+        "all": [
+          "sale_management",
+          "purchase",
+          "product",
+          "website_sale",
+          "payment",
+          "payment_demo"
+        ],
+        "standard": [
+          "sale_management",
+          "purchase",
+          "product",
+          "website_sale",
+          "payment"
+        ],
+        "custom": [],
+        "missing": [
+          "payment_demo"
+        ]
+      },
+      "issues": [
+        "Missing dependencies: ['payment_demo']"
+      ],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "education_fee",
+      "name": "Educational Fee Management",
+      "version": "18.0.1.0.0",
+      "category": "Industries",
+      "status": "install_missing_deps",
+      "dependencies": {
+        "all": [
+          "account",
+          "education_core"
+        ],
+        "standard": [
+          "account"
+        ],
+        "custom": [],
+        "missing": [
+          "education_core"
+        ]
+      },
+      "issues": [
+        "Missing dependencies: ['education_core']"
+      ],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "education_university_management",
+      "name": " University Education Management",
+      "version": "18.0.1.0.0",
+      "category": "Industries",
+      "status": "install_missing_deps",
+      "dependencies": {
+        "all": [
+          "mail",
+          "hr_recruitment",
+          "account",
+          "website"
+        ],
+        "standard": [
+          "mail",
+          "account",
+          "website"
+        ],
+        "custom": [],
+        "missing": [
+          "hr_recruitment"
+        ]
+      },
+      "issues": [
+        "Missing dependencies: ['hr_recruitment']"
+      ],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "franchise_management",
+      "name": "Franchise Management",
+      "version": "18.0.1.0.0",
+      "category": "Marketing",
+      "status": "ready",
+      "dependencies": {
+        "all": [
+          "product",
+          "website_sale",
+          "contacts"
+        ],
+        "standard": [
+          "product",
+          "website_sale",
+          "contacts"
+        ],
+        "custom": [],
+        "missing": []
+      },
+      "issues": [],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "gym_mgmt_system",
+      "name": "GYM Management System",
+      "version": "18.0.1.0.0",
+      "category": "Industries",
+      "status": "ready",
+      "dependencies": {
+        "all": [
+          "mail",
+          "contacts",
+          "hr",
+          "product",
+          "membership",
+          "sale_management"
+        ],
+        "standard": [
+          "mail",
+          "contacts",
+          "hr",
+          "product",
+          "membership",
+          "sale_management"
+        ],
+        "custom": [],
+        "missing": []
+      },
+      "issues": [],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "hotel_management_odoo",
+      "name": "Hotel Management",
+      "version": "18.0.1.1.1",
+      "category": "Industries",
+      "status": "ready",
+      "dependencies": {
+        "all": [
+          "account",
+          "event",
+          "fleet",
+          "lunch"
+        ],
+        "standard": [
+          "account",
+          "event",
+          "fleet",
+          "lunch"
+        ],
+        "custom": [],
+        "missing": []
+      },
+      "issues": [],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "legal_case_management",
+      "name": "Legal Case Management",
+      "version": "18.0.1.0.0",
+      "category": "Services",
+      "status": "ready",
+      "dependencies": {
+        "all": [
+          "base",
+          "hr",
+          "contacts",
+          "account",
+          "website",
+          "mail"
+        ],
+        "standard": [
+          "base",
+          "hr",
+          "contacts",
+          "account",
+          "website",
+          "mail"
+        ],
+        "custom": [],
+        "missing": []
+      },
+      "issues": [],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "legal_case_management_dashboard",
+      "name": "Legal Case Management Dashboard",
+      "version": "18.0.1.0.0",
+      "category": "Services",
+      "status": "install_custom_deps",
+      "dependencies": {
+        "all": [
+          "legal_case_management"
+        ],
+        "standard": [],
+        "custom": [
+          "legal_case_management"
+        ],
+        "missing": []
+      },
+      "issues": [
+        "Custom dependencies: ['legal_case_management']"
+      ],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "medical_lab_management",
+      "name": "Medical Lab Management",
+      "version": "18.0.1.0.0",
+      "category": "Industries",
+      "status": "ready",
+      "dependencies": {
+        "all": [
+          "base",
+          "mail",
+          "account",
+          "contacts"
+        ],
+        "standard": [
+          "base",
+          "mail",
+          "account",
+          "contacts"
+        ],
+        "custom": [],
+        "missing": []
+      },
+      "issues": [],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "portal_stock_check",
+      "name": "Portal Product Availability",
+      "version": "18.0.1.0.0",
+      "category": "Sales",
+      "status": "ready",
+      "dependencies": {
+        "all": [
+          "portal",
+          "sale_management",
+          "stock",
+          "contacts",
+          "website_sale",
+          "product"
+        ],
+        "standard": [
+          "portal",
+          "sale_management",
+          "stock",
+          "contacts",
+          "website_sale",
+          "product"
+        ],
+        "custom": [],
+        "missing": []
+      },
+      "issues": [],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "salon_management",
+      "name": "Beauty Spa Management",
+      "version": "18.0.1.0.0",
+      "category": "Services",
+      "status": "install_missing_deps",
+      "dependencies": {
+        "all": [
+          "account",
+          "base_setup",
+          "mail",
+          "website",
+          "contacts"
+        ],
+        "standard": [
+          "account",
+          "mail",
+          "website",
+          "contacts"
+        ],
+        "custom": [],
+        "missing": [
+          "base_setup"
+        ]
+      },
+      "issues": [
+        "Missing dependencies: ['base_setup']"
+      ],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "theme_autofly",
+      "name": "Theme Autofly",
+      "version": "18.0.1.0.0",
+      "category": "Theme/Corporate",
+      "status": "install_missing_deps",
+      "dependencies": {
+        "all": [
+          "website",
+          "website_blog",
+          "website_sale_wishlist"
+        ],
+        "standard": [
+          "website",
+          "website_blog"
+        ],
+        "custom": [],
+        "missing": [
+          "website_sale_wishlist"
+        ]
+      },
+      "issues": [
+        "Missing dependencies: ['website_sale_wishlist']"
+      ],
+      "installable": true,
+      "priority": "LOW"
+    },
+    {
+      "module": "theme_boec",
+      "name": "Theme Boec",
+      "version": "18.0.1.0.0",
+      "category": "Theme/eCommerce",
+      "status": "install_missing_deps",
+      "dependencies": {
+        "all": [
+          "website_blog",
+          "website_sale_wishlist",
+          "website_sale",
+          "website_sale_comparison"
+        ],
+        "standard": [
+          "website_blog",
+          "website_sale"
+        ],
+        "custom": [],
+        "missing": [
+          "website_sale_wishlist",
+          "website_sale_comparison"
+        ]
+      },
+      "issues": [
+        "Missing dependencies: ['website_sale_wishlist', 'website_sale_comparison']"
+      ],
+      "installable": true,
+      "priority": "LOW"
+    },
+    {
+      "module": "theme_coffee_shop",
+      "name": "Theme Coffee Shop",
+      "version": "18.0.1.0.0",
+      "category": "Theme",
+      "status": "install_missing_deps",
+      "dependencies": {
+        "all": [
+          "website_sale_wishlist",
+          "auth_oauth",
+          "website_sale",
+          "sale"
+        ],
+        "standard": [
+          "auth_oauth",
+          "website_sale",
+          "sale"
+        ],
+        "custom": [],
+        "missing": [
+          "website_sale_wishlist"
+        ]
+      },
+      "issues": [
+        "Missing dependencies: ['website_sale_wishlist']"
+      ],
+      "installable": true,
+      "priority": "LOW"
+    },
+    {
+      "module": "theme_fasion",
+      "name": "Theme Fashion",
+      "version": "18.0.1.0.0",
+      "category": "Theme/eCommerce",
+      "status": "ready",
+      "dependencies": {
+        "all": [
+          "website_sale",
+          "website_blog"
+        ],
+        "standard": [
+          "website_sale",
+          "website_blog"
+        ],
+        "custom": [],
+        "missing": []
+      },
+      "issues": [],
+      "installable": true,
+      "priority": "LOW"
+    },
+    {
+      "module": "theme_shopping",
+      "name": "Theme Shopping",
+      "version": "18.0.1.0.0",
+      "category": "Theme/eCommerce",
+      "status": "install_missing_deps",
+      "dependencies": {
+        "all": [
+          "base",
+          "sale_management",
+          "website_blog",
+          "website_sale_wishlist",
+          "website_sale",
+          "website",
+          "website_sale_comparison",
+          "website_mass_mailing"
+        ],
+        "standard": [
+          "base",
+          "sale_management",
+          "website_blog",
+          "website_sale",
+          "website",
+          "website_mass_mailing"
+        ],
+        "custom": [],
+        "missing": [
+          "website_sale_wishlist",
+          "website_sale_comparison"
+        ]
+      },
+      "issues": [
+        "Missing dependencies: ['website_sale_wishlist', 'website_sale_comparison']"
+      ],
+      "installable": true,
+      "priority": "LOW"
+    },
+    {
+      "module": "website_bargain",
+      "name": "Product Bidding In ECommerce",
+      "version": "18.0.1.0.0",
+      "category": "Website",
+      "status": "ready",
+      "dependencies": {
+        "all": [
+          "website_sale",
+          "contacts"
+        ],
+        "standard": [
+          "website_sale",
+          "contacts"
+        ],
+        "custom": [],
+        "missing": []
+      },
+      "issues": [],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "website_gdpr_odoo",
+      "name": "Website GDPR In Odoo",
+      "version": "18.0.1.0.0",
+      "category": "Website",
+      "status": "ready",
+      "dependencies": {
+        "all": [
+          "website",
+          "contacts"
+        ],
+        "standard": [
+          "website",
+          "contacts"
+        ],
+        "custom": [],
+        "missing": []
+      },
+      "issues": [],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "website_maintenance_page",
+      "name": "Website Maintenance Page",
+      "version": "18.0.1.0.0",
+      "category": "Website",
+      "status": "ready",
+      "dependencies": {
+        "all": [
+          "website_sale"
+        ],
+        "standard": [
+          "website_sale"
+        ],
+        "custom": [],
+        "missing": []
+      },
+      "issues": [],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "website_pre_booking",
+      "name": "Website Pre Booking",
+      "version": "18.0.1.0.1",
+      "category": "Website",
+      "status": "ready",
+      "dependencies": {
+        "all": [
+          "portal",
+          "website_sale"
+        ],
+        "standard": [
+          "portal",
+          "website_sale"
+        ],
+        "custom": [],
+        "missing": []
+      },
+      "issues": [],
+      "installable": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "module": "website_warranty_management",
+      "name": "Website Warranty Management",
+      "version": "18.0.1.0.0",
+      "category": "Sale",
+      "status": "ready",
+      "dependencies": {
+        "all": [
+          "sale_management",
+          "website"
+        ],
+        "standard": [
+          "sale_management",
+          "website"
+        ],
+        "custom": [],
+        "missing": []
+      },
+      "issues": [],
+      "installable": true,
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": {
+    "ready": 13,
+    "install_missing_deps": 12,
+    "install_custom_deps": 3,
+    "manifest_error": 0,
+    "missing_manifest": 0
+  },
+  "by_priority": {
+    "HIGH": [
+      {
+        "module": "base_accounting_kit",
+        "name": "Odoo 18 Full Accounting Kit for Community",
+        "version": "18.0.4.0.6",
+        "category": "Accounting",
+        "status": "install_missing_deps",
+        "dependencies": {
+          "all": [
+            "account",
+            "sale",
+            "account_check_printing",
+            "analytic",
+            "base_account_budget"
+          ],
+          "standard": [
+            "account",
+            "sale"
+          ],
+          "custom": [
+            "base_account_budget"
+          ],
+          "missing": [
+            "account_check_printing",
+            "analytic"
+          ]
+        },
+        "issues": [
+          "Missing dependencies: ['account_check_printing', 'analytic']"
+        ],
+        "installable": true,
+        "priority": "HIGH"
+      },
+      {
+        "module": "cw_account",
+        "name": "Catch Weight Management: Accounting",
+        "version": "18.0.1.0.0",
+        "category": "Accounting",
+        "status": "install_custom_deps",
+        "dependencies": {
+          "all": [
+            "base",
+            "account",
+            "cw_stock",
+            "uom"
+          ],
+          "standard": [
+            "base",
+            "account",
+            "uom"
+          ],
+          "custom": [
+            "cw_stock"
+          ],
+          "missing": []
+        },
+        "issues": [
+          "Custom dependencies: ['cw_stock']"
+        ],
+        "installable": true,
+        "priority": "HIGH"
+      },
+      {
+        "module": "cw_mrp",
+        "name": "Catch Weight - Manufacturing",
+        "version": "18.0.1.0.0",
+        "category": "Manufacturing",
+        "status": "install_missing_deps",
+        "dependencies": {
+          "all": [
+            "mrp",
+            "mrp_subcontracting",
+            "stock",
+            "cw_stock"
+          ],
+          "standard": [
+            "mrp",
+            "stock"
+          ],
+          "custom": [
+            "cw_stock"
+          ],
+          "missing": [
+            "mrp_subcontracting"
+          ]
+        },
+        "issues": [
+          "Missing dependencies: ['mrp_subcontracting']"
+        ],
+        "installable": true,
+        "priority": "HIGH"
+      },
+      {
+        "module": "cw_purchase",
+        "name": "Catch Weight - Purchase",
+        "version": "18.0.1.0.0",
+        "category": "Purchases",
+        "status": "install_custom_deps",
+        "dependencies": {
+          "all": [
+            "purchase_stock",
+            "cw_stock",
+            "uom"
+          ],
+          "standard": [
+            "purchase_stock",
+            "uom"
+          ],
+          "custom": [
+            "cw_stock"
+          ],
+          "missing": []
+        },
+        "issues": [
+          "Custom dependencies: ['cw_stock']"
+        ],
+        "installable": true,
+        "priority": "HIGH"
+      },
+      {
+        "module": "cw_sale",
+        "name": "Catch Weight - Sale",
+        "version": "18.0.1.0.0",
+        "category": "Extra Tools",
+        "status": "install_missing_deps",
+        "dependencies": {
+          "all": [
+            "sale_management",
+            "sale_stock",
+            "cw_stock",
+            "uom"
+          ],
+          "standard": [
+            "sale_management",
+            "uom"
+          ],
+          "custom": [
+            "cw_stock"
+          ],
+          "missing": [
+            "sale_stock"
+          ]
+        },
+        "issues": [
+          "Missing dependencies: ['sale_stock']"
+        ],
+        "installable": true,
+        "priority": "HIGH"
+      },
+      {
+        "module": "cw_stock",
+        "name": "Catch Weight - Stock",
+        "version": "18.0.1.0.0",
+        "category": "Warehouse",
+        "status": "ready",
+        "dependencies": {
+          "all": [
+            "stock_account",
+            "uom"
+          ],
+          "standard": [
+            "stock_account",
+            "uom"
+          ],
+          "custom": [],
+          "missing": []
+        },
+        "issues": [],
+        "installable": true,
+        "priority": "HIGH"
+      }
+    ],
+    "MEDIUM": [
+      {
+        "module": "call_for_price_website",
+        "name": "Website Call For Price",
+        "version": "18.0.1.0.0",
+        "category": "Website",
+        "status": "install_missing_deps",
+        "dependencies": {
+          "all": [
+            "website_sale",
+            "website_sale_stock",
+            "website_sale_wishlist",
+            "website_sale_comparison"
+          ],
+          "standard": [
+            "website_sale"
+          ],
+          "custom": [],
+          "missing": [
+            "website_sale_stock",
+            "website_sale_wishlist",
+            "website_sale_comparison"
+          ]
+        },
+        "issues": [
+          "Missing dependencies: ['website_sale_stock', 'website_sale_wishlist', 'website_sale_comparison']"
+        ],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "customer_credit_payment_website",
+        "name": "Customer Credit Payment In Website",
+        "version": "18.0.1.0.0",
+        "category": "Website",
+        "status": "install_missing_deps",
+        "dependencies": {
+          "all": [
+            "sale_management",
+            "purchase",
+            "product",
+            "website_sale",
+            "payment",
+            "payment_demo"
+          ],
+          "standard": [
+            "sale_management",
+            "purchase",
+            "product",
+            "website_sale",
+            "payment"
+          ],
+          "custom": [],
+          "missing": [
+            "payment_demo"
+          ]
+        },
+        "issues": [
+          "Missing dependencies: ['payment_demo']"
+        ],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "education_fee",
+        "name": "Educational Fee Management",
+        "version": "18.0.1.0.0",
+        "category": "Industries",
+        "status": "install_missing_deps",
+        "dependencies": {
+          "all": [
+            "account",
+            "education_core"
+          ],
+          "standard": [
+            "account"
+          ],
+          "custom": [],
+          "missing": [
+            "education_core"
+          ]
+        },
+        "issues": [
+          "Missing dependencies: ['education_core']"
+        ],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "education_university_management",
+        "name": " University Education Management",
+        "version": "18.0.1.0.0",
+        "category": "Industries",
+        "status": "install_missing_deps",
+        "dependencies": {
+          "all": [
+            "mail",
+            "hr_recruitment",
+            "account",
+            "website"
+          ],
+          "standard": [
+            "mail",
+            "account",
+            "website"
+          ],
+          "custom": [],
+          "missing": [
+            "hr_recruitment"
+          ]
+        },
+        "issues": [
+          "Missing dependencies: ['hr_recruitment']"
+        ],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "franchise_management",
+        "name": "Franchise Management",
+        "version": "18.0.1.0.0",
+        "category": "Marketing",
+        "status": "ready",
+        "dependencies": {
+          "all": [
+            "product",
+            "website_sale",
+            "contacts"
+          ],
+          "standard": [
+            "product",
+            "website_sale",
+            "contacts"
+          ],
+          "custom": [],
+          "missing": []
+        },
+        "issues": [],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "gym_mgmt_system",
+        "name": "GYM Management System",
+        "version": "18.0.1.0.0",
+        "category": "Industries",
+        "status": "ready",
+        "dependencies": {
+          "all": [
+            "mail",
+            "contacts",
+            "hr",
+            "product",
+            "membership",
+            "sale_management"
+          ],
+          "standard": [
+            "mail",
+            "contacts",
+            "hr",
+            "product",
+            "membership",
+            "sale_management"
+          ],
+          "custom": [],
+          "missing": []
+        },
+        "issues": [],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "hotel_management_odoo",
+        "name": "Hotel Management",
+        "version": "18.0.1.1.1",
+        "category": "Industries",
+        "status": "ready",
+        "dependencies": {
+          "all": [
+            "account",
+            "event",
+            "fleet",
+            "lunch"
+          ],
+          "standard": [
+            "account",
+            "event",
+            "fleet",
+            "lunch"
+          ],
+          "custom": [],
+          "missing": []
+        },
+        "issues": [],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "legal_case_management",
+        "name": "Legal Case Management",
+        "version": "18.0.1.0.0",
+        "category": "Services",
+        "status": "ready",
+        "dependencies": {
+          "all": [
+            "base",
+            "hr",
+            "contacts",
+            "account",
+            "website",
+            "mail"
+          ],
+          "standard": [
+            "base",
+            "hr",
+            "contacts",
+            "account",
+            "website",
+            "mail"
+          ],
+          "custom": [],
+          "missing": []
+        },
+        "issues": [],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "legal_case_management_dashboard",
+        "name": "Legal Case Management Dashboard",
+        "version": "18.0.1.0.0",
+        "category": "Services",
+        "status": "install_custom_deps",
+        "dependencies": {
+          "all": [
+            "legal_case_management"
+          ],
+          "standard": [],
+          "custom": [
+            "legal_case_management"
+          ],
+          "missing": []
+        },
+        "issues": [
+          "Custom dependencies: ['legal_case_management']"
+        ],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "medical_lab_management",
+        "name": "Medical Lab Management",
+        "version": "18.0.1.0.0",
+        "category": "Industries",
+        "status": "ready",
+        "dependencies": {
+          "all": [
+            "base",
+            "mail",
+            "account",
+            "contacts"
+          ],
+          "standard": [
+            "base",
+            "mail",
+            "account",
+            "contacts"
+          ],
+          "custom": [],
+          "missing": []
+        },
+        "issues": [],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "portal_stock_check",
+        "name": "Portal Product Availability",
+        "version": "18.0.1.0.0",
+        "category": "Sales",
+        "status": "ready",
+        "dependencies": {
+          "all": [
+            "portal",
+            "sale_management",
+            "stock",
+            "contacts",
+            "website_sale",
+            "product"
+          ],
+          "standard": [
+            "portal",
+            "sale_management",
+            "stock",
+            "contacts",
+            "website_sale",
+            "product"
+          ],
+          "custom": [],
+          "missing": []
+        },
+        "issues": [],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "salon_management",
+        "name": "Beauty Spa Management",
+        "version": "18.0.1.0.0",
+        "category": "Services",
+        "status": "install_missing_deps",
+        "dependencies": {
+          "all": [
+            "account",
+            "base_setup",
+            "mail",
+            "website",
+            "contacts"
+          ],
+          "standard": [
+            "account",
+            "mail",
+            "website",
+            "contacts"
+          ],
+          "custom": [],
+          "missing": [
+            "base_setup"
+          ]
+        },
+        "issues": [
+          "Missing dependencies: ['base_setup']"
+        ],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "website_bargain",
+        "name": "Product Bidding In ECommerce",
+        "version": "18.0.1.0.0",
+        "category": "Website",
+        "status": "ready",
+        "dependencies": {
+          "all": [
+            "website_sale",
+            "contacts"
+          ],
+          "standard": [
+            "website_sale",
+            "contacts"
+          ],
+          "custom": [],
+          "missing": []
+        },
+        "issues": [],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "website_gdpr_odoo",
+        "name": "Website GDPR In Odoo",
+        "version": "18.0.1.0.0",
+        "category": "Website",
+        "status": "ready",
+        "dependencies": {
+          "all": [
+            "website",
+            "contacts"
+          ],
+          "standard": [
+            "website",
+            "contacts"
+          ],
+          "custom": [],
+          "missing": []
+        },
+        "issues": [],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "website_maintenance_page",
+        "name": "Website Maintenance Page",
+        "version": "18.0.1.0.0",
+        "category": "Website",
+        "status": "ready",
+        "dependencies": {
+          "all": [
+            "website_sale"
+          ],
+          "standard": [
+            "website_sale"
+          ],
+          "custom": [],
+          "missing": []
+        },
+        "issues": [],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "website_pre_booking",
+        "name": "Website Pre Booking",
+        "version": "18.0.1.0.1",
+        "category": "Website",
+        "status": "ready",
+        "dependencies": {
+          "all": [
+            "portal",
+            "website_sale"
+          ],
+          "standard": [
+            "portal",
+            "website_sale"
+          ],
+          "custom": [],
+          "missing": []
+        },
+        "issues": [],
+        "installable": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "module": "website_warranty_management",
+        "name": "Website Warranty Management",
+        "version": "18.0.1.0.0",
+        "category": "Sale",
+        "status": "ready",
+        "dependencies": {
+          "all": [
+            "sale_management",
+            "website"
+          ],
+          "standard": [
+            "sale_management",
+            "website"
+          ],
+          "custom": [],
+          "missing": []
+        },
+        "issues": [],
+        "installable": true,
+        "priority": "MEDIUM"
+      }
+    ],
+    "LOW": [
+      {
+        "module": "theme_autofly",
+        "name": "Theme Autofly",
+        "version": "18.0.1.0.0",
+        "category": "Theme/Corporate",
+        "status": "install_missing_deps",
+        "dependencies": {
+          "all": [
+            "website",
+            "website_blog",
+            "website_sale_wishlist"
+          ],
+          "standard": [
+            "website",
+            "website_blog"
+          ],
+          "custom": [],
+          "missing": [
+            "website_sale_wishlist"
+          ]
+        },
+        "issues": [
+          "Missing dependencies: ['website_sale_wishlist']"
+        ],
+        "installable": true,
+        "priority": "LOW"
+      },
+      {
+        "module": "theme_boec",
+        "name": "Theme Boec",
+        "version": "18.0.1.0.0",
+        "category": "Theme/eCommerce",
+        "status": "install_missing_deps",
+        "dependencies": {
+          "all": [
+            "website_blog",
+            "website_sale_wishlist",
+            "website_sale",
+            "website_sale_comparison"
+          ],
+          "standard": [
+            "website_blog",
+            "website_sale"
+          ],
+          "custom": [],
+          "missing": [
+            "website_sale_wishlist",
+            "website_sale_comparison"
+          ]
+        },
+        "issues": [
+          "Missing dependencies: ['website_sale_wishlist', 'website_sale_comparison']"
+        ],
+        "installable": true,
+        "priority": "LOW"
+      },
+      {
+        "module": "theme_coffee_shop",
+        "name": "Theme Coffee Shop",
+        "version": "18.0.1.0.0",
+        "category": "Theme",
+        "status": "install_missing_deps",
+        "dependencies": {
+          "all": [
+            "website_sale_wishlist",
+            "auth_oauth",
+            "website_sale",
+            "sale"
+          ],
+          "standard": [
+            "auth_oauth",
+            "website_sale",
+            "sale"
+          ],
+          "custom": [],
+          "missing": [
+            "website_sale_wishlist"
+          ]
+        },
+        "issues": [
+          "Missing dependencies: ['website_sale_wishlist']"
+        ],
+        "installable": true,
+        "priority": "LOW"
+      },
+      {
+        "module": "theme_fasion",
+        "name": "Theme Fashion",
+        "version": "18.0.1.0.0",
+        "category": "Theme/eCommerce",
+        "status": "ready",
+        "dependencies": {
+          "all": [
+            "website_sale",
+            "website_blog"
+          ],
+          "standard": [
+            "website_sale",
+            "website_blog"
+          ],
+          "custom": [],
+          "missing": []
+        },
+        "issues": [],
+        "installable": true,
+        "priority": "LOW"
+      },
+      {
+        "module": "theme_shopping",
+        "name": "Theme Shopping",
+        "version": "18.0.1.0.0",
+        "category": "Theme/eCommerce",
+        "status": "install_missing_deps",
+        "dependencies": {
+          "all": [
+            "base",
+            "sale_management",
+            "website_blog",
+            "website_sale_wishlist",
+            "website_sale",
+            "website",
+            "website_sale_comparison",
+            "website_mass_mailing"
+          ],
+          "standard": [
+            "base",
+            "sale_management",
+            "website_blog",
+            "website_sale",
+            "website",
+            "website_mass_mailing"
+          ],
+          "custom": [],
+          "missing": [
+            "website_sale_wishlist",
+            "website_sale_comparison"
+          ]
+        },
+        "issues": [
+          "Missing dependencies: ['website_sale_wishlist', 'website_sale_comparison']"
+        ],
+        "installable": true,
+        "priority": "LOW"
+      }
+    ]
+  }
+}
