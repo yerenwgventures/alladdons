@@ -31,7 +31,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "http://www.cybrosys.com",
-    'depends': ['point_of_sale'],
+    'depends': ['stub_point_of_sale'],
     'assets': {
             'point_of_sale._assets_pos': [
                 'pos_order_line_image/static/src/css/order_line_image.css',

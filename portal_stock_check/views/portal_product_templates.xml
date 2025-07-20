@@ -4,21 +4,7 @@
     <template id="portal_my_home" name="Portal Product availability"
               customize_show="True"
               inherit_id="portal.portal_my_home" priority="100">
-        <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
-            <div class="o_portal_category row g-2 mt-3"
-                 id="portal_common_category">
-                <t t-call="portal.portal_docs_entry">
-                    <t t-set="icon"
-                       t-value="'/portal_stock_check/static/src/img/portal-product.svg'"/>
-                    <t t-set="title">Products Stock Availability</t>
-                    <t t-set="text">View, check availability of Products in
-                        Portal
-                    </t>
-                    <t t-set="url" t-value="'/my/products'"/>
-                    <t t-set="placeholder_count" t-value="'p_count'"/>
-                </t>
-            </div>
-        </xpath>
+        
     </template>
     <!--    Template for showing product details and quantity in a table-->
     <template id="portal_product_availability" name="Portal availability">

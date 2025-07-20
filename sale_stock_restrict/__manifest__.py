@@ -30,7 +30,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['base', 'sale_management', 'stock', 'account','website_sale'],
+    'depends': ['base', 'sale_management', 'stock', 'account','stub_website_sale'],
     'data': [
         'views/res_config_settings_views.xml',
         'views/sale_order.xml',

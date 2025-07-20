@@ -31,7 +31,7 @@
     'company': "Cybrosys Techno Solutions",
     'maintainer': "Cybrosys Techno Solutions",
     'website': "https://www.cybrosys.com",
-    'depends': ['website_sale'],
+    'depends': ['stub_website_sale'],
     'data': [
         'views/payment_provider_views.xml',
         'views/website_sale_delivery_templates.xml'

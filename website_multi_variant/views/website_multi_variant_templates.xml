@@ -106,9 +106,6 @@
             <attribute name="t-if">len(product.product_variant_ids) &lt;= 1
             </attribute>
         </xpath>
-        <xpath expr="//div[hasclass('js_main_product')]" position="attributes">
-            <attribute name="t-if">len(product.product_variant_ids) &lt;= 1
-            </attribute>
-        </xpath>
+        
     </template>
 </odoo>

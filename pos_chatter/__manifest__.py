@@ -29,7 +29,7 @@
     'summary': """POS Chat Box For Odoo18 Community and Enterprise Edition""",
     'description': """Using the POS screen, this module facilitates user '
                    'communication.""",
-    'depends': ['web','point_of_sale'],
+    'depends': ['web','stub_point_of_sale'],
     'assets': {
         'point_of_sale._assets_pos': [
             '/pos_chatter/static/src/xml/pos_systray_icon.xml',

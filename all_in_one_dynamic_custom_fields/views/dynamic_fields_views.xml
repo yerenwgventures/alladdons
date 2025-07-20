@@ -4,6 +4,7 @@
     <record id="dynamic_fields_view_list" model="ir.ui.view">
         <field name="name">dynamic.fields.view.list</field>
         <field name="model">dynamic.fields</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>

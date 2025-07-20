@@ -4,6 +4,7 @@
     <record id="washing_type_form_view" model="ir.ui.view">
         <field name="name">washing.type.view.form</field>
         <field name="model">washing.type</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

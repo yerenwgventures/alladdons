@@ -4,6 +4,7 @@
     <record id="gym_membership_view_form" model="ir.ui.view">
         <field name="name">gym.membership.view.form</field>
         <field name="model">gym.membership</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <header>

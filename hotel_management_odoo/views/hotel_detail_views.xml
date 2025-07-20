@@ -4,6 +4,7 @@
     <record id="hotel_detail_view_tree" model="ir.ui.view">
         <field name="name">hotel.details.view.tree</field>
         <field name="model">hotel.detail</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Hotel Details">
                 <field name="name"/>

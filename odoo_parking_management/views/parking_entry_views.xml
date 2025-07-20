@@ -4,6 +4,7 @@
     <record id="parking_entry_view_kanban" model="ir.ui.view">
         <field name="name">parking.entry.view.kanban</field>
         <field name="model">parking.entry</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <kanban>
                 <field name="name"/>

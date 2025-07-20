@@ -4,15 +4,7 @@
               inherit_id="portal.portal_my_home"
               customize_show="True"
               priority="32">
-        <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
-            <t t-call="portal.portal_docs_entry">
-                <t t-set="icon" t-value="'/website_product_reservation/static/src/img/bag.svg'"/>
-                <t t-set="title">Reservation</t>
-                <t t-set="url" t-value="'/my/reservation/requests'"/>
-                <t t-set="text">Check all the Reservation</t>
-                <t t-set="placeholder_count" t-value="'reservation_count'"/>
-            </t>
-        </xpath>
+        
     </template>
     <template id="portal_my_reservation_requests_tree">
         <t t-call="portal.portal_layout">

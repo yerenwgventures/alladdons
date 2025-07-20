@@ -80,7 +80,7 @@ class LaundryOrder(models.Model):
         ('return', 'Returned'),
         ('cancel', 'Cancelled'),
     ], string='Status', readonly=True, copy=False, index=True,
-        track_visibility='onchange', default='draft', help="State of the Order")
+        tracking=True, default='draft', help="State of the Order")
 
     @api.model_create_multi
     def create(self, vals_list):

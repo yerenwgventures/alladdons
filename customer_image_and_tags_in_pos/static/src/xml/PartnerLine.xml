@@ -3,14 +3,8 @@
 <templates id="template" xml:space="preserve">
     <t t-name="PartnerList"
        t-inherit="point_of_sale.PartnerList" t-inherit-mode="extension">
-        <xpath expr="//tr[.//th[hasclass('partner-line-email')]]/th[1]"
-               position="before">
-            <th>Image</th>
-        </xpath>
-        <xpath expr="//tr[.//th[hasclass('partner-line-email')]]/th[3]"
-               position="after">
-            <th>Tags</th>
-        </xpath>
+        
+        
     </t>
     <t t-name="PartnerLine" t-inherit="point_of_sale.PartnerLine"
        t-inherit-mode="extension">

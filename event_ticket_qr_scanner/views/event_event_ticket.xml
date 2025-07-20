@@ -7,7 +7,7 @@
         </field>
         <field name="model">event.event.ticket</field>
         <field name="inherit_id"
-               ref="event.event_event_ticket_view_tree_from_event"/>
+               ref="stub_event.event_event_ticket_view_tree_from_event"/>
         <field name="arch" type="xml">
             <field name="description" position="after">
                 <field name="ticket_qr_code_image" widget="image"

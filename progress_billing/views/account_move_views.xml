@@ -12,31 +12,7 @@
                 <field name="project_id"
                        invisible="move_type !='out_invoice'"/>
             </xpath>
-            <xpath expr="//group[hasclass('oe_invoice_lines_tab')]" position="after">
-                <group string="Progress Billing Information"
-                       invisible="move_type != 'out_invoice'">
-                    <group>
-                        <field name="total_progress_billing" widget="monetary"
-                               options="{'currency_field': 'currency_id'}"/>
-                        <field name="invoice_to_date" widget="monetary"
-                               options="{'currency_field': 'currency_id'}"/>
-                        <field name="remaining_progress_billing" widget="monetary"
-                               options="{'currency_field': 'currency_id'}"/>
-                    </group>
-                    <group>
-                        <field name="previously_invoice" widget="monetary"
-                               options="{'currency_field': 'currency_id'}"/>
-                        <field name="previously_invoice_due" widget="monetary"
-                               options="{'currency_field': 'currency_id'}"/>
-                        <field name="current_invoice" widget="monetary"
-                               options="{'currency_field': 'currency_id'}"/>
-                        <field name="less_paid_amount" widget="monetary"
-                               options="{'currency_field': 'currency_id'}"/>
-                        <field name="total_due" widget="monetary"
-                               options="{'currency_field': 'currency_id'}"/>
-                    </group>
-                </group>
-            </xpath>
+            
         </field>
     </record>
 </odoo>

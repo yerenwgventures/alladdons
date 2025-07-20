@@ -3,20 +3,7 @@
     <!--Inherited website products for adding images in header section-->
     <template id="shop_product_page" inherit_id="website_sale.products"
               active="True" name="Products Page">
-        <xpath expr="//div[hasclass('container')]" position="before">
-            <section class="banner_about" style="margin-top:-75px;">
-                <div class="banner-heading text-center">
-                    <h1 style="color:#fff; font-weight:bold;">Shop</h1>
-                    <ol class="breadcrumb mb-0">
-                        <li>
-                            <a style="color:#fff" href="/">Home</a>
-                            <span style="color:#fff" class="fa fa-angle-double-right"/>
-                        </li>
-                        <li style="color:#fff; font-weight:bold;" href="/shop">Shop</li>
-                    </ol>
-                </div>
-            </section>
-        </xpath>
+        
     </template>
     <!--Pricelist inherited template-->
     <template id="fuge_pricelist_dropdown" name="Fuge Pricelist Dropdown"
@@ -78,71 +65,13 @@
     </template>
     <template id="Fuge_pagination" name="fuge pagination"
               inherit_id="website_sale.products">
-        <xpath expr="//div[hasclass('justify-content-center')]"
-               position="replace">
-            <div class="justify-content-center">
-                <t t-call="theme_fuge.fuge_pager"/>
-            </div>
-        </xpath>
+        
     </template>
     <!--Template inherited product item -->
     <template id="fuge_shop_images" name="Fuge Shop Images"
               inherit_id="website_sale.products_item">
-        <xpath expr="//div[hasclass('oe_product_image')]"
-               position="replace">
-            <t t-set="product" t-value="product"/>
-            <div class="oe_product_image-body p-1 oe_product_image">
-                <input type="hidden" name="csrf_token"
-                       t-att-value="request.csrf_token()"/>
-                <a t-att-href="product_href" class="d-block h-100"
-                   itemprop="url">
-                    <t t-set="image_holder"
-                       t-value="product._get_image_holder()"/>
-                    <span t-field="image_holder.image_1920"
-                          t-options="{'widget': 'image', 'preview_image': 'image_1920'}"
-                          class="d-flex h-100 justify-content-center align-items-center">
-                    </span>
-                </a>
-            </div>
-        </xpath>
-        <xpath expr="//div[hasclass('o_wsale_product_information_text')]"
-               position="replace">
-            <div class="p-2 o_wsale_product_information_text">
-                <h6 class="o_wsale_products_item_title">
-                    <a style="font-size: 16px;text-decoration: none !important;font-weight: 600;color: #000000 !important"
-                       itemprop="name"
-                       t-att-href="product_href"
-                       t-att-content="product.name"
-                       t-field="product.name"/>
-                    <a role="button"
-                       t-if="not product.website_published"
-                       t-att-href="product_href"
-                       class="btn btn-sm btn-danger"
-                       title="This product is unpublished.">Unpublished
-                    </a>
-                </h6>
-                <div class="product_price" itemprop="offers"
-                     itemscope="itemscope"
-                     itemtype="http://schema.org/Offer">
-                    <t t-if="product_id">
-                        <t t-set="combination_info"
-                           t-value="product_id.product_tmpl_id._get_combination_info(product_id=product_id.id, add_qty=add_qty or 1, pricelist=pricelist)"/>
-                        <del t-attf-class="text-danger mr-2 {{'' if combination_info['has_discounted_price'] else 'd-none'}}"
-                             style="white-space: nowrap;"
-                             t-esc="combination_info['list_price']"
-                             t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/>
-                        <span t-if="combination_info['price']"
-                              t-esc="combination_info['price']"
-                              t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"
-                              style="font-weight: 600;color: #000000 !important"/>
-                        <span itemprop="price" style="display:none;"
-                              t-esc="combination_info['price']"/>
-                        <span itemprop="priceCurrency" style="display:none;"
-                              t-esc="website.currency_id.name"/>
-                    </t>
-                </div>
-            </div>
-        </xpath>
+        
+        
     </template>
     <!--Template inherited for website cart for features-->
     <template id="fuge_cart" name="Shopping Cart" inherit_id="website_sale.cart">

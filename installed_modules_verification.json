@@ -1,0 +1,50 @@
+{
+  "total_installed": 588,
+  "clean_modules": 439,
+  "modules_with_issues": 1,
+  "missing_modules": 148,
+  "parse_errors": 0,
+  "clean_percentage": 74.65986394557824,
+  "sample_clean_modules": [
+    "access_restriction_by_ip",
+    "account_interest_on_overdue_invoice",
+    "account_journal_discount",
+    "account_line_view",
+    "account_move_multi_cancel",
+    "account_payment_approval",
+    "account_report_send_by_mail",
+    "account_restrict_journal",
+    "activity_dashboard_mngmnt",
+    "activity_reminder",
+    "advance_cash_flow_statements",
+    "advance_hr_attendance_dashboard",
+    "advance_signup_page",
+    "advanced_chatter_view",
+    "advanced_excel_reports",
+    "advanced_loan_management",
+    "advanced_pos_reports",
+    "advanced_vat_invoice",
+    "age_restricted_product_pos",
+    "age_verification_odoo"
+  ],
+  "sample_issues": [
+    [
+      "magic_note",
+      [
+        "Manifest contains placeholders"
+      ]
+    ]
+  ],
+  "sample_missing": [
+    "account_check_printing",
+    "account_edi_ubl_cii",
+    "account_fleet",
+    "account_payment",
+    "attachment_indexation",
+    "auth_totp",
+    "auth_totp_mail",
+    "auth_totp_portal",
+    "barcodes_gs1_nomenclature",
+    "base_import"
+  ]
+}

@@ -144,12 +144,6 @@
                 </section>
             </footer>
         </xpath>
-        <xpath expr="//div[hasclass('o_footer_copyright')]" position="replace">
-            <div class="o_footer_copyright" style="background-color: #13457a;">
-                <div class="w-100 float-left text-white text-center pt-3 pb-3 copyright-container">
-                    Copyright 2025 medicate All Rights Reserved
-                </div>
-            </div>
-        </xpath>
+        
     </template>
 </odoo>

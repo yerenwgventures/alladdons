@@ -5,6 +5,7 @@
         <field name="name">res.users.approve.view.tree</field>
         <field name="model">res.users.approve</field>
         <field name="mode">primary</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>
@@ -19,6 +20,7 @@
         <field name="name">res.users.approve.view.form</field>
         <field name="model">res.users.approve</field>
         <field name="mode">primary</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Form">
                 <header>

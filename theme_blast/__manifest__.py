@@ -33,7 +33,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['web', 'website_sale', 'website_mass_mailing'],
+    'depends': ['web', 'stub_website_sale', 'website_mass_mailing'],
     'data': [
         'data/blast_configuration_data.xml',
         'security/ir.model.access.csv',

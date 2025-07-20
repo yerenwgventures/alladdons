@@ -4,6 +4,7 @@
     <record id="room_booking_view_form" model="ir.ui.view">
         <field name="name">room.booking.view.form</field>
         <field name="model">room.booking</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <header>
@@ -309,6 +310,7 @@
     <record id="room_booking_view_tree" model="ir.ui.view">
         <field name="name">room.booking.view.tree</field>
         <field name="model">room.booking</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>

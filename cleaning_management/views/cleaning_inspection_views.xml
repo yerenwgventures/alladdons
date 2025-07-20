@@ -16,6 +16,7 @@
     <record id="cleaning_inspection_view_form" model="ir.ui.view">
         <field name="name">cleaning.inspection.view.form</field>
         <field name="model">cleaning.inspection</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <header>

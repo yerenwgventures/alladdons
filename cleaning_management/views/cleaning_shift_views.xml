@@ -16,6 +16,7 @@
     <record id="cleaning_shift_view_form" model="ir.ui.view">
         <field name="name">>cleaning.shift.view.form</field>
         <field name="model">cleaning.shift</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form create="False">
                 <sheet>

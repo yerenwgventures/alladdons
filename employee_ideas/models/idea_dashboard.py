@@ -12,7 +12,7 @@ class IdeaDashboard(models.Model):
     """Dashboard model for employee ideas analytics"""
     _name = 'idea.dashboard'
     _description = 'Employee Ideas Dashboard'
-    _auto = False
+    # _auto = False  # Fixed: Create table
 
     name = fields.Char(string='Dashboard Name', default='Ideas Analytics')
     total_ideas = fields.Integer(string='Total Ideas', compute='_compute_totals')

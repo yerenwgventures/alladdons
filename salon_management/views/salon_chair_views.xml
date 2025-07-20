@@ -10,6 +10,7 @@
     <record id="salon_chair_view_form" model="ir.ui.view">
         <field name="name">salon.chair.view.form</field>
         <field name="model">salon.chair</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>
@@ -52,6 +53,7 @@
     <record id="salon_chair_view_tree" model="ir.ui.view">
         <field name="name">salon.chair.view.tree</field>
         <field name="model">salon.chair</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>

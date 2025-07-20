@@ -32,7 +32,7 @@
         'company': 'CBMS TECHNOLOGIES LTD',
         'maintainer': 'CBMS TECHNOLOGIES LTD',
         'website': 'https://www.mycbms.com',
-        'depends': ['account', 'event', 'fleet', 'website', 'sale'],
+        'depends': ['account', 'stub_event', 'fleet', 'website', 'sale', 'stub_point_of_sale'],
     'data': ['security/hotel_management_odoo_groups.xml',
         'security/hotel_management_odoo_security.xml',
         'security/ir.model.access.csv',

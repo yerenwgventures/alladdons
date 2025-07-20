@@ -4,6 +4,7 @@
     <record id="helpdesk_category_view_list" model="ir.ui.view">
         <field name="name">helpdesk.category.view.list</field>
         <field name="model">helpdesk.category</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Categories" editable="bottom">
                 <field name="sequence" widget="handle"/>

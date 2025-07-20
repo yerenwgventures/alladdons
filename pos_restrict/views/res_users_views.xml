@@ -21,7 +21,7 @@
     <record id="view_pos_config_kanban" model="ir.ui.view">
         <field name="name">pos.config.view.kanban.inherit.pos.restrict</field>
         <field name="model">pos.config</field>
-        <field name="inherit_id" ref="point_of_sale.view_pos_config_kanban"/>
+        <field name="inherit_id" ref="stub_point_of_sale.view_pos_config_kanban"/>
         <field name="arch" type="xml">
             <field name="name" position="after">
                 <field name="users_allowed"/>

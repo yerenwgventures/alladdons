@@ -5,6 +5,7 @@
         <field name="name">calendar.event.view.form.inherit.print.minutes.of.meeting</field>
         <field name="model">calendar.event</field>
         <field name="inherit_id" ref="calendar.view_calendar_event_form"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <xpath expr="//notebook"
                    position="inside">

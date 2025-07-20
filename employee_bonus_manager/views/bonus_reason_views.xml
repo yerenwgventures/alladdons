@@ -4,6 +4,7 @@
     <record id="bonus_reason_view_list" model="ir.ui.view">
         <field name="name">bonus.reason.view.list</field>
         <field name="model">bonus.reason</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Bonus Reasons" editable="bottom" sample="1">
                 <field name="name"/>

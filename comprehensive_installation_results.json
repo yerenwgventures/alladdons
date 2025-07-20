@@ -1,0 +1,153 @@
+{
+  "compatibility_fixes_applied": 308,
+  "total_processed": 51,
+  "newly_successful": [
+    "approval_connector",
+    "auto_database_backup",
+    "dynamic_product_label_print",
+    "email_id_validation",
+    "odoo_health_report",
+    "readonly_unit_price_cybrosys",
+    "refer_friend_and_earn",
+    "remove_studio_field",
+    "sale_order_discount_approval_odoo",
+    "sales_order_double_approval",
+    "storage_dashboard",
+    "theme_silon",
+    "theme_splash",
+    "theme_the_chef",
+    "theme_xtream",
+    "uom_product_list",
+    "user_login_alert",
+    "vista_backend_theme",
+    "website_custom_contact_us",
+    "whatsapp_mail_messaging"
+  ],
+  "still_failed": [
+    {
+      "module": "attendance_regularization",
+      "error": "2025-07-19 16:53:41,887 582 ERROR cbms_test_db odoo.modules.registry: Model attendance_regularization.dashboard has no table."
+    },
+    {
+      "module": "auto_logout_idle_user_odoo",
+      "error": "2025-07-19 16:53:53,862 610 ERROR cbms_test_db odoo.modules.registry: Model auto_logout_idle_user_odoo.dashboard has no table."
+    },
+    {
+      "module": "automatic_payroll",
+      "error": "2025-07-19 16:53:59,034 624 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "batch_delivery_tracking",
+      "error": "2025-07-19 16:54:17,504 638 WARNING cbms_test_db odoo.modules.loading: Module sale_stock demo data failed to install, installed without demo data"
+    },
+    {
+      "module": "bill_digitization",
+      "error": "2025-07-19 16:54:23,252 652 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "cleaning_management",
+      "error": "2025-07-19 16:54:56,515 663 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "detect_unauthorized_login",
+      "error": "2025-07-19 16:55:01,057 677 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "education_fee",
+      "error": "2025-07-19 16:55:13,287 705 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "employee_bonus_manager",
+      "error": "2025-07-19 16:55:25,800 733 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "employee_ideas",
+      "error": "2025-07-19 16:55:31,508 747 ERROR cbms_test_db odoo.modules.registry: Model idea.dashboard has no table."
+    },
+    {
+      "module": "employee_late_check_in",
+      "error": "2025-07-19 16:55:38,663 761 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "event_management",
+      "error": "2025-07-19 16:55:44,880 775 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "franchise_management",
+      "error": "2025-07-19 16:56:08,569 790 WARNING cbms_test_db odoo.modules.loading: Module website_sale demo data failed to install, installed without demo data"
+    },
+    {
+      "module": "hide_all_print_button",
+      "error": "2025-07-19 16:56:32,279 804 ERROR cbms_test_db odoo.modules.registry: Model print.button.analytics has no table."
+    },
+    {
+      "module": "hotel_management_odoo",
+      "error": "2025-07-19 16:56:42,505 818 WARNING cbms_test_db odoo.modules.loading: Module event demo data failed to install, installed without demo data"
+    },
+    {
+      "module": "hr_hourly_payslip",
+      "error": "2025-07-19 16:56:51,322 832 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hr_insurance",
+      "error": "2025-07-19 16:56:55,616 846 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "laundry_management",
+      "error": "2025-07-19 16:57:01,683 857 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "low_stocks_product_alert",
+      "error": "2025-07-19 16:57:17,566 871 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "lunch_order_pdf",
+      "error": "2025-07-19 16:57:24,173 885 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "mobile_service_shop",
+      "error": "2025-07-19 16:57:30,564 900 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pantry_payroll",
+      "error": "2025-07-19 16:57:43,951 928 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "print_subscription_id_card",
+      "error": "2025-07-19 16:57:49,902 942 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_multi_document",
+      "error": "2025-07-19 16:57:55,661 956 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "project_task_risk_management_odoo",
+      "error": "2025-07-19 16:58:04,522 970 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "salon_management",
+      "error": "2025-07-19 16:58:57,484 1055 WARNING cbms_test_db odoo.modules.loading: Module point_of_sale demo data failed to install, installed without demo data"
+    },
+    {
+      "module": "survey_upload_file",
+      "error": "2025-07-19 16:59:20,626 1083 ERROR cbms_test_db odoo.modules.registry: Model survey_upload_file.dashboard has no table."
+    },
+    {
+      "module": "theme_blast",
+      "error": "2025-07-19 16:59:33,360 1097 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "theme_shopping",
+      "error": "2025-07-19 16:59:43,088 1111 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "user_audit",
+      "error": "2025-07-19 17:00:30,165 1195 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_sign_sending_by_priority",
+      "error": "2025-07-19 17:01:01,315 1252 ERROR cbms_test_db odoo.modules.registry: Model uom.analytics has no table."
+    }
+  ],
+  "success_rate": 39.21568627450981
+}

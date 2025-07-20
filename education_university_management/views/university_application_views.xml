@@ -4,6 +4,7 @@
     <record id="university_application_view_list" model="ir.ui.view">
         <field name="name">university.application.view.list</field>
         <field name="model">university.application</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Student Application">
                 <field name="application_no"/>

@@ -4,6 +4,7 @@
     <record id="ir_model_fields_view_list" model="ir.ui.view">
         <field name="name">ir.model.fields.view.list</field>
         <field name="model">ir.model.fields</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Selection Fields List View" create="false" delete="false">
                 <field name="name"/>
@@ -15,6 +16,7 @@
     <record id="ir_model_fields_view_form" model="ir.ui.view">
         <field name="name">ir.model.fields.view.form</field>
         <field name="model">ir.model.fields</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Selection Fields Form View" create="0">
                 <field name="selection_ids">

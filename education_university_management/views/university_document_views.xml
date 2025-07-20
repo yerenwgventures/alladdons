@@ -4,6 +4,7 @@
     <record id="university_document_view_list" model="ir.ui.view">
         <field name="name">university.document.view.list</field>
         <field name="model">university.document</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Document">
                 <field name="name"/>

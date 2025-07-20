@@ -4,6 +4,7 @@
     <record id="hover_related_fields_view_form" model="ir.ui.view">
         <field name="name">hover.related.fields.view.form</field>
         <field name="model">hover.related.fields</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <!-- Define a form view -->
             <form string="Configure">

@@ -1,0 +1,1975 @@
+{
+  "session_timestamp": "2025-07-19 19:33:04",
+  "total_processed": 491,
+  "newly_successful": [],
+  "failed_modules": [
+    {
+      "module": "access_restriction_by_ip",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "account_interest_on_overdue_invoice",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "account_journal_discount",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "account_line_view",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "account_move_multi_cancel",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "account_payment_approval",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "account_report_send_by_mail",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "account_restrict_journal",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "activity_dashboard_mngmnt",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "activity_reminder",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "advance_cash_flow_statements",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "advance_hr_attendance_dashboard",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "advance_signup_page",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "advanced_chatter_view",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "advanced_excel_reports",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "advanced_loan_management",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "advanced_pos_reports",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "advanced_vat_invoice",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "age_restricted_product_pos",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "age_verification_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "all_in_one_dynamic_custom_fields",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "all_in_one_html_notes",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "amount_in_words_invoice",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "analytic_accounts_on_stock_picking",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "approval_connector",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "artify_backend_theme",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "attendance_regularization",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "attendance_view_calendar",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "auto_daily_weekly_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "auto_database_backup",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "auto_fill",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "auto_logout_idle_user_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "auto_save_restrict",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "automatic_invoice_and_post",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "automatic_payroll",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "automatic_project_task_timer",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "autosuggestion_in_discuss",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "backend_theme_odoo12",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "barcode_capturing_sale_purchase",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "barcode_scanning_sale_purchase",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "base_account_budget",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "base_accounting_kit",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "batch_delivery_tracking",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "bill_digitization",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "bom_comparison_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "bom_structure_in_excel_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "bom_total_cost",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "bulk_create_mo_so_po",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "call_for_price_website",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "cancel_landed_cost_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "cancel_mo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "cancel_quotation_expiry",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "chatter_activity_delay",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "chatter_attachments_as_zip",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "chatter_attachments_manager",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "chatter_camera",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "cleaning_management",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "code_backend_theme",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "code_backend_theme_enterprise",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "company_scrap_management",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "contact_documents",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "contacts_birthday_greetings",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "cost_per_employee_manufacturing",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "countrybased_terms_and_condition",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "create_expense_from_task_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "crm_check_approve_limiter",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "crm_dashboard",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "crm_dynamic_fields",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "cron_failure_notification",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "cts_theme_rozz",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "custom_pivot_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "custom_receipts_for_pos",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "custom_robots_txt",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "customer_credit_payment_website",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "customer_image_and_tags_in_pos",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "customer_product_qrcode",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "customer_sequence",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "customer_supplier_approval",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "customers_dealers_quantity",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "customize_signup",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "customized_barcode_generator",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "cw_account",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "cw_mrp",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "cw_purchase",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "cw_sale",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "cw_stock",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "dark_mode_backend",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "dashboard_pos",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "database_delete_protection",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "delivery_date_ecommerce",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "delivery_date_sale_order_line",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "delivery_date_scheduler_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "delivery_split",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "detect_unauthorized_login",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "developer_mode",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "direct_send_email_template",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "document_approval",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "dodger_blue",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "done_quantity_auto_fill",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "dragable_and_resizable_wizard",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "duplicate_contact_details_alert",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "duplicate_product_bom",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "dynamic_accounts_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "dynamic_hover_on_related_fields",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "dynamic_image_hotspot",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "dynamic_link_snippet",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "dynamic_product_label_print",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "dynamic_product_pricelist",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "dynamic_sale_order_fields",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "easy_chatgpt_access",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "easy_language_selector",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "easy_timesheet_add",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "ecommerce_barcode_search",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "ecommerce_quick_view",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "edit_label",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "edit_order_date",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "education_fee",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "education_university_management",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "email_id_validation",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "employee_bonus_manager",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "employee_dynamic_fields",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "employee_ideas",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "employee_late_check_in",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "employee_less_working_hour_notification",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "employee_promotion_in_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "employee_stages",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "equipment_request_it_operations",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "event_management",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "event_ticket_qr_scanner",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "excel_report_designer",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "exchange_currency_rate",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "expense_report_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "export_stockinfo_xls",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "export_view_pdf",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "field_timepicker",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "fleet_complete_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "force_availability_in_stock",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "fountain_widget_many2one",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "franchise_management",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "freight_management_system",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "gatepass_slip",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "gender_contact",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "google_search_in_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "gym_mgmt_system",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hide_all_print_button",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hide_chatter",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hide_cost_price",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hide_menu_user",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hide_product_price_cost",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hotel_management_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hr_attendance_xlsx_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hr_disciplinary_tracking",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hr_expense_mass_payment",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hr_holidays_balance_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hr_hourly_payslip",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hr_insurance",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hr_leave_dashboard",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hr_timesheet_description",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hr_zk_attendance",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "hue_backend_theme",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "image_capture_upload_widget",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "import_bill_of_materials_in_mrp",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "import_lots",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "import_partner_employee_image",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "import_template_download",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "import_user_excel",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "index_and_follow",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "inventory_barcode_scanning",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "inventory_forecast_analysis_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "inventory_move_mini_dashboard",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "inventory_report_generator",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "inventory_stock_dashboard_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "inventory_turnover_report_analysis",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "invoice_bill_select_orderlines",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "invoice_design",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "invoice_format_editor",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "invoice_multi_approval",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "invoice_stock_move",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "jazzy_backend_theme",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "lang_switch_pos",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "laundry_management",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "legal_case_management",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "legal_case_management_dashboard",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "list_tree_pin_records",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "listview_change_background_color",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "login_as_any_user",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "login_pos_direct",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "login_to_checkout",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "login_user_detail",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "low_sale_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "low_stocks_product_alert",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "lunch_order_pdf",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "magic_note",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "mail_message_access",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "mail_to_child_contact",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "mandatory_field_highlight",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "manufacturing_timesheet",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "mass_price_update",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "master_search",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "master_search_systray",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "medical_lab_management",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "membership_card_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "merge_picking_orders",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "merge_rfq",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "mobile_service_shop",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "model_viewer_widget",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "monday_odoo_connector",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "mrp_order_from_multiple_sale_order",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "mrp_product_kanban",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "mrp_work_order_print",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "multi_barcode_for_products",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "multi_image_in_pos",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "multi_pricelist",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "multicolor_backend_theme",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "multiple_reference_per_product",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_accounting_dashboard",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_calculator_tool",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_chatgpt_connector",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_contact_approval",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_dynamic_dashboard",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_google_contact_integration",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_google_meet_integration",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_health_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_parking_management",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_picking_order_line_views",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_product_tags",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_read_messages",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_readonly_user",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_rental_sales",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_sale_order_line_views",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_selection_field_configurator",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_twilio_sms",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_website_helpdesk",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "odoo_website_helpdesk_dashboard",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "ohrms_service_request",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "one2many_duplicate_record_widget",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "one2many_excel_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "one2many_mass_select_delete",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "openai_odoo_base",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "openai_product_images",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "openai_product_tag_descrption",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "openai_website_product_media",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "orange_theme_odoo12",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "order_invoice_manual_link",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "order_line_sequences",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pantry_payroll",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "partner_emails_history",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "partner_related_user",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "partner_search_by_number",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "password_hint",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "password_reset_manager",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "payment_proof_attachment",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "payment_status_in_sale",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pdf_report_action",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pdf_report_password_protection",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pdf_report_with_sign",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pdf_report_with_watermark",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "personal_organiser",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pip_installer",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "point_of_sale_logo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "portal_stock_check",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_all_orders",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_alternative_products",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_analysis_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_category_wise_receipt",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_chatter",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_controlled_interface",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_custom_percentage_tip_fixed",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_customer_feedback",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_delete_orderline",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_face_recognition",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_idle_time_session_lock",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_kitchen_screen_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_magnify_image",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_mrp_order",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_night_mode",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_numpad_show_hide",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_order_line_image",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_order_line_mass_edit",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_orderline_items_count",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_orderline_search",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_pro_cross_selling",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_product_limit_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_product_stock",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_products_based_on_time",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_receipt_extend",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_refund_password",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_report_generator",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_restrict",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_screen_pane_position",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_takeaway",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_theme_sapphire",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pos_zero_quantity_restrict",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "pricelist_price_on_product",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "print_minutes_of_meeting",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "print_subscription_id_card",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_360_degree_view_in_website",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_approval_management",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_barcode",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_batch_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_brand_ecommerce",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_brand_inventory",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_brand_purchase",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_brand_sale",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_combo_pack",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_deletion",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_detail_search",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_discount_limit",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_export_with_images",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_image_list_view",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_image_suggestion",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_import",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_internal_ref_generator",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_management_app",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_multi_attachment",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_multi_document",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_multi_uom",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_multi_vendor_update",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_nutrition_allergen",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_price_update_advanced",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_restriction_users",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_sales_by_location",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_stock_details",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_to_invoice",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_variant_import",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_volume",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_web_hover",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "product_wise_shipping_method",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "products_to_transfer",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "profit_and_loss_pdf_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "progress_billing",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "project_by_phases",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "project_dashboard_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "project_dynamic_fields",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "project_progress_bar",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "project_report_pdf",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "project_task_access",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "project_task_attachments",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "project_task_risk_management_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "project_task_unique_code",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "project_website_kanban_view",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "projects_task_checklists",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "psql_query_execute",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "purchase_down_payment",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "purchase_line_views",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "purchase_order_delivery_status",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "purchase_product_configurator",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "purchase_product_history",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "purchase_recurring_orders",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "purchase_requisition_project_task",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "quick_rfq",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "quotation_customer_followup",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "readonly_unit_price_cybrosys",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "recurring_of_activities",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "refer_friend_and_earn",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "remove_studio_field",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "report_attachment_preview",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "reset_journal_entries",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "rest_api_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "restrict_delivery_method",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "restrict_pricelist_user",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "restrict_web_debug",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "return_invoice_bill",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_customer_product_history",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_delivery_address",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_discount_total",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_invoice_detail",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_invoice_due_date_reminder",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_mini_dashboard",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_order_discount_approval_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_order_line_multi_warehouse",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_product_image",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_purchase_automated",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_purchase_from_product",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_purchase_previous_product_cost",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_recurring",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_report_advanced",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_report_format_editor",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_report_generator",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sale_stock_restrict",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sales_order_double_approval",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sales_person_signature",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sales_product_performance_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sales_target_vs_achievement",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sales_team_access_controls",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "salesperson_pos_order_line",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "salon_management",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "schedule_activity_to_multiple_users",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "schedule_survey",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "scheduled_action_shortcut",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "section_wise_subtotal",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "separate_quotation_number_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sequence_opportunity_crm",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "serial_no_from_mo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "shopping_through_agent",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "signup_with_twilio",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "simple_mrp_order",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "size_restriction_for_attachments",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "smart_alert_warning",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "so_bom_selection",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "special_product_snippet",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "split_mrp_order",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "statement_report",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "sticky_pivot_view",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "stock_intercompany_transfer",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "stock_last_purchase_price",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "stock_move_invoice",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "stock_transfer_in_pos",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "storage_dashboard",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "subscription_package",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "substitute_product_in_mrp",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "survey_question_duplicator",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "survey_upload_file",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "systray_menu_favourites",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "table_reservation_in_pos",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "task_deadline_reminder",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "task_overdue_email_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "text_commander",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_autofly",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_blast",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_boec",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_coffee_shop",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_diwy",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_fasion",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_fuge",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_medicate",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_shopping",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_silon",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_splash",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_the_chef",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_upshift",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_watchhut",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_xtream",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "theme_zen_dark",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "timesheet_auto_create",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "timesheet_view_calendar",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "timesheets_by_employee",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "total_payable_receivable",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "total_quantity_pos",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "trial_balance_pdf",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "uom_in_pricelist",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "uom_product_list",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "upload_multi_document",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "user_audit",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "user_login_alert",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "user_password_strength",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "vendor_portal_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "verify_and_delete_database",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "versioning_in_sale_order",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "vista_backend_theme",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "water_supply_with_mo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "web_events_calendar_view",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "web_login_styles",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "web_pay_shipping_methods",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_bargain",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_cancel_sale_order",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_cart_clear",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_custom_contact_us",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_customer_contact",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_decimal_quantity",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_estimated_delivery_time",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_favourites_grid",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_floating_whatsapp_icon",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_gdpr_odoo",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_hide_button",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_hide_variants",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_maintenance_page",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_multi_variant",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_order_delivery_tracking",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_pdf_preview_snippet",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_pre_booking",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_product_attachments",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_product_customization",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_product_publish",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_product_reservation",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_product_search_snippet",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_purchase_limit",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_repeat_sale",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_sale_address_management",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_sign_sending_by_priority",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_signup_approval",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_upload_files",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_warranty_management",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "website_webar_product",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "whatsapp_mail_messaging",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "whatsapp_product_inquiry",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "whatsapp_redirect",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "widget_preview_image",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "wishlist_product_website_backend",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "work_anniversary_reminder",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    },
+    {
+      "module": "work_orders_in_maintenance",
+      "error": "Error response from daemon: container 5b279240da86d5e9c76850799d489a4cc279c2eab1a9801c9c07a9284c075638 is not running"
+    }
+  ],
+  "session_success_rate": 0.0,
+  "overall_project_success_rate": 0.0,
+  "total_project_modules": 491,
+  "total_installed": 0
+}

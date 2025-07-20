@@ -5,6 +5,7 @@
         <field name="name">hr.employee.view.form.inherit.employee.stages</field>
         <field name="model">hr.employee</field>
         <field name="inherit_id" ref="hr.view_employee_form"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <xpath expr="//header" position="inside">
                 <button name="action_start_grounding" string="Start Grounding"

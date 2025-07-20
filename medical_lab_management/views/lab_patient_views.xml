@@ -8,6 +8,7 @@
     <record id="lab_patient_view_kanban" model="ir.ui.view">
         <field name="name">Patient Kanban</field>
         <field name="model">lab.patient</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <kanban>
                 <field name='id'/>

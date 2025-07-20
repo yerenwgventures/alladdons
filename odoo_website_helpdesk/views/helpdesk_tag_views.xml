@@ -4,6 +4,7 @@
     <record id="helpdesk_tag_view_list" model="ir.ui.view">
         <field name="name">helpdesk.tag.view.list</field>
         <field name="model">helpdesk.tag</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list editable="bottom">
                 <field name="name"/>

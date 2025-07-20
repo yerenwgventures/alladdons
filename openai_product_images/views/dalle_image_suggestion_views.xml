@@ -4,6 +4,7 @@
     <record id="dalle_image_suggestion_form_view" model="ir.ui.view">
         <field name="name">dalle.image.suggestion.form.view</field>
         <field name="model">dalle.image.suggestion</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Dall-E Image Suggestion">
                 <header>

@@ -17,7 +17,7 @@
 #   USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
 ###############################################################################
-from odoo import fields, models
+from odoo import api, fields, models
 import logging
 
 _logger = logging.getLogger(__name__)

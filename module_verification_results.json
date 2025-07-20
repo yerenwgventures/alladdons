@@ -1,0 +1,294 @@
+{
+  "total_modules": 491,
+  "verified_modules": 20,
+  "modules_with_issues": 5,
+  "clean_modules": 15,
+  "detailed_results": [
+    {
+      "module": "access_restriction_by_ip",
+      "manifest_check": {
+        "manifest": {
+          "name": "Access Restriction By IP",
+          "version": "18.0.1.0.0",
+          "category": "Extra Tools",
+          "summary": "User can be restricted from logging in from different Ip",
+          "description": "This module enhances security by allowing administrators \n     to control user access based on IP addresses. Users will only be able \n     to log in and access their accounts from specified IP addresses, \n     providing an additional layer of protection against unauthorized access.\n     ",
+          "author": "CBMS TECHNOLOGIES LTD",
+          "company": "CBMS TECHNOLOGIES LTD",
+          "maintainer": "CBMS TECHNOLOGIES LTD",
+          "website": "https://www.mycbms.com",
+          "data": [
+            "security/ir.model.access.csv",
+            "views/allowed_ips_view.xml"
+          ],
+          "images": [
+            "static/description/banner.jpg"
+          ],
+          "license": "AGPL-3",
+          "installable": true,
+          "auto_install": false,
+          "application": false
+        },
+        "issues": [
+          "Missing depends"
+        ],
+        "data_files": [
+          "security/ir.model.access.csv",
+          "views/allowed_ips_view.xml"
+        ],
+        "missing_files": []
+      },
+      "python_issues": [],
+      "xml_issues": [],
+      "directory_structure": [
+        "models: 3 files",
+        "views: 1 files",
+        "security: 1 files",
+        "static: 0 files"
+      ]
+    },
+    {
+      "module": "activity_dashboard_mngmnt",
+      "manifest_check": {
+        "manifest": {
+          "name": "Activity Management",
+          "version": "18.0.1.0.0",
+          "category": "Extra Tools",
+          "summary": "Dashboard for streamlined management of all activities.",
+          "description": "Simplify activity management with a comprehensive \n     dashboard, offering centralized control and oversight for seamless \n     organization-wide coordination and tracking.",
+          "author": "Cybrosys Techno solutions",
+          "company": "CBMS TECHNOLOGIES LTD",
+          "maintainer": "CBMS TECHNOLOGIES LTD",
+          "website": "https://www.cybrosys.com",
+          "depends": [
+            "mail"
+          ],
+          "data": [
+            "security/ir.model.access.csv",
+            "views/activity_tag_views.xml",
+            "views/activity_dashbord_views.xml",
+            "views/mail_activity_views.xml"
+          ],
+          "assets": {
+            "web.assets_backend": [
+              "activity_dashboard_mngmnt/static/src/css/dashboard.css",
+              "activity_dashboard_mngmnt/static/src/css/style.scss",
+              "activity_dashboard_mngmnt/static/src/css/material-gauge.css",
+              "activity_dashboard_mngmnt/static/src/xml/activity_dashboard_template.xml",
+              "activity_dashboard_mngmnt/static/src/js/activity_dashboard.js"
+            ]
+          },
+          "images": [
+            "static/description/Banner.jpg"
+          ],
+          "license": "AGPL-3",
+          "installable": true,
+          "auto_install": false,
+          "application": true
+        },
+        "issues": [],
+        "data_files": [
+          "security/ir.model.access.csv",
+          "views/activity_tag_views.xml",
+          "views/activity_dashbord_views.xml",
+          "views/mail_activity_views.xml"
+        ],
+        "missing_files": []
+      },
+      "python_issues": [
+        "mail_activity.py: Contains TODO"
+      ],
+      "xml_issues": [
+        "activity_tag_views.xml: Contains PLACEHOLDER",
+        "mail_activity_views.xml: Contains PLACEHOLDER"
+      ],
+      "directory_structure": [
+        "models: 3 files",
+        "views: 3 files",
+        "security: 1 files",
+        "static: 0 files"
+      ]
+    },
+    {
+      "module": "advance_signup_page",
+      "manifest_check": {
+        "manifest": {
+          "name": "Advance Signup Page",
+          "version": "18.0.1.0.0",
+          "category": "Website",
+          "summary": "The user can design a more creative and distinctive sign-up pagefor their Odoo website by using Odoo Advance Sign Up",
+          "description": "The user may create the Sign-Up page for their Odoo websiteusing the Odoo Advance Sign Up tool. Various dynamic fieldscan  be added by the Odoo admin as needed to the signupform.The website page for signup, login, and password resetcan have custom background picture selected by the Odooadmin. Admins may also add content to the login, register,and reset password pages from the Odoo backend.",
+          "author": "CBMS TECHNOLOGIES LTD",
+          "company": "CBMS TECHNOLOGIES LTD",
+          "maintainer": "CBMS TECHNOLOGIES LTD",
+          "website": "https://www.cybrosys.com",
+          "depends": [
+            "website",
+            "auth_signup"
+          ],
+          "data": [
+            "security/ir.model.access.csv",
+            "views/signup_configuration_views.xml",
+            "views/signup_fields_views.xml",
+            "views/auth_signup_templates.xml"
+          ],
+          "images": [
+            "static/description/banner.jpg"
+          ],
+          "license": "AGPL-3",
+          "installable": true,
+          "auto_install": false,
+          "application": false
+        },
+        "issues": [],
+        "data_files": [
+          "security/ir.model.access.csv",
+          "views/signup_configuration_views.xml",
+          "views/signup_fields_views.xml",
+          "views/auth_signup_templates.xml"
+        ],
+        "missing_files": []
+      },
+      "python_issues": [
+        "signup_configuration.py: Possibly incomplete class definitions",
+        "signup_field.py: Contains PLACEHOLDER"
+      ],
+      "xml_issues": [
+        "signup_fields_views.xml: Contains PLACEHOLDER"
+      ],
+      "directory_structure": [
+        "models: 3 files",
+        "views: 3 files",
+        "security: 1 files",
+        "static: 0 files"
+      ]
+    },
+    {
+      "module": "advanced_chatter_view",
+      "manifest_check": {
+        "manifest": {
+          "name": "Advanced Chatter View",
+          "version": "18.0.1.0.0",
+          "category": "Discuss",
+          "summary": "Advanced odoo chatter view.",
+          "description": "This module is used to view advanced chatter view.",
+          "author": "CBMS TECHNOLOGIES LTD",
+          "company": "CBMS TECHNOLOGIES LTD",
+          "maintainer": "CBMS TECHNOLOGIES LTD",
+          "website": "https://www.cybrosys.com",
+          "depends": [
+            "base",
+            "mail"
+          ],
+          "assets": {
+            "web.assets_backend": [
+              "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css",
+              "advanced_chatter_view/static/src/css/chatter_topbar.css",
+              "advanced_chatter_view/static/src/js/chatter_container.js",
+              "advanced_chatter_view/static/src/xml/chatter.xml"
+            ]
+          },
+          "images": [
+            "static/description/banner.png"
+          ],
+          "license": "LGPL-3",
+          "installable": true,
+          "auto_install": false,
+          "application": false
+        },
+        "issues": [
+          "Missing data"
+        ],
+        "data_files": [],
+        "missing_files": []
+      },
+      "python_issues": [],
+      "xml_issues": [],
+      "directory_structure": [
+        "static: 0 files"
+      ]
+    },
+    {
+      "module": "advanced_loan_management",
+      "manifest_check": {
+        "manifest": {
+          "name": "Loan Management",
+          "version": "18.0.1.0.0",
+          "summary": "Helps You To Manage Loan Requests/Disbursement/Repayments/Amortization Operations",
+          "description": "\nLoan Management System for managing employee loans, repayments, and interest calculations.\nFeatures include loan types, approval workflows, automated calculations, and comprehensive reporting.\n\nEDITION COMPATIBILITY:\n======================\nThis module supports both Odoo Community and Enterprise editions.\n\nENTERPRISE EDITION:\n- Uses advanced payroll integration with hr_payroll module\n- Full payroll deduction capabilities\n- Advanced reporting features\n\nCOMMUNITY EDITION:\n- Falls back to hr module for employee management\n- Manual payroll integration\n- Core loan management functionality maintained\n- Basic reporting available\n\nAUTOMATIC DETECTION:\n- Module automatically detects available edition\n- Gracefully handles missing enterprise modules\n- No manual configuration required\n        ",
+          "category": "Accounting",
+          "author": "CBMS TECHNOLOGIES LTD",
+          "company": "CBMS TECHNOLOGIES LTD",
+          "maintainer": "CBMS TECHNOLOGIES LTD",
+          "website": "https://www.mycbms.com",
+          "depends": [
+            "mail",
+            "account",
+            "base",
+            "hr"
+          ],
+          "demo": [
+            "data/loan_journal_data.xml"
+          ],
+          "data": [
+            "security/loan_management_groups.xml",
+            "security/loan_management_security.xml",
+            "security/ir.model.access.csv",
+            "data/ir_sequence_data.xml",
+            "views/loan_type_views.xml",
+            "views/loan_request_views.xml",
+            "views/repayment_lines_views.xml",
+            "views/loan_documents_views.xml",
+            "views/res_config_settings_views.xml",
+            "views/loan_management_menus.xml",
+            "views/res_partner_views.xml",
+            "wizard/message_popup_views.xml",
+            "wizard/reject_reason_views.xml",
+            "report/loan_management_reports.xml",
+            "report/loan_report_templates.xml",
+            "views/advanced_loan_management_management_kanban_views.xml"
+          ],
+          "images": [
+            "static/description/banner.png"
+          ],
+          "license": "AGPL-3",
+          "installable": true,
+          "auto_install": false,
+          "application": true
+        },
+        "issues": [],
+        "data_files": [
+          "security/loan_management_groups.xml",
+          "security/loan_management_security.xml",
+          "security/ir.model.access.csv",
+          "data/ir_sequence_data.xml",
+          "views/loan_type_views.xml",
+          "views/loan_request_views.xml",
+          "views/repayment_lines_views.xml",
+          "views/loan_documents_views.xml",
+          "views/res_config_settings_views.xml",
+          "views/loan_management_menus.xml",
+          "views/res_partner_views.xml",
+          "wizard/message_popup_views.xml",
+          "wizard/reject_reason_views.xml",
+          "report/loan_management_reports.xml",
+          "report/loan_report_templates.xml",
+          "views/advanced_loan_management_management_kanban_views.xml"
+        ],
+        "missing_files": []
+      },
+      "python_issues": [],
+      "xml_issues": [
+        "loan_request_views.xml: Contains PLACEHOLDER",
+        "loan_type_views.xml: Contains PLACEHOLDER"
+      ],
+      "directory_structure": [
+        "models: 11 files",
+        "views: 8 files",
+        "data: 2 files",
+        "security: 3 files",
+        "static: 0 files"
+      ]
+    }
+  ]
+}

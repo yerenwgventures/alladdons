@@ -4,6 +4,7 @@
     <record id="lab_request_view_list" model="ir.ui.view">
         <field name="name">lab.request.view.list</field>
         <field name="model">lab.request</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Lab Request">
                 <field name="name"/>
@@ -19,6 +20,7 @@
     <record id="lab_request_view_form" model="ir.ui.view">
         <field name="name">lab.request.view.form</field>
         <field name="model">lab.request</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Lab Request">
                 <header>

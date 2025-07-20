@@ -1,44 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <templates id="template" xml:space="preserve">
     <t t-inherit="web.NavBar" t-inherit-mode="extension" owl="1">
-        <xpath expr="//header/nav[hasclass('o_main_navbar')]" position="after">
-            <div class="sidebar_panel" t-ref="sidebar_panel"
-                 id="sidebar_panel">
-                <div class="sidebar">
-                    <div class="sidebar_close">
-                    </div>
-                    <div class="sidebar_logo">
-                        <img src="/web/binary/company_logo" class="logo_img"/>
-                    </div>
-                    <h6 class="sidebar_head">MENU</h6>
-                    <ul class="sidebar_menu">
-                        <t t-foreach="menuService.getApps()" t-as="app"
-                           t-key="app_index">
-                            <li>
-                                <a role="menuitem"
-                                   t-attf-href="#menu_id={{app.id}}"
-                                   t-att-data-id="app.id"
-                                   attrs="{ href: getMenuItemHref(app), 'data-menu-xmlid': app.xmlid, 'data-section': app.id }"
-                                   class="nav-link"
-                                   t-on-click="() => this.onClickMenuItem(app)">
-                                    <img style="height: 1em;"
-                                         t-if="app.webIconData"
-                                         class="o_app_icon me-2"
-                                         t-attf-src="{{app.webIconData}}"/>
-                                    <span class="sidebar_app_name">
-                                        <t t-esc="app.name"/>
-                                    </span>
-                                </a>
-                            </li>
-                        </t>
-                    </ul>
-                </div>
-            </div>
-        </xpath>
-        <xpath expr="//header/nav[hasclass('o_main_navbar')]"
-               position="attributes">
-            <attribute name="t-ref">top_heading</attribute>
-        </xpath>
+        
+        
     </t>
 
     <t t-inherit="web.NavBar.AppsMenu" t-inherit-mode="extension" owl="1">
@@ -66,8 +30,6 @@
         </xpath>
     </t>
     <t t-inherit="web.UserMenu" t-inherit-mode="extension" owl="1">
-        <xpath expr="//small[hasclass('oe_topbar_name')]" position="replace">
-            <div class="oe_topbar_name"/>
-        </xpath>
+        
     </t>
 </templates>

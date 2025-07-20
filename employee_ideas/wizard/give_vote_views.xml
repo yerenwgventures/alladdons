@@ -4,6 +4,7 @@
     <record id="give_vote_view_form" model="ir.ui.view">
         <field name="name">give.vote.view.form</field>
         <field name="model">give.vote</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <group class="oe_title">

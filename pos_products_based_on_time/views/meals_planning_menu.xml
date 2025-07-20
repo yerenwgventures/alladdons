@@ -2,6 +2,7 @@
 <odoo>
     <record id="meals_planning_view_search" model="ir.ui.view">
         <field name="model">meals.planning</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <search string="Product Planning">
                 <field name="name" string="Name"/>
@@ -35,6 +36,7 @@
     <record id="meals_planning_view_form" model="ir.ui.view">
         <field name="name">meals.planning.view.form</field>
         <field name="model">meals.planning</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Product Planning">
                 <header>

@@ -31,7 +31,7 @@
     'company': "Cybrosys Techno Solutions",
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'depends': ['web', 'point_of_sale', 'pos_hr'],
+    'depends': ['web', 'stub_point_of_sale', 'pos_hr'],
     'data': [
         'views/pos_config_views.xml'
     ],

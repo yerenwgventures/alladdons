@@ -5,6 +5,7 @@
         <field name="name">sale.order.view.form.inherit.odoo.rental.sales</field>
         <field name="model">sale.order</field>
         <field name="inherit_id" ref="sale.view_order_form"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <xpath expr="//page[@name='order_lines']//field[@name='order_line']"
                    position="before">

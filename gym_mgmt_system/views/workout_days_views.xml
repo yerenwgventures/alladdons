@@ -3,6 +3,7 @@
     <record id="workout_days_view_tree" model="ir.ui.view">
         <field name="name">workout.days.view.tree</field>
         <field name="model">workout.days</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Workout Days" editable="bottom">
                 <field name="name"/>

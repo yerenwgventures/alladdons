@@ -45,21 +45,7 @@
         </xpath>
     </template>
     <template id="fuge_categories_recursive" name="fuge Category list" inherit_id="website_sale.categories_recursive">
-         <xpath expr="//li[hasclass('nav-item')]"
-               position="replace">
-        <li class="nav-item">
-            <a  style="color:#828282;" t-att-href="keep('/shop/category/' + slug(c), category=0)" t-attf-class="nav-link #{'active' if c.id == category.id else ''}">
-                <span t-field="c.name"/>
-            </a>
-            <ul t-if="c.child_id" class="nav nav-pills flex-column nav-hierarchy">
-                <t t-foreach="c.child_id" t-as="c">
-                    <t t-if="not search or c.id in search_categories_ids">
-                        <t t-call="theme_fuge.fuge_categories_recursive" />
-                    </t>
-                </t>
-            </ul>
-        </li>
-         </xpath>
+         
     </template>
     <!--Template modified for shop product attribute-->
     <template id="Fuge_attributes" name="Fuge Attributes"

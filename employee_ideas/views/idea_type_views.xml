@@ -10,7 +10,8 @@
         <record id="idea_type_view_tree" model="ir.ui.view">
             <field name="name">idea.type.view.tree</field>
             <field name="model">idea.type</field>
-            <field name="arch" type="xml">
+                    <field name="type">list</field>
+        <field name="arch" type="xml">
                 <list>
                     <field name="name"/>
                 </list>
@@ -20,7 +21,8 @@
         <record id="idea_type_view_form" model="ir.ui.view">
             <field name="name">idea.type.view.form</field>
             <field name="model">idea.type</field>
-            <field name="arch" type="xml">
+                    <field name="type">list</field>
+        <field name="arch" type="xml">
                 <form>
                     <sheet>
                         <div class="oe_button_box" name="button_box">

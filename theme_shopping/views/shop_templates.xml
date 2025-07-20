@@ -147,17 +147,7 @@
                 <t t-call="website_sale.products_breadcrumb"/>
             </section>
         </xpath>
-        <xpath expr="//div[hasclass('o_wsale_products_grid_before_rail')]"
-               position="before">
-            <div class="st-product_filter-head">
-                <span class="st-product_filter--heading">
-                    Filter
-                </span>
-                <a t-attf-href="/shop">
-                <button class="st-product_clear-btn">Clear all</button>
-                </a>
-            </div>
-        </xpath>
+        
 
     </template>
 
@@ -165,36 +155,12 @@
     <template id="shopping_cart_button"
               inherit_id="website_sale.products_add_to_cart"
               name="Shopping Cart Button">
-        <xpath expr="//a[hasclass('a-submit')]" position="replace">
-            <div class="st-product_overlay-content">
-                <a t-if="product._website_show_quick_add()"
-                   href="#" role="button"
-                   class="btn btn-primary a-submit st-cart_btn--sm "
-                   aria-label="Shopping cart" title="Shopping cart">
-                        <i class="fa fa-shopping-cart fa-stack custom_cart"/>Add to Cart
-                </a>
-            </div>
-        </xpath>
+        
     </template>
     <!-- Inherit the website_sale_wishlist.add_to_wishlist template to customize the wishlist button -->
     <template id="shopping_wishlist_button"
               inherit_id="website_sale_wishlist.add_to_wishlist"
               name="Wishlist Button">
-        <xpath expr="//button[hasclass('o_add_wishlist')]"
-               position="replace">
-            <div class="st-product_overlay-content"
-                 style="float: right; width: 20%;">
-                <button t-if="product_variant_id"
-                        type="button"
-                        role="button"
-                        class="btn btn-outline-primary bg-white o_add_wishlist st-product-like_btn btn st-product-like_btn"
-                        t-att-disabled='in_wish or None' title="Add to Wishlist"
-                        t-att-data-product-template-id="product.id"
-                        t-att-data-product-product-id="product_variant_id"
-                        data-action="o_wishlist">
-                    <i class="fa fa-heart" aria-label="Add to wishlist"/>
-                </button>
-            </div>
-        </xpath>
+        
     </template>
 </odoo>

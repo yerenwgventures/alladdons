@@ -4,6 +4,7 @@
     <record model="ir.ui.view" id="master_search_form">
         <field name="name">Search</field>
         <field name="model">master.search</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Search" js_class="master_search">
                 <style>

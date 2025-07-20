@@ -4,6 +4,7 @@
     <record id="discipline_category_view_search" model="ir.ui.view">
         <field name="name">discipline.category.view.search</field>
         <field name="model">discipline.category</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <search string="Search information">
                 <field name="name"/>

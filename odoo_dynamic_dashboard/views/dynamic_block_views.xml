@@ -4,6 +4,7 @@
     <record id="dashboard_block_view_form" model="ir.ui.view">
         <field name="name">dashboard.block.view.form</field>
         <field name="model">dashboard.block</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

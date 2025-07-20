@@ -3,18 +3,7 @@
     <!-- Template For Case registration in Portal View-->
     <template id="portal_my_home_legal_case" name="Legal Cases"
               customize_show="True" inherit_id="portal.portal_my_home">
-        <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
-            <div class="o_portal_category row g-2 mt-3" id="portal_common_category">
-                        <t t-call="portal.portal_docs_entry" t-if="False"/>
-                        <t t-call="portal.portal_docs_entry">
-                            <t t-set="icon" t-value="'/legal_case_management/static/description/case-round-svgrepo-com.svg'"/>
-                            <t t-set="title">Legal Case</t>
-                            <t t-set="text">Your case details</t>
-                            <t t-set="url" t-value="'/my/legal/case'"/>
-                            <t t-set="config_card" t-value="True"/>
-                        </t>
-            </div>
-        </xpath>
+        
     </template>
     <template id="portal_my_legal_case_requests"
               name="Portal My Cse Details">
@@ -127,11 +116,6 @@
     <template id="portal_my_home_menu_legal_case"
               name="Portal layout : Legal menu entries"
               inherit_id="portal.portal_breadcrumbs">
-        <xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
-            <li t-if="page_name == 'case'" class="breadcrumb-item">
-                <a t-attf-href="/my/legal/case?{{ keep_query() }}">Legal Cases
-                </a>
-            </li>
-        </xpath>
+        
     </template>
 </odoo>

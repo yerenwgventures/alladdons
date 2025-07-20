@@ -4,6 +4,7 @@
     <record id="report_balance_leave_view_search" model="ir.ui.view">
         <field name="name">report.balance.leave.view.search</field>
         <field name="model">report.balance.leave</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <search string="Leave Balance Report">
                 <group expand="0" string="Group By">

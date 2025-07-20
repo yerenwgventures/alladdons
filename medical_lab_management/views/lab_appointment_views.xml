@@ -32,6 +32,7 @@
     <record id="kanban_view_lab_appointment" model="ir.ui.view">
         <field name="name">Appointment Kanban</field>
         <field name="model">lab.appointment</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <kanban>
                 <templates>
@@ -76,6 +77,7 @@
         <field name="name">lab.appointment.view.form</field>
         <field name="model">lab.appointment</field>
         <field name="priority" eval="8"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Appointment">
                 <header>

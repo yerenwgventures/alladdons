@@ -4,6 +4,7 @@
     <record id="monday_board_view_tree" model="ir.ui.view">
         <field name="name">monday.board.view.tree</field>
         <field name="model">monday.board</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list create="0" export_xlsx="0">
                 <field name="board_reference"/>
@@ -16,6 +17,7 @@
     <record id="monday_board_view_form" model="ir.ui.view">
         <field name="name">monday.board.view.form</field>
         <field name="model">monday.board</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form create="0">
                 <sheet>

@@ -4,6 +4,7 @@
     <record id="invoice_payment_view_form" model="ir.ui.view">
         <field name="name">invoice.payment.view.form</field>
         <field name="model">invoice.payment</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <group>

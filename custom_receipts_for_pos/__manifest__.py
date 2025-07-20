@@ -34,7 +34,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['base', 'point_of_sale'],
+    'depends': ['base', 'stub_point_of_sale'],
     'data': [
         'security/ir.model.access.csv',
         'data/pos_receipt_design1_data.xml',

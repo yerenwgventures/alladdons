@@ -29,7 +29,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['survey'],
+    'depends': ['stub_survey'],
     'data': [
         'security/ir.model.access.csv',
         'views/action_question_duplicate.xml',

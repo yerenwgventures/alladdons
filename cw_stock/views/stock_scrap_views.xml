@@ -30,18 +30,7 @@
         <field name="model">stock.scrap</field>
         <field name="inherit_id" ref="stock.stock_scrap_form_view2"/>
         <field name="arch" type="xml">
-            <xpath expr="//div[hasclass('o_row')]" position="after">
-                <field name="toggle_cw" invisible="1"/>
-                <label for="cw_qty" string="CW-Quantity"
-                       invisible="toggle_cw == False"/>
-                <div class="o_row"
-                     invisible="toggle_cw ==False">
-                    <field name="cw_qty"
-                           required="toggle_cw == True" readonly="False"/>
-                    <field name="category_id" invisible="1"/>
-                    <field name="cw_uom_id" readonly="False"/>
-                </div>
-            </xpath>
+            
         </field>
     </record>
 </odoo>

@@ -4,6 +4,7 @@
     <record id="quick_sale_order_view_form" model="ir.ui.view">
         <field name="name">Quick Create</field>
         <field name="model">quick.sale.order</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Quick Create">
                 <group>

@@ -4,6 +4,7 @@
     <record id="invoice_product_details_view_form" model="ir.ui.view">
         <field name="name">invoice.product.details.view.form</field>
         <field name="model">invoice.product.details</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <!-- Form view for the product details -->
             <form string="Product Details">

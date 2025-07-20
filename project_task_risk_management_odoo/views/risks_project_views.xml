@@ -4,6 +4,7 @@
     <record id="risks_project_view_list" model="ir.ui.view">
         <field name="name">risks.project.view.list</field>
         <field name="model">risks.project</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Risks">
                 <field name="code"/>

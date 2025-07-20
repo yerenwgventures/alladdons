@@ -4,6 +4,7 @@
     <record id="twilio_sms_view_form" model="ir.ui.view">
         <field name="name">twilio.sms.view.form</field>
         <field name="model">twilio.sms</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <header>

@@ -4,31 +4,12 @@
     <template id="portal_my_home_menu_vendor_rfq"
               name="Portal layout My RFQs"
               inherit_id="portal.portal_breadcrumbs" priority="25">
-        <xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
-            <li t-if="page_name == 'vendor_rfq'"
-                t-attf-class="breadcrumb-item #{'active ' if not vendor_rfq else ''}">
-                <a t-if="vendor_my_rfq"
-                   t-attf-href="/my/vendor_rfqs?{{ keep_query() }}">RFQs
-                </a>
-                <t t-else="">
-                    <a href="/my/vendor_rfqs">RFQs</a>
-                </t>
-            </li>
-            <li t-if="vendor_rfq" class="breadcrumb-item active">
-                <t t-esc="vendor_rfq.name"/>
-            </li>
-        </xpath>
+        
     </template>
     <template id="portal_my_home_vendor_rfq" name="Show Vendor RFQs"
               customize_show="True" inherit_id="portal.portal_my_home"
               priority="25">
-        <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
-            <t t-call="portal.portal_docs_entry">
-                <t t-set="title">RFQ's</t>
-                <t t-set="url" t-value="'/my/vendor_rfqs'"/>
-                <t t-set="placeholder_count" t-value="'my_rfq_count'"/>
-            </t>
-        </xpath>
+        
     </template>
 <!--    Portal table views-->
     <template id="portal_my_rfq" name="Portal my RFQ">

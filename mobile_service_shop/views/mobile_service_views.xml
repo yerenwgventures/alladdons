@@ -12,6 +12,7 @@
     <record id="mobile_service_view_search" model="ir.ui.view">
         <field name="name">mobile.service.view.search</field>
         <field name="model">mobile.service</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <search string="Search in requests">
                 <field name="person_name" widget="res_partner_many2one"
@@ -189,6 +190,7 @@
     <record id="mobile_service_view_kanban" model="ir.ui.view">
         <field name="name">mobile.service.view.kanban</field>
         <field name="model">mobile.service</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <kanban class="o_kanban_small_column">
                 <field name="image_medium"/>

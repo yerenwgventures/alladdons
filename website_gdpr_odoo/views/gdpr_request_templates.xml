@@ -3,14 +3,7 @@
     <!--  Inherit portal.portal_layout to add new button  -->
     <template id="portal_my_home_gdpr" name="Productions"
               inherit_id="portal.side_content">
-        <xpath expr="//div[hasclass('o_portal_my_details')]" position="after">
-            <div>
-                <br/>
-                <a href="/my/data_management"><i class="fa fa-pencil"/> Manage
-                    your personal data
-                </a>
-            </div>
-        </xpath>
+        
     </template>
     <!--  Window for GDPR view  -->
     <template t-name="GDPRManager" id="gdpr_manager" name="Manage Your Personal Data">

@@ -4,6 +4,7 @@
     <record id="link_invoice_view_form" model="ir.ui.view">
         <field name="name">link.invoice.view.form</field>
         <field name="model">link.invoice</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Link Invoice and Remove Invoices">
                 <field name="sale_order_id" invisible="1"/>

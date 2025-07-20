@@ -4,6 +4,7 @@
     <record id="team_helpdesk_view_form" model="ir.ui.view">
         <field name="name">team.helpdesk.view.form</field>
         <field name="model">team.helpdesk</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

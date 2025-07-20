@@ -6,7 +6,7 @@
             product.template.view.form.inherit.website.product.publish
         </field>
         <field name="model">product.template</field>
-        <field name="inherit_id" ref="website_sale.product_template_form_view"/>
+        <field name="inherit_id" ref="stub_website_sale.product_template_form_view"/>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='is_published']" position="after">
                 <button name="action_published" type="object"

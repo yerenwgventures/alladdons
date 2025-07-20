@@ -9,7 +9,7 @@
                     </span>
                 </div>
                 <div class="col-12 event_title">
-                    <a t-att-href="event.website_url" target="_top">
+                    <a t-att-href="stub_event.website_url" target="_top">
                         <h4 class="mt0">
                             <t t-esc="event.name"/>
                             <t t-if="!event.website_published">

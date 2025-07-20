@@ -4,6 +4,7 @@
     <!--  Tree view of account line   -->
         <field name="name">account.line.view.list</field>
         <field name="model">account.move.line</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="move_name"/>

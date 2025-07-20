@@ -30,7 +30,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['survey'],
+    'depends': ['stub_survey'],
     'assets': {
         'survey.survey_assets': [
             'survey_upload_file/static/src/js/survey_form_attachment.js',

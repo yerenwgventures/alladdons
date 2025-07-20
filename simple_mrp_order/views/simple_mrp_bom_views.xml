@@ -4,6 +4,7 @@
     <record id="simple_mrp_bom_view_form" model="ir.ui.view">
         <field name="name">simple.mrp.bom.view.form</field>
         <field name="model">simple.mrp.bom</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Bills of Materials">
                 <sheet>

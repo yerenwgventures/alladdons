@@ -12,7 +12,7 @@ class SurveyUploadFileDashboard(models.Model):
     """Dashboard model for survey_upload_file analytics"""
     _name = 'survey_upload_file.dashboard'
     _description = 'Survey Upload File Dashboard'
-    _auto = False
+    # _auto = False  # Fixed: Create table
 
     name = fields.Char(string='Dashboard Name', default='Survey Upload File Analytics')
     total_records = fields.Integer(string='Total Records', compute='_compute_totals')

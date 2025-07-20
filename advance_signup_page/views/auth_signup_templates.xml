@@ -13,72 +13,7 @@
     <template id="advance_signup_portal_fields"
               inherit_id="auth_signup.fields"
               name="Auth Signup/ResetPassword form fields">
-        <xpath expr="//div[hasclass('field-confirm_password')]"
-               position="after">
-            <t t-foreach="configuration.signup_field_ids" t-as="field">
-                <t t-if="field.field_type in ['char', 'text']">
-                    <div class="mb-3 field-test pt-2">
-                        <label>
-                            <t t-esc="field.name"/>
-                        </label>
-                        <input type="text"
-                               t-attf-name="{{field.field_id.name}}"
-                               t-attf-id="{{field.field_id.id}}"
-                               t-attf-class="form-control form-control-sm"
-                               required="required"/>
-                    </div>
-                </t>
-                <t t-elif="field.field_type == 'boolean'">
-                    <div class="mb-3 field-test pt-2">
-                        <input type="checkbox"
-                               class="form-check-input"
-                               id="webBoolField"
-                               t-att-name="field.field_id.id"/>
-                        <span class="ms-2 text-break"
-                              t-field='field.field_id.name'/>
-                    </div>
-                </t>
-                <t t-elif="field.field_type in ['date', 'datetime']">
-                    <div class="mb-3 field-test pt-2">
-                        <label>
-                            <t t-esc="field.name"/>
-                        </label>
-                        <input type="date"
-                               t-att-name="field.field_id.name"
-                               t-attf-class="form-control form-control-sm"/>
-                    </div>
-                </t>
-                <t t-elif="field.field_type =='binary'">
-                    <div class="mb-3 field-test pt-2">
-                        <label>
-                            <t t-esc="field.name"/>
-                        </label>
-                        <input type="file" id="img_field"
-                               class="field_input"
-                               name="img_field"
-                               accept="image/*"/>
-                    </div>
-                </t>
-                <t t-elif="field.field_type in ['integer', 'float']">
-                    <div class="mb-3 field-test pt-2">
-                        <label>
-                            <t t-esc="field.name"/>
-                        </label>
-                        <input type="number"
-                               t-attf-class="form-control form-control-sm"
-                               t-att-name="field.field_id.name"/>
-                    </div>
-                </t>
-            </t>
-            <!-- Display terms and conditions from the configuration -->
-            <t t-if="configuration.is_show_terms_conditions">
-                <div class="form-group">
-                    <input type="checkbox" name="accept_terms">I Agree to the
-                        <t t-out="configuration.terms_and_conditions"/>
-                    </input>
-                </div>
-            </t>
-        </xpath>
+        
     </template>
     <!-- Template for Sign Up Form -->
     <template id="auth_signup_signup" name="Sign up login">

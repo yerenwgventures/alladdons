@@ -4,6 +4,7 @@
     <record id="product_rfq_view_form" model="ir.ui.view">
         <field name="name">product.rfq.view.form</field>
         <field name="model">product.rfq</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

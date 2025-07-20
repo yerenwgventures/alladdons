@@ -1,0 +1,674 @@
+{
+  "validation_timestamp": "2025-07-20T07:24:51.478232",
+  "total_modules": 500,
+  "production_ready": 20,
+  "needs_fixes": 0,
+  "invalid": 0,
+  "detailed_results": [
+    {
+      "module": "access_restriction_by_ip",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Access Restriction By IP",
+        "version": "18.0.1.0.0",
+        "depends": [],
+        "data": [
+          "security/ir.model.access.csv",
+          "views/allowed_ips_view.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [],
+      "installation_prerequisites": [],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\u2705 Self-contained module - no external dependencies",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "account_interest_on_overdue_invoice",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Interest for Overdue Invoice",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "sale",
+          "account"
+        ],
+        "data": [
+          "views/account_payment_term_views.xml",
+          "views/account_move_views.xml",
+          "data/ir_cron_data.xml",
+          "views/report_invoice.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [
+        "Standard Odoo module: sale",
+        "Standard Odoo module: account"
+      ],
+      "installation_prerequisites": [],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\ud83d\udccb Install required Odoo modules before installing this module",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "account_journal_discount",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Journal Discount on Invoices And Bills",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "account"
+        ],
+        "data": [
+          "views/product_category_views.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [
+        "Standard Odoo module: account"
+      ],
+      "installation_prerequisites": [],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\ud83d\udccb Install required Odoo modules before installing this module",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "account_line_view",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Account Invoice Line Views",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "account",
+          "sale",
+          "purchase"
+        ],
+        "data": [
+          "views/invoice_line_view.xml",
+          "views/bill_line_view.xml",
+          "views/credit_note_line_view.xml",
+          "views/refund_line_view.xml",
+          "views/account_move_line_view.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [
+        "Standard Odoo module: account",
+        "Standard Odoo module: sale",
+        "Standard Odoo module: purchase"
+      ],
+      "installation_prerequisites": [],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\ud83d\udccb Install required Odoo modules before installing this module",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "account_move_multi_cancel",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Mass Journal Entry Cancel",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "account"
+        ],
+        "data": [
+          "security/security_groups.xml",
+          "security/ir.model.access.csv",
+          "data/ir_actions_server_data.xml",
+          "wizards/account_move_cancel_reset_views.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [
+        "Standard Odoo module: account"
+      ],
+      "installation_prerequisites": [],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\ud83d\udccb Install required Odoo modules before installing this module",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "account_payment_approval",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Payment Approvals",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "base",
+          "account"
+        ],
+        "data": [
+          "views/res_config_settings_views.xml",
+          "views/account_payment_views.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [
+        "Standard Odoo module: account"
+      ],
+      "installation_prerequisites": [],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\ud83d\udccb Install required Odoo modules before installing this module",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "account_report_send_by_mail",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Account Report Send By Mail",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "account"
+        ],
+        "data": [
+          "security/ir.model.access.csv",
+          "data/account_report_mail_template.xml",
+          "wizard/send_mail_report.xml"
+        ],
+        "installable": true,
+        "auto_install": true,
+        "application": true
+      },
+      "dependency_requirements": [
+        "Standard Odoo module: account"
+      ],
+      "installation_prerequisites": [],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\ud83d\udccb Install required Odoo modules before installing this module",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "account_restrict_journal",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Restrict Journal for Users",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "base",
+          "account"
+        ],
+        "data": [
+          "security/account_restrict_journal_groups.xml",
+          "security/account_move_security.xml",
+          "views/res_users_views.xml",
+          "views/account_move_views.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [
+        "Standard Odoo module: account"
+      ],
+      "installation_prerequisites": [],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\ud83d\udccb Install required Odoo modules before installing this module",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "activity_dashboard_mngmnt",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Activity Management",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "mail"
+        ],
+        "data": [
+          "security/ir.model.access.csv",
+          "views/activity_tag_views.xml",
+          "views/activity_dashbord_views.xml",
+          "views/mail_activity_views.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": true
+      },
+      "dependency_requirements": [],
+      "installation_prerequisites": [],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\u2705 Self-contained module - no external dependencies",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "activity_reminder",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Activity Reminder",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "mail"
+        ],
+        "data": [
+          "security/mail_activity_schedule_groups.xml",
+          "data/mail_activity_schedule_data.xml",
+          "views/mail_activity_views.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [],
+      "installation_prerequisites": [],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\u2705 Self-contained module - no external dependencies",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "advance_cash_flow_statements",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Advanced Cash Flow Statements",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "base",
+          "account"
+        ],
+        "data": [
+          "security/ir.model.access.csv",
+          "report/account_wizard_reports.xml",
+          "report/account_wizard_templates.xml",
+          "views/account_wizard_views.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [
+        "Standard Odoo module: account"
+      ],
+      "installation_prerequisites": [],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\ud83d\udccb Install required Odoo modules before installing this module",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "advance_hr_attendance_dashboard",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Advance HR Attendance Dashboard",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "hr_holidays",
+          "hr",
+          "hr_attendance"
+        ],
+        "data": [
+          "views/hr_leave_type_views.xml",
+          "views/advance_hr_attendance_dashboard_menus.xml",
+          "views/res_config_settings_views.xml",
+          "report/hr_attendance_reports.xml",
+          "report/hr_attendance_templates.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [
+        "Standard Odoo module: hr"
+      ],
+      "installation_prerequisites": [],
+      "potential_conflicts": [
+        "Custom dependency: hr_holidays (may not exist on customer system)",
+        "Custom dependency: hr_attendance (may not exist on customer system)"
+      ],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\ud83d\udccb Install required Odoo modules before installing this module",
+        "\u26a0\ufe0f Test in staging environment - potential conflicts detected",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "advance_signup_page",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Advance Signup Page",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "website",
+          "auth_signup"
+        ],
+        "data": [
+          "security/ir.model.access.csv",
+          "views/signup_configuration_views.xml",
+          "views/signup_fields_views.xml",
+          "views/auth_signup_templates.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [
+        "Odoo app module: website"
+      ],
+      "installation_prerequisites": [],
+      "potential_conflicts": [
+        "Custom dependency: auth_signup (may not exist on customer system)"
+      ],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\ud83d\udccb Install required Odoo modules before installing this module",
+        "\u26a0\ufe0f Test in staging environment - potential conflicts detected",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "advanced_chatter_view",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Advanced Chatter View",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "base",
+          "mail"
+        ],
+        "data": [],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [],
+      "installation_prerequisites": [],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\u2705 Self-contained module - no external dependencies",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "advanced_excel_reports",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Advanced Excel Reports",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "sale_management",
+          "account",
+          "stock"
+        ],
+        "data": [
+          "data/ir_action_data.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [
+        "Standard Odoo module: account",
+        "Standard Odoo module: stock"
+      ],
+      "installation_prerequisites": [],
+      "potential_conflicts": [
+        "Custom dependency: sale_management (may not exist on customer system)"
+      ],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\ud83d\udccb Install required Odoo modules before installing this module",
+        "\u26a0\ufe0f Test in staging environment - potential conflicts detected",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "advanced_loan_management",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Loan Management",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "mail",
+          "account",
+          "base",
+          "hr"
+        ],
+        "data": [
+          "security/loan_management_groups.xml",
+          "security/loan_management_security.xml",
+          "security/ir.model.access.csv",
+          "data/ir_sequence_data.xml",
+          "views/loan_type_views.xml",
+          "views/loan_request_views.xml",
+          "views/repayment_lines_views.xml",
+          "views/loan_documents_views.xml",
+          "views/res_config_settings_views.xml",
+          "views/loan_management_menus.xml",
+          "views/res_partner_views.xml",
+          "wizard/message_popup_views.xml",
+          "wizard/reject_reason_views.xml",
+          "report/loan_management_reports.xml",
+          "report/loan_report_templates.xml",
+          "views/advanced_loan_management_management_kanban_views.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": true
+      },
+      "dependency_requirements": [
+        "Standard Odoo module: account",
+        "Standard Odoo module: hr"
+      ],
+      "installation_prerequisites": [],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\ud83d\udccb Install required Odoo modules before installing this module",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "advanced_pos_reports",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Advanced POS Reports",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "stub_point_of_sale"
+        ],
+        "data": [
+          "security/ir.model.access.csv",
+          "wizard/advanced_pos_reports_wizard.xml",
+          "wizard/pos_sale_ongoing_views.xml",
+          "wizard/pos_sale_top_selling_views.xml",
+          "report/advanced_pos_reports.xml",
+          "report/pos_ongoing_session_templates.xml",
+          "report/pos_top_selling_categories_templates.xml",
+          "report/pos_top_selling_customers_templates.xml",
+          "report/pos_top_selling_products_templates.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [],
+      "installation_prerequisites": [
+        "Custom stub module required: stub_point_of_sale"
+      ],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\u2705 Self-contained module - no external dependencies",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "advanced_vat_invoice",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "E-Invoicing For Saudi | Saudi VAT Invoice | Saudi Electronic Invoice | Saudi Zatca",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "account",
+          "account_payment"
+        ],
+        "data": [
+          "views/res_config_settings_views.xml",
+          "views/account_move_views.xml",
+          "report/account_move_reports.xml",
+          "report/vat_invoice_report_templates.xml",
+          "report/simplified_tax_report_templates.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [
+        "Standard Odoo module: account"
+      ],
+      "installation_prerequisites": [],
+      "potential_conflicts": [
+        "Custom dependency: account_payment (may not exist on customer system)"
+      ],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\ud83d\udccb Install required Odoo modules before installing this module",
+        "\u26a0\ufe0f Test in staging environment - potential conflicts detected",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "age_restricted_product_pos",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Age Restricted Products POS",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "base",
+          "stub_point_of_sale",
+          "product"
+        ],
+        "data": [
+          "views/product_template_views.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [],
+      "installation_prerequisites": [
+        "Custom stub module required: stub_point_of_sale"
+      ],
+      "potential_conflicts": [
+        "Custom dependency: product (may not exist on customer system)"
+      ],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\u26a0\ufe0f Test in staging environment - potential conflicts detected",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    },
+    {
+      "module": "age_verification_odoo",
+      "status": "ready",
+      "production_ready": true,
+      "manifest_analysis": {
+        "name": "Age Verification in Website Login",
+        "version": "18.0.1.0.0",
+        "depends": [
+          "stub_website_sale"
+        ],
+        "data": [
+          "views/website_layout_templates.xml"
+        ],
+        "installable": true,
+        "auto_install": false,
+        "application": false
+      },
+      "dependency_requirements": [],
+      "installation_prerequisites": [
+        "Custom stub module required: stub_website_sale"
+      ],
+      "potential_conflicts": [],
+      "code_safety_issues": [],
+      "missing_components": [],
+      "recommendations": [
+        "\u2705 Self-contained module - no external dependencies",
+        "\ud83c\udfaf Production ready - safe to install"
+      ]
+    }
+  ]
+}

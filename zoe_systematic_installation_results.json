@@ -1,0 +1,1872 @@
+{
+  "session_timestamp": "2025-07-19 20:14:39",
+  "total_processed": 465,
+  "newly_successful": [],
+  "failed_modules": [
+    {
+      "module": "access_restriction_by_ip",
+      "error": "2025-07-19 19:34:48,732 39 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "account_interest_on_overdue_invoice",
+      "error": "2025-07-19 19:34:53,774 53 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "account_journal_discount",
+      "error": "2025-07-19 19:34:58,888 67 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "account_line_view",
+      "error": "2025-07-19 19:35:04,055 81 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "account_move_multi_cancel",
+      "error": "2025-07-19 19:35:09,199 94 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "account_payment_approval",
+      "error": "2025-07-19 19:35:14,294 108 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "account_restrict_journal",
+      "error": "2025-07-19 19:35:19,336 123 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "activity_dashboard_mngmnt",
+      "error": "2025-07-19 19:35:24,448 137 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "activity_reminder",
+      "error": "2025-07-19 19:35:29,606 151 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "advance_cash_flow_statements",
+      "error": "2025-07-19 19:35:34,758 165 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "advance_hr_attendance_dashboard",
+      "error": "2025-07-19 19:35:39,831 179 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "advance_signup_page",
+      "error": "2025-07-19 19:35:44,954 193 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "advanced_chatter_view",
+      "error": "2025-07-19 19:35:50,086 207 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "advanced_excel_reports",
+      "error": "2025-07-19 19:35:55,249 221 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "advanced_loan_management",
+      "error": "2025-07-19 19:36:00,422 235 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "advanced_pos_reports",
+      "error": "2025-07-19 19:36:05,525 249 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "advanced_vat_invoice",
+      "error": "2025-07-19 19:36:10,707 263 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "age_restricted_product_pos",
+      "error": "2025-07-19 19:36:15,995 277 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "age_verification_odoo",
+      "error": "2025-07-19 19:36:21,245 291 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "all_in_one_dynamic_custom_fields",
+      "error": "2025-07-19 19:36:26,403 305 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "all_in_one_html_notes",
+      "error": "2025-07-19 19:36:31,528 319 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "amount_in_words_invoice",
+      "error": "2025-07-19 19:36:36,650 333 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "analytic_accounts_on_stock_picking",
+      "error": "2025-07-19 19:36:41,798 347 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "artify_backend_theme",
+      "error": "2025-07-19 19:36:46,902 361 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "attendance_view_calendar",
+      "error": "2025-07-19 19:36:51,997 375 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "auto_daily_weekly_report",
+      "error": "2025-07-19 19:36:57,136 389 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "auto_fill",
+      "error": "2025-07-19 19:37:02,210 403 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "auto_save_restrict",
+      "error": "2025-07-19 19:37:07,274 417 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "automatic_invoice_and_post",
+      "error": "2025-07-19 19:37:12,367 431 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "automatic_project_task_timer",
+      "error": "2025-07-19 19:37:17,447 445 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "autosuggestion_in_discuss",
+      "error": "2025-07-19 19:37:22,535 459 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "backend_theme_odoo12",
+      "error": "2025-07-19 19:37:27,702 473 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "barcode_capturing_sale_purchase",
+      "error": "2025-07-19 19:37:32,821 487 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "barcode_scanning_sale_purchase",
+      "error": "2025-07-19 19:37:37,952 501 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "base_account_budget",
+      "error": "2025-07-19 19:37:43,061 515 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "base_accounting_kit",
+      "error": "2025-07-19 19:37:48,156 529 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "batch_delivery_tracking",
+      "error": "2025-07-19 19:37:53,214 543 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "bill_digitization",
+      "error": "2025-07-19 19:37:58,273 557 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "bom_comparison_report",
+      "error": "2025-07-19 19:38:03,337 571 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "bom_structure_in_excel_odoo",
+      "error": "2025-07-19 19:38:08,455 586 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "bom_total_cost",
+      "error": "2025-07-19 19:38:13,525 600 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "bulk_create_mo_so_po",
+      "error": "2025-07-19 19:38:18,585 614 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "call_for_price_website",
+      "error": "2025-07-19 19:38:23,666 628 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "cancel_landed_cost_odoo",
+      "error": "2025-07-19 19:38:28,749 642 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "cancel_mo",
+      "error": "2025-07-19 19:38:33,839 656 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "cancel_quotation_expiry",
+      "error": "2025-07-19 19:38:38,916 670 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "chatter_activity_delay",
+      "error": "2025-07-19 19:38:44,095 684 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "chatter_attachments_as_zip",
+      "error": "2025-07-19 19:38:49,219 698 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "chatter_attachments_manager",
+      "error": "2025-07-19 19:38:54,260 712 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "chatter_camera",
+      "error": "2025-07-19 19:38:59,352 726 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "cleaning_management",
+      "error": "2025-07-19 19:39:04,468 740 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "code_backend_theme",
+      "error": "2025-07-19 19:39:09,601 754 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "code_backend_theme_enterprise",
+      "error": "2025-07-19 19:39:14,676 768 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "company_scrap_management",
+      "error": "2025-07-19 19:39:19,769 782 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "contact_documents",
+      "error": "2025-07-19 19:39:24,901 796 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "contacts_birthday_greetings",
+      "error": "2025-07-19 19:39:30,021 810 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "cost_per_employee_manufacturing",
+      "error": "2025-07-19 19:39:35,140 824 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "countrybased_terms_and_condition",
+      "error": "2025-07-19 19:39:40,206 838 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "create_expense_from_task_odoo",
+      "error": "2025-07-19 19:39:45,313 852 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "crm_check_approve_limiter",
+      "error": "2025-07-19 19:39:50,399 866 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "crm_dashboard",
+      "error": "2025-07-19 19:39:55,491 880 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "crm_dynamic_fields",
+      "error": "2025-07-19 19:40:00,573 894 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "cron_failure_notification",
+      "error": "2025-07-19 19:40:05,652 908 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "cts_theme_rozz",
+      "error": "2025-07-19 19:40:10,758 922 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "custom_pivot_report",
+      "error": "2025-07-19 19:40:15,837 936 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "custom_receipts_for_pos",
+      "error": "2025-07-19 19:40:20,922 950 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "custom_robots_txt",
+      "error": "2025-07-19 19:40:26,050 963 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "customer_credit_payment_website",
+      "error": "2025-07-19 19:40:31,132 977 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "customer_image_and_tags_in_pos",
+      "error": "2025-07-19 19:40:36,349 991 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "customer_product_qrcode",
+      "error": "2025-07-19 19:40:41,452 1005 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "customer_sequence",
+      "error": "2025-07-19 19:40:46,557 1019 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "customer_supplier_approval",
+      "error": "2025-07-19 19:40:51,817 1033 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "customers_dealers_quantity",
+      "error": "2025-07-19 19:40:57,163 1047 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "customize_signup",
+      "error": "2025-07-19 19:41:02,388 1061 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "customized_barcode_generator",
+      "error": "2025-07-19 19:41:07,541 1075 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "cw_account",
+      "error": "2025-07-19 19:41:12,674 1089 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "cw_mrp",
+      "error": "2025-07-19 19:41:17,825 1103 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "cw_purchase",
+      "error": "2025-07-19 19:41:22,984 1117 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "cw_sale",
+      "error": "2025-07-19 19:41:28,076 1131 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "cw_stock",
+      "error": "2025-07-19 19:41:33,167 1145 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "dark_mode_backend",
+      "error": "2025-07-19 19:41:38,284 1159 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "dashboard_pos",
+      "error": "2025-07-19 19:41:43,392 1173 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "database_delete_protection",
+      "error": "2025-07-19 19:41:48,471 1187 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "delivery_date_ecommerce",
+      "error": "2025-07-19 19:41:53,630 1201 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "delivery_date_sale_order_line",
+      "error": "2025-07-19 19:41:58,834 1215 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "delivery_date_scheduler_odoo",
+      "error": "2025-07-19 19:42:04,038 1229 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "delivery_split",
+      "error": "2025-07-19 19:42:09,279 1243 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "detect_unauthorized_login",
+      "error": "2025-07-19 19:42:14,281 1256 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "developer_mode",
+      "error": "2025-07-19 19:42:19,469 1270 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "direct_send_email_template",
+      "error": "2025-07-19 19:42:24,646 1284 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "document_approval",
+      "error": "2025-07-19 19:42:29,836 1298 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "dodger_blue",
+      "error": "2025-07-19 19:42:35,025 1312 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "done_quantity_auto_fill",
+      "error": "2025-07-19 19:42:40,184 1326 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "dragable_and_resizable_wizard",
+      "error": "2025-07-19 19:42:45,372 1340 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "duplicate_contact_details_alert",
+      "error": "2025-07-19 19:42:50,535 1354 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "duplicate_product_bom",
+      "error": "2025-07-19 19:42:55,689 1368 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "dynamic_accounts_report",
+      "error": "2025-07-19 19:43:00,881 1382 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "dynamic_hover_on_related_fields",
+      "error": "2025-07-19 19:43:06,062 1396 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "dynamic_image_hotspot",
+      "error": "2025-07-19 19:43:11,193 1410 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "dynamic_link_snippet",
+      "error": "2025-07-19 19:43:16,327 1424 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "dynamic_product_pricelist",
+      "error": "2025-07-19 19:43:21,504 1438 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "dynamic_sale_order_fields",
+      "error": "2025-07-19 19:43:26,711 1452 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "easy_chatgpt_access",
+      "error": "2025-07-19 19:43:31,889 1466 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "easy_language_selector",
+      "error": "2025-07-19 19:43:37,065 1480 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "easy_timesheet_add",
+      "error": "2025-07-19 19:43:42,248 1494 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "ecommerce_barcode_search",
+      "error": "2025-07-19 19:43:47,391 1508 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "ecommerce_quick_view",
+      "error": "2025-07-19 19:43:52,487 1522 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "edit_label",
+      "error": "2025-07-19 19:43:57,612 1536 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "edit_order_date",
+      "error": "2025-07-19 19:44:02,769 1550 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "education_fee",
+      "error": "2025-07-19 19:44:07,914 1564 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "education_university_management",
+      "error": "2025-07-19 19:44:13,073 1578 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "employee_bonus_manager",
+      "error": "2025-07-19 19:44:18,185 1592 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "employee_dynamic_fields",
+      "error": "2025-07-19 19:44:23,314 1606 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "employee_ideas",
+      "error": "2025-07-19 19:44:28,424 1620 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "employee_late_check_in",
+      "error": "2025-07-19 19:44:33,521 1634 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "employee_less_working_hour_notification",
+      "error": "2025-07-19 19:44:38,674 1648 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "employee_promotion_in_odoo",
+      "error": "2025-07-19 19:44:43,887 1662 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "employee_stages",
+      "error": "2025-07-19 19:44:49,038 1676 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "equipment_request_it_operations",
+      "error": "2025-07-19 19:44:54,162 1690 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "event_management",
+      "error": "2025-07-19 19:44:59,283 1704 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "event_ticket_qr_scanner",
+      "error": "2025-07-19 19:45:04,461 1718 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "excel_report_designer",
+      "error": "2025-07-19 19:45:09,576 1732 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "exchange_currency_rate",
+      "error": "2025-07-19 19:45:14,770 1746 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "expense_report_odoo",
+      "error": "2025-07-19 19:45:19,947 1760 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "export_stockinfo_xls",
+      "error": "2025-07-19 19:45:25,094 1774 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "export_view_pdf",
+      "error": "2025-07-19 19:45:30,251 1788 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "field_timepicker",
+      "error": "2025-07-19 19:45:35,362 1802 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "fleet_complete_report",
+      "error": "2025-07-19 19:45:40,489 1816 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "force_availability_in_stock",
+      "error": "2025-07-19 19:45:45,606 1830 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "fountain_widget_many2one",
+      "error": "2025-07-19 19:45:50,825 1844 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "franchise_management",
+      "error": "2025-07-19 19:45:55,938 1858 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "freight_management_system",
+      "error": "2025-07-19 19:46:01,019 1872 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "gatepass_slip",
+      "error": "2025-07-19 19:46:06,130 1886 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "gender_contact",
+      "error": "2025-07-19 19:46:11,227 1900 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "google_search_in_odoo",
+      "error": "2025-07-19 19:46:16,348 1914 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "gym_mgmt_system",
+      "error": "2025-07-19 19:46:21,477 1929 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hide_all_print_button",
+      "error": "2025-07-19 19:46:26,611 1943 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hide_chatter",
+      "error": "2025-07-19 19:46:31,947 1957 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hide_cost_price",
+      "error": "2025-07-19 19:46:37,107 1971 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hide_menu_user",
+      "error": "2025-07-19 19:46:42,395 1985 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hide_product_price_cost",
+      "error": "2025-07-19 19:46:47,611 1999 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hotel_management_odoo",
+      "error": "2025-07-19 19:46:52,854 2013 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hr_attendance_xlsx_report",
+      "error": "2025-07-19 19:46:58,114 2027 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hr_disciplinary_tracking",
+      "error": "2025-07-19 19:47:03,217 2041 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hr_expense_mass_payment",
+      "error": "2025-07-19 19:47:08,316 2055 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hr_holidays_balance_report",
+      "error": "2025-07-19 19:47:13,408 2069 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hr_hourly_payslip",
+      "error": "2025-07-19 19:47:18,532 2083 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hr_insurance",
+      "error": "2025-07-19 19:47:23,361 2097 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hr_leave_dashboard",
+      "error": "2025-07-19 19:47:28,444 2108 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hr_timesheet_description",
+      "error": "2025-07-19 19:47:33,601 2122 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hr_zk_attendance",
+      "error": "2025-07-19 19:47:38,565 2136 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "hue_backend_theme",
+      "error": "2025-07-19 19:47:43,698 2147 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "image_capture_upload_widget",
+      "error": "2025-07-19 19:47:48,793 2162 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "import_bill_of_materials_in_mrp",
+      "error": "2025-07-19 19:47:53,825 2176 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "import_lots",
+      "error": "2025-07-19 19:47:58,885 2190 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "import_partner_employee_image",
+      "error": "2025-07-19 19:48:03,959 2204 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "import_template_download",
+      "error": "2025-07-19 19:48:09,042 2218 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "import_user_excel",
+      "error": "2025-07-19 19:48:14,116 2232 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "index_and_follow",
+      "error": "2025-07-19 19:48:19,216 2246 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "inventory_barcode_scanning",
+      "error": "2025-07-19 19:48:24,391 2260 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "inventory_forecast_analysis_report",
+      "error": "2025-07-19 19:48:29,521 2274 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "inventory_move_mini_dashboard",
+      "error": "2025-07-19 19:48:34,653 2288 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "inventory_report_generator",
+      "error": "2025-07-19 19:48:39,792 2302 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "inventory_stock_dashboard_odoo",
+      "error": "2025-07-19 19:48:44,921 2316 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "inventory_turnover_report_analysis",
+      "error": "2025-07-19 19:48:50,037 2330 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "invoice_bill_select_orderlines",
+      "error": "2025-07-19 19:48:55,155 2344 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "invoice_design",
+      "error": "2025-07-19 19:49:00,254 2358 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "invoice_format_editor",
+      "error": "2025-07-19 19:49:05,374 2372 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "invoice_multi_approval",
+      "error": "2025-07-19 19:49:10,510 2386 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "invoice_stock_move",
+      "error": "2025-07-19 19:49:15,612 2400 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "jazzy_backend_theme",
+      "error": "2025-07-19 19:49:20,686 2414 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "lang_switch_pos",
+      "error": "2025-07-19 19:49:25,771 2428 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "laundry_management",
+      "error": "2025-07-19 19:49:30,894 2442 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "legal_case_management",
+      "error": "2025-07-19 19:49:36,027 2456 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "legal_case_management_dashboard",
+      "error": "2025-07-19 19:49:41,144 2470 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "list_tree_pin_records",
+      "error": "2025-07-19 19:49:46,299 2483 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "listview_change_background_color",
+      "error": "2025-07-19 19:49:51,445 2497 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "login_as_any_user",
+      "error": "2025-07-19 19:49:56,568 2511 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "login_pos_direct",
+      "error": "2025-07-19 19:50:01,658 2525 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "login_to_checkout",
+      "error": "2025-07-19 19:50:06,752 2539 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "login_user_detail",
+      "error": "2025-07-19 19:50:11,829 2553 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "low_sale_report",
+      "error": "2025-07-19 19:50:17,010 2567 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "low_stocks_product_alert",
+      "error": "2025-07-19 19:50:22,160 2581 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "magic_note",
+      "error": "2025-07-19 19:50:27,284 2595 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "mail_message_access",
+      "error": "2025-07-19 19:50:32,459 2609 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "mail_to_child_contact",
+      "error": "2025-07-19 19:50:37,615 2623 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "mandatory_field_highlight",
+      "error": "2025-07-19 19:50:42,763 2637 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "manufacturing_timesheet",
+      "error": "2025-07-19 19:50:47,915 2651 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "mass_price_update",
+      "error": "2025-07-19 19:50:53,065 2665 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "master_search",
+      "error": "2025-07-19 19:50:58,204 2679 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "master_search_systray",
+      "error": "2025-07-19 19:51:03,335 2693 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "medical_lab_management",
+      "error": "2025-07-19 19:51:08,478 2707 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "membership_card_odoo",
+      "error": "2025-07-19 19:51:13,723 2721 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "merge_picking_orders",
+      "error": "2025-07-19 19:51:18,930 2735 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "merge_rfq",
+      "error": "2025-07-19 19:51:24,179 2749 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "mobile_service_shop",
+      "error": "2025-07-19 19:51:29,407 2763 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "model_viewer_widget",
+      "error": "2025-07-19 19:51:34,703 2777 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "monday_odoo_connector",
+      "error": "2025-07-19 19:51:39,881 2791 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "mrp_order_from_multiple_sale_order",
+      "error": "2025-07-19 19:51:45,126 2805 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "mrp_product_kanban",
+      "error": "2025-07-19 19:51:50,292 2819 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "mrp_work_order_print",
+      "error": "2025-07-19 19:51:55,532 2833 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "multi_barcode_for_products",
+      "error": "2025-07-19 19:52:00,740 2847 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "multi_image_in_pos",
+      "error": "2025-07-19 19:52:05,924 2861 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "multi_pricelist",
+      "error": "2025-07-19 19:52:11,066 2875 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "multicolor_backend_theme",
+      "error": "2025-07-19 19:52:16,195 2889 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "multiple_reference_per_product",
+      "error": "2025-07-19 19:52:21,466 2903 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_accounting_dashboard",
+      "error": "2025-07-19 19:52:26,664 2917 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_calculator_tool",
+      "error": "2025-07-19 19:52:31,876 2931 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_chatgpt_connector",
+      "error": "2025-07-19 19:52:37,149 2945 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_contact_approval",
+      "error": "2025-07-19 19:52:42,405 2959 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_dynamic_dashboard",
+      "error": "2025-07-19 19:52:47,820 2973 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_google_contact_integration",
+      "error": "2025-07-19 19:52:53,086 2987 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_google_meet_integration",
+      "error": "2025-07-19 19:52:58,243 3001 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_parking_management",
+      "error": "2025-07-19 19:53:03,385 3015 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_picking_order_line_views",
+      "error": "2025-07-19 19:53:08,483 3029 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_product_tags",
+      "error": "2025-07-19 19:53:13,578 3043 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_read_messages",
+      "error": "2025-07-19 19:53:18,676 3057 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_readonly_user",
+      "error": "2025-07-19 19:53:23,785 3071 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_rental_sales",
+      "error": "2025-07-19 19:53:28,943 3085 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_sale_order_line_views",
+      "error": "2025-07-19 19:53:34,125 3099 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_selection_field_configurator",
+      "error": "2025-07-19 19:53:39,294 3113 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_twilio_sms",
+      "error": "2025-07-19 19:53:44,508 3127 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_website_helpdesk",
+      "error": "2025-07-19 19:53:49,715 3141 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "odoo_website_helpdesk_dashboard",
+      "error": "2025-07-19 19:53:54,884 3155 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "ohrms_service_request",
+      "error": "2025-07-19 19:54:00,035 3169 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "one2many_duplicate_record_widget",
+      "error": "2025-07-19 19:54:05,252 3183 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "one2many_excel_report",
+      "error": "2025-07-19 19:54:10,425 3197 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "one2many_mass_select_delete",
+      "error": "2025-07-19 19:54:15,592 3211 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "openai_odoo_base",
+      "error": "2025-07-19 19:54:20,733 3225 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "openai_product_images",
+      "error": "2025-07-19 19:54:25,886 3239 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "openai_product_tag_descrption",
+      "error": "2025-07-19 19:54:31,048 3253 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "openai_website_product_media",
+      "error": "2025-07-19 19:54:36,227 3267 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "orange_theme_odoo12",
+      "error": "2025-07-19 19:54:41,378 3281 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "order_invoice_manual_link",
+      "error": "2025-07-19 19:54:46,540 3295 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "order_line_sequences",
+      "error": "2025-07-19 19:54:51,664 3309 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pantry_payroll",
+      "error": "2025-07-19 19:54:56,822 3323 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "partner_emails_history",
+      "error": "2025-07-19 19:55:01,987 3337 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "partner_related_user",
+      "error": "2025-07-19 19:55:07,240 3351 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "partner_search_by_number",
+      "error": "2025-07-19 19:55:12,386 3365 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "password_hint",
+      "error": "2025-07-19 19:55:17,541 3379 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "password_reset_manager",
+      "error": "2025-07-19 19:55:22,712 3393 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "payment_proof_attachment",
+      "error": "2025-07-19 19:55:27,978 3407 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "payment_status_in_sale",
+      "error": "2025-07-19 19:55:33,128 3421 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pdf_report_action",
+      "error": "2025-07-19 19:55:38,291 3435 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pdf_report_password_protection",
+      "error": "2025-07-19 19:55:43,439 3449 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pdf_report_with_sign",
+      "error": "2025-07-19 19:55:48,588 3463 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pdf_report_with_watermark",
+      "error": "2025-07-19 19:55:53,680 3477 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "personal_organiser",
+      "error": "2025-07-19 19:55:58,771 3491 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pip_installer",
+      "error": "2025-07-19 19:56:03,897 3505 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "point_of_sale_logo",
+      "error": "2025-07-19 19:56:09,024 3519 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "portal_stock_check",
+      "error": "2025-07-19 19:56:14,172 3533 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_all_orders",
+      "error": "2025-07-19 19:56:19,302 3547 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_alternative_products",
+      "error": "2025-07-19 19:56:24,452 3561 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_analysis_report",
+      "error": "2025-07-19 19:56:29,590 3575 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_category_wise_receipt",
+      "error": "2025-07-19 19:56:34,755 3589 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_chatter",
+      "error": "2025-07-19 19:56:39,897 3603 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_controlled_interface",
+      "error": "2025-07-19 19:56:45,111 3617 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_custom_percentage_tip_fixed",
+      "error": "2025-07-19 19:56:50,256 3631 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_customer_feedback",
+      "error": "2025-07-19 19:56:55,401 3645 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_delete_orderline",
+      "error": "2025-07-19 19:57:00,607 3659 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_face_recognition",
+      "error": "2025-07-19 19:57:05,841 3673 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_idle_time_session_lock",
+      "error": "2025-07-19 19:57:11,119 3687 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_kitchen_screen_odoo",
+      "error": "2025-07-19 19:57:16,447 3701 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_magnify_image",
+      "error": "2025-07-19 19:57:21,685 3715 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_mrp_order",
+      "error": "2025-07-19 19:57:27,098 3729 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_night_mode",
+      "error": "2025-07-19 19:57:32,572 3743 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_numpad_show_hide",
+      "error": "2025-07-19 19:57:37,832 3758 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_order_line_image",
+      "error": "2025-07-19 19:57:43,035 3772 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_order_line_mass_edit",
+      "error": "2025-07-19 19:57:48,204 3786 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_orderline_items_count",
+      "error": "2025-07-19 19:57:53,367 3800 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_orderline_search",
+      "error": "2025-07-19 19:57:58,547 3814 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_pro_cross_selling",
+      "error": "2025-07-19 19:58:03,736 3828 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_product_limit_odoo",
+      "error": "2025-07-19 19:58:08,981 3842 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_product_stock",
+      "error": "2025-07-19 19:58:14,170 3856 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_products_based_on_time",
+      "error": "2025-07-19 19:58:19,359 3870 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_receipt_extend",
+      "error": "2025-07-19 19:58:24,505 3884 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_refund_password",
+      "error": "2025-07-19 19:58:29,679 3898 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_report_generator",
+      "error": "2025-07-19 19:58:34,834 3912 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_restrict",
+      "error": "2025-07-19 19:58:39,991 3926 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_screen_pane_position",
+      "error": "2025-07-19 19:58:45,158 3940 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_takeaway",
+      "error": "2025-07-19 19:58:50,364 3954 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_theme_sapphire",
+      "error": "2025-07-19 19:58:55,472 3968 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pos_zero_quantity_restrict",
+      "error": "2025-07-19 19:59:00,578 3982 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "pricelist_price_on_product",
+      "error": "2025-07-19 19:59:05,712 3996 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "print_minutes_of_meeting",
+      "error": "2025-07-19 19:59:10,853 4010 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "print_subscription_id_card",
+      "error": "2025-07-19 19:59:16,024 4024 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_360_degree_view_in_website",
+      "error": "2025-07-19 19:59:21,242 4038 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_approval_management",
+      "error": "2025-07-19 19:59:26,402 4052 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_barcode",
+      "error": "2025-07-19 19:59:31,776 4066 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_batch_report",
+      "error": "2025-07-19 19:59:37,004 4080 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_brand_ecommerce",
+      "error": "2025-07-19 19:59:42,204 4094 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_brand_inventory",
+      "error": "2025-07-19 19:59:47,372 4108 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_brand_purchase",
+      "error": "2025-07-19 19:59:52,502 4122 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_brand_sale",
+      "error": "2025-07-19 19:59:57,584 4136 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_combo_pack",
+      "error": "2025-07-19 20:00:02,669 4150 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_deletion",
+      "error": "2025-07-19 20:00:07,795 4164 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_detail_search",
+      "error": "2025-07-19 20:00:12,906 4178 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_discount_limit",
+      "error": "2025-07-19 20:00:17,987 4192 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_export_with_images",
+      "error": "2025-07-19 20:00:23,077 4206 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_image_list_view",
+      "error": "2025-07-19 20:00:28,128 4220 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_image_suggestion",
+      "error": "2025-07-19 20:00:33,189 4234 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_import",
+      "error": "2025-07-19 20:00:38,269 4248 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_internal_ref_generator",
+      "error": "2025-07-19 20:00:43,352 4262 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_management_app",
+      "error": "2025-07-19 20:00:48,474 4276 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_multi_attachment",
+      "error": "2025-07-19 20:00:53,529 4290 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_multi_document",
+      "error": "2025-07-19 20:00:58,620 4304 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_multi_uom",
+      "error": "2025-07-19 20:01:03,728 4318 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_multi_vendor_update",
+      "error": "2025-07-19 20:01:08,877 4332 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_nutrition_allergen",
+      "error": "2025-07-19 20:01:13,979 4346 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_price_update_advanced",
+      "error": "2025-07-19 20:01:19,108 4360 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_restriction_users",
+      "error": "2025-07-19 20:01:24,242 4374 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_sales_by_location",
+      "error": "2025-07-19 20:01:29,356 4388 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_stock_details",
+      "error": "2025-07-19 20:01:34,473 4402 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_to_invoice",
+      "error": "2025-07-19 20:01:39,603 4416 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_variant_import",
+      "error": "2025-07-19 20:01:44,717 4430 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_volume",
+      "error": "2025-07-19 20:01:49,916 4444 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "product_wise_shipping_method",
+      "error": "2025-07-19 20:01:54,959 4458 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "products_to_transfer",
+      "error": "2025-07-19 20:02:00,103 4472 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "profit_and_loss_pdf_report",
+      "error": "2025-07-19 20:02:05,330 4486 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "progress_billing",
+      "error": "2025-07-19 20:02:10,604 4500 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "project_by_phases",
+      "error": "2025-07-19 20:02:15,830 4514 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "project_dashboard_odoo",
+      "error": "2025-07-19 20:02:21,040 4528 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "project_dynamic_fields",
+      "error": "2025-07-19 20:02:26,208 4542 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "project_progress_bar",
+      "error": "2025-07-19 20:02:31,349 4556 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "project_report_pdf",
+      "error": "2025-07-19 20:02:36,504 4570 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "project_task_access",
+      "error": "2025-07-19 20:02:41,674 4584 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "project_task_attachments",
+      "error": "2025-07-19 20:02:46,809 4598 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "project_task_risk_management_odoo",
+      "error": "2025-07-19 20:02:51,965 4612 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "project_task_unique_code",
+      "error": "2025-07-19 20:02:57,142 4626 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "project_website_kanban_view",
+      "error": "2025-07-19 20:03:02,404 4640 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "projects_task_checklists",
+      "error": "2025-07-19 20:03:07,687 4654 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "psql_query_execute",
+      "error": "2025-07-19 20:03:12,846 4668 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "purchase_down_payment",
+      "error": "2025-07-19 20:03:18,001 4682 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "purchase_line_views",
+      "error": "2025-07-19 20:03:23,170 4696 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "purchase_order_delivery_status",
+      "error": "2025-07-19 20:03:28,389 4710 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "purchase_product_configurator",
+      "error": "2025-07-19 20:03:33,580 4724 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "purchase_product_history",
+      "error": "2025-07-19 20:03:38,729 4738 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "purchase_recurring_orders",
+      "error": "2025-07-19 20:03:43,867 4752 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "purchase_requisition_project_task",
+      "error": "2025-07-19 20:03:49,025 4766 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "quick_rfq",
+      "error": "2025-07-19 20:03:54,112 4780 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "quotation_customer_followup",
+      "error": "2025-07-19 20:03:59,238 4794 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "recurring_of_activities",
+      "error": "2025-07-19 20:04:04,390 4808 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "remove_studio_field",
+      "error": "2025-07-19 20:04:09,473 4822 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "report_attachment_preview",
+      "error": "2025-07-19 20:04:14,587 4836 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "reset_journal_entries",
+      "error": "2025-07-19 20:04:19,747 4850 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "rest_api_odoo",
+      "error": "2025-07-19 20:04:24,879 4864 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "restrict_delivery_method",
+      "error": "2025-07-19 20:04:30,004 4878 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "restrict_pricelist_user",
+      "error": "2025-07-19 20:04:35,133 4892 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "restrict_web_debug",
+      "error": "2025-07-19 20:04:40,259 4906 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "return_invoice_bill",
+      "error": "2025-07-19 20:04:45,397 4920 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_customer_product_history",
+      "error": "2025-07-19 20:04:50,574 4934 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_delivery_address",
+      "error": "2025-07-19 20:04:55,645 4948 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_discount_total",
+      "error": "2025-07-19 20:05:00,778 4962 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_invoice_detail",
+      "error": "2025-07-19 20:05:05,933 4976 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_invoice_due_date_reminder",
+      "error": "2025-07-19 20:05:11,052 4990 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_mini_dashboard",
+      "error": "2025-07-19 20:05:16,244 5004 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_order_line_multi_warehouse",
+      "error": "2025-07-19 20:05:21,340 5018 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_product_image",
+      "error": "2025-07-19 20:05:26,449 5032 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_purchase_automated",
+      "error": "2025-07-19 20:05:31,519 5046 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_purchase_from_product",
+      "error": "2025-07-19 20:05:36,579 5060 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_purchase_previous_product_cost",
+      "error": "2025-07-19 20:05:41,660 5074 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_recurring",
+      "error": "2025-07-19 20:05:46,741 5088 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_report_advanced",
+      "error": "2025-07-19 20:05:51,852 5102 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_report_format_editor",
+      "error": "2025-07-19 20:05:56,997 5116 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_report_generator",
+      "error": "2025-07-19 20:06:02,159 5130 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sale_stock_restrict",
+      "error": "2025-07-19 20:06:07,253 5144 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sales_person_signature",
+      "error": "2025-07-19 20:06:12,379 5158 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sales_product_performance_report",
+      "error": "2025-07-19 20:06:17,560 5172 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sales_target_vs_achievement",
+      "error": "2025-07-19 20:06:22,798 5186 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sales_team_access_controls",
+      "error": "2025-07-19 20:06:27,956 5201 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "salesperson_pos_order_line",
+      "error": "2025-07-19 20:06:33,096 5215 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "salon_management",
+      "error": "2025-07-19 20:06:38,227 5229 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "schedule_activity_to_multiple_users",
+      "error": "2025-07-19 20:06:43,356 5243 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "schedule_survey",
+      "error": "2025-07-19 20:06:48,521 5257 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "scheduled_action_shortcut",
+      "error": "2025-07-19 20:06:53,597 5271 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "section_wise_subtotal",
+      "error": "2025-07-19 20:06:58,670 5285 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "separate_quotation_number_odoo",
+      "error": "2025-07-19 20:07:03,797 5299 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sequence_opportunity_crm",
+      "error": "2025-07-19 20:07:08,891 5313 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "serial_no_from_mo",
+      "error": "2025-07-19 20:07:14,011 5327 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "shopping_through_agent",
+      "error": "2025-07-19 20:07:19,165 5341 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "signup_with_twilio",
+      "error": "2025-07-19 20:07:24,248 5356 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "simple_mrp_order",
+      "error": "2025-07-19 20:07:29,376 5370 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "size_restriction_for_attachments",
+      "error": "2025-07-19 20:07:34,489 5384 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "smart_alert_warning",
+      "error": "2025-07-19 20:07:39,646 5399 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "so_bom_selection",
+      "error": "2025-07-19 20:07:44,837 5413 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "special_product_snippet",
+      "error": "2025-07-19 20:07:50,010 5427 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "split_mrp_order",
+      "error": "2025-07-19 20:07:55,220 5441 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "statement_report",
+      "error": "2025-07-19 20:08:00,397 5455 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "sticky_pivot_view",
+      "error": "2025-07-19 20:08:05,684 5469 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "stock_intercompany_transfer",
+      "error": "2025-07-19 20:08:10,978 5483 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "stock_last_purchase_price",
+      "error": "2025-07-19 20:08:16,196 5497 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "stock_move_invoice",
+      "error": "2025-07-19 20:08:21,340 5511 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "stock_transfer_in_pos",
+      "error": "2025-07-19 20:08:26,474 5525 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "subscription_package",
+      "error": "2025-07-19 20:08:31,608 5539 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "substitute_product_in_mrp",
+      "error": "2025-07-19 20:08:36,850 5554 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "survey_question_duplicator",
+      "error": "2025-07-19 20:08:42,089 5568 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "survey_upload_file",
+      "error": "2025-07-19 20:08:47,291 5582 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "systray_menu_favourites",
+      "error": "2025-07-19 20:08:52,441 5596 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "table_reservation_in_pos",
+      "error": "2025-07-19 20:08:57,602 5610 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "task_deadline_reminder",
+      "error": "2025-07-19 20:09:02,740 5624 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "task_overdue_email_odoo",
+      "error": "2025-07-19 20:09:07,800 5638 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "text_commander",
+      "error": "2025-07-19 20:09:12,990 5652 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "theme_autofly",
+      "error": "2025-07-19 20:09:18,131 5666 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "theme_blast",
+      "error": "2025-07-19 20:09:23,248 5680 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "theme_boec",
+      "error": "2025-07-19 20:09:28,425 5695 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "theme_coffee_shop",
+      "error": "2025-07-19 20:09:33,532 5709 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "theme_diwy",
+      "error": "2025-07-19 20:09:38,650 5723 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "theme_fasion",
+      "error": "2025-07-19 20:09:43,740 5737 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "theme_fuge",
+      "error": "2025-07-19 20:09:48,899 5751 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "theme_medicate",
+      "error": "2025-07-19 20:09:53,972 5765 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "theme_shopping",
+      "error": "2025-07-19 20:09:59,025 5778 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "theme_upshift",
+      "error": "2025-07-19 20:10:04,104 5792 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "theme_watchhut",
+      "error": "2025-07-19 20:10:09,195 5806 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "theme_zen_dark",
+      "error": "2025-07-19 20:10:14,413 5820 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "timesheet_auto_create",
+      "error": "2025-07-19 20:10:19,522 5834 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "timesheet_view_calendar",
+      "error": "2025-07-19 20:10:24,652 5848 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "timesheets_by_employee",
+      "error": "2025-07-19 20:10:29,834 5862 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "total_payable_receivable",
+      "error": "2025-07-19 20:10:35,011 5876 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "total_quantity_pos",
+      "error": "2025-07-19 20:10:40,151 5890 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "trial_balance_pdf",
+      "error": "2025-07-19 20:10:45,312 5904 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "uom_in_pricelist",
+      "error": "2025-07-19 20:10:50,471 5918 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "upload_multi_document",
+      "error": "2025-07-19 20:10:55,618 5932 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "user_audit",
+      "error": "2025-07-19 20:11:00,739 5946 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "vendor_portal_odoo",
+      "error": "2025-07-19 20:11:05,897 5960 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "verify_and_delete_database",
+      "error": "2025-07-19 20:11:11,032 5974 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "versioning_in_sale_order",
+      "error": "2025-07-19 20:11:16,161 5988 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "water_supply_with_mo",
+      "error": "2025-07-19 20:11:21,323 6002 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "web_events_calendar_view",
+      "error": "2025-07-19 20:11:26,470 6016 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "web_login_styles",
+      "error": "2025-07-19 20:11:31,607 6030 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "web_pay_shipping_methods",
+      "error": "2025-07-19 20:11:36,774 6044 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_bargain",
+      "error": "2025-07-19 20:11:41,918 6058 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_cancel_sale_order",
+      "error": "2025-07-19 20:11:47,052 6072 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_cart_clear",
+      "error": "2025-07-19 20:11:52,180 6086 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_customer_contact",
+      "error": "2025-07-19 20:11:57,311 6100 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_decimal_quantity",
+      "error": "2025-07-19 20:12:02,383 6114 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_estimated_delivery_time",
+      "error": "2025-07-19 20:12:07,505 6128 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_favourites_grid",
+      "error": "2025-07-19 20:12:12,640 6142 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_floating_whatsapp_icon",
+      "error": "2025-07-19 20:12:17,786 6156 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_gdpr_odoo",
+      "error": "2025-07-19 20:12:23,013 6170 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_hide_button",
+      "error": "2025-07-19 20:12:28,145 6184 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_hide_variants",
+      "error": "2025-07-19 20:12:33,295 6198 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_maintenance_page",
+      "error": "2025-07-19 20:12:38,478 6212 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_multi_variant",
+      "error": "2025-07-19 20:12:43,683 6226 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_order_delivery_tracking",
+      "error": "2025-07-19 20:12:48,850 6240 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_pdf_preview_snippet",
+      "error": "2025-07-19 20:12:53,995 6254 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_pre_booking",
+      "error": "2025-07-19 20:12:59,206 6268 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_product_attachments",
+      "error": "2025-07-19 20:13:04,332 6283 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_product_customization",
+      "error": "2025-07-19 20:13:09,483 6297 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_product_publish",
+      "error": "2025-07-19 20:13:14,621 6311 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_product_reservation",
+      "error": "2025-07-19 20:13:19,743 6325 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_product_search_snippet",
+      "error": "2025-07-19 20:13:25,014 6339 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_purchase_limit",
+      "error": "2025-07-19 20:13:30,159 6353 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_repeat_sale",
+      "error": "2025-07-19 20:13:35,297 6367 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_sale_address_management",
+      "error": "2025-07-19 20:13:40,551 6381 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_sign_sending_by_priority",
+      "error": "2025-07-19 20:13:45,762 6395 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_signup_approval",
+      "error": "2025-07-19 20:13:51,024 6409 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_upload_files",
+      "error": "2025-07-19 20:13:56,194 6423 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_warranty_management",
+      "error": "2025-07-19 20:14:01,363 6437 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "website_webar_product",
+      "error": "2025-07-19 20:14:06,590 6451 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "whatsapp_product_inquiry",
+      "error": "2025-07-19 20:14:11,825 6465 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "whatsapp_redirect",
+      "error": "2025-07-19 20:14:17,009 6479 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "widget_preview_image",
+      "error": "2025-07-19 20:14:22,212 6493 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "wishlist_product_website_backend",
+      "error": "2025-07-19 20:14:27,397 6507 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "work_anniversary_reminder",
+      "error": "2025-07-19 20:14:32,553 6521 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    },
+    {
+      "module": "work_orders_in_maintenance",
+      "error": "2025-07-19 20:14:37,691 6535 ERROR cbms_test_db odoo.modules.registry: Failed to load registry"
+    }
+  ],
+  "session_success_rate": 0.0,
+  "overall_project_success_rate": 30.95723014256619,
+  "total_project_modules": 491,
+  "total_installed": 152,
+  "previously_installed": 152
+}

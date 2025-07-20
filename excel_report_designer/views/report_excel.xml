@@ -5,6 +5,7 @@
         <field name="name">report.excel.view.form</field>
         <field name="model">report.excel</field>
         <field name="priority">20</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <header>

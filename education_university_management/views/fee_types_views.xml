@@ -4,6 +4,7 @@
     <record id="fee_type_view_list" model="ir.ui.view">
         <field name="name">fee.type.view.list</field>
         <field name="model">fee.type</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Fee Type">
                 <field name="name"/>

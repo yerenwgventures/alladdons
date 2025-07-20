@@ -1,0 +1,327 @@
+{
+  "total_modules": 440,
+  "verification_summary": {
+    "clean": 278,
+    "minor_issues": 107,
+    "moderate_issues": 46,
+    "major_issues": 9
+  },
+  "clean_percentage": 63.18181818181819,
+  "detailed_results": [
+    {
+      "module": "access_restriction_by_ip",
+      "status": "CLEAN",
+      "total_issues": 0,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Access Restriction By IP",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 2
+      }
+    },
+    {
+      "module": "account_interest_on_overdue_invoice",
+      "status": "CLEAN",
+      "total_issues": 0,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Interest for Overdue Invoice",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 4
+      }
+    },
+    {
+      "module": "account_journal_discount",
+      "status": "CLEAN",
+      "total_issues": 0,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Journal Discount on Invoices And Bills",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 1
+      }
+    },
+    {
+      "module": "account_line_view",
+      "status": "CLEAN",
+      "total_issues": 0,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Account Invoice Line Views",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 5
+      }
+    },
+    {
+      "module": "account_move_multi_cancel",
+      "status": "CLEAN",
+      "total_issues": 0,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Mass Journal Entry Cancel",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 4
+      }
+    },
+    {
+      "module": "account_payment_approval",
+      "status": "MINOR_ISSUES",
+      "total_issues": 1,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [
+        "views/account_payment_views.xml: 1 empty field definitions"
+      ],
+      "manifest_data": {
+        "name": "Payment Approvals",
+        "version": "18.0.1.0.0",
+        "author": " Cybrosys Techno Solutions",
+        "data_files_count": 2
+      }
+    },
+    {
+      "module": "account_report_send_by_mail",
+      "status": "MINOR_ISSUES",
+      "total_issues": 1,
+      "manifest_issues": [
+        "Placeholder in description: \nThis app enables users to generate personalized account reports based on their email address.\nUsers have the flexibility to choose the type of report they want, catering to their specific needs.\nAfter selecting the desired report type, users can input the recipients email address to seamlessly send the generated report.\n\nEDITION COMPATIBILITY:\n======================\nThis module supports both Odoo Community and Enterprise editions.\n\nENTERPRISE EDITION:\n- Uses advanced account_reports module for enhanced reporting\n- Full enterprise report templates and features\n- Advanced scheduling and automation\n\nCOMMUNITY EDITION:\n- Uses standard account module for basic reporting\n- Core email functionality maintained\n- Basic report templates available\n\nAUTOMATIC DETECTION:\n- Module automatically detects available edition\n- Falls back to community reports if enterprise not available\n- No manual configuration required\n    "
+      ],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Account Report Send By Mail",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 3
+      }
+    },
+    {
+      "module": "account_restrict_journal",
+      "status": "CLEAN",
+      "total_issues": 0,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Restrict Journal for Users",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 4
+      }
+    },
+    {
+      "module": "activity_dashboard_mngmnt",
+      "status": "MODERATE_ISSUES",
+      "total_issues": 8,
+      "manifest_issues": [],
+      "python_issues": [
+        "models/mail_activity.py: 2 issues",
+        "  - Line 84: TODO found - # TODO: Fix void res_id on attachment when you create an",
+        "  - Line 84: # TODO: found - # TODO: Fix void res_id on attachment when you create an"
+      ],
+      "xml_issues": [
+        "views/activity_tag_views.xml: 1 issues",
+        "  - Line 13: PLACEHOLDER found - <field name=\"name\" placeholder=\"e.g. Services\"/>",
+        "views/mail_activity_views.xml: 2 issues",
+        "  - Line 25: PLACEHOLDER found - placeholder=\"e.g. Discuss proposal\"/>",
+        "  - Line 41: PLACEHOLDER found - placeholder=\"Log a note...\"/>"
+      ],
+      "manifest_data": {
+        "name": "Activity Management",
+        "version": "18.0.1.0.0",
+        "author": "Cybrosys Techno solutions",
+        "data_files_count": 4
+      }
+    },
+    {
+      "module": "activity_reminder",
+      "status": "CLEAN",
+      "total_issues": 0,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Activity Reminder",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 3
+      }
+    },
+    {
+      "module": "advance_cash_flow_statements",
+      "status": "MINOR_ISSUES",
+      "total_issues": 2,
+      "manifest_issues": [],
+      "python_issues": [
+        "wizard/report_account_wizard.py: 1 issues",
+        "  - Line 144: Commented code - # \u2705 Filter out incomplete records"
+      ],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Advanced Cash Flow Statements",
+        "version": "18.0.1.0.0",
+        "author": "Cybrosys Techno Solutions",
+        "data_files_count": 4
+      }
+    },
+    {
+      "module": "advance_hr_attendance_dashboard",
+      "status": "CLEAN",
+      "total_issues": 0,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Advance HR Attendance Dashboard",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 5
+      }
+    },
+    {
+      "module": "advance_signup_page",
+      "status": "MODERATE_ISSUES",
+      "total_issues": 5,
+      "manifest_issues": [],
+      "python_issues": [
+        "models/signup_field.py: 2 issues",
+        "  - Line 44: PLACEHOLDER found - placeholder = fields.Char(string='Placeholder',",
+        "  - Line 45: PLACEHOLDER found - help='The placeholder text for the '"
+      ],
+      "xml_issues": [
+        "views/signup_fields_views.xml: 1 issues",
+        "  - Line 30: PLACEHOLDER found - <field name=\"placeholder\"/>"
+      ],
+      "manifest_data": {
+        "name": "Advance Signup Page",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 4
+      }
+    },
+    {
+      "module": "advanced_chatter_view",
+      "status": "CLEAN",
+      "total_issues": 0,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Advanced Chatter View",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 0
+      }
+    },
+    {
+      "module": "advanced_excel_reports",
+      "status": "CLEAN",
+      "total_issues": 0,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Advanced Excel Reports",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 1
+      }
+    },
+    {
+      "module": "advanced_loan_management",
+      "status": "MODERATE_ISSUES",
+      "total_issues": 9,
+      "manifest_issues": [],
+      "python_issues": [
+        "models/advanced_loan_management_integration.py: 1 issues",
+        "  - Line 26: Commented code - # Integration-specific fields - automatically detects enterprise vs community",
+        "models/advanced_loan_management_performance.py: 1 issues",
+        "  - Line 18: Commented code - # Add indexes for frequently queried fields",
+        "models/advanced_loan_management_performance.py: High ratio of 'pass' statements (1/2)"
+      ],
+      "xml_issues": [
+        "views/loan_request_views.xml: 1 issues",
+        "  - Line 85: PLACEHOLDER found - placeholder=\"Loan Type\"/>",
+        "views/loan_type_views.xml: 1 issues",
+        "  - Line 73: PLACEHOLDER found - placeholder=\"Loan Type\"/>"
+      ],
+      "manifest_data": {
+        "name": "Loan Management",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 16
+      }
+    },
+    {
+      "module": "advanced_pos_reports",
+      "status": "CLEAN",
+      "total_issues": 0,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Advanced POS Reports",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 9
+      }
+    },
+    {
+      "module": "advanced_vat_invoice",
+      "status": "CLEAN",
+      "total_issues": 0,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "E-Invoicing For Saudi | Saudi VAT Invoice | Saudi Electronic Invoice | Saudi Zatca",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 5
+      }
+    },
+    {
+      "module": "age_restricted_product_pos",
+      "status": "CLEAN",
+      "total_issues": 0,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Age Restricted Products POS",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 1
+      }
+    },
+    {
+      "module": "age_verification_odoo",
+      "status": "CLEAN",
+      "total_issues": 0,
+      "manifest_issues": [],
+      "python_issues": [],
+      "xml_issues": [],
+      "manifest_data": {
+        "name": "Age Verification in Website Login",
+        "version": "18.0.1.0.0",
+        "author": "CBMS TECHNOLOGIES LTD",
+        "data_files_count": 1
+      }
+    }
+  ]
+}

@@ -10,6 +10,7 @@
     <record id="water_supply_request_view_list" model="ir.ui.view">
         <field name="name">water.supply.request.view.list</field>
         <field name="model">water.supply.request</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Stages" multi_edit="1">
                 <field name="reference_no"/>

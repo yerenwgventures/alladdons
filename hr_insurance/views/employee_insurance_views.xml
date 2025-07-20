@@ -4,6 +4,7 @@
     <record id="hr_insurance_view_form" model="ir.ui.view">
         <field name="name">hr.insurance.view.form</field>
         <field name="model">hr.insurance</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Employee Insurance">
                 <header>

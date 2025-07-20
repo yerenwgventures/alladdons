@@ -4,6 +4,7 @@
     <record id="forecast_report_view_tree" model="ir.ui.view">
         <field name="name">forecast.report.view.tree</field>
         <field name="model">forecast.report</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Forecast Analysis Report">
                 <field name="product_id"/>

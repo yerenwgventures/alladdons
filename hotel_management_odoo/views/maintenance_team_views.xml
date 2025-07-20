@@ -4,6 +4,7 @@
     <record id="maintenance_team_view_form" model="ir.ui.view">
         <field name="name">maintenance.team.view.form</field>
         <field name="model">maintenance.team</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

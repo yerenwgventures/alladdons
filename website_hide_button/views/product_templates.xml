@@ -76,15 +76,7 @@
                 request.env['ir.config_parameter'].sudo().get_param('website_hide_button.hide_price')))
             </attribute>
         </xpath>
-        <xpath expr="//div[hasclass('o_wsale_product_btn')]"
-               position="attributes">
-            <attribute name="t-if">
-                product.product_variant_ids and (not
-                request.env.user._is_public() or (request.env.user._is_public()
-                and not
-                request.env['ir.config_parameter'].sudo().get_param('website_hide_button.hide_price')))
-            </attribute>
-        </xpath>
+        
     </template>
     <!--    Hide Quantity selection     -->
     <template id="product_quantity_hide"
@@ -112,12 +104,7 @@
     <!--    Hide price in Dynamic Product Filter   -->
     <template id="price_dynamic_filter_template_product_product"
               inherit_id="website_sale.price_dynamic_filter_template_product_product">
-        <xpath expr="//span[hasclass('fw-bold')]" position="attributes">
-            <attribute name="t-if">(not request.env.user._is_public() or
-                (request.env.user._is_public() and not
-                request.env['ir.config_parameter'].sudo().get_param('website_hide_button.hide_price')))
-            </attribute>
-        </xpath>
+        
     </template>
     <!--    Hide extra badge related to price in price tag   -->
     <template id="badge_extra_price_hide"

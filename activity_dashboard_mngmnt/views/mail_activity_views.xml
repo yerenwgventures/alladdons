@@ -58,9 +58,6 @@
             </xpath>
         </field>
     </record>
-    <!--    Activity Dashboard menu-->
-    <menuitem id="activity_menu_root" name="Activity Management" sequence="25"
-              web_icon="activity_dashboard_mngmnt,static/description/icon.png"/>
     <!--   Mail activity Menu-->
     <menuitem id="mail_activity_menu" name="Activity"
               parent="activity_menu_root"

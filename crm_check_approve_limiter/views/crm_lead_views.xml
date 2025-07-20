@@ -6,6 +6,7 @@
         </field>
         <field name="model">crm.lead</field>
         <field name="inherit_id" ref="crm.crm_lead_view_form"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <!-- Insert fields for checklist -->
             <xpath expr="//page[@name='lead']" position="after">

@@ -4,6 +4,7 @@
     <record id="auto_capture_view_list" model="ir.ui.view">
         <field name="name">auto.capture.view.list</field>
         <field name="model">auto.capture</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="email"/>

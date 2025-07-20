@@ -3,11 +3,7 @@
     <!--    If question_type= upload file then t-call template-->
     <template id="question_page_upload_answer"
               inherit_id="survey.question_container">
-        <xpath expr="//div[@role='alert']" position="before">
-            <t t-if="question.question_type == 'upload_file'">
-                <t t-call="survey_upload_file.multi_upload_file"/>
-            </t>
-        </xpath>
+        
     </template>
     <!--    Answer View-->
     <template id="multi_upload_file">
@@ -42,12 +38,7 @@
     <!--Show the answer in print page if question type = upload file then t-call template-->
     <template id="survey_page_print_upload_answer"
               inherit_id="survey.survey_page_print">
-        <xpath expr="//div[hasclass('o_survey_question_error')]"
-               position="before">
-            <t t-if="question.question_type == 'upload_file'">
-                <t t-call="survey_upload_file.multi_upload_answer"/>
-            </t>
-        </xpath>
+        
     </template>
     <!--Answer Value attachments-->
     <template id="multi_upload_answer">

@@ -16,6 +16,7 @@
     <record id="cleaning_booking_view_form" model="ir.ui.view">
         <field name="name">cleaning.booking.view.form</field>
         <field name="model">cleaning.booking</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form duplicate="0">
                 <header>

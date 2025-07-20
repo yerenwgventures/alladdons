@@ -6,6 +6,7 @@
         <field name="name">product.product.view.form.inherit.purchase.product.history</field>
         <field name="model">product.product</field>
         <field name="inherit_id" ref="product.product_normal_form_view"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <notebook position="inside">
                 <page string="Purchase History" name="po_history" >

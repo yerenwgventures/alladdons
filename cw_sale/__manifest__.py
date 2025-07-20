@@ -31,7 +31,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['sale_management', 'sale_stock', 'cw_stock', 'uom'],
+    'depends': ['sale_management', 'stub_sale_stock', 'cw_stock', 'uom'],
     'data': [
         'views/sale_order_line_views.xml',
     ],

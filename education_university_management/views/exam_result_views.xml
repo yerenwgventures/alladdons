@@ -4,6 +4,7 @@
     <record id="exam_result_view_form" model="ir.ui.view">
         <field name="name">exam.result.view.form</field>
         <field name="model">exam.result</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form create="0" edit="0">
                 <sheet>
@@ -63,6 +64,7 @@
     <record id="exam_results_view_list" model="ir.ui.view">
         <field name="name">exam.result.view.list</field>
         <field name="model">exam.result</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list create="0">
                 <field name="student_id"/>

@@ -4,6 +4,7 @@
     <record id="freight_port_view_tree" model="ir.ui.view">
         <field name="name">freight.port.view.tree</field>
         <field name="model">freight.port</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>
@@ -15,6 +16,7 @@
     <record id="freight_port_view_form" model="ir.ui.view">
         <field name="name">freight.port.view.form</field>
         <field name="model">freight.port</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>
@@ -76,6 +78,7 @@
     <record id="freight_price_view_form" model="ir.ui.view">
         <field name="name">freight.price.view.form</field>
         <field name="model">freight.price</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

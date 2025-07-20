@@ -4,6 +4,7 @@
     <record model="ir.ui.view" id="university_batch_view_kanban">
         <field name="name">university.batch.view.kanban</field>
         <field name="model">university.batch</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <kanban class="university_batch_view_kanban">
                 <field name="id"/>
@@ -62,6 +63,7 @@
     <record id="university_batch_view_form" model="ir.ui.view">
         <field name="name">university.batch.view.form</field>
         <field name="model">university.batch</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Course">
                 <sheet>

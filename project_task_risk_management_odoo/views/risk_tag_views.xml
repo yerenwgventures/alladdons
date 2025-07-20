@@ -4,6 +4,7 @@
     <record id="risk_tag_view_list" model="ir.ui.view">
         <field name="name">risk.tag.view.list</field>
         <field name="model">risk.tag</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Tags" editable="bottom" sample="1">
                 <field name="name"/>

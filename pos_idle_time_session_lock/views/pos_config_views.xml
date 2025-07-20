@@ -7,7 +7,7 @@
             pos.config.view.form.inherit.pos.idle.time.session.lock
         </field>
         <field name="model">pos.config</field>
-        <field name="inherit_id" ref="point_of_sale.pos_config_view_form"/>
+        <field name="inherit_id" ref="stub_point_of_sale.pos_config_view_form"/>
         <field name="arch" type="xml">
             <xpath expr="//setting[@id='other_devices']" position="after">
                 <div class="col-12 col-lg-6 o_setting_box" id="pos_lock">

@@ -4,6 +4,7 @@
     <record model="ir.ui.view" id="university_faculty_view_kanban">
         <field name="name">university.faculty.view.kanban</field>
         <field name="model">university.faculty</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <kanban class="university_faculty_view_kanban">
                 <field name="id"/>

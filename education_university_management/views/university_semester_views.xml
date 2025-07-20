@@ -4,6 +4,7 @@
     <record id="university_semester_view_list" model="ir.ui.view">
         <field name="name">university.semester.view.list</field>
         <field name="model">university.semester</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Semester">
                 <field name="name"/>
@@ -15,6 +16,7 @@
     <record id="university_semester_view_form" model="ir.ui.view">
         <field name="name">university.semester.view.form</field>
         <field name="model">university.semester</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Semester">
                 <sheet>

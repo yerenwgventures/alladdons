@@ -3,6 +3,7 @@
     <!--    tree view for testimonial-->
     <record id="autofly_testimonial_view_list" model="ir.ui.view">
         <field name="model">autofly.testimonial</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="partner_id"/>

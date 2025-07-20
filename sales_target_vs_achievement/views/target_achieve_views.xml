@@ -4,6 +4,7 @@
     <record id="target_achieve_view_tree_user" model="ir.ui.view">
         <field name="name">target.achieve.view.tree.user</field>
         <field name="model">target.achieve</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="User Target Achieved Details">
                 <field name="currency_id" invisible="1"/>
@@ -20,6 +21,7 @@
     <record id="target_achieve_view_tree_team" model="ir.ui.view">
         <field name="name">target.achieve.view.tree.team</field>
         <field name="model">target.achieve</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Team Target Achieved Details">
                 <field name="currency_id" invisible="1"/>

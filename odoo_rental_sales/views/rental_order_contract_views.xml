@@ -4,6 +4,7 @@
     <record id="rental_order_contract_view_tree" model="ir.ui.view">
         <field name="name">rental.order.contract.view.tree</field>
         <field name="model">rental.order.contract</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="reference_no"/>

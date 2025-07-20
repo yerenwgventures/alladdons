@@ -271,24 +271,7 @@
         <!--   The "Portal Menu" template provides breadcrumb navigation for the customer contact portal,
                Showing the current page and allowing users to navigate to previous pages. It includes
               special cases for the "customer_contact" and "customer_contact_details"-->
-        <xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
-            <li t-if="page_name=='customer_contact'"
-                class="breadcrumb-item active">
-                <span>Customer Contacts
-                </span>
-            </li>
-            <li t-if="page_name=='customer_contact_details'"
-                class="breadcrumb-item active">
-                <a t-attf-href="/my/contacts"
-                   arialabel="Customer Contact Details"
-                   title="Customer Contact Details">
-                    <span>Customer Contacts</span>
-                </a>
-                <span>/
-                    <em t-out="customer_contact_portal.name"/>
-                </span>
-            </li>
-        </xpath>
+        
     </template>
     <!-- The "portal_my_home_contacts" template adds a
     "Contacts" section to the customer portal homepage. It allows customers to
@@ -296,9 +279,7 @@
     <template id="portal_my_home_contacts"
               name="Portal Contacts" inherit_id="portal.portal_my_home"
               customize_show="True" priority="30">
-        <xpath expr="//div[hasclass('o_portal_docs')]" position="before">
-            <t t-set="portal_client_category_enable" t-value="True"/>
-        </xpath>
+        
         <div id="portal_client_category" position="inside">
             <t t-call="portal.portal_docs_entry">
                 <t t-set="icon"

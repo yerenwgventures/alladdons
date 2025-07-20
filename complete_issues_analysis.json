@@ -1,0 +1,1965 @@
+{
+  "total_modules": 440,
+  "summary": {
+    "clean": 267,
+    "minor_issues": 141,
+    "moderate_issues": 26,
+    "major_issues": 6
+  },
+  "modules_by_status": {
+    "CLEAN": [
+      "account_interest_on_overdue_invoice",
+      "account_journal_discount",
+      "account_line_view",
+      "account_move_multi_cancel",
+      "account_payment_approval",
+      "account_restrict_journal",
+      "activity_reminder",
+      "advance_cash_flow_statements",
+      "advance_hr_attendance_dashboard",
+      "advanced_chatter_view",
+      "advanced_pos_reports",
+      "advanced_vat_invoice",
+      "age_verification_odoo",
+      "analytic_accounts_on_stock_picking",
+      "artify_backend_theme",
+      "attendance_view_calendar",
+      "auto_save_restrict",
+      "automatic_invoice_and_post",
+      "barcode_capturing_sale_purchase",
+      "barcode_scanning_sale_purchase",
+      "bom_comparison_report",
+      "bom_structure_in_excel_odoo",
+      "bom_total_cost",
+      "bulk_create_mo_so_po",
+      "cancel_landed_cost_odoo",
+      "cancel_mo",
+      "cancel_quotation_expiry",
+      "chatter_activity_delay",
+      "chatter_attachments_as_zip",
+      "chatter_attachments_manager",
+      "chatter_camera",
+      "code_backend_theme",
+      "code_backend_theme_enterprise",
+      "company_scrap_management",
+      "contact_documents",
+      "cost_per_employee_manufacturing",
+      "countrybased_terms_and_condition",
+      "create_expense_from_task_odoo",
+      "crm_check_approve_limiter",
+      "crm_dashboard",
+      "custom_pivot_report",
+      "custom_receipts_for_pos",
+      "custom_robots_txt",
+      "customer_image_and_tags_in_pos",
+      "customer_sequence",
+      "customer_supplier_approval",
+      "customers_dealers_quantity",
+      "customize_signup",
+      "cw_account",
+      "cw_mrp",
+      "cw_purchase",
+      "cw_sale",
+      "dark_mode_backend",
+      "dashboard_pos",
+      "database_delete_protection",
+      "delivery_date_sale_order_line",
+      "developer_mode",
+      "document_approval",
+      "done_quantity_auto_fill",
+      "dragable_and_resizable_wizard",
+      "duplicate_contact_details_alert",
+      "duplicate_product_bom",
+      "dynamic_hover_on_related_fields",
+      "dynamic_product_pricelist",
+      "easy_chatgpt_access",
+      "easy_language_selector",
+      "easy_timesheet_add",
+      "edit_label",
+      "edit_order_date",
+      "employee_stages",
+      "equipment_request_it_operations",
+      "excel_report_designer",
+      "exchange_currency_rate",
+      "expense_report_odoo",
+      "export_stockinfo_xls",
+      "export_view_pdf",
+      "field_timepicker",
+      "fleet_complete_report",
+      "force_availability_in_stock",
+      "fountain_widget_many2one",
+      "freight_management_system",
+      "gatepass_slip",
+      "gender_contact",
+      "google_search_in_odoo",
+      "hide_chatter",
+      "hide_menu_user",
+      "hr_attendance_xlsx_report",
+      "hr_disciplinary_tracking",
+      "hr_expense_mass_payment",
+      "hr_holidays_balance_report",
+      "hr_leave_dashboard",
+      "hr_timesheet_description",
+      "image_capture_upload_widget",
+      "import_bill_of_materials_in_mrp",
+      "import_lots",
+      "import_partner_employee_image",
+      "import_template_download",
+      "import_user_excel",
+      "index_and_follow",
+      "inventory_barcode_scanning",
+      "inventory_report_generator",
+      "inventory_stock_dashboard_odoo",
+      "inventory_turnover_report_analysis",
+      "invoice_design",
+      "invoice_multi_approval",
+      "invoice_stock_move",
+      "lang_switch_pos",
+      "legal_case_management_dashboard",
+      "list_tree_pin_records",
+      "listview_change_background_color",
+      "login_pos_direct",
+      "low_sale_report",
+      "mail_message_access",
+      "mandatory_field_highlight",
+      "manufacturing_timesheet",
+      "mass_price_update",
+      "merge_picking_orders",
+      "merge_rfq",
+      "mrp_order_from_multiple_sale_order",
+      "mrp_product_kanban",
+      "mrp_work_order_print",
+      "multi_image_in_pos",
+      "multi_pricelist",
+      "odoo_accounting_dashboard",
+      "odoo_calculator_tool",
+      "odoo_chatgpt_connector",
+      "odoo_contact_approval",
+      "odoo_google_contact_integration",
+      "odoo_read_messages",
+      "odoo_readonly_user",
+      "odoo_sale_order_line_views",
+      "odoo_selection_field_configurator",
+      "odoo_website_helpdesk_dashboard",
+      "one2many_duplicate_record_widget",
+      "one2many_excel_report",
+      "one2many_mass_select_delete",
+      "openai_odoo_base",
+      "openai_website_product_media",
+      "order_invoice_manual_link",
+      "order_line_sequences",
+      "partner_emails_history",
+      "partner_related_user",
+      "payment_proof_attachment",
+      "payment_status_in_sale",
+      "pdf_report_action",
+      "pdf_report_with_sign",
+      "pdf_report_with_watermark",
+      "pip_installer",
+      "point_of_sale_logo",
+      "pos_all_orders",
+      "pos_alternative_products",
+      "pos_analysis_report",
+      "pos_category_wise_receipt",
+      "pos_chatter",
+      "pos_controlled_interface",
+      "pos_custom_percentage_tip_fixed",
+      "pos_delete_orderline",
+      "pos_face_recognition",
+      "pos_idle_time_session_lock",
+      "pos_kitchen_screen_odoo",
+      "pos_magnify_image",
+      "pos_night_mode",
+      "pos_numpad_show_hide",
+      "pos_order_line_image",
+      "pos_order_line_mass_edit",
+      "pos_orderline_items_count",
+      "pos_pro_cross_selling",
+      "pos_product_limit_odoo",
+      "pos_products_based_on_time",
+      "pos_receipt_extend",
+      "pos_report_generator",
+      "pos_restrict",
+      "pos_screen_pane_position",
+      "pos_takeaway",
+      "pos_zero_quantity_restrict",
+      "product_barcode",
+      "product_batch_report",
+      "product_deletion",
+      "product_multi_vendor_update",
+      "product_price_update_advanced",
+      "product_stock_details",
+      "product_to_invoice",
+      "product_variant_import",
+      "products_to_transfer",
+      "profit_and_loss_pdf_report",
+      "progress_billing",
+      "project_by_phases",
+      "project_dashboard_odoo",
+      "project_progress_bar",
+      "project_report_pdf",
+      "project_task_access",
+      "project_task_attachments",
+      "project_task_unique_code",
+      "purchase_down_payment",
+      "purchase_line_views",
+      "purchase_order_delivery_status",
+      "purchase_recurring_orders",
+      "purchase_requisition_project_task",
+      "quick_rfq",
+      "report_attachment_preview",
+      "reset_journal_entries",
+      "restrict_delivery_method",
+      "restrict_pricelist_user",
+      "restrict_web_debug",
+      "return_invoice_bill",
+      "sale_customer_product_history",
+      "sale_delivery_address",
+      "sale_invoice_detail",
+      "sale_invoice_due_date_reminder",
+      "sale_mini_dashboard",
+      "sale_order_line_multi_warehouse",
+      "sale_purchase_automated",
+      "sale_purchase_from_product",
+      "sale_purchase_previous_product_cost",
+      "sale_recurring",
+      "sale_report_advanced",
+      "sale_report_generator",
+      "sale_stock_restrict",
+      "sales_person_signature",
+      "sales_target_vs_achievement",
+      "sales_team_access_controls",
+      "salesperson_pos_order_line",
+      "schedule_activity_to_multiple_users",
+      "schedule_survey",
+      "scheduled_action_shortcut",
+      "section_wise_subtotal",
+      "separate_quotation_number_odoo",
+      "sequence_opportunity_crm",
+      "smart_alert_warning",
+      "statement_report",
+      "sticky_pivot_view",
+      "stock_intercompany_transfer",
+      "stock_last_purchase_price",
+      "stock_move_invoice",
+      "stock_transfer_in_pos",
+      "substitute_product_in_mrp",
+      "table_reservation_in_pos",
+      "task_overdue_email_odoo",
+      "text_commander",
+      "theme_diwy",
+      "timesheet_auto_create",
+      "timesheet_view_calendar",
+      "total_payable_receivable",
+      "total_quantity_pos",
+      "trial_balance_pdf",
+      "uom_in_pricelist",
+      "upload_multi_document",
+      "versioning_in_sale_order",
+      "water_supply_with_mo",
+      "web_events_calendar_view",
+      "web_pay_shipping_methods",
+      "website_cart_clear",
+      "website_favourites_grid",
+      "website_floating_whatsapp_icon",
+      "website_hide_variants",
+      "website_pdf_preview_snippet",
+      "website_product_attachments",
+      "website_product_customization",
+      "website_purchase_limit",
+      "website_repeat_sale",
+      "website_sale_address_management",
+      "website_upload_files",
+      "whatsapp_product_inquiry",
+      "whatsapp_redirect",
+      "widget_preview_image",
+      "wishlist_product_website_backend",
+      "work_orders_in_maintenance"
+    ],
+    "MINOR_ISSUES": [
+      "access_restriction_by_ip",
+      "account_report_send_by_mail",
+      "advanced_excel_reports",
+      "advanced_loan_management",
+      "age_restricted_product_pos",
+      "all_in_one_dynamic_custom_fields",
+      "auto_daily_weekly_report",
+      "auto_fill",
+      "automatic_project_task_timer",
+      "autosuggestion_in_discuss",
+      "backend_theme_odoo12",
+      "base_account_budget",
+      "call_for_price_website",
+      "contacts_birthday_greetings",
+      "crm_dynamic_fields",
+      "cron_failure_notification",
+      "customer_credit_payment_website",
+      "customer_product_qrcode",
+      "customized_barcode_generator",
+      "cw_stock",
+      "delivery_date_ecommerce",
+      "delivery_date_scheduler_odoo",
+      "delivery_split",
+      "direct_send_email_template",
+      "dodger_blue",
+      "dynamic_image_hotspot",
+      "dynamic_link_snippet",
+      "dynamic_sale_order_fields",
+      "ecommerce_barcode_search",
+      "ecommerce_quick_view",
+      "employee_dynamic_fields",
+      "employee_less_working_hour_notification",
+      "employee_promotion_in_odoo",
+      "event_ticket_qr_scanner",
+      "hide_cost_price",
+      "hide_product_price_cost",
+      "hr_zk_attendance",
+      "hue_backend_theme",
+      "inventory_forecast_analysis_report",
+      "inventory_move_mini_dashboard",
+      "invoice_bill_select_orderlines",
+      "jazzy_backend_theme",
+      "login_as_any_user",
+      "login_to_checkout",
+      "login_user_detail",
+      "mail_to_child_contact",
+      "master_search",
+      "master_search_systray",
+      "medical_lab_management",
+      "membership_card_odoo",
+      "model_viewer_widget",
+      "monday_odoo_connector",
+      "multi_barcode_for_products",
+      "multicolor_backend_theme",
+      "multiple_reference_per_product",
+      "odoo_google_meet_integration",
+      "odoo_parking_management",
+      "odoo_picking_order_line_views",
+      "odoo_rental_sales",
+      "ohrms_service_request",
+      "openai_product_images",
+      "openai_product_tag_descrption",
+      "orange_theme_odoo12",
+      "partner_search_by_number",
+      "password_hint",
+      "password_reset_manager",
+      "pdf_report_password_protection",
+      "portal_stock_check",
+      "pos_customer_feedback",
+      "pos_mrp_order",
+      "pos_orderline_search",
+      "pos_product_stock",
+      "pos_refund_password",
+      "pos_theme_sapphire",
+      "pricelist_price_on_product",
+      "print_minutes_of_meeting",
+      "product_360_degree_view_in_website",
+      "product_approval_management",
+      "product_brand_ecommerce",
+      "product_brand_inventory",
+      "product_brand_purchase",
+      "product_brand_sale",
+      "product_combo_pack",
+      "product_detail_search",
+      "product_discount_limit",
+      "product_export_with_images",
+      "product_image_list_view",
+      "product_image_suggestion",
+      "product_import",
+      "product_internal_ref_generator",
+      "product_management_app",
+      "product_multi_attachment",
+      "product_multi_uom",
+      "product_nutrition_allergen",
+      "product_restriction_users",
+      "product_sales_by_location",
+      "product_volume",
+      "product_web_hover",
+      "product_wise_shipping_method",
+      "project_dynamic_fields",
+      "project_website_kanban_view",
+      "projects_task_checklists",
+      "psql_query_execute",
+      "purchase_product_history",
+      "quotation_customer_followup",
+      "recurring_of_activities",
+      "rest_api_odoo",
+      "sale_discount_total",
+      "sale_product_image",
+      "sales_product_performance_report",
+      "serial_no_from_mo",
+      "shopping_through_agent",
+      "simple_mrp_order",
+      "size_restriction_for_attachments",
+      "so_bom_selection",
+      "special_product_snippet",
+      "split_mrp_order",
+      "survey_question_duplicator",
+      "systray_menu_favourites",
+      "task_deadline_reminder",
+      "theme_coffee_shop",
+      "theme_fasion",
+      "theme_upshift",
+      "theme_watchhut",
+      "theme_zen_dark",
+      "timesheets_by_employee",
+      "user_password_strength",
+      "verify_and_delete_database",
+      "website_cancel_sale_order",
+      "website_decimal_quantity",
+      "website_gdpr_odoo",
+      "website_hide_button",
+      "website_maintenance_page",
+      "website_multi_variant",
+      "website_order_delivery_tracking",
+      "website_product_publish",
+      "website_product_reservation",
+      "website_signup_approval",
+      "website_warranty_management",
+      "website_webar_product",
+      "work_anniversary_reminder"
+    ],
+    "MODERATE_ISSUES": [
+      "activity_dashboard_mngmnt",
+      "advance_signup_page",
+      "all_in_one_html_notes",
+      "amount_in_words_invoice",
+      "cts_theme_rozz",
+      "gym_mgmt_system",
+      "invoice_format_editor",
+      "legal_case_management",
+      "magic_note",
+      "odoo_dynamic_dashboard",
+      "odoo_product_tags",
+      "odoo_twilio_sms",
+      "personal_organiser",
+      "purchase_product_configurator",
+      "sale_report_format_editor",
+      "signup_with_twilio",
+      "subscription_package",
+      "theme_autofly",
+      "theme_fuge",
+      "theme_medicate",
+      "vendor_portal_odoo",
+      "web_login_styles",
+      "website_customer_contact",
+      "website_estimated_delivery_time",
+      "website_pre_booking",
+      "website_product_search_snippet"
+    ],
+    "MAJOR_ISSUES": [
+      "base_accounting_kit",
+      "dynamic_accounts_report",
+      "education_university_management",
+      "odoo_website_helpdesk",
+      "theme_boec",
+      "website_bargain"
+    ]
+  },
+  "detailed_issues": [
+    {
+      "module": "access_restriction_by_ip",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "access_restriction_by_ip.py: High pass/method ratio (7/1)"
+      ]
+    },
+    {
+      "module": "account_report_send_by_mail",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "account_report_mail_template.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "activity_dashboard_mngmnt",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 3,
+      "details": [
+        "mail_activity.py: Contains placeholders",
+        "activity_tag_views.xml: Contains placeholders",
+        "mail_activity_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "advance_signup_page",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 3,
+      "details": [
+        "auth_signup.py: High pass/method ratio (4/4)",
+        "signup_field.py: Contains placeholders",
+        "signup_fields_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "advanced_excel_reports",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "advanced_excel_reports.py: High pass/method ratio (1/1)"
+      ]
+    },
+    {
+      "module": "advanced_loan_management",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "loan_request_views.xml: Contains placeholders",
+        "loan_type_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "age_restricted_product_pos",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "all_in_one_dynamic_custom_fields",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "dynamic_fields_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "all_in_one_html_notes",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 4,
+      "details": [
+        "account_move_views.xml: Contains placeholders",
+        "purchase_order_views.xml: Contains placeholders",
+        "res_config_settings_views.xml: Contains placeholders",
+        "sale_order_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "amount_in_words_invoice",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 3,
+      "details": [
+        "account_move_data.xml: Contains placeholders",
+        "purchase_order_data.xml: Contains placeholders",
+        "sale_order_data.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "auto_daily_weekly_report",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "account_analytic_line_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "auto_fill",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "auto_fill.py: High pass/method ratio (1/1)"
+      ]
+    },
+    {
+      "module": "automatic_project_task_timer",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "task_timer_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "autosuggestion_in_discuss",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "composer_view.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "backend_theme_odoo12",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "sidebar_menu_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "base_account_budget",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "account_budget_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "base_accounting_kit",
+      "status": "MAJOR_ISSUES",
+      "issue_count": 7,
+      "details": [
+        "account_day_book.py: High pass/method ratio (4/2)",
+        "recurring_entry_cron.xml: Contains placeholders",
+        "account_asset_asset_views.xml: Contains placeholders",
+        "account_asset_category_views.xml: Contains placeholders",
+        "account_recurring_payments_view.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "call_for_price_website",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "custom_templates.xml: Contains placeholders",
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "contacts_birthday_greetings",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "mail_template_data.xml: Contains placeholders",
+        "res_config_settings_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "crm_dynamic_fields",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "crm_dynamic_fields_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "cron_failure_notification",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "mail_template_data.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "cts_theme_rozz",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 3,
+      "details": [
+        "header_templates.xml: Contains placeholders",
+        "portfolio_details.xml: Contains placeholders",
+        "rozz_subscribe.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "customer_credit_payment_website",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "payment_token.py: High pass/method ratio (1/1)",
+        "payment_demo_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "customer_product_qrcode",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_view.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "customized_barcode_generator",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_report_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "cw_stock",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "delivery_date_ecommerce",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "website_sale_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "delivery_date_scheduler_odoo",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "website_template.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "delivery_split",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "stock_move.py: High pass/method ratio (1/1)"
+      ]
+    },
+    {
+      "module": "direct_send_email_template",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "res_config_settings_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "dodger_blue",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "sidebar_menu_icon_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "dynamic_accounts_report",
+      "status": "MAJOR_ISSUES",
+      "issue_count": 10,
+      "details": [
+        "aged_payable_report_views.xml: Contains placeholders",
+        "aged_receivable_report_views.xml: Contains placeholders",
+        "balance_sheet_template.xml: Contains placeholders",
+        "bank_flow_templates.xml: Contains placeholders",
+        "cash_flow_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "dynamic_image_hotspot",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "snippets.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "dynamic_link_snippet",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "external_link_snippet_option_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "dynamic_sale_order_fields",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "sale_order_dynamic_field_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "ecommerce_barcode_search",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "web_product_qr_scan.py: High pass/method ratio (1/1)"
+      ]
+    },
+    {
+      "module": "ecommerce_quick_view",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "quick_view_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "education_university_management",
+      "status": "MAJOR_ISSUES",
+      "issue_count": 14,
+      "details": [
+        "exam_result.py: High pass/method ratio (15/1)",
+        "exam_valuation.py: High pass/method ratio (10/6)",
+        "exam_valuation_line.py: High pass/method ratio (7/1)",
+        "account_move_views.xml: Contains placeholders",
+        "fee_category_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "employee_dynamic_fields",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "employee_dynamic_fields_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "employee_less_working_hour_notification",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "mail_template_data.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "employee_promotion_in_odoo",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "employee_promotion_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "event_ticket_qr_scanner",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "event_event_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "gym_mgmt_system",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 4,
+      "details": [
+        "membership_plan_views.xml: Contains placeholders",
+        "my_workout_plan_views.xml: Contains placeholders",
+        "product_template_views.xml: Contains placeholders",
+        "workout_plan_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "hide_cost_price",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "hide_product_price_cost",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "hr_zk_attendance",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "biometric_device_details.py: High pass/method ratio (5/7)",
+        "zk_machine_attendance.py: High pass/method ratio (1/1)"
+      ]
+    },
+    {
+      "module": "hue_backend_theme",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "side_menu.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "inventory_forecast_analysis_report",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "inventory_move_mini_dashboard",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "stock_move.py: High pass/method ratio (1/1)",
+        "stock_picking.py: High pass/method ratio (1/1)"
+      ]
+    },
+    {
+      "module": "invoice_bill_select_orderlines",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "sale_order_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "invoice_format_editor",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 4,
+      "details": [
+        "modern_invoice_templates.xml: Contains placeholders",
+        "normal_invoice_templates.xml: Contains placeholders",
+        "old_standard_invoice_templates.xml: Contains placeholders",
+        "report_invoice_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "jazzy_backend_theme",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "side_menu.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "legal_case_management",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 3,
+      "details": [
+        "case_registration_views.xml: Contains placeholders",
+        "legal_evidence_views.xml: Contains placeholders",
+        "legal_trial_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "login_as_any_user",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "session.py: High pass/method ratio (4/1)"
+      ]
+    },
+    {
+      "module": "login_to_checkout",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "portal_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "login_user_detail",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "res_users.py: High pass/method ratio (3/1)"
+      ]
+    },
+    {
+      "module": "magic_note",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 4,
+      "details": [
+        "Manifest: TODO found",
+        "note_color_views.xml: Contains placeholders",
+        "project_task_views.xml: Contains placeholders",
+        "res_config_settings_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "mail_to_child_contact",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "account_move_send.py: High pass/method ratio (1/1)"
+      ]
+    },
+    {
+      "module": "master_search",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "master_search_view.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "master_search_systray",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "MasterSearchDialog.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "medical_lab_management",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "lab_patient_templates.xml: Contains placeholders",
+        "lab_patient_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "membership_card_odoo",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "res_partner.py: High pass/method ratio (1/1)"
+      ]
+    },
+    {
+      "module": "model_viewer_widget",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "monday_odoo_connector",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "monday_connector.py: High pass/method ratio (2/3)"
+      ]
+    },
+    {
+      "module": "multi_barcode_for_products",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "multicolor_backend_theme",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "sidebar_menu_icon.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "multiple_reference_per_product",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "odoo_dynamic_dashboard",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 3,
+      "details": [
+        "dynamic_dashboard_template.xml: Contains placeholders",
+        "dashboard_theme_views.xml: Contains placeholders",
+        "dynamic_block_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "odoo_google_meet_integration",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "calendar_event_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "odoo_parking_management",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "slot_type_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "odoo_picking_order_line_views",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "stock_move_line_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "odoo_product_tags",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 4,
+      "details": [
+        "product_product.py: High pass/method ratio (2/2)",
+        "product_template.py: High pass/method ratio (2/2)",
+        "product_template_views.xml: Contains placeholders",
+        "product_multiple_tag_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "odoo_rental_sales",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "odoo_rental_sales_menus.xml: Contains placeholders",
+        "product_product_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "odoo_twilio_sms",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 3,
+      "details": [
+        "twilio_sms_template_views.xml: Contains placeholders",
+        "twilio_sms_views.xml: Contains placeholders",
+        "sms_builder_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "odoo_website_helpdesk",
+      "status": "MAJOR_ISSUES",
+      "issue_count": 7,
+      "details": [
+        "odoo_website_helpdesk_portal_templates.xml: Contains placeholders",
+        "portal_templates.xml: Contains placeholders",
+        "rating_form.xml: Contains placeholders",
+        "res_config_settings_views.xml: Contains placeholders",
+        "ticket_helpdesk_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "ohrms_service_request",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "service_request_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "openai_product_images",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "dalle_image_suggestion_views.xml: Contains placeholders",
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "openai_product_tag_descrption",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "ir_actions_server_data.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "orange_theme_odoo12",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "top_bar.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "partner_search_by_number",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "res_partner.py: High pass/method ratio (1/1)"
+      ]
+    },
+    {
+      "module": "password_hint",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "password_hint.py: High pass/method ratio (8/2)",
+        "password_hint_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "password_reset_manager",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "auth_signup.py: High pass/method ratio (33/3)",
+        "web.py: High pass/method ratio (21/1)"
+      ]
+    },
+    {
+      "module": "pdf_report_password_protection",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "pdf_report_password_protection.py: High pass/method ratio (2/1)",
+        "ir_actions_report.py: High pass/method ratio (8/1)"
+      ]
+    },
+    {
+      "module": "personal_organiser",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 3,
+      "details": [
+        "contacts.xml: Contains placeholders",
+        "notemaker.xml: Contains placeholders",
+        "personal_organiser.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "portal_stock_check",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "portal_product_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "pos_customer_feedback",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "feedback_popup_template.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "pos_mrp_order",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "pos_orderline_search",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "orderline_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "pos_product_stock",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "pos_refund_password",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "pos_config.py: High pass/method ratio (3/1)"
+      ]
+    },
+    {
+      "module": "pos_theme_sapphire",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "ProductScreen.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "pricelist_price_on_product",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "print_minutes_of_meeting",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "mail_template.xml: Contains placeholders",
+        "calendar_event_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_360_degree_view_in_website",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_approval_management",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "product_template_views.xml: Contains placeholders",
+        "sale_order_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_brand_ecommerce",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "main.py: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_brand_inventory",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_brand_purchase",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_brand_sale",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_combo_pack",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "product_template_views.xml: Contains placeholders",
+        "sale_order_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_detail_search",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "dashboard_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_discount_limit",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_export_with_images",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_export_with_images_data.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_image_list_view",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_image_suggestion",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_import",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_internal_ref_generator",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "res_config_settings_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_management_app",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_multi_attachment",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_multi_uom",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_nutrition_allergen",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_restriction_users",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "product_template_security.xml: Contains placeholders",
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_sales_by_location",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "sale_order_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_volume",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_web_hover",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "popover_view.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "product_wise_shipping_method",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "project_dynamic_fields",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "project_dynamic_fields_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "project_website_kanban_view",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "kanban_view_project_templates.xml: Contains placeholders",
+        "kanban_view_task_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "projects_task_checklists",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "checklist_item_line.py: Contains placeholders",
+        "project_task.py: Contains placeholders"
+      ]
+    },
+    {
+      "module": "psql_query_execute",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "psql_query_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "purchase_product_configurator",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 4,
+      "details": [
+        "product_template_attribute_line.xml: Contains placeholders",
+        "optional_product_template.xml: Contains placeholders",
+        "product_template_views.xml: Contains placeholders",
+        "purchase_order_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "purchase_product_history",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "quotation_customer_followup",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "res_config_settings_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "recurring_of_activities",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "recurring_activity_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "rest_api_odoo",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "rest_api_odoo.py: High pass/method ratio (10/4)"
+      ]
+    },
+    {
+      "module": "sale_discount_total",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "sale_order_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "sale_product_image",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "sale_order_line_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "sale_report_format_editor",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 3,
+      "details": [
+        "report_sale_templates.xml: Contains placeholders",
+        "sale_modern_templates.xml: Contains placeholders",
+        "sale_normal_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "sales_product_performance_report",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "serial_no_from_mo",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "product_template_views.xml: Contains placeholders",
+        "res_config_settings_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "shopping_through_agent",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "shopping_through_agent.py: High pass/method ratio (1/1)"
+      ]
+    },
+    {
+      "module": "signup_with_twilio",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 3,
+      "details": [
+        "signup_with_twilio.py: High pass/method ratio (3/4)",
+        "res_config_setting_views.xml: Contains placeholders",
+        "signup_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "simple_mrp_order",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "size_restriction_for_attachments",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "discuss.py: Contains placeholders"
+      ]
+    },
+    {
+      "module": "so_bom_selection",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "sale_order_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "special_product_snippet",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "special_product_snippet.py: High pass/method ratio (1/1)"
+      ]
+    },
+    {
+      "module": "split_mrp_order",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "split_order_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "subscription_package",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 5,
+      "details": [
+        "mail_subscription_renew_data.xml: Contains placeholders",
+        "product_template_views.xml: Contains placeholders",
+        "subscription_package_plan_views.xml: Contains placeholders",
+        "subscription_package_views.xml: Contains placeholders",
+        "subscription_stage_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "survey_question_duplicator",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "question_duplicate.py: Contains placeholders"
+      ]
+    },
+    {
+      "module": "systray_menu_favourites",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "systray_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "task_deadline_reminder",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "mail_template_data.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "theme_autofly",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 4,
+      "details": [
+        "about_us_templates.xml: Contains placeholders",
+        "header_templates.xml: Contains placeholders",
+        "product_template_views.xml: Contains placeholders",
+        "service_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "theme_boec",
+      "status": "MAJOR_ISSUES",
+      "issue_count": 6,
+      "details": [
+        "brand_filter_controller.py: Contains placeholders",
+        "cart_templates.xml: Contains placeholders",
+        "footer_templates.xml: Contains placeholders",
+        "header_templates.xml: Contains placeholders",
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "theme_coffee_shop",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "header.xml: Contains placeholders",
+        "menu_page.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "theme_fasion",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "header_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "theme_fuge",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 5,
+      "details": [
+        "blog.xml: Contains placeholders",
+        "contact.xml: Contains placeholders",
+        "footer.xml: Contains placeholders",
+        "product_view.xml: Contains placeholders",
+        "subscribe.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "theme_medicate",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 5,
+      "details": [
+        "blog_details.xml: Contains placeholders",
+        "blog_views.xml: Contains placeholders",
+        "contactus_views.xml: Contains placeholders",
+        "footer_templates.xml: Contains placeholders",
+        "blog_container_snippet.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "theme_upshift",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "header_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "theme_watchhut",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "header.xml: Contains placeholders",
+        "product_view.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "theme_zen_dark",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "website_templates.xml: Contains placeholders",
+        "index_blog.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "timesheets_by_employee",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "timesheet_report.py: High pass/method ratio (2/2)"
+      ]
+    },
+    {
+      "module": "user_password_strength",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "main.py: High pass/method ratio (21/2)",
+        "change_password_user.py: High pass/method ratio (22/1)"
+      ]
+    },
+    {
+      "module": "vendor_portal_odoo",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 4,
+      "details": [
+        "register_vendor.py: High pass/method ratio (4/4)",
+        "rfq_mail_templates.xml: Contains placeholders",
+        "portal_rfq_templates.xml: Contains placeholders",
+        "res_config_settings_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "verify_and_delete_database",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "verify_and_delete_database.py: High pass/method ratio (3/3)"
+      ]
+    },
+    {
+      "module": "web_login_styles",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 4,
+      "details": [
+        "main.py: High pass/method ratio (6/1)",
+        "webclient_templates_left.xml: Contains placeholders",
+        "webclient_templates_middle.xml: Contains placeholders",
+        "webclient_templates_right.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_bargain",
+      "status": "MAJOR_ISSUES",
+      "issue_count": 8,
+      "details": [
+        "website_bargain.py: High pass/method ratio (9/11)",
+        "mail_template_data.xml: Contains placeholders",
+        "bargain_template_views.xml: Contains placeholders",
+        "product_template_views.xml: Contains placeholders",
+        "website_bargain_menus.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_cancel_sale_order",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "sale_portal_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_customer_contact",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 4,
+      "details": [
+        "portal.py: High pass/method ratio (1/1)",
+        "website_customer_contact.py: High pass/method ratio (2/2)",
+        "portal_templates.xml: Contains placeholders",
+        "website_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_decimal_quantity",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "website_sale_product_configurator.py: High pass/method ratio (1/1)",
+        "sale_order.py: High pass/method ratio (2/2)"
+      ]
+    },
+    {
+      "module": "website_estimated_delivery_time",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 3,
+      "details": [
+        "product_template_views.xml: Contains placeholders",
+        "website_templates.xml: Contains placeholders",
+        "website_estimated_delivery_time_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_gdpr_odoo",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "gdpr_request_views.xml: Contains placeholders",
+        "gdpr_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_hide_button",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_maintenance_page",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "maintenance_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_multi_variant",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "website_multi_variant_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_order_delivery_tracking",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "tracking_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_pre_booking",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 3,
+      "details": [
+        "portal_views.xml: Contains placeholders",
+        "prebook_details_template.xml: Contains placeholders",
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_product_publish",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_product_reservation",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "portal_templates.xml: Contains placeholders",
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_product_search_snippet",
+      "status": "MODERATE_ISSUES",
+      "issue_count": 3,
+      "details": [
+        "category_details_templates.xml: Contains placeholders",
+        "product_search_templates.xml: Contains placeholders",
+        "selected_category_from_all_category_templates.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_signup_approval",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "website_signup_approval.py: High pass/method ratio (3/4)",
+        "res_users_approve.py: High pass/method ratio (3/2)"
+      ]
+    },
+    {
+      "module": "website_warranty_management",
+      "status": "MINOR_ISSUES",
+      "issue_count": 2,
+      "details": [
+        "portal_templates.xml: Contains placeholders",
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "website_webar_product",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "product_template_views.xml: Contains placeholders"
+      ]
+    },
+    {
+      "module": "work_anniversary_reminder",
+      "status": "MINOR_ISSUES",
+      "issue_count": 1,
+      "details": [
+        "mail_template_data.xml: Contains placeholders"
+      ]
+    }
+  ]
+}

@@ -34,7 +34,7 @@
     'depends': ['account',
         'base_setup', 'mail',
         'website', 'contacts',
-        'point_of_sale', 'calendar'],
+        'stub_point_of_sale', 'calendar'],
     'data': ['security/salon_management_groups.xml',
         'security/ir.model.access.csv',
         'data/salon_website_menu.xml',

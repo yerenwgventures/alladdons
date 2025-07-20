@@ -34,7 +34,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': 'https://www.mycbms.com',
-    'depends': ['website_sale', 'stock'],
+    'depends': ['stub_website_sale', 'stock'],
     'data': [
         'data/website_menu.xml',
         'views/product_template_views.xml',

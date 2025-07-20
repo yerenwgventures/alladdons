@@ -3,36 +3,7 @@
     <!-- Template For Portal View For Case Registration-->
     <template id="portal_legal_case_page" name="Case Portal Template"
               inherit_id="portal.portal_sidebar" primary="True">
-        <xpath expr="//div[hasclass('o_portal_sidebar')]" position="inside">
-            <t t-set="o_portal_fullwidth_alert">
-                <t t-call="portal.portal_back_in_edit_mode">
-                    <t t-set="url" t-value="'/my/cases/#'"/>
-                </t>
-            </t>
-            <div class="row mt16 o_portal_sale_sidebar">
-                <t t-set="o_portal_fullwidth_alert">
-                    <t t-call="portal.portal_back_in_edit_mode">
-                        <t t-set="backend_url"
-                           t-value="'/web#return_label=Website&amp;model=%s&amp;id=%s&amp;' % (case_record._name, case_record.id)"/>
-                    </t>
-                </t>
-                <div id="case_content"
-                     class="col-12 col-lg justify-content-end">
-                    <div t-attf-class="card #{'pb-5' if report_type == 'pdf' else ''}"
-                         id="portal_sale_content">
-                        <div t-call="legal_case_management.case_portal_content"/>
-                    </div>
-                </div>
-                <div id="legal_case_communication"
-                     class="mt-4">
-                    <h2>History</h2>
-                    <t t-call="portal.message_thread">
-                        <t t-set="object"
-                           t-value="case_record"/>
-                    </t>
-                </div>
-            </div>
-        </xpath>
+        
     </template>
     <!-- Template For Case Details in Portal View-->
     <template id="case_portal_content" name="Payslip Portal Content">

@@ -8,7 +8,7 @@
         </field>
         <field name="model">choose.delivery.carrier</field>
         <field name="inherit_id"
-               ref="delivery.choose_delivery_carrier_view_form"/>
+               ref="stub_delivery.choose_delivery_carrier_view_form"/>
         <field name="arch" type="xml">
             <field name="carrier_id" position="attributes">
                 <attribute name="domain">[('id', 'in', available_carrier_ids),('id', 'not in', delivery_method_ids)]</attribute>

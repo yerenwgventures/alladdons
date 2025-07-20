@@ -51,16 +51,7 @@
                 </div>
             </div>
         </xpath>
-        <xpath expr="//div[hasclass('o_footer_copyright')]" position="replace">
-            <div class="footer_bottom ">
-                <div class="container" style="text-align: center">
-                    <span>
-                        Copyright © 2024. All right reserved by
-                    </span>
-                    <a href="#">Cybrosys</a>
-                </div>
-            </div>
-        </xpath>
+        
         <!-- Add an element after the top menu  -->
         <xpath expr="//div[@id='wrapwrap']/main" position="inside">
             <div lang="en">

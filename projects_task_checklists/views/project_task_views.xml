@@ -5,6 +5,7 @@
         <field name="name">project.task.view.form.inherit.projects.task.checklists</field>
         <field name="model">project.task</field>
         <field name="inherit_id" ref="project.view_task_form2"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='tag_ids']" position="after">
                 <field name="checklist_ids" invisible="1"/>

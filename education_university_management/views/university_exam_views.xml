@@ -4,6 +4,7 @@
     <record id="university_exam_view_form" model="ir.ui.view">
         <field name="name">university.exam.view.form</field>
         <field name="model">university.exam</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <header>
@@ -68,6 +69,7 @@
     <record id="university_exam_view_list" model="ir.ui.view">
         <field name="name">university.exam.view.list</field>
         <field name="model">university.exam</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list editable="bottom">
                 <field name="name"/>

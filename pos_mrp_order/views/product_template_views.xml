@@ -4,7 +4,7 @@
     <record id="product_template_form_view" model="ir.ui.view">
         <field name="name">product.template.view.form.inherit.pos.mrp.order</field>
         <field name="model">product.template</field>
-        <field name="inherit_id" ref="point_of_sale.product_template_form_view"/>
+        <field name="inherit_id" ref="stub_point_of_sale.product_template_form_view"/>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='to_weight']" position="after">
                <field name="to_make_mrp" invisible="not available_in_pos"/>

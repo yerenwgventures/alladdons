@@ -30,13 +30,14 @@
     <record id="approval_category_view_tree" model="ir.ui.view">
         <field name="name">approval.category.view.tree</field>
         <field name="model">approval.category</field>
+        <field name="type">list</field>
         <field name="arch" type="xml">
-            <tree string="Approval Categories">
+            <list string="Approval Categories">
                 <field name="sequence" widget="handle"/>
                 <field name="name"/>
                 <field name="approval_type"/>
                 <field name="active"/>
-            </tree>
+            </list>
         </field>
     </record>
 

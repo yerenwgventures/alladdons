@@ -4,6 +4,7 @@
     <record id="legal_trial_view_form" model="ir.ui.view">
         <field name="name">legal.trial.view.form</field>
         <field name="model">legal.trial</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Trial">
                 <sheet>

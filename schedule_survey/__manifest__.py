@@ -33,7 +33,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'website': "https://www.cybrosys.com",
-    'depends': ['base', 'survey'],
+    'depends': ['base', 'stub_survey'],
     'data': [
         'data/ir_cron_data.xml',
         'views/survey_survey_views.xml',

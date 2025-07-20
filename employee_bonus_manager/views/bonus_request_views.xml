@@ -4,6 +4,7 @@
     <record id="bonus_request_view_form" model="ir.ui.view">
         <field name="name">bonus.request.view.form</field>
         <field name="model">bonus.request</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <header>

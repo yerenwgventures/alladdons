@@ -4,7 +4,7 @@
     <record id="survey_survey_view_form" model="ir.ui.view">
         <field name="name">survey.survey.view.form.inherit.schedule.survey</field>
         <field name="model">survey.survey</field>
-        <field name="inherit_id" ref="survey.survey_survey_view_form"/>
+        <field name="inherit_id" ref="stub_survey.survey_survey_view_form"/>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='user_id']" position="after">
                 <field name="is_cron" string="Enable Cron"/>

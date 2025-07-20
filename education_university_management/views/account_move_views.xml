@@ -4,6 +4,7 @@
     <record id="account_move_view_form" model="ir.ui.view">
         <field name="name">account.move.view.form</field>
         <field name="model">account.move</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Account Entry">
                 <header>
@@ -907,6 +908,7 @@
     <record id="account_move_view_list" model="ir.ui.view">
         <field name="name">account.move.view.list</field>
         <field name="model">account.move</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Journal Entries" sample="1"
                   decoration-info="state == 'draft'"

@@ -4,7 +4,7 @@
     <record id="sale_report_view_search_website" model="ir.ui.view">
         <field name="name">sale.report.view.search.inherit.product.brand.ecommerce</field>
         <field name="model">sale.report</field>
-        <field name="inherit_id" ref="website_sale.sale_report_view_search_website"/>
+        <field name="inherit_id" ref="stub_website_sale.sale_report_view_search_website"/>
         <field name="arch" type="xml">
             <xpath expr="//filter[@name='groupby_product']" position="before">
                 <filter string="Brand" name="groupby_brand" context="{'group_by':'brand_id'}"/>

@@ -4,6 +4,7 @@
     <record id="vehicle_details_view_tree" model="ir.ui.view">
         <field name="name">vehicle.details.view.tree</field>
         <field name="model">vehicle.details</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="vehicle_name"/>

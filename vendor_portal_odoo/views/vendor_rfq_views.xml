@@ -4,6 +4,7 @@
     <record id="vendor_rfq_view_form" model="ir.ui.view">
         <field name="name">vendor.rfq.view.form</field>
         <field name="model">vendor.rfq</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Vendor RFQ">
                 <header>
@@ -80,6 +81,7 @@
         <field name="name">vendor.rfq.view.tree</field>
         <field name="model">vendor.rfq</field>
         <field name="priority">4</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Vendor RFQ" sample="1" decoration-success="state == 'done'"
                   decoration-info="state == 'in_progress'" decoration-muted="state == 'cancel'"

@@ -1,0 +1,211 @@
+{
+  "total_processed": 51,
+  "newly_successful": [],
+  "still_failed": [
+    {
+      "module": "approval_connector",
+      "error": "2025-07-19 16:45:52,996 89 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "attendance_regularization",
+      "error": "2025-07-19 16:45:55,698 97 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "auto_database_backup",
+      "error": "2025-07-19 16:45:58,395 105 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "auto_logout_idle_user_odoo",
+      "error": "2025-07-19 16:46:01,081 113 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "automatic_payroll",
+      "error": "2025-07-19 16:46:03,777 121 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "batch_delivery_tracking",
+      "error": "2025-07-19 16:46:06,479 129 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "bill_digitization",
+      "error": "2025-07-19 16:46:09,177 137 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "cleaning_management",
+      "error": "2025-07-19 16:46:11,883 145 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "detect_unauthorized_login",
+      "error": "2025-07-19 16:46:14,583 153 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "dynamic_product_label_print",
+      "error": "2025-07-19 16:46:17,276 161 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "education_fee",
+      "error": "2025-07-19 16:46:19,974 169 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "email_id_validation",
+      "error": "2025-07-19 16:46:22,668 177 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "employee_bonus_manager",
+      "error": "2025-07-19 16:46:25,354 185 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "employee_ideas",
+      "error": "2025-07-19 16:46:28,057 193 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "employee_late_check_in",
+      "error": "2025-07-19 16:46:30,755 201 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "event_management",
+      "error": "2025-07-19 16:46:33,484 209 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "franchise_management",
+      "error": "2025-07-19 16:46:36,217 217 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "hide_all_print_button",
+      "error": "2025-07-19 16:46:38,900 225 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "hotel_management_odoo",
+      "error": "2025-07-19 16:46:41,588 233 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "hr_hourly_payslip",
+      "error": "2025-07-19 16:46:44,283 241 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "hr_insurance",
+      "error": "2025-07-19 16:46:46,974 249 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "laundry_management",
+      "error": "2025-07-19 16:46:49,658 257 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "low_stocks_product_alert",
+      "error": "2025-07-19 16:46:52,349 265 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "lunch_order_pdf",
+      "error": "2025-07-19 16:46:55,051 273 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "mobile_service_shop",
+      "error": "2025-07-19 16:46:57,760 281 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "odoo_health_report",
+      "error": "2025-07-19 16:47:00,474 289 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "pantry_payroll",
+      "error": "2025-07-19 16:47:03,175 297 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "print_subscription_id_card",
+      "error": "2025-07-19 16:47:05,943 305 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "product_multi_document",
+      "error": "2025-07-19 16:47:08,642 313 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "project_task_risk_management_odoo",
+      "error": "2025-07-19 16:47:11,326 321 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "readonly_unit_price_cybrosys",
+      "error": "2025-07-19 16:47:14,010 329 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "refer_friend_and_earn",
+      "error": "2025-07-19 16:47:16,692 337 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "remove_studio_field",
+      "error": "2025-07-19 16:47:19,397 345 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "sale_order_discount_approval_odoo",
+      "error": "2025-07-19 16:47:22,143 353 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "sales_order_double_approval",
+      "error": "2025-07-19 16:47:24,884 361 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "salon_management",
+      "error": "2025-07-19 16:47:27,580 369 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "storage_dashboard",
+      "error": "2025-07-19 16:47:30,276 377 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "survey_upload_file",
+      "error": "2025-07-19 16:47:33,010 385 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "theme_blast",
+      "error": "2025-07-19 16:47:35,779 393 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "theme_shopping",
+      "error": "2025-07-19 16:47:38,516 401 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "theme_silon",
+      "error": "2025-07-19 16:47:41,224 409 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "theme_splash",
+      "error": "2025-07-19 16:47:43,929 417 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "theme_the_chef",
+      "error": "2025-07-19 16:47:46,635 425 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "theme_xtream",
+      "error": "2025-07-19 16:47:49,381 433 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "uom_product_list",
+      "error": "2025-07-19 16:47:52,121 441 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "user_audit",
+      "error": "2025-07-19 16:47:54,827 449 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "user_login_alert",
+      "error": "2025-07-19 16:47:57,568 457 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "vista_backend_theme",
+      "error": "2025-07-19 16:48:00,290 465 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "website_custom_contact_us",
+      "error": "2025-07-19 16:48:03,085 473 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "website_sign_sending_by_priority",
+      "error": "2025-07-19 16:48:05,820 482 INFO ? odoo.sql_db: Connection to the database failed"
+    },
+    {
+      "module": "whatsapp_mail_messaging",
+      "error": "2025-07-19 16:48:08,520 490 INFO ? odoo.sql_db: Connection to the database failed"
+    }
+  ],
+  "success_rate": 0.0
+}

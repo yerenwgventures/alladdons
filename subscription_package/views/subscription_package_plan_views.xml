@@ -17,6 +17,7 @@
     <record id="subscription_plan_view_list" model="ir.ui.view">
         <field name="name">subscription.package.plan.view.tree</field>
         <field name="model">subscription.package.plan</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>

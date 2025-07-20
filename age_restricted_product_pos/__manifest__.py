@@ -35,7 +35,7 @@
     'maintainer': 'CBMS TECHNOLOGIES LTD',
     'images': ['static/description/banner.jpg'],
     'website': 'https://www.mycbms.com',
-    'depends': ['base', 'point_of_sale', 'product'],
+    'depends': ['base', 'stub_point_of_sale', 'product'],
     'data': [
         'views/product_template_views.xml',
     ],

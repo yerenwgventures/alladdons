@@ -4,6 +4,7 @@
     <record id="legal_evidence_view_form" model="ir.ui.view">
         <field name="name">legal.evidence.view.form</field>
         <field name="model">legal.evidence</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Evidence">
                 <sheet>

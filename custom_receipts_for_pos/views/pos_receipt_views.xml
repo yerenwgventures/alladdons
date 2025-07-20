@@ -4,6 +4,7 @@
     <record id="pos_receipt_view_form" model="ir.ui.view">
         <field name="name">pos.receipt.view.form</field>
         <field name="model">pos.receipt</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Receipt Designs">
                 <sheet>

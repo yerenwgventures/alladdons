@@ -2,11 +2,7 @@
 <odoo>
     <!-- To inherit products page -->
     <template id="xtream_products" name="Xtream Products" inherit_id="website_sale.products">
-        <xpath expr="//div[hasclass('products_header')]/t[@t-call='website_sale.pricelist_list']" position="after">
-            <div class="products_pager ml-3 mb-2">
-                <t t-call="website.pager"/>
-            </div>
-        </xpath>
+        
     </template>
     <!-- To inherit sort list -->
     <template id="xtream_sort_oo" name="Xtream Sort List" inherit_id="website_sale.sort">

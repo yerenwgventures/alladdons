@@ -7,6 +7,7 @@
         <field name="model">purchase.order.line</field>
         <field name="inherit_id"
                ref="purchase.purchase_order_line_search"/>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <xpath expr="//filter[@name='purchase_state']" position="attributes">
                 <attribute name="invisible">1</attribute>

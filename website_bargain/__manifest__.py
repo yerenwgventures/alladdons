@@ -32,7 +32,7 @@
     'company': 'CBMS TECHNOLOGIES LTD',
     'maintainer': 'Cybrosys Techno Solution',
     'website': 'https://www.mycbms.com',
-    'depends': ['website_sale', 'contacts'],
+    'depends': ['stub_website_sale', 'contacts'],
     'data': [
         'security/ir.model.access.csv',
         'data/ir_cron_data.xml',

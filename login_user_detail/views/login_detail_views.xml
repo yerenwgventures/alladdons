@@ -4,6 +4,7 @@
     <record id="login_detail_view_form" model="ir.ui.view">
         <field name="name">login.detail.view.form</field>
         <field name="model">login.detail</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

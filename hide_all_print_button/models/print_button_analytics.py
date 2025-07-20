@@ -12,7 +12,7 @@ class PrintButtonAnalytics(models.Model):
     """Analytics model for print button usage"""
     _name = 'print.button.analytics'
     _description = 'Print Button Usage Analytics'
-    _auto = False
+    # _auto = False  # Fixed: Create table
 
     name = fields.Char(string='Analytics Name', default='Print Button Analytics')
     total_users = fields.Integer(string='Total Users', compute='_compute_totals')

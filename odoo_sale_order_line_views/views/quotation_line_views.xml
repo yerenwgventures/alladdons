@@ -3,6 +3,7 @@
     <record id="quotation_line_form_view" model="ir.ui.view">
         <field name="name">sale.order.line.quotation.view.form</field>
         <field name="model">sale.order.line</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <form string="Quotation Lines" edit="0" create="0" duplicate="0"
                   delete="0">

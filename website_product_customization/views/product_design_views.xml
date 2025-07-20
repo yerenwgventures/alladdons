@@ -5,6 +5,7 @@
     <record id="product_design_view_tree" model="ir.ui.view">
         <field name="name">product.design.view.tree</field>
         <field name="model">product.design</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>

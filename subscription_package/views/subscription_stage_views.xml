@@ -10,6 +10,7 @@
     <record id="subscription_package_stage_view_tree" model="ir.ui.view">
         <field name="name">subscription.package.stage.view.tree</field>
         <field name="model">subscription.package.stage</field>
+                <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="sequence" widget="handle"/>

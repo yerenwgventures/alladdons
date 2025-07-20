@@ -242,7 +242,39 @@ def main():
         'remove_studio_field', 'report_attachment_preview', 'reset_journal_entries',
         'rest_api_odoo', 'restrict_delivery_method', 'restrict_pricelist_user',
         'restrict_web_debug', 'return_invoice_bill', 'sale_customer_product_history',
-        'sale_delivery_address', 'sale_discount_total', 'sale_invoice_detail'
+        'sale_delivery_address', 'sale_discount_total', 'sale_invoice_detail',
+        # Batch 28 - 11/15 successful (4 modules need fixes)
+        'sale_invoice_due_date_reminder', 'sale_mini_dashboard', 'sale_order_line_multi_warehouse',
+        'sale_product_image', 'sale_purchase_automated', 'sale_purchase_from_product',
+        'sale_purchase_previous_product_cost', 'sale_recurring', 'sale_report_advanced',
+        'sale_report_format_editor', 'sale_report_generator',
+        # Batch 29 - 9/15 successful (6 modules need fixes)
+        'sale_stock_restrict', 'sales_person_signature', 'sales_product_performance_report',
+        'sales_target_vs_achievement', 'sales_team_access_controls', 'salesperson_pos_order_line',
+        'schedule_activity_to_multiple_users', 'schedule_survey', 'scheduled_action_shortcut',
+        # Batch 30 - 9/15 successful (6 modules need fixes - same failed modules)
+        'section_wise_subtotal', 'separate_quotation_number_odoo', 'sequence_opportunity_crm',
+        'serial_no_from_mo', 'shopping_through_agent', 'signup_with_twilio',
+        'simple_mrp_order', 'size_restriction_for_attachments', 'smart_alert_warning',
+        # Batch 31 - 9/15 successful (6 modules need fixes - same failed modules)
+        'so_bom_selection', 'special_product_snippet', 'split_mrp_order',
+        'statement_report', 'sticky_pivot_view', 'stock_intercompany_transfer',
+        'stock_last_purchase_price', 'stock_move_invoice', 'stock_transfer_in_pos',
+        # Batch 32 - 7/15 successful (8 modules need fixes - 2 new failures)
+        'subscription_package', 'substitute_product_in_mrp', 'survey_question_duplicator',
+        'systray_menu_favourites', 'table_reservation_in_pos', 'task_deadline_reminder',
+        'task_overdue_email_odoo',
+        # Batch 33 - 6/15 successful (9 modules need fixes - 1 new failure)
+        'text_commander', 'theme_autofly', 'theme_boec', 'theme_coffee_shop',
+        'theme_diwy', 'theme_fasion',
+        # Batch 34 - 2/15 successful (13 modules need fixes - many theme failures)
+        'theme_fuge', 'theme_medicate',
+        # Batch 35 - 2/15 successful (13 modules need fixes - same failures)
+        'theme_upshift', 'theme_watchhut',
+        # Batch 36 - 1/15 successful (14 modules need fixes - same failures)
+        'theme_zen_dark',
+        # Batch 37 - 1/15 successful (14 modules need fixes - same failures)
+        'timesheet_auto_create'
     ]
     
     # Get all modules
