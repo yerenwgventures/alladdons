@@ -28,7 +28,6 @@ Allows pre booking option for website
 ⚠️ Custom dependency: portal
 ⚠️ Requires custom stub: stub_website_sale
 
-**Recommendation:** Test in staging environment before production deployment.
 
 ## Production Status
 🎯 **PRODUCTION READY** - Safe for production deployment

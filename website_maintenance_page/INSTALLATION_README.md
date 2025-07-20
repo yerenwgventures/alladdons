@@ -26,7 +26,6 @@ Shows maintenance page for public users
 ### Potential Conflicts
 ⚠️ Requires custom stub: stub_website_sale
 
-**Recommendation:** Test in staging environment before production deployment.
 
 ## Production Status
 🎯 **PRODUCTION READY** - Safe for production deployment
